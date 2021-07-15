@@ -1,6 +1,6 @@
 # Table of contents
 
-* [SuperSlicer magyar használati útmutató!](README.md)
+* [SuperSlicer magyar használati útmutató \(Verzió 2.3.56.7\).](README.md)
 * [Áttekintés](untitled.md)
 * [A SuperSlicer célja](untitled-1.md)
 * [SuperSlicer telepítése](untitled-2.md)

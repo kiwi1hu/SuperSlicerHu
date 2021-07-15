@@ -1,17 +1,5 @@
 # A SuperSlicer célja
 
-\# A SuperSlicer célja
-
-## Az oldal tartalma
-
-* A SuperSlicer célja
-  * [Melyek a SuperSlicer fő jellemzői? Mik a fő különbségek?]() 
-  * [Melyek a SuperSlicer / PrusaSlicer / Slic3r fő jellemzői?]() 
-  * [Egyéb főbb jellemzők]()
-  * [Fejlesztés]()
-  * [Licencelés és tulajdonjog]()
-* [Vissza a főoldalra](../superslicer.md)
-
 **SuperSlicer** a PrusaSlicer \(amely a slic3r egy változata\) \(korábban Slic3r++\) egy változata.
 
 A Windows, Linux és macOS előre lefordított 64 bites változatai a [git kiadások oldal](https://github.com/supermerill/SuperSlicer/releases) oldalon érhetőek el. A Linux és macOS verziók nem teszteltek, csak lefordítottak, ezért kérjük, jelezzétek az esetlegesen a használat során felmerülő hibákat. Az éjszakai buildek elérhetőek a [git műveletek oldal](https://github.com/supermerill/SuperSlicer/actions) oldalon. Kattints a platformodnak megfelelő verzióra, majd a jobb felső sarokban a 'Artifacts \(1\)' gombra.
@@ -59,7 +47,7 @@ A főbb jellemzők a következők:
 * Automatikus STL javítás \(tolerancia az érvénytelen modellekre\)
 * Kiterjesztett automatizált egységtesztelés
 
-  **Egyéb főbb jellemzők**
+### **Egyéb főbb jellemzők**
 
 * Kitöltő rétegek kombinációja minden “n” kerületenként és változó sűrűséggel a nyomtatás felgyorsítása érdekében.
 * _**3D előnézet**_ \(beleértve a több anyagot tartalmazó fájlokat is\).
@@ -73,11 +61,11 @@ A főbb jellemzők a következők:
 * **Utófeldolgozó szkriptek** támogatása
 * A ventilátor sebességét és a dinamikus nyomtatási sebességet vezérlő hűtési logika
 
-  **Fejlesztés**
+### **Fejlesztés**
 
-  **Milyen nyelven van megírva?**
+**Milyen nyelven van megírva?**
 
-  Szinte minden C++ nyelven készült.
+Szinte minden C++ nyelven készült.
 
 A szeletelőmotor magja a libslic3r könyvtár, amely önállóan is fejleszthető és használható. A parancssori interfész a libslic3r csomagolása. Letölthet egy előre lefordított csomagot a kiadási oldalról - ez függőségek nélkül is működni fog.
 
@@ -100,8 +88,4 @@ A PrusaSlicer a GNU Affero General Public License, 3. verziója alatt áll. A Pr
 A Slic3r a GNU Affero General Public License, 3. verziója alatt áll. A Slic3r-t Alessandro Ranellucci hozta létre sok más közreműködő segítségével.
 
 A GNU Affero General Public License 3. verziója garantálja, hogy ha a szoftver bármely részét bármilyen módon használja \(még egy webszerver mögött is\), akkor a szoftverét ugyanezen licenc alatt kell kiadni.
-
-[Következő szakasz: Támogatás igénybevétele](../getting-support.md)
-
-[Vissza a főoldalra](../superslicer.md)
 

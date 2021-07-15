@@ -1,12 +1,5 @@
 # SuperSlicer telepítése
 
-## Az oldal tartalma
-
-* SuperSlicer telepítése
-  * [Letölthető verziók]() 
-  * [SuperSlicer telepítő]()
-* [Vissza a főoldalra](../superslicer.html)
-
 ## Letölthető verziók
 
 A SuperSlicer legújabb kiadása továbbra is a githubon [https://github.com/supermerill/SuperSlicer/releases](https://github.com/supermerill/SuperSlicer/releases) található, és Windows, Mac OS X és Linux rendszerekre érhető el.
@@ -35,7 +28,7 @@ A legújabb verzió önálló **AppImage**-je letölthető a [Githubról](https:
 
 Az Ubuntu, a Linux Mint és az MX Linux három népszerű Linux-disztribúció. Mindössze annyit kell tennie, hogy megkeresi az AppImage fájlt, jobb egérgombbal kattint rá, és kiválasztja a Tulajdonságok menüpontot. A megjelenő új menüben válassza az Engedélyek menüpontot, és jelölje be a "Fájl programként való futtatásának engedélyezése" vagy ennek valamilyen változata \(zöld négyzet\) jelölőnégyzetet, hogy a fájl futtatható legyen. Zárja be a tulajdonságokat, és most már duplán kattintson az ikonra a SuperSlicer elindításához.
 
-|  |  | ![](.gitbook/assets/002.jpeg)  |  |
+|  | ![](.gitbook/assets/03001.jpeg)  | ![](.gitbook/assets/03002.jpeg)  | ![](.gitbook/assets/03003.jpeg)  |
 | :--- | :---: | :---: | :---: |
 |  | _Ubuntu 20.04_ | _MX Linux 19.2_ | _Linux Mint 20 Cinnamon_ |
 
@@ -64,6 +57,4 @@ A SuperSlicer elindításához futtassa az alábbi parancsot a Terminálból, va
 ```text
 ./SuperSlicer-exact-file-name.AppImage 
 ```
-
-\[Vissza a főoldalra\]\(../superslicer.html
 

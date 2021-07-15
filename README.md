@@ -2,9 +2,11 @@
 description: 'Készítette: sziga'
 ---
 
-# SuperSlicer magyar használati útmutató!
+# SuperSlicer magyar használati útmutató \(Verzió 2.3.56.7\).
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+Az útmutató a francia leírás fordítása \(kisebb átalakítást, javítást, kiegészítést adtam csak hozzá\).A francia leírást **5axis** készítette a PrusaSlicer dokumentációja alapján kiegészítve a SuperSlicer funkciók leírásával. 
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+A francia dokumentáció [itt](https://github.com/5axes/SuperSlicer-FRDocumentation/) olvasható.
+
+A legtöbb kép saját készítés, a többi a francia dokumentumból származik \(5axis és prusa kép és néhány más által készített képet tartalmaz\).
 
