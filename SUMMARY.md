@@ -13,4 +13,5 @@
 * [Felső eszköztár](top_toolbar.md)
 * [Kalibrálás](calibration.md)
 * [FreePySCAD script ablak](untitled-1.md)
+* [Nyomtatási beállítások](untitled-2.md)
 
