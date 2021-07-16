@@ -11,4 +11,5 @@
 * [Bemenet/kimenet](input_output.md)
 * [Bal oldali eszköztár](left_toolbar.md)
 * [Felső eszköztár](top_toolbar.md)
+* [Kalibrálás](calibration.md)
 
