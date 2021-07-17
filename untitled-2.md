@@ -382,7 +382,7 @@ A **nagyobb rétegmagasságok** választásával **jelentősen csökkentheti a n
 
 ![Nyomtat&#xE1;si id&#x151; &#xE9;s min&#x151;s&#xE9;g a be&#xE1;ll&#xED;t&#xE1;sokt&#xF3;l f&#xFC;gg&#x151;en \(Prusa k&#xE9;p\)](.gitbook/assets/13032.jpeg)
 
-Ne feledje, hogy a réteg magassága csak a **függőleges** felbontást befolyásolja. Például a nyomtatólemezzel párhuzamos emelt szöveg a rétegmagasságtól függetlenül ugyanúgy fog kinézni. Ha nagyobb felbontást szeretne az XY-síkban, [nézze meg a különböző átmérőjű fúvókákat](https://blog.prusaprinters.org/everything-about-nozzles-with-a-different-diameter_8344/).
+Ne feledje, hogy a réteg magassága csak a **függőleges** felbontást befolyásolja. Például a nyomtatólemezzel párhuzamos emelt szöveg a rétegmagasságtól függetlenül ugyanúgy fog kinézni. Ha nagyobb felbontást szeretne az XY-síkban, [nézze meg a különböző átmérőjű fúvókákat](nozzles_with_a_different_diameter.md).
 
 Ha mindkét lehetőségből a legtöbbet szeretné kihozni, fontolja meg a **Változó rétegmagasság funkció használatát.**
 
@@ -399,6 +399,8 @@ Ezt kifejezheti abszolút értékként \(például 0,20 mm\) vagy az alapértelm
 Az első réteg magasságának megváltoztatásához valószínűleg **első réteg kalibrálása** szükséges a nyomtatón.
 
 ### **Szűrés**
+
+![Sz&#x171;r&#xE9;si lehet&#x151;s&#xE9;gek](.gitbook/assets/13033.jpg)
 
 #### _**Felbontás**_
 
@@ -418,6 +420,8 @@ A hézag sugarának kétszeresénél kisebb réseket a háromszögháló szelete
 
 ### **Rétegmódosítás**
 
+![R&#xE9;tegm&#xF3;dos&#xED;t&#xE1;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13036.jpg)
+
 #### _**Görbék simítása**_
 
 Ezek a paraméterek lehetővé teszik a szoftver számára, hogy az egyes rétegek szögeit kiegyenlítse. Az új pontosság a paraméter pontossága lesz.
@@ -434,9 +438,9 @@ A görbesimító algoritmus 3 paraméter megváltoztatásával módosítható:
 * **Minimális domború szög**
 * **Maximális távolság**
 
-  _**XY méretkompenzáció**_
+_**XY méretkompenzáció**_ **\(**elefántláb-effektus\)
 
-  Az objektum az XY síkban a megadott értéknek megfelelően \(negatív = kicsinyítve, pozitív = nagyítva\) lesz nagyítva/ kicsinyítve. Ez a beállítás hasznos lehet a furatméretek finomhangolásához.
+Az objektum az XY síkban a megadott értéknek megfelelően \(negatív = kicsinyítve, pozitív = nagyítva\) lesz nagyítva/ kicsinyítve. Ez a beállítás hasznos lehet a furatméretek finomhangolásához.
 
 Lehetőség van egy érték meghatározására
 
@@ -446,7 +450,9 @@ Nyomtatáskor az **első réteg** összenyomódik a fűtött nyomtatólemezen, �
 
 Sok alkalmazás esetében ez nem jelenthet problémát. Ha azonban valaminek nagyon pontos méretekre vagy nagyon szűk tűréshatárok betartására van szüksége, akkor ez problémát jelenthet.
 
-A beállítások eléréséhez a SuperSlicernek haladó vagy szakértői módban kell lennie.
+![Az elef&#xE1;ntl&#xE1;b-effektus kompenz&#xE1;l&#xE1;sa n&#xE9;lk&#xFC;l az els&#x151; r&#xE9;teg a v&#xE1;rtn&#xE1;l sz&#xE9;lesebb lehet.](.gitbook/assets/13034.png)
+
+A beállítások eléréséhez a SuperSlicer**-**nek haladó vagy szakértői módban kell lennie.
 
 #### _Függőleges furat zsugorodásási kompenzáció_
 
@@ -460,13 +466,17 @@ Ez a paraméter ugyanúgy viselkedik, mint a belső XY méretkompenzáció, de c
 
 #### _Függőleges furatok átalakítása sokszöggé_
 
+![Soksz&#xF6;gek](.gitbook/assets/13035.jpeg)
+
 Az olvadt huzalos technológiával történő 3D nyomtatás során a zsugorodás és az anyag extrudálásának módja miatt a furatok a vártnál kisebbek lesznek. Ennek egyik módja a nagyobb furatok létrehozása, de nem ez az egyetlen megoldás: játszhat a geometriával is. Az élek pontosan vannak nyomtatva, így a körök "oldalainak" számának csökkentésével ÉS a furat "külső" oldalára helyezésével \(nem vágva a sarkokat\) funkcionális furatokat kaphat.
 
 A fenti képen a fúrók tökéletesen illeszkednek a sokszögbe, de a kerek lyukba nem férnek bele, az túl keskeny, ahogyan az várható volt.
 
-_**A sokszögek elmélete és matematikája**_[http://hydraraptor.blogspot.com/2011/02/polyholes.html](http://hydraraptor.blogspot.com/2011/02/polyholes.html).
+_**A sokszögek elmélete és matematikája:**_ [http://hydraraptor.blogspot.com/2011/02/polyholes.html](http://hydraraptor.blogspot.com/2011/02/polyholes.html).
 
 ### Egyéb
+
+![Egy&#xE9;b be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13037.jpg)
 
 #### _Több részből álló objektumok szétválasztása_
 
@@ -476,11 +486,13 @@ Több anyagból készült objektumok nyomtatásakor ez a beállítás azt eredm�
 
 Megakadályozza, hogy a szeletelőmotor hibaüzenetet jelenítsen meg, ha egy teljes réteg üres, és ezért a nyomtatást utána újra kell kezdeni az üres rétegben.
 
-_Kép: Üzenet üres réteggel_
+![&#xDC;res r&#xE9;teg &#xFC;zenet](.gitbook/assets/13038.png)
 
 ## Kitöltés
 
 A kitöltés fő funkciója, hogy belső támasztékként szolgáljon a felső rétegek számára, amelyeknek egyébként egy rést kellene áthidalniuk. A töltés hatással van a nyomtatási sebességre, a szerkezeti szilárdságra, a szálfogyasztásra és még a kész tárgy megjelenésére is.
+
+![Kit&#xF6;lt&#xE9;si lehet&#x151;s&#xE9;g](.gitbook/assets/13039.jpg)
 
 ### Kitöltés
 
@@ -504,7 +516,7 @@ A SuperSlicer többféle kitöltési mintát kínál. A kitöltési minta kivál
 * A felső rétegek támasztékai
 * Rugalmasság \(TPU/TPE nyomtatáshoz\)
 
-#### _Kitöltési minták beállításai a SuperSlicerben_
+#### _Kitöltési minták beállításai a SuperSlicer_**-**_ben_
 
 A nyomtatott minták széles skálájának lefedése érdekében kör és téglalap alakú tárgyakat szeleteltünk. A kitöltést 10%-ra állítottuk be, hogy segítsük a kitöltési minták szemléltetését. A képeken a felső réteget eltávolítottuk, hogy a belső mintázat látható legyen.
 
@@ -517,7 +529,7 @@ A SuperSlicer lehetővé teszi a nyomtatott kitöltési struktúra mintázatána
 
 A következő modelltípusok állnak rendelkezésre:
 
-| A. **Rács:** erős 2D kitöltés |  |
+| A. **Rács:** erős 2D kitöltés | ![](.gitbook/assets/13040.png)  |
 | :--- | :---: |
 | B. **Egyenes:** Gyors 2D kitöltés |  |
 | C. **Lineárisan igazított:** _\(Vonal mód\)_ 2D kitöltés |  |
