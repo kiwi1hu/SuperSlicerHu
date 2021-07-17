@@ -438,7 +438,7 @@ A görbesimító algoritmus 3 paraméter megváltoztatásával módosítható:
 * **Minimális domború szög**
 * **Maximális távolság**
 
-_**XY méretkompenzáció**_ **\(**elefántláb-effektus\)
+_**XY méretkompenzáció**_ **\(**Elefántláb-kompenzáció\)
 
 Az objektum az XY síkban a megadott értéknek megfelelően \(negatív = kicsinyítve, pozitív = nagyítva\) lesz nagyítva/ kicsinyítve. Ez a beállítás hasznos lehet a furatméretek finomhangolásához.
 
@@ -1193,13 +1193,15 @@ _A vasalás ötletét először “Neotko” felhasználó javasolta az Ultimake
 
 ## Szoknya és perem
 
+![Szoknya &#xE9;s perem be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/13086%20%281%29.jpg)
+
 ### Szoknya
 
 A szoknya egy körvonal, amely a nyomtatólemezre nyomtatott összes modell köré van nyomtatva. Ezt a modellek előtt nyomtatják ki, és fő célja, hogy **stabilizálja a fúvókán keresztül a szál áramlását**.
 
 A szoknya hasznos az első rétegnek a nyomtatólemezhez való tapadásának **ellenőrzéséhez** is. Mivel a sablonok előtt nyomtatja, gyorsan módosíthatja a **Z-tengely beállítás** értékét, ha úgy látja, hogy az első réteg nem tapad megfelelően, vagy a fúvóka összetöri.
 
-![Szoknya &#xE9;s perem be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/13086.jpg)
+![Szoknya](.gitbook/assets/13089.jpeg)
 
 #### _Hurok \(minimum\)_
 
@@ -1227,6 +1229,10 @@ A pajzs jellemzői a szoknya beállításaitól függenek, különösen a pajzso
 
 ![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](.gitbook/assets/13087.jpg)
 
+![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](.gitbook/assets/13088.jpg)
+
+#### \_\_
+
 #### _Minimális szál extrudálási hossza_
 
 Szükség esetén erőltessen több szoknyahurkot, hogy az itt meghatározott minimális mennyiségű szál extrudálódjon a szoknya vége előtt. Több extruderrel működő gépek esetében ez a minimumérték minden egyes extruderre vonatkozik.
@@ -1240,7 +1246,9 @@ Mielőtt a lemezhez való jobb tapadás érdekében extra tapadóanyagot alkalma
 * Magas, kis alapterületű tárgyak
 * Több kis méretű tárgy egyszerre
 
-Ha az **Elefántláb-kompenzáció** aktiválva van, az előnézetben egy kis tér jelenik meg a modell és a keret között.
+![Perem](.gitbook/assets/13090.jpeg)
+
+Ha az [_**XY méretkompenzáció**_ \(Elefántláb-kompenzáció\)](untitled-2.md#szeleteles) aktiválva van, az előnézetben egy kis tér jelenik meg a modell és a keret között.
 
 #### _Peremszélesség_
 
