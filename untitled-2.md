@@ -1239,6 +1239,8 @@ Szükség esetén erőltessen több szoknyahurkot, hogy az itt meghatározott mi
 
 ### Perem
 
+![Perem be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13093.jpg)
+
 Mielőtt a lemezhez való jobb tapadás érdekében extra tapadóanyagot alkalmazna, fontolja meg a SuperSlicer-ben a **Perem** opció használatát, amely megnöveli az első réteg területét. A **SuperSlicer-ben** a **Nyomtatási beállítások - Szoknya és perem - Perem** menüpontban manuálisan állíthatja be a perem méretét. Általában ajánlott legalább 3 mm-es szegélyt használni a tapadás növelése érdekében.
 
 Érdemes megfontolni a perem opció használatát **nyomtatáskor :**.
@@ -1258,6 +1260,8 @@ Az első réteg minden egyes objektuma köré nyomtatott perem vízszintes szél
 
 Lehetővé teszi egy sziget határainak létrehozását, ha az egy furatban van \(vagy egy objektummal van körülvéve\).
 
+![Perem szigeten a lyukak belsej&#xE9;ben](.gitbook/assets/13091.jpeg)
+
 #### _Belső perem szélessége_
 
 A belső perem szélessége, az első rétegben lévő objektum furatainak belsejébe kerül nyomtatásra.
@@ -1265,6 +1269,8 @@ A belső perem szélessége, az első rétegben lévő objektum furatainak belse
 #### _Perem a sarkokban_
 
 Lehetőség, hogy csak a modell kiemelkedő szélei köré helyezzen peremet.
+
+![Perem a sarokban](.gitbook/assets/13092.png)
 
 **Maximális szög**
 
@@ -1282,7 +1288,7 @@ A geometriát a hegyesszögek felismerése előtt tizedelni kell. Ez a paraméte
 
 **Minta**
 
-A sarok mintája. A koncentrikus az alapértelmezett. Az egyenes vonalunak van egy kerülete, kipróbálhatja, ha a koncentrikusnak túl sok gondja van a nyomtatólemezhez való tapadással.
+A sarok mintája. A koncentrikus az alapértelmezett. Az egyenes vonalúnak van egy kerülete, kipróbálhatja, ha a koncentrikusnak túl sok gondja van a nyomtatólemezhez való tapadással.
 
 #### _Eltolt perem_
 
