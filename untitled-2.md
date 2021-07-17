@@ -529,23 +529,153 @@ A SuperSlicer lehetővé teszi a nyomtatott kitöltési struktúra mintázatána
 
 A következő modelltípusok állnak rendelkezésre:
 
-| A. **Rács:** erős 2D kitöltés | ![](.gitbook/assets/13040.png)  |
-| :--- | :---: |
-| B. **Egyenes:** Gyors 2D kitöltés |  |
-| C. **Lineárisan igazított:** _\(Vonal mód\)_ 2D kitöltés |  |
-| D. **Háromszögek:** erős 2D kitöltés |  |
-| E. **Csillagok:** erős 2D töltés |  |
-| F. **Kocka:** erős 3D töltés |  |
-| G. **Alkalmazkodó kocka:** erős 3D kitöltés \(ez anyagot takarít meg a kockához képest\) |  |
-| H. **Kockás támogatás:**  erős 3D töltés |  |
-| I.  **Vonal:** Gyors 2D kitöltés nem-ortogonális folyamatos rácskitöltés, folyamatos nyomtatás átlós irányban. Maximális kitöltési rögzítés hosszának meghatározása szükséges. |  |
-| J. **Koncentrikus:** rugalmas 3D töltés |  |
-| K. **Méhsejt:** erős 2D töltés |  |
-| L. **3D méhsejt:** rugalmas 3D töltés |  |
-| M. **Gyroid**: Megnövelt szilárdságú töltet a legkisebb súly mellett. |  |
-| N. **Hilbert-görbe**:  erős 2D kitöltés.Elméletileg ezeknek az utaknak lehetővé kell tenniük, hogy a fúvóka visszahúzása nélkül egyszerre töltsék ki az egész teret. Itt nem ez a helyzet, ez egy rossz megvalósítása Hilbert-görbéknek |  |
-| O. **Archimédeszi akkordok** \(Archimédeszi spirál\): rugalmas 2D kitöltés |  |
-| P. **Spirális oktagram** \(csillag\): 2D rugalmas kitöltés |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">A. <b>R&#xE1;cs:</b> er&#x151;s 2D kit&#xF6;lt&#xE9;s</th>
+      <th style="text-align:center">
+        <img src=".gitbook/assets/13040.png" alt/>
+      </th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">B. <b>Egyenes vonal&#xFA;:</b> Gyors 2D kit&#xF6;lt&#xE9;s</td>
+      <td style="text-align:center">
+        <p></p>
+        <p>
+          <img src=".gitbook/assets/13041.png" alt/>
+        </p>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">C. <b>Line&#xE1;risan igaz&#xED;tott:</b>  <em>(Vonal m&#xF3;d)</em> 2D kit&#xF6;lt&#xE9;s</td>
+      <td
+      style="text-align:center">
+        <p></p>
+        <p>
+          <img src=".gitbook/assets/13040.png" alt/>
+        </p>
+        </td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">D. <b>H&#xE1;romsz&#xF6;gek:</b> er&#x151;s 2D kit&#xF6;lt&#xE9;s</td>
+      <td
+      style="text-align:center">
+        <p></p>
+        <p>
+          <img src=".gitbook/assets/13042.png" alt/>
+        </p>
+        </td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">E. <b>Csillagok:</b> er&#x151;s 2D t&#xF6;lt&#xE9;s</td>
+      <td style="text-align:center">
+        <p></p>
+        <p>
+          <img src=".gitbook/assets/13043.png" alt/>
+        </p>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">F. <b>Kocka:</b> er&#x151;s 3D t&#xF6;lt&#xE9;s</td>
+      <td style="text-align:center">
+        <p></p>
+        <p>
+          <img src=".gitbook/assets/13044.png" alt/>
+        </p>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">G. <b>Alkalmazkod&#xF3; kocka:</b> er&#x151;s 3D kit&#xF6;lt&#xE9;s (ez
+        anyagot takar&#xED;t meg a kock&#xE1;hoz k&#xE9;pest)</td>
+      <td style="text-align:center">
+        <p></p>
+        <p>
+          <img src=".gitbook/assets/13045.png" alt/>
+        </p>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">H. <b>Kock&#xE1;s t&#xE1;mogat&#xE1;s:</b> er&#x151;s 3D t&#xF6;lt&#xE9;s</td>
+      <td
+      style="text-align:center">
+        <p></p>
+        <p>
+          <img src=".gitbook/assets/13046.png" alt/>
+        </p>
+        </td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">I. <b>Vonal:</b> Gyors 2D kit&#xF6;lt&#xE9;s nem-ortogon&#xE1;lis folyamatos
+        r&#xE1;cskit&#xF6;lt&#xE9;s, folyamatos nyomtat&#xE1;s &#xE1;tl&#xF3;s
+        ir&#xE1;nyban. Maxim&#xE1;lis kit&#xF6;lt&#xE9;si r&#xF6;gz&#xED;t&#xE9;s
+        hossz&#xE1;nak meghat&#xE1;roz&#xE1;sa sz&#xFC;ks&#xE9;ges.</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">J. <b>Koncentrikus:</b> rugalmas 3D t&#xF6;lt&#xE9;s</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left">
+        <img src=".gitbook/assets/infill_concentric.png" alt/>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">K. <b>M&#xE9;hsejt:</b> er&#x151;s 2D t&#xF6;lt&#xE9;s</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left">
+        <img src=".gitbook/assets/infill_honeycomb.png" alt/>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">L. <b>3D m&#xE9;hsejt:</b> rugalmas 3D t&#xF6;lt&#xE9;s</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">M. <b>Gyroid</b>: Megn&#xF6;velt szil&#xE1;rds&#xE1;g&#xFA; t&#xF6;ltet
+        a legkisebb s&#xFA;ly mellett.</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">N. <b>Hilbert-g&#xF6;rbe</b>: er&#x151;s 2D kit&#xF6;lt&#xE9;s.Elm&#xE9;letileg
+        ezeknek az utaknak lehet&#x151;v&#xE9; kell tenni&#xFC;k, hogy a f&#xFA;v&#xF3;ka
+        visszah&#xFA;z&#xE1;sa n&#xE9;lk&#xFC;l egyszerre t&#xF6;lts&#xE9;k ki
+        az eg&#xE9;sz teret. Itt nem ez a helyzet, ez egy rossz megval&#xF3;s&#xED;t&#xE1;sa
+        Hilbert-g&#xF6;rb&#xE9;knek</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left">
+        <img src=".gitbook/assets/infill_hilbertcurve.png" alt/>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">O. <b>Archim&#xE9;deszi akkordok</b> (Archim&#xE9;deszi spir&#xE1;l): rugalmas
+        2D kit&#xF6;lt&#xE9;s</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left">
+        <img src=".gitbook/assets/infill_archimedeanchords.png" alt/>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">P. <b>Spir&#xE1;lis oktagram</b> (csillag): 2D rugalmas kit&#xF6;lt&#xE9;s</td>
+      <td
+      style="text-align:center"></td>
+        <td style="text-align:left">
+          <img src=".gitbook/assets/infill_octagramspiral.png" alt/>
+        </td>
+    </tr>
+  </tbody>
+</table>
 
 **Gyroid kitöltés**
 
@@ -569,22 +699,72 @@ Választhat olyan egyéni kitöltési mintát, amely csak az alsó látható ré
 
 A következő modellváltozatok állnak rendelkezésre:
 
-| A. **Egyenes** |  |
-| :--- | :---: |
-| B. **Monoton** |  |
-| C. **Egyenes vonalú** |  |
-| D. **Koncentrikus** |  |
-| E. **Koncentrikus töltések** |  |
-| A. **Hilbert-görbe** |  |
-| B. **Arkhimédészi akordok** |  |
-| C. **Spirális oktagram** |  |
-| D. **Fűrészfog** |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">A. <b>Egyenes</b>
+      </th>
+      <th style="text-align:center">
+        <img src=".gitbook/assets/13052.png" alt/>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">B. <b>Monoton</b>
+      </td>
+      <td style="text-align:center">
+        <p></p>
+        <p>
+          <img src=".gitbook/assets/13053.png" alt/>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">C. <b>Egyenes vonal&#xFA;</b>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">D. <b>Koncentrikus</b>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">E. <b>Koncentrikus t&#xF6;lt&#xE9;sek</b>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">A. <b>Hilbert-g&#xF6;rbe</b>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">B. <b>Arkhim&#xE9;d&#xE9;szi akordok</b>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">C. <b>Spir&#xE1;lis oktagram</b>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">D. <b>F&#x171;r&#xE9;szfog</b>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+  </tbody>
+</table>
 
 Megjegyzés: Elméletileg az alsó és felső Lineárisan igazított kitöltési módnak lehetővé kellene tennie a kitöltést a 2 réteg közötti orientációváltás nélkül, de a tesztelt 2.3.0-s verziókon a mód nem változott a standard lineárishoz képest.
 
 ### További információ a kitöltéséről
 
 Bizonyára már észrevette, hogy a **SuperSlicer új verziója \(2.3\)** új kitöltési mintákkal bővült. Most, hogy ennyi lehetőség van, talán még egy kicsit elveszettnek is érezheti magát a lehetőségek között. Melyik kitöltést válasszam? Van olyan univerzális minta, amely minden modellnél működik? Vagy egy adott helyzethez kell választanom egy konkrétat? Lássuk, mit lehet tenni a megfelelő típusú kitöltés kiválasztásával és beállításainak módosításával.
+
+![SuperSlicer kit&#xF6;lt&#xE9;sek \(Prusa k&#xE9;p\)](.gitbook/assets/13060.jpeg)
 
 #### _Mi a kitöltés és mire használható?_
 
@@ -604,15 +784,23 @@ A kitöltő minták listája egyre bővül, és nehéz lehet kiválasztani a meg
 
 Az egyenes kitöltés **az egyik alapvető kitöltési minta.** Téglalap alakú rácsot hoz létre úgy, hogy egy réteget nyomtat egy irányba, majd a következő réteget 90°-os szögben, és így tovább. Így **kevesebb szálat** fogyaszt, és **az anyag nem halmozódik fel a kereszteződéseknél** \(ellentétben a ráccsal\). Ez az egyik **leggyorsabb nyomtatáskitöltés**.
 
+![Egyenes kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/13061.jpeg)
+
 Ez a kitöltési típus az egyetlen **a 100%-os nyomtatási kitöltéshez ajánlott**. Ha a profilban más kitöltési típus van beállítva, és a kitöltési százalékot 100%-os sűrűségre állítja, a **SuperSlicer** automatikusan egyenesre váltja a kitöltési típust.
 
 **Egyenesen igazított**
 
 Ez a kitöltés a modellbe rajzolt **párhuzamos vonalakból** áll, amelyek a külső tartószerkezetekhez hasonlítanak. Az előző típushoz hasonlóan ez a töltés **időt takarít meg**, **közepes anyagfelhasználású**, és emellett **nem halmoz fel anyagot** a kereszteződéseknél. Ennek a kitöltésnek a használata azonban problémás lehet, ha a kitöltés vonalainak iránya megegyezik a felső első teljes réteg kitöltésének irányával - ha ezek tökéletesen párhuzamosak, a felső rétegek nehezen fognak áthidalni.
 
+![Igaz&#xED;tott egyenes t&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/13062.jpeg)
+
 **Rács**
 
 Ez az egyik legegyszerűbb és leggyorsabb **kitöltési változat**. Az egyenes töltéssel ellentétben **mindkét irányban \(90°-os elfordulással\) nyomtatódik minden egyes rétegnél**. Ennek eredményeként az anyag ott halmozódik fel, ahol az utak keresztezik egymást. A rácsos töltés **erősebb** \(és jobb a rétegtapadása\), mint az egyenes töltés, azonban néha **idegesítő zajt** és akár **nyomtatási hibát** is okozhat, amikor a fúvóka olyan kereszteződéseken halad át, ahol anyag halmozódik fel.
+
+![R&#xE1;cskit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/13063.jpeg)
+
+![R&#xE1;cskit&#xF6;lt&#xE9;s r&#xE9;szlete \(Prusa k&#xE9;p\)](.gitbook/assets/13064.jpeg)
 
 A kitöltőanyag nyomtatásának módja miatt a pályák keresztezik egymást, és ez az anyag felhalmozódását okozza ezeken a területeken. Néha hallani fog egy sajátos hangot, amikor a fúvóka eléri ezeket a területeket. Ez akár a nyomtatás meghiúsulását is okozhatja.
 
@@ -620,51 +808,73 @@ A kitöltőanyag nyomtatásának módja miatt a pályák keresztezik egymást, �
 
 Ez a kitöltés ugyanúgy működik, mint a rácsos kitöltés - az útvonalak metszik egymást a rétegen, azonban ezúttal **három irányban** vannak nyomtatva, és háromszög alakú struktúrát alkotnak. Az anyagfelhasználás és az idő nem azonos a rácshálóval.
 
+![H&#xE1;romsz&#xF6;g kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/13065.jpeg)
+
 **Csillagok**
 
 A csillagkitöltés **háromszögeken alapul**, de **az útvonalakat úgy módosítjuk**, hogy hatágú csillagokat alkossanak. Ez a kitöltés ismét az ugyanazon a rétegen belüli vonalak metszéséből jön létre. Az anyag- és időfelhasználás ugyanaz, mint az előző töltésnél.
+
+![Csillag kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/13066.jpeg)
 
 **Kocka**
 
 Ez megint egy töltés, amely ugyanazon a rétegen belüli, egymást metsző útvonalakkal van kitöltve. A fent leírt töltelékekkel ellentétben azonban **kockákat** készít, amelyeknek az egyik sarka lefelé mutat. Ily módon **légzsebek sokaságát** hozza létre, amelyek hőszigetelésre használhatók, vagy lehetővé teszik, hogy egy tárgy ússzon a vízen \(vízálló szálakkal, például PETG-vel\). A nyomtatási idő és a szálfogyasztás nem különbözik a korábbi töltésekhez képest.
 
+![Kocka kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/13067.jpeg)
+
 **Vonal**
 
 A lineáris kitöltés egyike azoknak, amelyek **nem rendelkeznek metsző pályákkal** egy rétegen. Útvonalai hasonlóak az egyenes kitöltés útvonalaihoz, de **nem párhuzamosak** egymással. Ehelyett hegyesszögben vannak nyomtatva. Nem meglepő, hogy ez a töltés **hasonlóan működik, mint az egyenes töltés** a nyomtatási idő és az anyagfelhasználás tekintetében.
+
+![Vonal kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/13068.jpeg)
 
 **Koncentrikus**
 
 A koncentrikus kitöltés **meghúzza a modell kerületi vonalait**, majd egyre jobban összezsugorítja azokat a középpont felé. Más szóval: ha egy hengert nyomtatunk, a koncentrikus kitöltés **koncentrikus köröket** fog létrehozni a hengeren belül. Ez hasznos lehet **átlátszó alkatrészek vagy rugalmas modellek** \(pl. RC autó gumiabroncsok\) esetén. A fő hátránya a nyomtatási idő. Az anyagfelhasználás nem nagyobb, mint a korábbi típusú töltőminták esetében.
 
+![Koncentrikus kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/130681.jpg)
+
 **Méhsejt**
 
 Ez a kitöltés egy **hatszögekből álló rácsot nyomtat.** Fő előnye a **mechanikai szilárdság** és az optimalizált, útkereszteződések nélküli pályák. Fő hátránya a **magas anyagfelhasználás** \(kb. 25%-kal több\) a többi töltelékhez képest, és a nyomtatási idő **kétszer olyan hosszú** lehet a fent leírt lehetőségekhez képest.
+
+![M&#xE9;hsejtes kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/130682.jpg)
 
 **3D méhsejt**
 
 A 3D-s méhsejtek kis és nagy négyzeteket és nyolcszögeket nyomtatnak, hogy időszakosan növekvő és csökkenő vastagságú oszlopokat hozzanak létre. Ez a töltés **nem tartalmaz metsző vonalakat** egy rétegen, azonban az útvonalak kialakításának módja miatt **kis hézagokat hoz létre a rétegek között.** Az anyagfelhasználás és a nyomtatási idő kissé rosszabb a normál méhsejtmintához képest.
 
+![3D m&#xE9;hsejtes kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/130683.jpg)
+
 **Gyroid**
 
 A gyroid kitöltés a kedvencünk és egyben **az egyik legjobb kitöltés.** Ez azon kevés 3D szerkezetek egyike, amely minden irányban nagyon jó alátámasztást biztosít. Ezen kívül igazán **gyors nyomtatás, anyagot takarít meg, vonalak nem keresztezik egymást egy rétegen belül, és jól néz ki**. A töltés különleges formája lehetővé teszi a töltés gyantával vagy bármilyen más folyadékkal való feltöltését.
+
+![Gyroid kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/130684.jpg)
 
 **Hilbert-görbe**
 
 A Hilbert-görbe egy téglalap alakú labirintust rajzol a modellben. Ennek a töltésnek a fő előnye az **eredeti megjelenés,** valamint az, hogy könnyen **betölthető gyantával** vagy más folyadékkal - a modell több nagy üregre oszlik, nem pedig apró "buborékok" sokaságára. Ennek a tölteléknek a fő hátránya a hosszú nyomtatási idő, amely a méhsejtes és az egyenes töltelék között van. A Hilbert-görbe anyagfelhasználása megegyezik az egyenes töltés anyagfelhasználásával.
 
+![Hilbert-g&#xF6;rbe kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/130685.jpg)
+
 **Archimédeszi akkordok**
 
 Ez a spirális kitöltés ismét **könnyebbé teszi a folyadékkal való feltöltést.** Ez az egyszerű forma **anyagot és időt takarít meg** \(az egyenes kitöltéshez\) képest. A koncentrikus töltéshez hasonlóan az íves akkordok is **segítenek a modell rugalmasságában**, ha rugalmas szálból nyomtat.
 
+![Archim&#xE9;deszi spir&#xE1;lis kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/130686.jpg)
+
 **Spirális Octagram**
 
-A nyolcágú spirálminta lehetővé teszi, hogy a tárgyat **könnyen meg lehessen tölteni folyadékkal** az ilyen típusú töltés által létrehozott nagy rekeszeknek köszönhetően. A nyolcszögletű spirálmintázat szintén előnyös bizonyos modellek **hajlékonyságához**, de különösen érdekes **esztétikai okokból** és a felső rétegnek nyújtott támasza miatt. Az anyagfelhasználás megegyezik az archimédiás akkordokéval, de a nyomtatási idő valamivel hosszabb.
+A nyolcágú spirálminta lehetővé teszi, hogy a tárgyat **könnyen meg lehessen tölteni folyadékkal** az ilyen típusú töltés által létrehozott nagy rekeszeknek köszönhetően. A nyolcszögletű spirálmintázat szintén előnyös bizonyos modellek **hajlékonyságához**, de különösen érdekes **esztétikai okokból** és a felső rétegnek nyújtott támasza miatt. Az anyagfelhasználás megegyezik az **Archimédeszi akkordokéval**, de a nyomtatási idő valamivel hosszabb.
+
+![Octagram spir&#xE1;l kit&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/130687.jpg)
 
 **Alkalmazkodó kocka**
 
 Az alkalmazkodó kocka kitöltés **azon az elven működik, mint a kocka kitöltés:** olyan kockákat tartalmaz, amelyek egyik sarka lefelé néz, és ugyanazon a rétegen belül metszik egymást a vonalak. Van azonban egy nagy előnye: az egyszerű kocka alakú kitöltéssel ellentétben ez a minta **sűrűbbé teszi a kitöltést, ahogy közeledik a modell szélei felé,** és nagy üregeket hagy középen. **Az anyagfogyasztás** körülbelül ¼-ével kevesebb, mint az egyenes töltésnél.
 
-![K&#xE9;p: Adapt&#xED;v kockat&#xF6;lt&#xE9;s \(anim&#xE1;lt gif k&#xE9;p\)](https://blog.prusaprinters.org/wp-content/uploads/2021/01/gif2_1_1_optimized.gif)
+![Adapt&#xED;v kockat&#xF6;lt&#xE9;s \(Prusa anim&#xE1;lt gif\)](https://blog.prusaprinters.org/wp-content/uploads/2021/01/gif2_1_1_optimized.gif)
 
 Az adaptív köbös kitöltés egy [**octree**](https://fr.wikipedia.org/wiki/Octree) azon celláinak finomításával működik, amelyek egy háromszög objektumot tartalmaznak. Minden töltésvonalhoz rögzítőket adunk hozzá. Ezáltal a töltés robusztusabbá válik, és stabilizálja az extrudálási áramlást a töltősor elején. Alapvetően ez a kitöltés a legközelebbi faltól való távolságtól függően válik többé-kevésbé sűrűvé. Ez különösen hasznos a nagy belső térfogatú, nagyméretű nyomatok esetében. Ez rövidebb nyomtatási időt és alacsonyabb szálfogyasztást eredményez, miközben a felső réteg jó alátámasztása és ugyanazok a mechanikai tulajdonságok maradnak meg.
 
@@ -672,13 +882,13 @@ Az adaptív köbös kitöltés egy [**octree**](https://fr.wikipedia.org/wiki/Oc
 
 A kocka támogatás kitöltés ugyanúgy működik, mint az előző, egy különbséggel: a **kitöltés sűrűsége csak a Z tengelyen növekszik.** Elsődleges funkciója a felső rétegek **támogatása** a lehető legtöbb anyag megtakarításával, így nem javítja a modell mechanikai tulajdonságait. Ennek a kitöltésnek az anyagfogyasztása és nyomtatási ideje messze a legérdekesebb\*\* az összes támogatott kitöltés közül.
 
-![K&#xE9;p: Kocka t&#xE1;mogat&#xE1;s kit&#xF6;lt&#xE9;s \(anim&#xE1;lt gif k&#xE9;p\)](https://blog.prusaprinters.org/wp-content/uploads/2021/01/gif1optimal.gif)
+![Kocka t&#xE1;mogat&#xE1;s kit&#xF6;lt&#xE9;s \(Prusa anim&#xE1;lt gif\)](https://blog.prusaprinters.org/wp-content/uploads/2021/01/gif1optimal.gif)
 
 #### _A felső és alsó réteg kitöltésének típusai_
 
 A kitöltés szerkesztése nem csak az objektum belső részeinek kitöltési típusának kiválasztásáról szól. A felső és alsó rétegek kitöltési típusait is megváltoztathatja, hogy érdekes eredményeket érjen el. Ez a **Nyomtatási beállítások/Töltés/felső \(alsó\) kitöltési minta** lapon állítható be. A felső vagy alsó kitöltés megváltoztatása azonban **esztétikai változásokat** okoz, és nem javítja a modell mechanikai tulajdonságait.
 
-A felső/alsó rétegek kitöltése \(Prusa kép\).
+![A fels&#x151;/als&#xF3; r&#xE9;tegek kit&#xF6;lt&#xE9;se \(Prusa k&#xE9;p\)](.gitbook/assets/13069.jpeg)
 
 Az alábbiakban a felső és alsó kitöltések mind a hét típusát 80%-os áramlással nyomtatjuk, hogy kiemeljük a mintákat.
 
@@ -689,6 +899,8 @@ Ismétlem, ez a legelterjedtebb \(és legalapvetőbb\) típusú felső töltés.
 **Monoton**
 
 A monoton kitöltési minta párhuzamos vonalakkal tölti ki a felső \(vagy alsó\) réteget, ugyanúgy, mint az egyenes kitöltési típus. Ez a kitöltés azonban **fejlett útvonaltervezést használ.** Az egyenes kitöltéssel ellentétben ez mindig balról jobbra nyomtat, soha nem az ellenkező irányba. Ez az egyszerű rendszer **homogén kitöltést eredményez, csúnya dudorok nélkül**, amelyek más kitöltéseknél általában akkor fordulnak elő, amikor a bal-jobb pályák találkoznak a jobb-bal pályákkal. Ezt a látszólag egyszerű módszert meglepően nehéz integrálni. A Raad Salman által leírt **Ant Colony System** változatot használtuk.
+
+![Egyenes t&#xF6;lt&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/13070.jpeg)
 
 **Egyenes vonalban**
 
@@ -713,6 +925,10 @@ Ezt a kitöltést már korábban leírtuk. Leginkább esztétikai okokból érde
 **A rögzítő hossza**
 
 A kitöltés általában **összekapcsolódik a kerületekkel** egy úgynevezett rögzítővel, amely egy rövid vonalból áll, amely egy másik \(belső\) kerületet alkot, és töltésvonallá alakul. A rögzítés hossza határozza meg, hogy milliméterben kifejezve milyen hosszúságban csatlakozik ez a rögzítő a kitöltéshez és a kerületekhez. Ha ezt az értéket 0-ra állítja, akkor a kitöltés a kerületekre függetlenül kerül nyomtatásra. A magasabb érték a rögzítést a kitöltés kiterjesztéseként nyomtatja ki. A rögzítő segít javítani a **modell integritását és szilárdságát.**
+
+Ha százalékban van megadva \(15%\), akkor azt a kitöltőanyag extrudálási szélességére kell számítani.
+
+![A r&#xF6;gz&#xED;t&#x151; hossza \(Prusa k&#xE9;p\)](.gitbook/assets/13070a.jpeg)
 
 **Maximális rögzítés hossza**
 
