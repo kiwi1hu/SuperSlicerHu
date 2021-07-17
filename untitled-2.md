@@ -301,6 +301,8 @@ Az extruder mozgatásának költsége. A legmagasabb büntetés az, amikor a pon
 
 Ez az opció lehetővé teszi, hogy a kerületeket egymáshoz láncolja, hogy megszakítás nélkül egyetlen folyamatos extrudálást hozzon létre. A hosszú belső elmozdulások \(a külsőtől a lyukakig\) nincsenek extrudálva, hogy maradjon némi hely a kitöltéshez.
 
+![P&#xE9;lda egyhurkos ker&#xFC;letre](.gitbook/assets/13028.png)
+
 A **Kötés** opcióval megadhatja a kerületek közötti összekötések kezdőpontjainak helyzetét. Lehetőség van választani a következők közül:
 
 * _**Legközelebbi**_ : A lehető legközelebb a sarkokhoz
@@ -310,13 +312,17 @@ A **Kötés** opcióval megadhatja a kerületek közötti összekötések kezdő
 
 Ezzel a beállítással a belső kerület megkerüli a hegyes sarkokat, és ahelyett, hogy hegyes szöget képezne, sugarat hoz létre. Ez akkor segíthet, ha a peremek hegyes sarkaiban látható lyukak vannak.
 
-Példa a **kerekített sarkok** opcióval kapott jobb oldali kerületekre
+![P&#xE9;lda: a kerek&#xED;tett sarkok opci&#xF3; kikapcsolva](.gitbook/assets/13029.png)
+
+![P&#xE9;lda: a kerek&#xED;tett sarkok opci&#xF3; bekapcsolva](.gitbook/assets/13030.png)
 
 ### Először a külső kerületeket
 
 A kerületeket a fordított sorrend helyett kívülről befelé nyomtatjuk.
 
 Ez a beállítás segíthet a **méretpontosságban**, mivel a külső kerületet rakja le először, és a további kerület nyomtatásakor extrudált további szálak eltolódnak a külső faltól. Másrészt a felület kissé kevésbé sima lehet.
+
+![El&#x151;sz&#xF6;r a k&#xFC;ls&#x151; ker&#xFC;letek be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13031.jpg)
 
 **Alkalmazás erre**
 
@@ -373,6 +379,8 @@ Az egyes szeletek magassága/az egyes rétegek vastagsága. A rétegmagasság a 
 A **nagyobb rétegmagasságok** választásával **jelentősen csökkentheti a nyomtatási időt** a láthatóbb rétegek árán. Másrészt a **kisebb rétegmagasság** \(pl. 0,10 mm\) választása **többlet részletet** tesz lehetővé, de hosszabb nyomtatási idő árán.
 
 Általános szabályként nem javasoljuk, hogy 0,10 mm alá menjen, mivel a nyomtatási minőség javulása a 0,07 vagy 0,05 mm-es rétegeknél viszonylag csekély, és a nyomtatási idő jelentősen hosszabb.
+
+![Nyomtat&#xE1;si id&#x151; &#xE9;s min&#x151;s&#xE9;g a be&#xE1;ll&#xED;t&#xE1;sokt&#xF3;l f&#xFC;gg&#x151;en \(Prusa k&#xE9;p\)](.gitbook/assets/13032.jpeg)
 
 Ne feledje, hogy a réteg magassága csak a **függőleges** felbontást befolyásolja. Például a nyomtatólemezzel párhuzamos emelt szöveg a rétegmagasságtól függetlenül ugyanúgy fog kinézni. Ha nagyobb felbontást szeretne az XY-síkban, [nézze meg a különböző átmérőjű fúvókákat](https://blog.prusaprinters.org/everything-about-nozzles-with-a-different-diameter_8344/).
 
