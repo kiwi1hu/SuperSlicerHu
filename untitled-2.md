@@ -142,6 +142,8 @@ A hidakra vonatkozó áramlási arány beállításához lásd a [Áramlási ar�
 
 ### Túlnyúlások
 
+![T&#xFA;lny&#xFA;l&#xE1;sok be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13012.jpg)
+
 #### _**A híd sebesség és a ventilátor küszöbértéke**_
 
 Egy extrudálás minimális nem alátámasztott szélessége a híd ventilátor és a túlnyúlás sebességének az adott túlnyúlásra történő alkalmazásához.
@@ -178,6 +180,10 @@ Az a mm-szám, amennyinek a túlnyúlásnak lennie kell ahhoz, hogy az átfordí
 
 Ez az opció arra szolgál, hogy segítsen olyan tárgyak szeletelésében, amelyeknek furatuk van.
 
+![P&#xE9;lda egy furatra s&#xFC;llyesztett furattal](.gitbook/assets/13013.jpg)
+
+![Szabv&#xE1;nyos kiv&#xE1;g&#xE1;s](.gitbook/assets/13014.jpeg)
+
 A probléma megoldására több lehetőség is van:
 
 * **Kerületek eltávolítása** : csak a kerületet kell áthelyezni a híd területéről.
@@ -186,11 +192,15 @@ Előnyök \(+\): egyszerű és hatékony.
 
 Hátrányok \(-\): Egyes hidak nincsenek mindkét oldalon rögzítve.
 
+![Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa](.gitbook/assets/13015.jpeg)
+
 * **Hézagok kitöltése hidakkal** : áthelyezi a kerületet, és kiterjeszti a híd területét, hogy kitöltse az üres helyet. Ez egy kaput hoz létre, amelyet a felhasználónak kézzel kell eltávolítania. Megjegyezzük, hogy ezt manuálisan is megteheti, ha létrehoz egy új hengert ezen a helyen \(jobb klikk az alkatrészre -&gt; alkatrész hozzáadása -&gt; henger, a jobb oldali területen oldja fel a skálákat és változtassa meg az X&Y méretet nyomja meg az Entert, majd mozgassa be a lyukba változtassa meg a z méretét a réteg magasságára és adja meg a Z pozíciót\).
 
 Előnyök \(+\): jobb ellenfúró hatás.
 
 Hátrányok \(-\): A meredek szögű fúrókúpok a túl nagy \(a normálisnál is nagyobb mértékű\) túlnyúlás miatt tönkreteszik az alkatrészt.
+
+![T&#xF6;ltse ki az &#xFC;res helyeket hidakkal](.gitbook/assets/13016.jpeg)
 
 * **Csak a hidakat tartsa meg** : ne nyomtasson ki olyan területet, amely nem híd. Túlságosan kísérleti, ne használja, amíg nem lesz egy kicsit jobb. 
 
@@ -198,11 +208,15 @@ Előnyök \(+\) : ? egyszerű ?
 
 Hátrányok \(-\): tönkreteszi a túlnyúlásokat, és nem hiszem, hogy jobban nyomtatná az ellenfúrást sem.
 
+![Csak a hidakat tartsa meg](.gitbook/assets/13017.jpeg)
+
 * **Hidak és túlnyúlások karbantartása** : Az előző opcióhoz hasonlóan kinyomtatja a hidat, de a maradékot kitölti egy kerülettel és a "rossz hidakat". Nagyon kísérleti jellegű. 
 
 Előnyök \(+\) esetében: a megfelelő mennyiségű műanyagot nyomja, mint a “Kerületek eltávolítása”, de kevesebb “Egyik oldalon rögzített hidakkal”.
 
 Hátrányok \(-\): nehéz nyomtatni.
+
+![Hidak &#xE9;s t&#xFA;lny&#xFA;l&#xE1;sok karbantart&#xE1;sa](.gitbook/assets/13018.jpeg)
 
 #### Hézagkitöltés
 
@@ -212,7 +226,7 @@ Hátrányok \(-\): nehéz nyomtatni.
 
 Ez a paraméter a falak közötti hézagkitöltő extrudálás létrehozásához szükséges minimális mm²-t jelenti.
 
-> Meghatározható a \(kerület szélességének\) %-aként.
+> Meghatározható a \(kerület szélességének\) százalékaként.
 
 #### _Varrás helyzete_
 
@@ -229,7 +243,9 @@ Hacsak nem “spirálváza” üzemmódban nyomtat, a kerület minden egyes huro
 
 Ez a varrás különösen akkor lesz látható, ha a tárgy alakja hengeres, éles sarkok nélküli.
 
-Annak érdekében, hogy a varratot a lehető legjobban elrejtse, többféle varratelhelyezési lehetőség áll rendelkezésre a : [**Nyomtatási beállítások - Kerületek és héj - Speciális - Varratok.**]()
+Annak érdekében, hogy a varratot a lehető legjobban elrejtse, többféle varratelhelyezési lehetőség áll rendelkezésre a : **Nyomtatási beállítások - Kerületek és héj - Varratok - Varrás.**
+
+![Varrat poz&#xED;ci&#xF3;](.gitbook/assets/13020.jpg)
 
 A SuperSlicer 2.3-tól kezdve a **varratfestő** eszközzel részletesen szabályozhatja a varratok elhelyezését.
 
@@ -239,17 +255,21 @@ Próbálja meg a varratot az aktuális réteghez legközelebb eső szélén elhe
 
 Pontosabban, megpróbálunk egy túlnyúlás nélküli homorú csúcsot választani, hogy a varrás a homorú szög belsejében legyen elrejtve. Ha nem áll rendelkezésre túlnyúlás nélküli homorú csúcs, akkor egy túlnyúlás nélküli konvex csúcsot választ. Ha egyik sem áll rendelkezésre, akkor egy túlnyúlás nélküli csúcsot választ. A jelöltek közül úgy kell választani, hogy a kiindulási pont a legközelebb legyen az extruder korábbi pozíciójához. Ez az opció ezért rövid távolságok esetén optimális.
 
+![K&#xF6;lts&#xE9;galap&#xFA; varr&#xE1;si poz&#xED;ci&#xF3; \(legk&#xF6;zelebb\)](.gitbook/assets/13021.jpeg)
+
 **Igazított**
 
 Ugyanazzal a logikával keresi a jelölteket, mint a **költségalapú**, de azt választja ki, amelyik a legközelebb van az előző réteg kiindulási pontjához. Ez biztosítja, hogy a varrás többnyire az egész tárgyon egy vonalban legyen.
 
-Véletlenszerű \(balra\) vagy igazított \(jobbra\) varrás pozíciója
+![V&#xE9;letlenszer&#x171; \(balra\) vagy igaz&#xED;tott \(jobbra\) varr&#xE1;s poz&#xED;ci&#xF3;ja](.gitbook/assets/13022.jpeg)
 
 **Véletlenszerű**
 
 Ez minden réteghez más pontot választ, így a varrás kevésbé lesz észrevehető, de a felület kevésbé sima lesz \(kis pöttyök elszórtan a felületen\).
 
 Nem sok értelme van a véletlenszerű illesztési pozíciót használni a sarkokkal/éles élekkel rendelkező modelleknél, sokkal jobb a költségalapú vagy igazított pozíciót használni ebben az esetben. Másrészt, ha hengeres, éles élek nélküli alakzatokat nyomtatunk, a véletlenszerű illesztési pozíció egy életképes lehetőség.
+
+![A varratok v&#xE9;letlenszer&#x171; elhelyez&#xE9;se](.gitbook/assets/13023.jpeg)
 
 **Hátul**
 
@@ -265,9 +285,9 @@ Használhatja a “Spirálváza” módot a varrat elkerülésére, de akkor csa
 
 Példa a varrat helyzetére a beállításoktól függően
 
-|  |  |  |  |
+| ![](.gitbook/assets/13024.png)  | ![](.gitbook/assets/13025.png)  | ![](.gitbook/assets/13026.png)  |  ![](.gitbook/assets/13027.png)  |
 | :---: | :---: | :---: | :---: |
-| \*\*Véletlenszerű\*\* | \*\*Költségalapú\*\* | \*\*Igazított\*\* | \*\*Hátul\*\* |
+| Véletlenszerű | Költségalapú | Igazított | Hátul |
 
 ### Szögköltség
 
