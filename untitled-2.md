@@ -1313,17 +1313,21 @@ A nyomtatás befejeztével a modell geometriájától és a felhasznált anyagt�
 
 A támasztékok darabjai meglepően élesek lehetnek, és eltávolítás után néha hevesen, véletlenszerű irányban kirepülnek. Ha nehezen eltávolítható támasztékokkal találkozik, fontolja meg a védőszemüveg viselését \(ez mindaddig butaságnak tűnik, amíg először szemen nem találják\).
 
-### Támogatások mindenhol
+### Támaszték mindenhol
 
-A támogatások mind a nyomtatólemezről, mind bármely modellfelületről kinőhet, ha szükséges.
+A támaszték mind a nyomtatólemezről, mind bármely modellfelületről kinőhet, ha szükséges.
 
 Ez biztosítja, hogy minden túlnyúlás és minden levegőben induló alkatrész megtámasztásra kerüljön. A felszínen azonban apró tökéletlenségek jelenhetnek meg, ahol a támaszok növekedésnek indultak.
 
+![T&#xE1;maszt&#xE9;kok kezel&#xE9;se a jobb oldali panelen](.gitbook/assets/13094.jpg)
+
 ### Támaszték csak az építőlemezről
+
+![K&#xE9;p: t&#xE1;maszt&#xE9;k csak a lemezen \(balra\), t&#xE1;maszt&#xE9;k mindenhol \(jobbra\)\(Prusa k&#xE9;p\)](.gitbook/assets/13095.jpeg)
 
 Csak olyan támasztékokat hoz létre, amelyeknek az alja a nyomtatólemezen van.
 
-### Csak a támogatás kikényszerítői
+### Csak a támasztékok kikényszerítői
 
 Az automatikus támaszték generálás csak a kényszerítővel megjelölt területeken engedélyezett. Ez az opció lényegében egy parancsikon, amely engedélyezi a **Nyomtatási beállítások - Támaszték - Támaszték generálása**, de kikapcsolja a **Nyomtatási beállítások - Támaszték - Automatikusan generált támaszok** opciót.
 
@@ -1332,6 +1336,8 @@ Az automatikus támaszték generálás csak a kényszerítővel megjelölt terü
 Lehetőség van egyszerre több objektum nyomtatására, mindegyikhez saját támaszték beállításokkal. Alapértelmezés szerint minden modellre hatással vannak a globális beállítások. Ezeket felülbírálhatja, ha a 3D nézetben **jobb egérgombbal** kattint egy modellre, és kiválasztja a **Támaszték** lehetőséget. Az objektumlistában a szerkesztés ikonjára jobb gombbal is kattinthat.
 
 A jobb oldali panelen egy új ablak jelenik meg **A módosítandó objektum beállításai - Támaszok** címmel. Ezeknek a beállításoknak a módosítása csak az objektumot és annak példányait érinti. A kicserélt beállításokat a piros kereszt ikonra kattintva törölheti. Ha így tesz, a globális beállítások ismét alkalmazásra kerülnek.
+
+![A m&#xF3;dos&#xED;tand&#xF3; objektum be&#xE1;ll&#xED;t&#xE1;sai - T&#xE1;maszt&#xE9;kok](.gitbook/assets/13096.jpg)
 
 ### Támaszték kényszerítő/blokkoló
 
@@ -1377,6 +1383,8 @@ Ennek az értéknek a megváltoztatásával gyorsan beállíthatja a generált t
 
 Minél alacsonyabb az érték, annál kevesebb támasztékot generál.
 
+![](.gitbook/assets/13097.png)
+
 1. A túlnyúlási küszöbérték és annak mérési módja
 2. Túlnyúlási küszöbérték 55
 3. Túlnyúlási küszöbérték 35
@@ -1386,7 +1394,7 @@ Minél alacsonyabb az érték, annál kevesebb támasztékot generál.
 
 Alulról felfelé generálja a megadott számú réteg alátámasztását, függetlenül attól, hogy a normál alátámasztások engedélyezve vannak-e vagy sem, és a dőlésküszöböktől függetlenül. Ez hasznos a jobb tapadás eléréséhez olyan tárgyak esetében, amelyeknek nagyon vékony vagy korlátozott az érintkezési felülete a lemezen.
 
-\*
+![T&#xE1;maszok l&#xE9;trehoz&#xE1;sa az els&#x151; 10 majd 100 r&#xE9;tegen \(gif\)](.gitbook/assets/13098.gif)
 
 A **Támaszok generálása** opciót legalább az első X réteg előállításához aktiválni kell.
 
@@ -1394,19 +1402,27 @@ A **Támaszok generálása** opciót legalább az első X réteg előállítás�
 
 #### _Tömör első réteg_
 
-Helyezzen egy tömör réteget a tálcára a tutaj helyett.
+Helyezzen egy tömör réteget a lemezre a tutaj helyett.
 
-Első tömör réteg a jobb oldalon / Klasszikus tutaj a bal oldalon.
+{% tabs %}
+{% tab title="Tömör réteg" %}
+![](.gitbook/assets/13099.png)
+{% endtab %}
+
+{% tab title="Tutaj" %}
+![](.gitbook/assets/13100.png)
+{% endtab %}
+{% endtabs %}
 
 #### _Tutaj rétegek_
 
 Az objektumot ennyi réteggel megemeljük, és alatta támasztékokat hozunk létre. Ha a nyomtatás elkészült, megragadhatja a tutajt, és lehúzhatja az alkatrészről.
 
-\*
+![Be&#xE1;l&#xED;t&#xE1;sok a tutaj sz&#xE1;m&#xE1;ra](.gitbook/assets/13101.jpg)
 
 ### Opciók támasztékhoz és tutajhoz
 
-Opciók támogatáshoz és tutajhoz
+![A t&#xE1;maszt&#xE9;kok &#xE9;s a tutaj be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/13102.jpg)
 
 #### _Érintkezés Z távolság_
 
@@ -1415,6 +1431,8 @@ Az objektum és a támasztófelület közötti függőleges távolság.
 Ha ezt az értéket 0-ra állítja, a SuperSlicer nem fogja használni az áramlási sebességet és a híd sebességet az objektum első rétegéhez.
 
 A réteg magasságának 50 és 75%-a közötti értékek jól működnek.
+
+![&#xC9;rintkez&#xE9;si Z t&#xE1;vols&#xE1;g](.gitbook/assets/13103.jpeg)
 
 **Típus**
 
@@ -1452,9 +1470,11 @@ Egyetlen kerületet hoz létre a támaszok körül, ami stabilabbá teszi őket,
 
 A támaszok vonalai közötti távolság. Növelje ezt, hogy könnyebb legyen a támaszok eltávolítása. A támasz felületi rétegei áthidalják a támasz vonalakat, ha ezt az értéket túlságosan megnöveli, ezek a hidak elkezdenek megereszkedni, és nem lesz tökéletes kapcsolatuk a modellel.
 
-A teljes támogatás eléréséhez állítsa nullára.
+> A teljes támogatás eléréséhez állítsa nullára.
 
 Legyen óvatos, ez a paraméter nem csak a vonalak közötti távolságot befolyásolja, hanem a támasz túlcsordulását is a támaszterületéhez képest.
+
+![A mintat&#xE1;vols&#xE1;g n&#xF6;vel&#xE9;se](.gitbook/assets/13104.png)
 
 #### _Mintaszög_
 
@@ -1462,15 +1482,17 @@ Elforgatja a kitöltési minta szögét a vízszintes síkban.
 
 #### _Támaszték csak az építőlemezről_
 
-A támaszok csak a nyomtatóágyon indulhatnak el. Ennek az opciónak a bekapcsolásával nagyon gyorsan megszabadulhat a felesleges alátámasztásoktól, főleg az organikus formákon. Mindenképpen ellenőrizze az előnézetet, és győződjön meg arról, hogy minden alkatrész vagy megtámasztva van, vagy olyan túlnyúlási szögben van, amelyet a nyomtató kezelni tud
+A támaszok csak a nyomtatóágyon indulhatnak el. Ennek az opciónak a bekapcsolásával nagyon gyorsan megszabadulhat a felesleges alátámasztásoktól, főleg az organikus formákon. Mindenképpen ellenőrizze az előnézetet, és győződjön meg arról, hogy minden alkatrész vagy megtámasztva van, vagy olyan túlnyúlási szögben van, amelyet a nyomtató kezelni tud.
 
-Mindenhol támaszok \(balra\) vs. támaszok csak az építőlemezen \(jobbra\)
+![T&#xE1;maszt&#xE9;k mindenhol \(balra\) vs. T&#xE1;maszt&#xE9;k csak az &#xE9;p&#xED;t&#x151;lemezr&#x151;l \(jobbra\)](.gitbook/assets/13105.png)
 
 #### _XY elválasztás egy tárgy és a tartószerkezet között_
 
 Meghatározza a modell és a támaszok közötti rés szélességét. A nagyobb XY elválasztás csökkenti a támaszok érintkezését, de könnyebben eltávolíthatóvá és kevésbé hajlamossá teszi őket a modellel való összeolvadásra.
 
 Ha százalékban van megadva \(pl. 150%\), akkor azt a külső kerület szélességéből kell kiszámítani.
+
+![Sz&#xE1;zal&#xE9;kos kifejez&#xE9;s](.gitbook/assets/13106.jpeg)
 
 #### _Ne támogassa a hidakat_.
 
@@ -1508,7 +1530,9 @@ A teljes felületi mintázathoz állítsa nullára.
 
 Fedje le a hordozók felső érintkezőrétegét hurkokkal. Hozzon létre hurkokat a modell körül.
 
-Alapértelmezés szerint ki van kapcsolva.
+![Fel&#xFC;leti hurkok](.gitbook/assets/13107.png)
+
+> Alapértelmezés szerint ki van kapcsolva.
 
 ## Sebesség
 
