@@ -1540,7 +1540,7 @@ Fedje le a hordozók felső érintkezőrétegét hurkokkal. Hozzon létre hurkok
 
 A szoftver sebességbeállítási.
 
-![Sebess&#xE9;gszab&#xE1;lyoz&#xF3; panel](.gitbook/assets/13109.jpg)
+![Sebbes&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13109a.jpg)
 
 ### Nyomtatási mozgások sebessége
 
@@ -1720,7 +1720,7 @@ Másrészt, ha nagyobb, nagy rétegmagasságú modelleket nyomtat, észreveheti,
 
 ## Szélesség és áramlás
 
-![Sz&#xE9;less&#xE9;g &#xE9;s &#xE1;raml&#xE1;s be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/13123.jpg)
+![Sz&#xE9;less&#xE9;g &#xE9;s &#xE1;raml&#xE1;s be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/13123a.jpg)
 
 ### Extrudálás szélessége
 
@@ -1884,6 +1884,8 @@ Az extruder, amelyet a támaszték felület nyomtatásához használni kell \(1+
 
 ### Csepegés megelőzése
 
+![A csepeg&#xE9;s megel&#x151;z&#xE9;se be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13133.jpg)
+
 #### _Engedélyezés_
 
 Ez az opció csökkenti a nem használt extruderek hőmérsékletét, hogy megakadályozza a szivárgást. Ez automatikusan aktiválja egy nagyméretű szoknya létrehozását és az extrudereknek a hőmérséklet-változások során a szoknyából való kimozdulását.
@@ -1894,11 +1896,15 @@ Hőmérsékletkülönbség, amelyet akkor kell alkalmazni, ha az extruder nem ak
 
 ### Tisztítótorony
 
+![Tiszt&#xED;t&#xF3;torony opci&#xF3;k](.gitbook/assets/13137.jpg)
+
 #### _Engedélyezés_
 
-A több anyagból nyomtatóknak szerszámcsere során szükségük lehet extruderük előkészítésére vagy tisztítására. Extrudálja a felesleges anyagot a tisztítótoronyba.
+A több anyagból nyomtatóknak szálcsere során szükség lehet az extruder előkészítésére vagy tisztítására. Extrudálja a felesleges anyagot a tisztítótoronyba.
 
-Felhívjuk a figyelmet arra, hogy a tisztítótorony aktiválása nem lehetséges a **Az objektumok nyomtatása egyesével** módban \(**A nyomtatási beállítások - Kimeneti beállítások - Sorrendben történő nyomtatás** menüben\).
+Felhívjuk a figyelmet arra, hogy a tisztítótorony aktiválása nem lehetséges a **Az objektumok nyomtatása egyesével** módban \([ **Nyomtatási beállítások - Kimeneti beállítások - Sorrendben történő nyomtatás**](untitled-2.md#sorrendben-szekvencialis-toerteno-nyomtatas) menüben\).
+
+![T&#xF6;r&#xF6;lje a jel&#xF6;l&#x151;n&#xE9;gyzetet a tiszt&#xED;t&#xF3;torony aktiv&#xE1;l&#xE1;s&#xE1;hoz.](.gitbook/assets/13134.jpg)
 
 #### _Tisztítótorony X és Y pozíció_
 
@@ -1932,15 +1938,29 @@ Ha engedélyezve van, akkor a tisztítótorony nem lesz nyomtatva a szálcsere n
 
 Ha ez engedélyezve van, akkor a nyomtatási feladat kezdetén az összes nyomtató extruder a nyomtatólemez elején lesz előkészítve.
 
+![Aktiv&#xE1;lt extruderek el&#x151;k&#xE9;sz&#xED;t&#xE9;se](.gitbook/assets/13136.jpg)
+
 ### Haladó
+
+![](.gitbook/assets/13138%20%281%29.jpg)
 
 #### _Tömör héjak_
 
 Kényszeríti a szomszédos területek/anyagok közötti tömör héjak létrehozását. Hasznos több extruderrel történő nyomtatáshoz áttetsző anyagokkal vagy oldható anyagokkal.
 
-A bal oldalon az opció nincs aktiválva / A jobb oldalon a tömör héjak aktiválva van.
+{% tabs %}
+{% tab title="Tömör héjak kikapcsolva" %}
+![](.gitbook/assets/13139.jpeg)
+{% endtab %}
+
+{% tab title="Tömör héjak bekapcsolva" %}
+![](.gitbook/assets/13140.jpeg)
+{% endtab %}
+{% endtabs %}
 
 ## Kimeneti beállítások
+
+![Kimeneti be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13141a.jpg)
 
 ### Lemez
 
@@ -1953,6 +1973,8 @@ Az automatikus lemezelrendezés funkció által használt távolság. Ez állít
 Ha egyszerre több objektumot nyomtat ki, választhatja, hogy azokat egymás után, egyenként nyomtatja ki. Ez minimalizálhatja a szivárgást és a nyomatok közötti szálak kialakulását. Megakadályozhatja azt is, hogy több félkész nyomatot veszítsen, ha az egyik objektum leválik a nyomtatólemezről.
 
 Ezt a funkciót a **Nyomtatási beállítások - Kimeneti beállítások - Az objektumok nyomtatása egyesével** bekapcsolásával engedélyezheti.
+
+![Szekvenci&#xE1;lis nyomtat&#xE1;s](.gitbook/assets/13141.jpg)
 
 Nyomja meg az **E** billentyűt az objektumok **sorrendjének** megtekintéséhez a 3D nézetben.
 
