@@ -1504,6 +1504,8 @@ A támaszt a modell magasságával megegyező rétegmagassággal nyomtatjuk ki. 
 
 ### A támasz felület beállításai
 
+![A t&#xE1;masz fel&#xFC;let be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/13108.jpg)
+
 #### _Minta_
 
 * _**Egyenes vonalú**_- alapértelmezés szerint, általában a legkönnyebben eltávolítható
@@ -1538,7 +1540,11 @@ Fedje le a hordozók felső érintkezőrétegét hurkokkal. Hozzon létre hurkok
 
 A szoftver sebességbeállítási.
 
+![Sebess&#xE9;gszab&#xE1;lyoz&#xF3; panel](.gitbook/assets/13109.jpg)
+
 ### Nyomtatási mozgások sebessége
+
+![Nyomtat&#xE1;si mozg&#xE1;sok sebess&#xE9;ge be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13110.jpg)
 
 #### Kerületek sebessége
 
@@ -1580,17 +1586,21 @@ Sebesség a kerületekre \( körvonalak, függőleges falakra\). Automatikus be�
 
 A nyomtatási mozgások sebessége.
 
-Megjegyzés: A sebesség 0-ra állítása letiltja a funkciót.
+> Megjegyzés: A sebesség 0-ra állítása letiltja a funkciót.
 
-_Balra a furat kitöltése aktív, jobbra a felső tömör kitöltés váltja fel_
+![Balra a furat kit&#xF6;lt&#xE9;se akt&#xED;v, jobbra a fels&#x151; t&#xF6;m&#xF6;r kit&#xF6;lt&#xE9;s v&#xE1;ltja fel](.gitbook/assets/13111.jpeg)
 
 ### Sebesség a nyomtatás nélküli utazáshoz
+
+![Sebess&#xE9;g a nyomtat&#xE1;s n&#xE9;lk&#xFC;li utaz&#xE1;shoz](.gitbook/assets/13112.jpeg)
 
 **Utazási sebesség:** Mozgási sebesség \(két távoli extrudálási pont közötti utazás\).
 
 Lehetőség a **X/Y** és **Z** tengelyek sebességének eltérő meghatározására.
 
 ### Módosítók
+
+![Sebess&#xE9;g m&#xF3;dos&#xED;t&#xF3;k](.gitbook/assets/13113.jpg)
 
 **Első réteg sebessége**
 
@@ -1604,15 +1614,17 @@ Ezek a paraméterek a kis kerület fogalmának meghatározására szolgálnak.
 
 **Minimális hossz:** Ez határozza meg a kis kerület hosszának küszöbértékét. Minden olyan hurok, amelynek hossza ennél kisebb, kis kerületi sebességgel kerül kinyomtatásra.
 
-Kifejezhető mm-ben vagy a fúvóka átmérőjének %-ában.
+> Kifejezhető mm-ben vagy a fúvóka átmérőjének %-ában.
 
 **Maximális hossz:** Ez állítja be a kis kerület hosszának küszöbértékét. Minden ennél kisebb kerületű hurok sebessége egy kicsit csökken, a normál sebességükről az adott hosszúságra a kis kerület sebességére.
 
-Kifejezhető mm-ben vagy a fúvóka átmérőjének %-ában.
+> Kifejezhető mm-ben vagy a fúvóka átmérőjének %-ában.
 
 **Sebesség:** Ez a különálló beállítás a &lt;= 6,5 mm sugarú körvonalak \(általában lyukak\) sebességét befolyásolja. Ha ez az érték százalékban van megadva \(pl. 80%\), akkor a fenti kerületi sebességbeállításból kerül kiszámításra. Automatikus beállításhoz állítsa nullára.
 
 ### Gyorsulásszabályozás \(haladó\)
+
+![Gyorsul&#xE1;sszab&#xE1;lyoz&#xE1;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13114.jpg)
 
 **Kerületek**: A nyomtató által a kerületekre használt gyorsítás. Nullára állítva letiltja a gyorsítást a kerületekre vonatkozóan.
 
@@ -1626,6 +1638,8 @@ Kifejezhető mm-ben vagy a fúvóka átmérőjének %-ában.
 
 ### Automatikus sebesség \(haladó\)
 
+![Automatikus sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13115.jpg)
+
 #### _Maximális nyomtatási sebesség_
 
 Ha a többi sebességet 0-ra állítja, a SuperSlicer automatikusan kiszámítja az optimális sebességet, hogy az extruderben állandó nyomás legyen. Ez a kísérleti funkció a legnagyobb megengedett sebesség beállítására szolgál.
@@ -1638,7 +1652,7 @@ Ez a SuperSlicer felhasználóknak **nagy előnyt** biztosít. Ahelyett, hogy me
 
 Maximális térfogatsebesség = rétegmagasság x extrudálási szélesség x sebesség
 
-A független MVS-értékek a **Nyomtatási beállítások** és a **Szál beállítások** menüpontokban állíthatók be. A nyomtatási profilban általában van egy globális alapértelmezett érték, amely a hotenden alapul. A szálprofilokban az MVS-t szükség szerint módosíthatja a szál jellemzőinek figyelembevételével, például csökkentheti azt a FLEX szálak esetében \(így nem kell új nyomtatási profilt létrehoznia a rugalmas szálakhoz, csak egy szálprofilt\).
+A független MVS-értékek a **Nyomtatási beállítások** és a **Szál beállítások** menüpontokban állíthatók be. A nyomtatási profilban általában van egy globális alapértelmezett érték, amely a hotend-en alapul. A szálprofilokban az MVS-t szükség szerint módosíthatja a szál jellemzőinek figyelembevételével, például csökkentheti azt a FLEX szálak esetében \(így nem kell új nyomtatási profilt létrehoznia a rugalmas szálakhoz, csak egy szálprofilt\).
 
 Állítsa az MVS-t **nulla** \(0\) értékre, a **nincs határérték**hez.
 
@@ -1652,9 +1666,11 @@ Ez az érték határozza meg a teljes maximális térfogatsebességet. Még ha a
 
 #### _Az MVS a szál beállításokban_
 
-**Szál beállítások - Speciális - Maximális térfogatsebesség** \(Speciális mód\)
+\*\*\*\*[**Szál beállítások - Nyomtatószál - Nyomtatási sebesség felülbírálása - Maximális térfogatsebesség**](filament_settings.md#maximalis-terfogatsebesseg) \(Speciális mód\)
 
 Ezt az értéket a Nyomtatási beállításokban beállított MVS korlátozza, de felülbírálhatja egy alacsonyabb értékkel.
+
+![Maxim&#xE1;lis t&#xE9;rfogatsebess&#xE9;g](.gitbook/assets/13117.jpg)
 
 A legtöbbször sem a lineáris sebesség, sem a maximális térfogatsebesség nem fontos a kis nyomatok esetében. A fúvóka soha nem éri el a maximális sebességet, és az idő nagy részét kisebb sebességgel gyorsulva és lassulva tölti. Ez akkor számít, amikor nagyobb alkatrészeket készít, vagy gyorsan mozog, például kitöltésnél. A "sebességhatár betartása" a maximális térfogatsebesség beállításával megakadályozza az extruder kattogását és elakadását, amelyek katasztrófát okozhatnak egy nagyméretű nyomtatás felénél.
 
@@ -1700,7 +1716,11 @@ A kisebb modelleknél észre fogja venni, hogy az MVS egyáltalán nem korlátoz
 
 Másrészt, ha nagyobb, nagy rétegmagasságú modelleket nyomtat, észreveheti, hogy az MVS korlátozza a sebességet, különösen a kitöltés nyomtatásakor. Ha a modell nagy része lassabban nyomtat az MVS-korlát miatt, fontolja meg a rétegmagasság csökkentését, így "ingyen" több részletet kap.
 
+![R&#xE9;teg magass&#xE1;g&#xE1;nak be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/13118.jpg)
+
 ## Szélesség és áramlás
+
+![Sz&#xE9;less&#xE9;g &#xE9;s &#xE1;raml&#xE1;s be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/13123.jpg)
 
 ### Extrudálás szélessége
 
@@ -1710,11 +1730,19 @@ Ez a paraméter lehetővé teszi egy nem nulla érték beállítását az extrud
 
 A sortávolság a vonalszélesség meghatározásának alternatív módja. A paraméterek bármelyikét megadhatja. Az egyik mezőben történő változtatással a másik érték automatikusan kiszámításra kerül és fordítva.
 
+![V&#xE1;ltoz&#xF3; meghat&#xE1;roz&#xE1;sa \(Gif\)](.gitbook/assets/13119.gif)
+
 A Távolság paraméter lehetővé teszi egy nem nulla érték beállítását a peremek közötti távolság manuális meghatározásához. Ha az érték százalékban van megadva, akkor a rétegmagassághoz viszonyítva kerül kiszámításra. A következő ábra a Szélesség és a Távolság közötti különbséget szemlélteti. Ha a kerület átfedése 100%-ra van állítva, a sárga területeket ki kell tölteni az átfedéssel. Ha az átfedés értéke 0% Szélesség = Távolság.
+
+![Sz&#xE9;less&#xE9;g vagy t&#xE1;vols&#xE1;g](.gitbook/assets/13121.jpg)
 
 Ha úgy dönt, hogy az értékeket százalékban fejezi ki, akkor a százalékot mindkét típusú specifikációban használni fogja.
 
+![Meghat&#xE1;roz&#xE1;s %-ban.](.gitbook/assets/13122.jpg)
+
 ### Extrudálás szélessége
+
+![Az extrud&#xE1;l&#xE1;s sz&#xE9;less&#xE9;g&#xE9;nek be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/13124.jpg)
 
 #### _Alapértelmezett extrudálási szélesség_.
 
@@ -1756,6 +1784,8 @@ Az egyes objektumok köré nyomtatott szoknya vízszintes szélessége. Ha az é
 
 ### Átfedés
 
+![&#xC1;tfed&#xE9;si lehet&#x151;s&#xE9;gek](.gitbook/assets/13125.jpg)
+
 #### _Kerület átfedés_
 
 Ez az **alapértelmezett** beállítás lehetővé teszi, hogy csökkentse a kerületek közötti átfedést, hogy csökkentse a kerületi elemek hatását. A 100% azt jelenti, hogy nem marad hely, a 0% pedig azt, hogy a kerületek már nem érnek össze.
@@ -1772,7 +1802,19 @@ Ez a beállítás lehetővé teszi, hogy csökkentse az átfedést a kerület é
 
 Ez az opció további átfedést alkalmaz a kerületek és a kitöltés között a jobb összemosás érdekében. Elméletileg erre nem lenne szükség, de a mechanikus hiányosságokat hibákat okozhatnak. Ha százalékban van megadva \(pl. 15%\), az értéket a kerület extrudálási szélessége alapján számítják ki.
 
-25%-os átfedés a bal oldalon, 50%-os átfedés a jobb oldalon.
+![&#xC1;tfed&#x151; ker&#xFC;let kit&#xF6;lt&#xE9;s](.gitbook/assets/13126.jpg)
+
+{% tabs %}
+{% tab title=" 25%-os átfedés" %}
+![](.gitbook/assets/13127.jpeg)
+{% endtab %}
+
+{% tab title="50%-os átfedés" %}
+![](.gitbook/assets/13128.jpeg)
+{% endtab %}
+{% endtabs %}
+
+
 
 #### _Hidak átfedése_
 
@@ -1780,11 +1822,15 @@ A hídvonalak közötti átfedés mértéke. Ha több \(vagy kevesebb\) helyet s
 
 ### Áramlási sebesség
 
+![&#xC1;raml&#xE1;si sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13131.jpg)
+
 #### _Áramlási arány_
 
 #### Híd
 
 Ez a tényező befolyásolja a hídhoz felhasznált műanyag mennyiségét. A megereszkedés elkerülése érdekében kissé csökkentheti. Az alapértelmezett érték általában elegendő, és ennek megváltoztatása előtt érdemes kísérletezni a hűtéssel \(ventilátorral\).
+
+![Az &#xE1;raml&#xE1;si sebess&#xE9;g v&#xE1;ltoz&#xE1;sa a t&#xFA;lny&#xFA;l&#xF3; r&#xE9;szekn&#xE9;l](.gitbook/assets/13130.png)
 
 #### _A hidak felett_
 
@@ -1808,9 +1854,13 @@ Megjegyzés: 100%-nál ez ~5%-kal változtatja meg az áramlási sebességet egy
 
 ## Több extruder
 
+![T&#xF6;bb extruder be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13132a.jpg)
+
 ### Extruderek
 
 A nyomtatás különböző részeinek létrehozásához használandó extruderek meghatározása.
+
+![Extruderek be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/13132.jpg)
 
 #### _Kerület extruder_
 
