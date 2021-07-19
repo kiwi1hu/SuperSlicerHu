@@ -1,10 +1,12 @@
 # Nyomtatási beállítások
 
-![Be&#xE1;ll&#xED;t&#xE1;sok a nyomtat&#xE1;s be&#xE1;ll&#xED;t&#xE1;s&#xE1;hoz](.gitbook/assets/13001.jpg)
-
 ## Kerületek és héj
 
+![Ker&#xFC;letek &#xE9;s h&#xE9;j](.gitbook/assets/print_settings_001.png)
+
 ### Függőleges héjak \(falak\)
+
+![F&#xFC;gg&#x151;leges h&#xE9;jak](.gitbook/assets/print_settings_002.png)
 
 #### _Kerületek_
 
@@ -14,7 +16,7 @@ Meghatározza a modell falát alkotó körvonalak minimális számát. A profilo
 
 A modell szilárdságát elsősorban a kerületek száma határozza meg \(nem a kitöltés\). Ha erősebb nyomatot szeretne létrehozni, növelje a kerületek számát.
 
-![A ker&#xFC;letsz&#xE1;mok sz&#xE1;ma \(prusa k&#xE9;p\)](.gitbook/assets/13002.jpeg)
+![A ker&#xFC;letsz&#xE1;mok sz&#xE1;ma \(prusa k&#xE9;p\)](.gitbook/assets/print_settings_003.jpeg)
 
 #### _Spirálváza_
 
@@ -42,6 +44,8 @@ A modellt szilárdtestként kell definiálni, különben a SuperSlicer megprób�
 
 ### Vízszintes héjak
 
+![V&#xED;zszintes h&#xE9;jak](.gitbook/assets/print_settings_004%20%281%29.png)
+
 #### _Minimális héjvastagság_
 
 A SuperSlicer a kiválasztott kerületek számához és rétegmagassághoz kiszámítja az optimális \(vékony\)falvastagságot. Ha visszamegy a CAD-rajzához, és a falvastagságot pontosan erre az értékre módosítja, akkor megszünteti a szükségtelen kerületi átfedéseket, és a nyomtatás tökéletes falfelületet kap.
@@ -52,13 +56,13 @@ Azt gondolhatja, hogy ha egy kerület extrudálási szélessége 0,45 mm, akkor 
 
 Ahhoz, hogy megértsük, hogyan számolják ki ezt a számot, meg kell néznünk a kerületi keresztmetszetet. A SuperSlicer feltételezi, hogy az extrudálás keresztmetszete egy téglalap, félköríves végekkel. Vegye figyelembe, hogy az extrudálás szélessége magában foglalja a két félköríves véget.
 
-![Egy keresztmetszet](.gitbook/assets/13003.png)
+![Egy keresztmetszet](.gitbook/assets/print_settings_005.png)
 
 _\(A kép forrás:_ [https://manual.slic3r.org/advanced/flow-math](https://manual.slic3r.org/advanced/flow-math) _\)_
 
 Most adjunk hozzá egy második extrúziót/kerületet. Ha feltételezzük, hogy nincs átfedés \(érintő pályák\), akkor üres tér lenne \(sárga\). Az üres tér kitöltése és a kerületeket összekötése érdekében a SuperSlicer kissé átfedi a kerületeket. Lényegében ezért nem lehet egyszerűen megszorozni a kerületszámot egyetlen kerület szélességével, hogy megkapjuk az ideális falvastagságot.
 
-![&#xC1;tfed&#x151; ker&#xFC;letek](.gitbook/assets/13004.png)
+![](.gitbook/assets/print_settings_006.png)
 
 _\(A kép forrása :_ [https://manual.slic3r.org/advanced/flow-math](https://manual.slic3r.org/advanced/flow-math)_\)_
 
@@ -66,7 +70,7 @@ _\(A kép forrása :_ [https://manual.slic3r.org/advanced/flow-math](https://man
 
 További információért nézze meg a [Slic3r áramlásának matematikája oldalát](https://manual.slic3r.org/advanced/flow-math) \(ennek a szövegnek egyes részei arról az oldalról származik\).
 
-#### _Szilárd\(tömör\) rétegek - felül/alul_
+#### _Tömör\(szilárd\) rétegek - felül/alul_
 
 Az egyes modellek alsó és felső részei általában tömör rétegekkel vannak kitöltve \(100%- os kitöltés\).
 
@@ -74,11 +78,11 @@ Meghatározhatja a nyomtatni kívánt szilárd\(tömör\) rétegek \(felső és 
 
 A felső vagy alsó tömör rétegek 0-ra állítása felülírja a minimális falvastagságot. Tehát nem kell a minimális falvastagságot is 0-ra állítania ahhoz, hogy felső vagy alsó rétegeket kapjon.
 
-![A fels&#x151; &#xE9;s als&#xF3; r&#xE9;tegek sz&#xE1;ma](.gitbook/assets/13005.jpg)
+![A fels&#x151; &#xE9;s als&#xF3; r&#xE9;tegek sz&#xE1;ma](.gitbook/assets/print_settings_004.png)
 
 A felső tömör kitöltés lényegében egy híd a kitöltési minta felett. Emiatt szinte mindig látni fog némi megereszkedést az első néhány tömör kitöltési vonalnál. Minél alacsonyabb a kitöltés, annál hosszabb az áthidalási távolság, és ezért annál nagyobb a megereszkedés. Ez egyszerűen ellensúlyozható a tömör rétegek számának növelésével - mi **legalább 3 felső réteget** javaslunk. Ezt a viselkedést tovább csökkentheti egy módosító hálóval, amely növeli a kitöltést a tömör kitöltés előtti utolsó néhány rétegben.
 
-![Balr&#xF3;l jobbra, 1, 2, 3 &#xE9;s 5 fels&#x151; r&#xE9;teg, 0,1 mm-es r&#xE9;tegmagass&#xE1;ggal nyomtatva \(Prusa k&#xE9;p\).](.gitbook/assets/13006.jpeg)
+![Balr&#xF3;l jobbra, 1, 2, 3 &#xE9;s 5 fels&#x151; r&#xE9;teg, 0,1 mm-es r&#xE9;tegmagass&#xE1;ggal nyomtatva \(Prusa k&#xE9;p\).](.gitbook/assets/print_settings_007.jpeg)
 
 Ne feledje, hogy alacsony rétegmagasságú nyomtatás esetén több tömör rétegre lesz szüksége ugyanazon felső/alsó falvastagság eléréséhez \(pl. 0,3 mm-es rétegmagasság esetén használjon 3 felső réteget, 0,1 mm-es rétegmagasság esetén 9 felső réteget\).
 
@@ -90,7 +94,7 @@ Kísérleti opció, amely módosítja \(teljes kitöltés esetén\) a kitöltés
 
 ### Minőség \(lassabb szeletelés\)
 
-![Min&#x151;s&#xE9;gi param&#xE9;terek](.gitbook/assets/13007.jpg)
+![Min&#x151;s&#xE9;g](.gitbook/assets/print_settings_008.png)
 
 #### _Csak egy kerület a felső felületeken_
 
@@ -108,13 +112,13 @@ Ez a funkció megoldja a régebbi szeletelő programok egyik legnagyobb problém
 
 Ez a funkció jelenleg még kikapcsolt állapotban is hatással van a G-kód generálására, és váratlan G-kódot eredményezhet. Ez egy ismert probléma, és dolgozunk a javításán.
 
-![A peremek k&#xF6;z&#xF6;tti lyukak elt&#xE1;vol&#xED;t&#xE1;sa lejt&#x151;s fel&#xFC;leten \(Prusa k&#xE9;p\)](.gitbook/assets/13008.jpeg)
+![A ker&#xFC;letek k&#xF6;z&#xF6;tti lyukak elt&#xE1;vol&#xED;t&#xE1;sa lejt&#x151;s fel&#xFC;leten \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_009.jpeg)
 
 #### _Kerülje a határok átlépését_
 
 Optimalizálja az utazást a kerületek keresztezésének minimalizálása érdekében. Ez segíthet megakadályozni a fúvókából a kicsepegést a mozgatás során, különösen a Bowden extruderekkel. A funkció engedélyezése jelentősen lelassítja a G-kód generálását és növeli a nyomtatási időt
 
-![Ker&#xFC;lje az akt&#xED;v opci&#xF3; hat&#xE1;rainak jobb oldali keresztez&#xE9;s&#xE9;t \(Prusa k&#xE9;p\)](.gitbook/assets/13009.jpeg)
+![Ker&#xFC;lje a hat&#xE1;rok &#xE1;tl&#xE9;p&#xE9;s&#xE9;t opci&#xF3; balra kikapcsolva,  jobbra bekapcsolva \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_010.jpeg)
 
 #### Kerülje a határkerületek keresztezését - Maximális kerülőút hossza
 
@@ -134,23 +138,31 @@ A **vékony falak felismerésének** engedélyezése lehetővé teszi a SuperSli
 
 Engedélyezi a túlnyúlások áthidaló áramlását és bekapcsolja a ventilátort. Ez egy kísérleti opció, amely beállítja a túlnyúlások áramlását \(a hidak áramlását fogja használni\), a hidak sebességét alkalmazza rájuk, és bekapcsolja a ventilátort.
 
-![A k&#xE9;pen a felder&#xED;t&#xE9;s nem akt&#xED;v \(Prusa k&#xE9;p\)](.gitbook/assets/13010.jpeg)
+{% tabs %}
+{% tab title="Felderítés kikapcsolva" %}
+![](.gitbook/assets/print_settings_011.jpeg)
+{% endtab %}
 
-![Az al&#xE1;bbi k&#xE9;pen a felder&#xED;t&#xE9;s akt&#xED;v](.gitbook/assets/13011.png)
+{% tab title="Felderítés bekapcsolva" %}
+![](.gitbook/assets/print_settings_012.jpeg)
+{% endtab %}
+{% endtabs %}
 
 A hidakra vonatkozó áramlási arány beállításához lásd a [Áramlási arány hidakhoz](untitled-2.md#aramlasi-arany) paramétert.
 
 ### Túlnyúlások
 
-![T&#xFA;lny&#xFA;l&#xE1;sok be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13012.jpg)
+![](.gitbook/assets/print_settings_013.png)
 
 #### _**A híd sebesség és a ventilátor küszöbértéke**_
 
 Egy extrudálás minimális nem alátámasztott szélessége a híd ventilátor és a túlnyúlás sebességének az adott túlnyúlásra történő alkalmazásához.
 
-A fúvókaátmérő mm-ben vagy %-ban adható meg.
-
+> A fúvókaátmérő mm-ben vagy %-ban adható meg.
+>
 > _**A kikapcsoláshoz állítsa 0-ra.**_
+
+
 
 #### _A hídáramlás küszöbértéke_
 
@@ -176,13 +188,15 @@ Az a mm-szám, amennyinek a túlnyúlásnak lennie kell ahhoz, hogy az átfordí
 
 ### Haladó
 
+![Halad&#xF3;](.gitbook/assets/print_settings_020.png)
+
 #### _A hídterületeken nincs kerület_
 
 Ez az opció arra szolgál, hogy segítsen olyan tárgyak szeletelésében, amelyeknek furatuk van.
 
-![P&#xE9;lda egy furatra s&#xFC;llyesztett furattal](.gitbook/assets/13013.jpg)
+![P&#xE9;lda egy furatra s&#xFC;llyesztett furattal](.gitbook/assets/print_settings_014.jpeg)
 
-![Szabv&#xE1;nyos kiv&#xE1;g&#xE1;s](.gitbook/assets/13014.jpeg)
+![Szabv&#xE1;nyos kiv&#xE1;g&#xE1;s](.gitbook/assets/print_settings_015.jpeg)
 
 A probléma megoldására több lehetőség is van:
 
@@ -192,15 +206,15 @@ Előnyök \(+\): egyszerű és hatékony.
 
 Hátrányok \(-\): Egyes hidak nincsenek mindkét oldalon rögzítve.
 
-![Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa](.gitbook/assets/13015.jpeg)
+![Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa](.gitbook/assets/print_settings_016.jpeg)
 
 * **Hézagok kitöltése hidakkal** : áthelyezi a kerületet, és kiterjeszti a híd területét, hogy kitöltse az üres helyet. Ez egy kaput hoz létre, amelyet a felhasználónak kézzel kell eltávolítania. Megjegyezzük, hogy ezt manuálisan is megteheti, ha létrehoz egy új hengert ezen a helyen \(jobb klikk az alkatrészre -&gt; alkatrész hozzáadása -&gt; henger, a jobb oldali területen oldja fel a skálákat és változtassa meg az X&Y méretet nyomja meg az Entert, majd mozgassa be a lyukba változtassa meg a z méretét a réteg magasságára és adja meg a Z pozíciót\).
 
 Előnyök \(+\): jobb ellenfúró hatás.
 
-Hátrányok \(-\): A meredek szögű fúrókúpok a túl nagy \(a normálisnál is nagyobb mértékű\) túlnyúlás miatt tönkreteszik az alkatrészt.
+Hátrányok \(-\): A meredek szögű fúrókúpok a túl nagy \(a normálisnál is nagyobb mértékű\) túlnyúlás miatt tönkremegy az alkatrészt.
 
-![T&#xF6;ltse ki az &#xFC;res helyeket hidakkal](.gitbook/assets/13016.jpeg)
+![T&#xF6;ltse ki az &#xFC;res helyeket hidakkal](.gitbook/assets/print_settings_017.jpeg)
 
 * **Csak a hidakat tartsa meg** : ne nyomtasson ki olyan területet, amely nem híd. Túlságosan kísérleti, ne használja, amíg nem lesz egy kicsit jobb. 
 
@@ -208,7 +222,7 @@ Előnyök \(+\) : ? egyszerű ?
 
 Hátrányok \(-\): tönkreteszi a túlnyúlásokat, és nem hiszem, hogy jobban nyomtatná az ellenfúrást sem.
 
-![Csak a hidakat tartsa meg](.gitbook/assets/13017.jpeg)
+![Csak a hidakat tartsa meg](.gitbook/assets/print_settings_018.jpeg)
 
 * **Hidak és túlnyúlások karbantartása** : Az előző opcióhoz hasonlóan kinyomtatja a hidat, de a maradékot kitölti egy kerülettel és a "rossz hidakat". Nagyon kísérleti jellegű. 
 
@@ -216,7 +230,7 @@ Előnyök \(+\) esetében: a megfelelő mennyiségű műanyagot nyomja, mint a �
 
 Hátrányok \(-\): nehéz nyomtatni.
 
-![Hidak &#xE9;s t&#xFA;lny&#xFA;l&#xE1;sok karbantart&#xE1;sa](.gitbook/assets/13018.jpeg)
+![Hidak &#xE9;s t&#xFA;lny&#xFA;l&#xE1;sok karbantart&#xE1;sa](.gitbook/assets/print_settings_019.jpeg)
 
 #### Hézagkitöltés
 
@@ -243,9 +257,9 @@ Hacsak nem “spirálváza” üzemmódban nyomtat, a kerület minden egyes huro
 
 Ez a varrás különösen akkor lesz látható, ha a tárgy alakja hengeres, éles sarkok nélküli.
 
-Annak érdekében, hogy a varratot a lehető legjobban elrejtse, többféle varratelhelyezési lehetőség áll rendelkezésre a : **Nyomtatási beállítások - Kerületek és héj - Varratok - Varrás.**
+Annak érdekében, hogy a varratot a lehető legjobban elrejtse, többféle varratelhelyezési lehetőség áll rendelkezésre a : **Nyomtatási beállítások - Kerületek és héj - Haladó - Varrás.**
 
-![Varrat poz&#xED;ci&#xF3;](.gitbook/assets/13020.jpg)
+![Varr&#xE1;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_021.png)
 
 A SuperSlicer 2.3-tól kezdve a **varratfestő** eszközzel részletesen szabályozhatja a varratok elhelyezését.
 
@@ -255,13 +269,13 @@ Próbálja meg a varratot az aktuális réteghez legközelebb eső szélén elhe
 
 Pontosabban, megpróbálunk egy túlnyúlás nélküli homorú csúcsot választani, hogy a varrás a homorú szög belsejében legyen elrejtve. Ha nem áll rendelkezésre túlnyúlás nélküli homorú csúcs, akkor egy túlnyúlás nélküli konvex csúcsot választ. Ha egyik sem áll rendelkezésre, akkor egy túlnyúlás nélküli csúcsot választ. A jelöltek közül úgy kell választani, hogy a kiindulási pont a legközelebb legyen az extruder korábbi pozíciójához. Ez az opció ezért rövid távolságok esetén optimális.
 
-![K&#xF6;lts&#xE9;galap&#xFA; varr&#xE1;si poz&#xED;ci&#xF3; \(legk&#xF6;zelebb\)](.gitbook/assets/13021.jpeg)
+![K&#xF6;lts&#xE9;galap&#xFA; varr&#xE1;si poz&#xED;ci&#xF3; \(legk&#xF6;zelebb\)](.gitbook/assets/print_settings_022.jpeg)
 
 **Igazított**
 
 Ugyanazzal a logikával keresi a jelölteket, mint a **költségalapú**, de azt választja ki, amelyik a legközelebb van az előző réteg kiindulási pontjához. Ez biztosítja, hogy a varrás többnyire az egész tárgyon egy vonalban legyen.
 
-![V&#xE9;letlenszer&#x171; \(balra\) vagy igaz&#xED;tott \(jobbra\) varr&#xE1;s poz&#xED;ci&#xF3;ja](.gitbook/assets/13022.jpeg)
+![V&#xE9;letlenszer&#x171; \(balra\) vagy igaz&#xED;tott \(jobbra\) varr&#xE1;s poz&#xED;ci&#xF3;ja](.gitbook/assets/print_settings_023.jpeg)
 
 **Véletlenszerű**
 
@@ -269,7 +283,7 @@ Ez minden réteghez más pontot választ, így a varrás kevésbé lesz észreve
 
 Nem sok értelme van a véletlenszerű illesztési pozíciót használni a sarkokkal/éles élekkel rendelkező modelleknél, sokkal jobb a költségalapú vagy igazított pozíciót használni ebben az esetben. Másrészt, ha hengeres, éles élek nélküli alakzatokat nyomtatunk, a véletlenszerű illesztési pozíció egy életképes lehetőség.
 
-![A varratok v&#xE9;letlenszer&#x171; elhelyez&#xE9;se](.gitbook/assets/13023.jpeg)
+![A varratok v&#xE9;letlenszer&#x171; elhelyez&#xE9;se](.gitbook/assets/print_settings_024.jpeg)
 
 **Hátul**
 
@@ -283,9 +297,9 @@ A varrat láthatóságát befolyásoló beállítások a **lineáris előtolás*
 
 Használhatja a “Spirálváza” módot a varrat elkerülésére, de akkor csak egy kerületet használhat, és nem használhat kitöltést.
 
-Példa a varrat helyzetére a beállításoktól függően
+Példa a varrat helyzetére a beállításoktól függően:
 
-| ![](.gitbook/assets/13024.png)  | ![](.gitbook/assets/13025.png)  | ![](.gitbook/assets/13026.png)  |  ![](.gitbook/assets/13027.png)  |
+| ![](.gitbook/assets/print_settings_025.jpeg)  | ![](.gitbook/assets/print_settings_026.jpeg)  | ![](.gitbook/assets/print_settings_027.jpeg)  |  ![](.gitbook/assets/print_settings_028.jpeg)  |
 | :---: | :---: | :---: | :---: |
 | Véletlenszerű | Költségalapú | Igazított | Hátul |
 
@@ -301,7 +315,7 @@ Az extruder mozgatásának költsége. A legmagasabb büntetés az, amikor a pon
 
 Ez az opció lehetővé teszi, hogy a kerületeket egymáshoz láncolja, hogy megszakítás nélkül egyetlen folyamatos extrudálást hozzon létre. A hosszú belső elmozdulások \(a külsőtől a lyukakig\) nincsenek extrudálva, hogy maradjon némi hely a kitöltéshez.
 
-![P&#xE9;lda egyhurkos ker&#xFC;letre](.gitbook/assets/13028.png)
+![P&#xE9;lda egyhurkos ker&#xFC;letre](.gitbook/assets/print_settings_029.jpeg)
 
 A **Kötés** opcióval megadhatja a kerületek közötti összekötések kezdőpontjainak helyzetét. Lehetőség van választani a következők közül:
 
@@ -312,9 +326,15 @@ A **Kötés** opcióval megadhatja a kerületek közötti összekötések kezdő
 
 Ezzel a beállítással a belső kerület megkerüli a hegyes sarkokat, és ahelyett, hogy hegyes szöget képezne, sugarat hoz létre. Ez akkor segíthet, ha a peremek hegyes sarkaiban látható lyukak vannak.
 
-![P&#xE9;lda: a kerek&#xED;tett sarkok opci&#xF3; kikapcsolva](.gitbook/assets/13029.png)
+{% tabs %}
+{% tab title="Kerekített sarkok opció kikapcsolva" %}
+![](.gitbook/assets/print_settings_030.jpeg)
+{% endtab %}
 
-![P&#xE9;lda: a kerek&#xED;tett sarkok opci&#xF3; bekapcsolva](.gitbook/assets/13030.png)
+{% tab title="kerekített sarkok opció bekapcsolva" %}
+![](.gitbook/assets/print_settings_031.jpeg)
+{% endtab %}
+{% endtabs %}
 
 ### Először a külső kerületeket
 
@@ -322,7 +342,11 @@ A kerületeket a fordított sorrend helyett kívülről befelé nyomtatjuk.
 
 Ez a beállítás segíthet a **méretpontosságban**, mivel a külső kerületet rakja le először, és a további kerület nyomtatásakor extrudált további szálak eltolódnak a külső faltól. Másrészt a felület kissé kevésbé sima lehet.
 
-![El&#x151;sz&#xF6;r a k&#xFC;ls&#x151; ker&#xFC;letek be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13031.jpg)
+![El&#x151;sz&#xF6;r a k&#xFC;ls&#x151; ker&#xFC;leteket](.gitbook/assets/print_settings_032.png)
+
+**Aktivál**
+
+Először a külső kerületeket ****opciók bekapcsolása.
 
 **Alkalmazás erre**
 
@@ -367,7 +391,11 @@ Ez a beállítás nagyon kísérleti jellegű, kérjük, számoljon be a hasznos
 
 ## Szeletelés
 
-### Réteg magassága
+![Szeletel&#xE9;s](.gitbook/assets/print_settings_033.png)
+
+### Réteg magasság
+
+![R&#xE9;teg magass&#xE1;g](.gitbook/assets/print_settings_034.png)
 
 #### _Rétegmagasság_
 
@@ -380,7 +408,7 @@ A **nagyobb rétegmagasságok** választásával **jelentősen csökkentheti a n
 
 Általános szabályként nem javasoljuk, hogy 0,10 mm alá menjen, mivel a nyomtatási minőség javulása a 0,07 vagy 0,05 mm-es rétegeknél viszonylag csekély, és a nyomtatási idő jelentősen hosszabb.
 
-![Nyomtat&#xE1;si id&#x151; &#xE9;s min&#x151;s&#xE9;g a be&#xE1;ll&#xED;t&#xE1;sokt&#xF3;l f&#xFC;gg&#x151;en \(Prusa k&#xE9;p\)](.gitbook/assets/13032.jpeg)
+![Nyomtat&#xE1;si id&#x151; &#xE9;s min&#x151;s&#xE9;g a be&#xE1;ll&#xED;t&#xE1;sokt&#xF3;l f&#xFC;gg&#x151;en \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_035.jpeg)
 
 Ne feledje, hogy a réteg magassága csak a **függőleges** felbontást befolyásolja. Például a nyomtatólemezzel párhuzamos emelt szöveg a rétegmagasságtól függetlenül ugyanúgy fog kinézni. Ha nagyobb felbontást szeretne az XY-síkban, [nézze meg a különböző átmérőjű fúvókákat](nozzles_with_a_different_diameter.md).
 
@@ -400,19 +428,19 @@ Az első réteg magasságának megváltoztatásához valószínűleg **első ré
 
 ### **Szűrés**
 
-![Sz&#x171;r&#xE9;si lehet&#x151;s&#xE9;gek](.gitbook/assets/13033.jpg)
+![Sz&#x171;r&#xE9;s](.gitbook/assets/print_settings_036.png)
 
 #### _**Felbontás**_
 
 Minimális felbontás a részletekhez, a bemeneti fájl egyszerűsítésére szolgál a szeletelés felgyorsítása és a memóriahasználat csökkentése érdekében. A nagy felbontású modellek gyakran több részletet tartalmaznak, mint amennyit a nyomtatók elő tudnak állítani.
 
-**Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
+> **Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
 
 #### _**Modell beolvasási pontosság**_
 
 #### Ez a bemeneti objektumfájl pontossága. Olyan pontok összehangolására szolgál, amelyeknek ugyanazon a vonalon kell lenniük.
 
-**Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
+> **Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
 
 #### _**A hézagzárás sugarának vágása.**_
 
@@ -420,13 +448,13 @@ A hézag sugarának kétszeresénél kisebb réseket a háromszögháló szelete
 
 ### **Rétegmódosítás**
 
-![R&#xE9;tegm&#xF3;dos&#xED;t&#xE1;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13036.jpg)
+![R&#xE9;tegm&#xF3;dos&#xED;t&#xE1;s](.gitbook/assets/print_settings_037.png)
 
 #### _**Görbék simítása**_
 
 Ezek a paraméterek lehetővé teszik a szoftver számára, hogy az egyes rétegek szögeit kiegyenlítse. Az új pontosság a paraméter pontossága lesz.
 
-**Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
+> **Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
 
 Megjegyzés: mivel a poligon éleit használja, és csak 2D-s síkokban működik, nagyon tiszta 3D-s modellre van szüksége.
 
@@ -450,7 +478,7 @@ Nyomtatáskor az **első réteg** összenyomódik a fűtött nyomtatólemezen, �
 
 Sok alkalmazás esetében ez nem jelenthet problémát. Ha azonban valaminek nagyon pontos méretekre vagy nagyon szűk tűréshatárok betartására van szüksége, akkor ez problémát jelenthet.
 
-![Az elef&#xE1;ntl&#xE1;b-effektus kompenz&#xE1;l&#xE1;sa n&#xE9;lk&#xFC;l az els&#x151; r&#xE9;teg a v&#xE1;rtn&#xE1;l sz&#xE9;lesebb lehet.](.gitbook/assets/13034.png)
+![Az elef&#xE1;ntl&#xE1;b-effektus kompenz&#xE1;l&#xE1;sa n&#xE9;lk&#xFC;l az els&#x151; r&#xE9;teg a v&#xE1;rtn&#xE1;l sz&#xE9;lesebb lehet.](.gitbook/assets/print_settings_038.png)
 
 A beállítások eléréséhez a SuperSlicer**-**nek haladó vagy szakértői módban kell lennie.
 
@@ -466,7 +494,7 @@ Ez a paraméter ugyanúgy viselkedik, mint a belső XY méretkompenzáció, de c
 
 #### _Függőleges furatok átalakítása sokszöggé_
 
-![Soksz&#xF6;gek](.gitbook/assets/13035.jpeg)
+![Soksz&#xF6;gek](.gitbook/assets/print_settings_039.jpeg)
 
 Az olvadt huzalos technológiával történő 3D nyomtatás során a zsugorodás és az anyag extrudálásának módja miatt a furatok a vártnál kisebbek lesznek. Ennek egyik módja a nagyobb furatok létrehozása, de nem ez az egyetlen megoldás: játszhat a geometriával is. Az élek pontosan vannak nyomtatva, így a körök "oldalainak" számának csökkentésével ÉS a furat "külső" oldalára helyezésével \(nem vágva a sarkokat\) funkcionális furatokat kaphat.
 
@@ -476,7 +504,7 @@ _**A sokszögek elmélete és matematikája:**_ [http://hydraraptor.blogspot.com
 
 ### Egyéb
 
-![Egy&#xE9;b be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13037.jpg)
+![Egy&#xE9;b](.gitbook/assets/print_settings_040.png)
 
 #### _Több részből álló objektumok szétválasztása_
 
@@ -486,17 +514,19 @@ Több anyagból készült objektumok nyomtatásakor ez a beállítás azt eredm�
 
 Megakadályozza, hogy a szeletelőmotor hibaüzenetet jelenítsen meg, ha egy teljes réteg üres, és ezért a nyomtatást utána újra kell kezdeni az üres rétegben.
 
-![&#xDC;res r&#xE9;teg &#xFC;zenet](.gitbook/assets/13038.png)
+![&#xDC;res r&#xE9;teg &#xFC;zenet \(5axes k&#xE9;p\)](.gitbook/assets/print_settings_041.png)
 
 ## Kitöltés
 
 A kitöltés fő funkciója, hogy belső támasztékként szolgáljon a felső rétegek számára, amelyeknek egyébként egy rést kellene áthidalniuk. A töltés hatással van a nyomtatási sebességre, a szerkezeti szilárdságra, a szálfogyasztásra és még a kész tárgy megjelenésére is.
 
-![Kit&#xF6;lt&#xE9;si lehet&#x151;s&#xE9;g](.gitbook/assets/13039.jpg)
+![Kit&#xF6;lt&#xE9;s](.gitbook/assets/print_settings_042.png)
 
 ### Kitöltés
 
-A modellek kitöltéséhez közvetlenül kapcsolódó paraméterek
+A modellek kitöltéséhez közvetlenül kapcsolódó paraméterek.
+
+![Kit&#xF6;lt&#xE9;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_043.png)
 
 #### _Kitöltési sűrűség_
 
