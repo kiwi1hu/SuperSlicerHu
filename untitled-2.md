@@ -559,12 +559,128 @@ A SuperSlicer lehetővé teszi a nyomtatott kitöltési struktúra mintázatána
 
 A következő modelltípusok állnak rendelkezésre:
 
+{% tabs %}
+{% tab title="Egyenes vonalú \(gyors 2D kitöltés\)" %}
+![](.gitbook/assets/print_settings_044%20%282%29.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+Az egyenes kitöltés **az egyik alapvető kitöltési minta.** Téglalap alakú rácsot hoz létre úgy, hogy egy réteget nyomtat egy irányba, majd a következő réteget 90°-os szögben, és így tovább. Így **kevesebb szálat** fogyaszt, és **az anyag nem halmozódik fel a kereszteződéseknél** \(ellentétben a ráccsal\). Ez az egyik **leggyorsabb nyomtatáskitöltés**.
+
+Ez a kitöltési típus az egyetlen **a 100%-os nyomtatási kitöltéshez ajánlott**. Ha a profilban más kitöltési típus van beállítva, és a kitöltési százalékot 100%-os sűrűségre állítja, a **SuperSlicer** automatikusan egyenesre váltja a kitöltési típust.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_044.jpeg)
+{% endtab %}
+
+{% tab title="Rajz" %}
+![](.gitbook/assets/print_settings_044c.png)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Monotonikus" %}
+
+{% endtab %}
+
+{% tab title="Leírás" %}
+
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_045a.jpeg)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Rács \(erős 2D kitöltés\)" %}
+![](.gitbook/assets/print_settings_046.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+Ez az egyik legegyszerűbb és leggyorsabb **kitöltési változat**. Az egyenes töltéssel ellentétben **mindkét irányban \(90°-os elfordulással\) nyomtatódik minden egyes rétegnél**. Ennek eredményeként az anyag ott halmozódik fel, ahol az utak keresztezik egymást. A rácsos töltés **erősebb** \(és jobb a rétegtapadása\), mint az egyenes töltés, azonban néha **idegesítő zajt** és akár **nyomtatási hibát** is okozhat, amikor a fúvóka olyan kereszteződéseken halad át, ahol anyag halmozódik fel.
+
+![](.gitbook/assets/print_settings_046b.jpeg)
+
+A kitöltőanyag nyomtatásának módja miatt a pályák keresztezik egymást, és ez az anyag felhalmozódását okozza ezeken a területeken. Néha hallani fog egy sajátos hangot, amikor a fúvóka eléri ezeket a területeket. Ez akár a nyomtatás meghiúsulását is okozhatja.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_047a.jpeg)
+{% endtab %}
+
+{% tab title="Rajz" %}
+
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Háromszögek \(erős 2D kitöltés\)" %}
+![](.gitbook/assets/print_settings_047.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+Ez a kitöltés ugyanúgy működik, mint a rácsos kitöltés - az útvonalak metszik egymást a rétegen, azonban ezúttal **három irányban** vannak nyomtatva, és háromszög alakú struktúrát alkotnak. Az anyagfelhasználás és az idő nem azonos a rácshálóval.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_047a%20%281%29.jpg)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Csillagok \(erős 2D töltés\)" %}
+![](.gitbook/assets/print_settings_048.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+A csillagkitöltés **háromszögeken alapul**, de **az útvonalakat úgy módosítjuk**, hogy hatágú csillagokat alkossanak. Ez a kitöltés ismét az ugyanazon a rétegen belüli vonalak metszéséből jön létre. Az anyag- és időfelhasználás ugyanaz, mint az előző töltésnél.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_048a.jpeg)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Kocka \(erős 3D töltés\)" %}
+![](.gitbook/assets/print_settings_049.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+Ez megint egy töltés, amely ugyanazon a rétegen belüli, egymást metsző útvonalakkal van kitöltve. A fent leírt töltelékekkel ellentétben azonban **kockákat** készít, amelyeknek az egyik sarka lefelé mutat. Ily módon **légzsebek sokaságát** hozza létre, amelyek hőszigetelésre használhatók, vagy lehetővé teszik, hogy egy tárgy lebegjen a vízen \(vízálló szálakkal, például PETG-vel\). A nyomtatási idő és a szálfogyasztás nem különbözik a korábbi töltésekhez képest.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_049a.jpeg)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="First Tab" %}
+![](.gitbook/assets/print_settings_050.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+A vonal \(lineáris\) kitöltés egyike azoknak, amelyek **nem rendelkeznek metsző pályákkal** egy rétegen. Útvonalai hasonlóak az egyenes kitöltés útvonalaihoz, de **nem párhuzamosak** egymással. Ehelyett hegyesszögben vannak nyomtatva. Nem meglepő, hogy ez a töltés **hasonlóan működik, mint az egyenes töltés** a nyomtatási idő és az anyagfelhasználás tekintetében.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_050a.jpeg)
+{% endtab %}
+
+{% tab title="Rajz" %}
+![](.gitbook/assets/print_settings_050c.png)
+{% endtab %}
+{% endtabs %}
+
 <table>
   <thead>
     <tr>
       <th style="text-align:left">A. <b>R&#xE1;cs:</b> er&#x151;s 2D kit&#xF6;lt&#xE9;s</th>
       <th style="text-align:center">
-        <img src=".gitbook/assets/13040.png" alt/>
+        <img src=".gitbook/assets/print_settings_044 (1).jpeg" alt/>
       </th>
       <th style="text-align:left"></th>
     </tr>
@@ -655,16 +771,12 @@ A következő modelltípusok állnak rendelkezésre:
     <tr>
       <td style="text-align:left">J. <b>Koncentrikus:</b> rugalmas 3D t&#xF6;lt&#xE9;s</td>
       <td style="text-align:center"></td>
-      <td style="text-align:left">
-        <img src=".gitbook/assets/infill_concentric.png" alt/>
-      </td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">K. <b>M&#xE9;hsejt:</b> er&#x151;s 2D t&#xF6;lt&#xE9;s</td>
       <td style="text-align:center"></td>
-      <td style="text-align:left">
-        <img src=".gitbook/assets/infill_honeycomb.png" alt/>
-      </td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">L. <b>3D m&#xE9;hsejt:</b> rugalmas 3D t&#xF6;lt&#xE9;s</td>
@@ -684,25 +796,19 @@ A következő modelltípusok állnak rendelkezésre:
         az eg&#xE9;sz teret. Itt nem ez a helyzet, ez egy rossz megval&#xF3;s&#xED;t&#xE1;sa
         Hilbert-g&#xF6;rb&#xE9;knek</td>
       <td style="text-align:center"></td>
-      <td style="text-align:left">
-        <img src=".gitbook/assets/infill_hilbertcurve.png" alt/>
-      </td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">O. <b>Archim&#xE9;deszi akkordok</b> (Archim&#xE9;deszi spir&#xE1;l): rugalmas
         2D kit&#xF6;lt&#xE9;s</td>
       <td style="text-align:center"></td>
-      <td style="text-align:left">
-        <img src=".gitbook/assets/infill_archimedeanchords.png" alt/>
-      </td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">P. <b>Spir&#xE1;lis oktagram</b> (csillag): 2D rugalmas kit&#xF6;lt&#xE9;s</td>
       <td
       style="text-align:center"></td>
-        <td style="text-align:left">
-          <img src=".gitbook/assets/infill_octagramspiral.png" alt/>
-        </td>
+        <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
