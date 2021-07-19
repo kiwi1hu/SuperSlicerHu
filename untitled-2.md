@@ -859,7 +859,7 @@ A következő modellváltozatok állnak rendelkezésre:
       <th style="text-align:left">A. <b>Egyenes</b>
       </th>
       <th style="text-align:center">
-        <img src=".gitbook/assets/13052.png" alt/>
+        <img src=".gitbook/assets/print_settings_061.jpeg" alt/>
       </th>
     </tr>
   </thead>
