@@ -575,7 +575,7 @@ Ez a kitöltési típus az egyetlen **a 100%-os nyomtatási kitöltéshez ajánl
 {% endtab %}
 
 {% tab title="Rajz" %}
-![](.gitbook/assets/print_settings_044c.png)
+![Kit&#xF6;lt&#xE9;si minta: Egyenes vonal&#xFA; \(350,57 mm / 5 m: 23 s\)](.gitbook/assets/print_settings_044c.png)
 {% endtab %}
 {% endtabs %}
 
@@ -608,10 +608,6 @@ A kitöltőanyag nyomtatásának módja miatt a pályák keresztezik egymást, �
 
 {% tab title="Kép" %}
 ![](.gitbook/assets/print_settings_047a.jpeg)
-{% endtab %}
-
-{% tab title="Rajz" %}
-
 {% endtab %}
 {% endtabs %}
 
@@ -658,7 +654,7 @@ Ez megint egy töltés, amely ugyanazon a rétegen belüli, egymást metsző út
 {% endtabs %}
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Vonal \(Gyors 2D kitöltés\)" %}
 ![](.gitbook/assets/print_settings_050.jpeg)
 {% endtab %}
 
@@ -671,151 +667,173 @@ A vonal \(lineáris\) kitöltés egyike azoknak, amelyek **nem rendelkeznek mets
 {% endtab %}
 
 {% tab title="Rajz" %}
-![](.gitbook/assets/print_settings_050c.png)
+![Kit&#xF6;lt&#xE9;si minta: Vonal \(344.51mm / 5m: 20s\)](.gitbook/assets/print_settings_050c.png)
 {% endtab %}
 {% endtabs %}
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">A. <b>R&#xE1;cs:</b> er&#x151;s 2D kit&#xF6;lt&#xE9;s</th>
-      <th style="text-align:center">
-        <img src=".gitbook/assets/print_settings_044 (1).jpeg" alt/>
-      </th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">B. <b>Egyenes vonal&#xFA;:</b> Gyors 2D kit&#xF6;lt&#xE9;s</td>
-      <td style="text-align:center">
-        <p></p>
-        <p>
-          <img src=".gitbook/assets/13041.png" alt/>
-        </p>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">C. <b>Line&#xE1;risan igaz&#xED;tott:</b>  <em>(Vonal m&#xF3;d)</em> 2D kit&#xF6;lt&#xE9;s</td>
-      <td
-      style="text-align:center">
-        <p></p>
-        <p>
-          <img src=".gitbook/assets/13040.png" alt/>
-        </p>
-        </td>
-        <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">D. <b>H&#xE1;romsz&#xF6;gek:</b> er&#x151;s 2D kit&#xF6;lt&#xE9;s</td>
-      <td
-      style="text-align:center">
-        <p></p>
-        <p>
-          <img src=".gitbook/assets/13042.png" alt/>
-        </p>
-        </td>
-        <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">E. <b>Csillagok:</b> er&#x151;s 2D t&#xF6;lt&#xE9;s</td>
-      <td style="text-align:center">
-        <p></p>
-        <p>
-          <img src=".gitbook/assets/13043.png" alt/>
-        </p>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">F. <b>Kocka:</b> er&#x151;s 3D t&#xF6;lt&#xE9;s</td>
-      <td style="text-align:center">
-        <p></p>
-        <p>
-          <img src=".gitbook/assets/13044.png" alt/>
-        </p>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">G. <b>Alkalmazkod&#xF3; kocka:</b> er&#x151;s 3D kit&#xF6;lt&#xE9;s (ez
-        anyagot takar&#xED;t meg a kock&#xE1;hoz k&#xE9;pest)</td>
-      <td style="text-align:center">
-        <p></p>
-        <p>
-          <img src=".gitbook/assets/13045.png" alt/>
-        </p>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">H. <b>Kock&#xE1;s t&#xE1;mogat&#xE1;s:</b> er&#x151;s 3D t&#xF6;lt&#xE9;s</td>
-      <td
-      style="text-align:center">
-        <p></p>
-        <p>
-          <img src=".gitbook/assets/13046.png" alt/>
-        </p>
-        </td>
-        <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">I. <b>Vonal:</b> Gyors 2D kit&#xF6;lt&#xE9;s nem-ortogon&#xE1;lis folyamatos
-        r&#xE1;cskit&#xF6;lt&#xE9;s, folyamatos nyomtat&#xE1;s &#xE1;tl&#xF3;s
-        ir&#xE1;nyban. Maxim&#xE1;lis kit&#xF6;lt&#xE9;si r&#xF6;gz&#xED;t&#xE9;s
-        hossz&#xE1;nak meghat&#xE1;roz&#xE1;sa sz&#xFC;ks&#xE9;ges.</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">J. <b>Koncentrikus:</b> rugalmas 3D t&#xF6;lt&#xE9;s</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">K. <b>M&#xE9;hsejt:</b> er&#x151;s 2D t&#xF6;lt&#xE9;s</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">L. <b>3D m&#xE9;hsejt:</b> rugalmas 3D t&#xF6;lt&#xE9;s</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">M. <b>Gyroid</b>: Megn&#xF6;velt szil&#xE1;rds&#xE1;g&#xFA; t&#xF6;ltet
-        a legkisebb s&#xFA;ly mellett.</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">N. <b>Hilbert-g&#xF6;rbe</b>: er&#x151;s 2D kit&#xF6;lt&#xE9;s.Elm&#xE9;letileg
-        ezeknek az utaknak lehet&#x151;v&#xE9; kell tenni&#xFC;k, hogy a f&#xFA;v&#xF3;ka
-        visszah&#xFA;z&#xE1;sa n&#xE9;lk&#xFC;l egyszerre t&#xF6;lts&#xE9;k ki
-        az eg&#xE9;sz teret. Itt nem ez a helyzet, ez egy rossz megval&#xF3;s&#xED;t&#xE1;sa
-        Hilbert-g&#xF6;rb&#xE9;knek</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">O. <b>Archim&#xE9;deszi akkordok</b> (Archim&#xE9;deszi spir&#xE1;l): rugalmas
-        2D kit&#xF6;lt&#xE9;s</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">P. <b>Spir&#xE1;lis oktagram</b> (csillag): 2D rugalmas kit&#xF6;lt&#xE9;s</td>
-      <td
-      style="text-align:center"></td>
-        <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
+{% tabs %}
+{% tab title="Koncentrikus \(rugalmas 3D töltés\)" %}
+![](.gitbook/assets/print_settings_051.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+A koncentrikus kitöltés **meghúzza a modell kerületi vonalait**, majd egyre jobban összezsugorítja azokat a középpont felé. Más szóval: ha egy hengert nyomtatunk, a koncentrikus kitöltés **koncentrikus köröket** fog létrehozni a hengeren belül. Ez hasznos lehet **átlátszó alkatrészek vagy rugalmas modellek** \(pl. RC autó gumiabroncsok\) esetén. A fő hátránya a nyomtatási idő. Az anyagfelhasználás nem nagyobb, mint a korábbi típusú töltőminták esetében.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_051a.jpeg)
+{% endtab %}
+
+{% tab title="Rajz" %}
+![Kit&#xF6;lt&#xE9;si minta: Koncentrikus \(351.80mm / 5m: 30s\)](.gitbook/assets/print_settings_051c.png)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Méhsejt \(erős 2D töltés\)" %}
+![](.gitbook/assets/print_settings_052.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+Ez a kitöltés egy **hatszögekből álló rácsot nyomtat.** Fő előnye a **mechanikai szilárdság** és az optimalizált, útkereszteződések nélküli pályák. Fő hátránya a **magas anyagfelhasználás** \(kb. 25%-kal több\) a többi töltelékhez képest, és a nyomtatási idő **kétszer olyan hosszú** lehet a fent leírt lehetőségekhez képest.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_052a.jpeg)
+{% endtab %}
+
+{% tab title="Rajz" %}
+![Kit&#xF6;lt&#xE9;si minta: M&#xE9;hsejt \(362,73mm / 5m: 39s\)](.gitbook/assets/print_settings_052c.png)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="3D méhsejt \(rugalmas 3D töltés\)" %}
+![](.gitbook/assets/print_settings_053.jpg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+A 3D-s méhsejtek kis és nagy négyzeteket és nyolcszögeket nyomtatnak, hogy időszakosan növekvő és csökkenő vastagságú oszlopokat hozzanak létre. Ez a töltés **nem tartalmaz metsző vonalakat** egy rétegen, azonban az útvonalak kialakításának módja miatt **kis hézagokat hoz létre a rétegek között.** Az anyagfelhasználás és a nyomtatási idő kissé rosszabb a normál méhsejtmintához képest.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_053a.jpeg)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Gyroid \(Megnövelt szilárdságú kitöltés a legkisebb súly mellett\)" %}
+![](.gitbook/assets/print_settings_054.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+A gyroid kitöltés a kedvencünk és egyben **az egyik legjobb kitöltés.** Ez azon kevés 3D szerkezetek egyike, amely minden irányban nagyon jó alátámasztást biztosít. Ezen kívül igazán **gyors nyomtatás, anyagot takarít meg, vonalak nem keresztezik egymást egy rétegen belül, és jól néz ki**. A töltés különleges formája lehetővé teszi a töltés gyantával vagy bármilyen más folyadékkal való feltöltését.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_054a.jpeg)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Hilbert-görbe \(erős 2D kitöltés\)" %}
+![](.gitbook/assets/print_settings_055.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+A Hilbert-görbe egy téglalap alakú labirintust rajzol a modellben. Ennek a töltésnek a fő előnye az **eredeti megjelenés,** valamint az, hogy könnyen **betölthető gyantával** vagy más folyadékkal - a modell több nagy üregre oszlik, nem pedig apró "buborékok" sokaságára. Ennek a tölteléknek a fő hátránya a hosszú nyomtatási idő, amely a méhsejtes és az egyenes töltelék között van. A Hilbert-görbe anyagfelhasználása megegyezik az egyenes töltés anyagfelhasználásával.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_055a.jpeg)
+{% endtab %}
+
+{% tab title="Rajz" %}
+![Kit&#xF6;lt&#xE9;si minta: Hilbert g&#xF6;rbe \(332,82mm / 5m: 28s\)](.gitbook/assets/print_settings_055c.png)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Archimédeszi akkordok \(Archimédeszi spirál\) \(rugalmas 2D kitöltés\)" %}
+![](.gitbook/assets/print_settings_056.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+Ez a spirális kitöltés ismét **könnyebbé teszi a folyadékkal való feltöltést.** Ez az egyszerű forma **anyagot és időt takarít meg** \(az egyenes kitöltéshez\) képest. A koncentrikus töltéshez hasonlóan az íves akkordok is **segítenek a modell rugalmasságában**, ha rugalmas szálból nyomtat.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_056a%20%281%29.jpeg)
+{% endtab %}
+
+{% tab title="Rajz" %}
+![Kit&#xF6;lt&#xE9;si minta: Archimedes akkordok \(333,66mm / 5m: 27s\)](.gitbook/assets/print_settings_056c.png)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Spirális oktagram \(csillag\) \(2D rugalmas kitöltés\)" %}
+![](.gitbook/assets/print_settings_057.jpeg)
+{% endtab %}
+
+{% tab title="Leírás" %}
+A nyolcágú spirálminta lehetővé teszi, hogy a tárgyat **könnyen meg lehessen tölteni folyadékkal** az ilyen típusú töltés által létrehozott nagy rekeszeknek köszönhetően. A nyolcszögletű spirálmintázat szintén előnyös bizonyos modellek **hajlékonyságához**, de különösen érdekes **esztétikai okokból** és a felső rétegnek nyújtott támasza miatt. Az anyagfelhasználás megegyezik az archimédeszi akkordokéval, de a nyomtatási idő valamivel hosszabb.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_057a.jpeg)
+{% endtab %}
+
+{% tab title="Rajz" %}
+![Kit&#xF6;lt&#xE9;si minta: Octagram Spiral \(318,63mm / 5m: 15s\)](.gitbook/assets/print_settings_057c.png)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Elszórt egyenes vonalú" %}
+
+{% endtab %}
+
+{% tab title="Leírás" %}
+
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_058a.png)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Alkalmazkodó kocka" %}
+![\(Prusa Gif\)](.gitbook/assets/print_settings_059.gif)
+{% endtab %}
+
+{% tab title="Leírás" %}
+Az alkalmazkodó kocka kitöltés **azon az elven működik, mint a kocka kitöltés:** olyan kockákat tartalmaz, amelyek egyik sarka lefelé néz, és ugyanazon a rétegen belül metszik egymást a vonalak. Van azonban egy nagy előnye: az egyszerű kocka alakú kitöltéssel ellentétben ez a minta **sűrűbbé teszi a kitöltést, ahogy közeledik a modell szélei felé,** és nagy üregeket hagy középen. **Az anyagfogyasztás** körülbelül ¼-ével kevesebb, mint az egyenes töltésnél.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_059a.jpeg)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Kocka támogatás" %}
+![\(Prusa Gif\)](.gitbook/assets/print_settings_060.gif)
+{% endtab %}
+
+{% tab title="Leírás" %}
+A kocka támogatás kitöltés ugyanúgy működik, mint az előző, egy különbséggel: a **kitöltés sűrűsége csak a Z tengelyen növekszik.** Elsődleges funkciója a felső rétegek **támogatása** a lehető legtöbb anyag megtakarításával, így nem javítja a modell mechanikai tulajdonságait. Ennek a kitöltésnek az anyagfogyasztása és nyomtatási ideje messze a legérdekesebb az összes támogatott kitöltés közül.
+{% endtab %}
+
+{% tab title="Kép" %}
+![](.gitbook/assets/print_settings_060a.jpeg)
+{% endtab %}
+{% endtabs %}
 
 **Gyroid kitöltés**
 
-A gyroid kitöltés az egyik legsokoldalúbb töltőanyag.
+A gyroid kitöltés az egyik legsokoldalúbb kitöltő minta.
 
 * Háromdimenziós - ami **egyenletes szilárdságot biztosít minden irányban**.
 * Elég **gyorsan kinyomtatható**
