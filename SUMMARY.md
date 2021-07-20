@@ -12,7 +12,7 @@
 * [Bal oldali eszköztár](left_toolbar.md)
 * [Felső eszköztár](top_toolbar.md)
 * [Kalibrálás](calibration.md)
-* [FreePySCAD script ablak](untitled-1.md)
+* [FreePySCAD script ablak](script_freecad.md)
 * [Nyomtatási beállítások](print_settings-2.md)
 * [Szál beállítások](filament_settings.md)
 * [Nyomtató beállítások](printer_settings.md)
