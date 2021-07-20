@@ -613,7 +613,7 @@ A kitöltőanyag nyomtatásának módja miatt a pályák keresztezik egymást, �
 
 {% tabs %}
 {% tab title="Háromszögek \(erős 2D kitöltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_047%20%281%29.jpeg)
+![](.gitbook/assets/print_settings_047.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -621,13 +621,13 @@ Ez a kitöltés ugyanúgy működik, mint a rácsos kitöltés - az útvonalak m
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_047a%20%281%29%20%281%29.jpg)
+![](.gitbook/assets/print_settings_047a.jpeg)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Csillagok \(erős 2D töltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_048.jpeg)
+![](.gitbook/assets/print_settings_048.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -635,13 +635,13 @@ A csillagkitöltés **háromszögeken alapul**, de **az útvonalakat úgy módos
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_048a.jpeg)
+![](.gitbook/assets/print_settings_048a.jpeg)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Kocka \(erős 3D töltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_049.jpeg)
+![](.gitbook/assets/print_settings_049.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -649,13 +649,13 @@ Ez megint egy töltés, amely ugyanazon a rétegen belüli, egymást metsző út
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_049a.jpeg)
+![](.gitbook/assets/print_settings_049a.jpeg)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Vonal \(Gyors 2D kitöltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_050.jpeg)
+![](.gitbook/assets/print_settings_050.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -663,17 +663,17 @@ A vonal \(lineáris\) kitöltés egyike azoknak, amelyek **nem rendelkeznek mets
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_050a.jpeg)
+![](.gitbook/assets/print_settings_050a.jpeg)
 {% endtab %}
 
 {% tab title="Rajz" %}
-![Kit&#xF6;lt&#xE9;si minta: Vonal \(344.51mm / 5m: 20s\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_050c%20%282%29.png)
+![](.gitbook/assets/print_settings_050c.png)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Koncentrikus \(rugalmas 3D töltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_051%20%281%29.jpeg)
+![](.gitbook/assets/print_settings_051.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -681,17 +681,17 @@ A koncentrikus kitöltés **meghúzza a modell kerületi vonalait**, majd egyre 
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_051a.jpeg)
+![](.gitbook/assets/print_settings_051a.jpeg)
 {% endtab %}
 
 {% tab title="Rajz" %}
-![Kit&#xF6;lt&#xE9;si minta: Koncentrikus \(351.80mm / 5m: 30s\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/infill_concentric.png)
+![](.gitbook/assets/print_settings_051c.png)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Méhsejt \(erős 2D töltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_052.jpeg)
+![](.gitbook/assets/print_settings_052.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -699,17 +699,17 @@ Ez a kitöltés egy **hatszögekből álló rácsot nyomtat.** Fő előnye a **m
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_052a.jpeg)
+![](.gitbook/assets/print_settings_052a.jpeg)
 {% endtab %}
 
 {% tab title="Rajz" %}
-![Kit&#xF6;lt&#xE9;si minta: M&#xE9;hsejt \(362,73mm / 5m: 39s\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/infill_honeycomb%20%281%29.png)
+![](.gitbook/assets/print_settings_052c.png)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="3D méhsejt \(rugalmas 3D töltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/130683%20%281%29.jpg)
+![](.gitbook/assets/print_settings_053.jpg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -717,13 +717,13 @@ A 3D-s méhsejtek kis és nagy négyzeteket és nyolcszögeket nyomtatnak, hogy 
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_053a.jpeg)
+![](.gitbook/assets/print_settings_053a.jpeg)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Gyroid \(Megnövelt szilárdságú kitöltés a legkisebb súly mellett\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/130684%20%281%29.jpg)
+![](.gitbook/assets/print_settings_054.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -731,13 +731,13 @@ A gyroid kitöltés a kedvencünk és egyben **az egyik legjobb kitöltés.** Ez
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_054a.jpeg)
+![](.gitbook/assets/print_settings_054a.jpeg)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Hilbert-görbe \(erős 2D kitöltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/130685%20%281%29.jpg)
+![](.gitbook/assets/print_settings_055.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -745,17 +745,17 @@ A Hilbert-görbe egy téglalap alakú labirintust rajzol a modellben. Ennek a t�
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_055a.jpeg)
+![](.gitbook/assets/print_settings_055a.jpeg)
 {% endtab %}
 
 {% tab title="Rajz" %}
-![Kit&#xF6;lt&#xE9;si minta: Hilbert g&#xF6;rbe \(332,82mm / 5m: 28s\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/infill_hilbertcurve%20%281%29.png)
+![](.gitbook/assets/print_settings_055c.png)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Archimédeszi akkordok \(Archimédeszi spirál\) \(rugalmas 2D kitöltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/130686%20%282%29.jpg)
+![](.gitbook/assets/print_settings_056.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -763,17 +763,17 @@ Ez a spirális kitöltés ismét **könnyebbé teszi a folyadékkal való feltö
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_056a%20%281%29.jpeg)
+![](.gitbook/assets/print_settings_056a.jpeg)
 {% endtab %}
 
 {% tab title="Rajz" %}
-![Kit&#xF6;lt&#xE9;si minta: Archimedes akkordok \(333,66mm / 5m: 27s\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_056c.png)
+![](.gitbook/assets/print_settings_056c.png)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Spirális oktagram \(csillag\) \(2D rugalmas kitöltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/130687%20%281%29.jpg)
+![](.gitbook/assets/print_settings_057.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -781,11 +781,11 @@ A nyolcágú spirálminta lehetővé teszi, hogy a tárgyat **könnyen meg lehes
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_057a.jpeg)
+![](.gitbook/assets/print_settings_057a.jpeg)
 {% endtab %}
 
 {% tab title="Rajz" %}
-![Kit&#xF6;lt&#xE9;si minta: Octagram Spiral \(318,63mm / 5m: 15s\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_057c.png)
+![](.gitbook/assets/print_settings_057c.png)
 {% endtab %}
 {% endtabs %}
 
@@ -799,13 +799,13 @@ A nyolcágú spirálminta lehetővé teszi, hogy a tárgyat **könnyen meg lehes
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_058a.png)
+![](.gitbook/assets/print_settings_058a.jpeg)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Alkalmazkodó kocka" %}
-![\(Prusa Gif\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_059.gif)
+![\(Prusa Gif\)](.gitbook/assets/print_settings_059.gif)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -813,13 +813,13 @@ Az alkalmazkodó kocka kitöltés **azon az elven működik, mint a kocka kitöl
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_059a.jpeg)
+![](.gitbook/assets/print_settings_059a.jpeg)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Kocka támogatás" %}
-![\(Prusa Gif\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_060.gif)
+![\(Prusa Gif\)](.gitbook/assets/print_settings_060.gif)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -827,7 +827,7 @@ A kocka támogatás kitöltés ugyanúgy működik, mint az előző, egy külön
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_060a.jpeg)
+![](.gitbook/assets/print_settings_060a.jpeg)
 {% endtab %}
 {% endtabs %}
 
