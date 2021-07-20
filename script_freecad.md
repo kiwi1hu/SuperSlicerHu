@@ -12,8 +12,6 @@ A fát ',' elválasztású függvényekkel írja meg, mint például `union()(cu
 
 Győződjön meg róla, hogy a szoftver beállításaiban megadta a **FreeCad** futtatható fájlokat tartalmazó Bin könyvtár elérési útvonalát. A szoftverben állítsa be a **Konfiguráció - Beállítások - Útvonal** menüponton keresztül a FreeCad elérési útvonalát.
 
-![Preferencia &#xFA;tvonal](.gitbook/assets/12002.jpg)
-
 ## Hogyan kell írni
 
 Olyan alapvető primitív objektumokhoz férhet hozzá, mint a kocka és a henger.

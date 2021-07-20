@@ -147,8 +147,6 @@ Vegye figyelembe, hogy az objektum **minden példányára** a változó rétegma
 
 Lehet, hogy a kék vonal alján egy **éles ugrást** vesz észre - **ez normális**, és az első réteg magassági beállításának vizuális megjelenítése.
 
-![Gyakorlati p&#xE9;lda a v&#xE1;ltoz&#xF3; r&#xE9;tegmagass&#xE1;gra](.gitbook/assets/10020.jpg)
-
 ### Automatikusan változó rétegmagassági metrikák
 
 A felület minőségének különböző mérőszámaival kísérleteztünk. A [Florens Wasserfall és társai](https://tams.informatik.uni-hamburg.de/publications/2017/Adaptive%20Slicing%20for%20the%20FDM%20Process%20Revisited.pdf) által a **Slic3r**-ben alkalmazott metrika korlátozza a maximális diszkretizációs hibát \(a forrásmodell lépcsőzetes felületének legnagyobb euklideszi távolsága\).
@@ -156,8 +154,6 @@ A felület minőségének különböző mérőszámaival kísérleteztünk. A [F
 **A SuperSlicer** korlátozza a [kontúrvonalak](https://en.wikipedia.org/wiki/Contour_line) maximális távolságát az XY síkban, intuitívabb eredményeket produkálva, mint a Waserfall metrika.
 
 Végül egy másik metrikát is alkalmaztunk, amely a lépcsőzetes felület és a forrásmodell közötti keresztmetszeti területet korlátozza. Az alábbi grafikon a különböző metrikák rétegmagassági határértékét mutatja a felszín lejtésének függvényében.
-
-![A k&#xFC;l&#xF6;nb&#xF6;z&#x151; m&#xE9;r&#x151;sz&#xE1;mok r&#xE9;tegmagass&#xE1;gi hat&#xE1;ra a felsz&#xED;n lejt&#xE9;s&#xE9;t&#x151;l f&#xFC;gg&#x151;en.](.gitbook/assets/10021.png)
 
 ## Milyen rétegmagassági profilt válasszon?
 
@@ -167,21 +163,13 @@ Próbáljon olyan profilt választani, amelynek rétegmagassága közel áll ahh
 
 A 2.3-as verzió újdonsága, hogy a SuperSlicer mostantól lehetővé teszi a beállítások keresését, hogy gyorsan hozzáférjen egy adott beállítási oldalhoz és beállítási mezőhöz. A keresés elérhető a felső eszköztárról és a nyomtatási beállítások/szálbeállítások/nyomtatóbeállítások oldalról, vagy a **Ctrl** + **F** billentyű kombinációval.
 
-![Keres&#xE9;s funkci&#xF3;](.gitbook/assets/10022.jpg)
-
 Ha megtalálta a keresett beállítást, akkor arra kattintva közvetlenül a megfelelő oldalra jut, és egy villogó nyíl jelzi az adott beállítást.
-
-![P&#xE9;lda a &quot;Peremsz&#xE9;less&#xE9;g&quot; keres&#xE9;s&#xE9;re](.gitbook/assets/10024.jpg)
 
 Lehetőség van angol nyelven, a SuperSlicer leggyakrabban használt nyelvén keresni.
 
 Példa: Keresés a _**First layer**_ kifejezésre: angol nyelvű keresés aktiválása nélkül és aktiválással.
 
-![Keres&#xE9;s magyarul](.gitbook/assets/10025.jpg)
-
 Az angol keresés aktiválásával :
-
-![Keres&#xE9;s angol nyelven](.gitbook/assets/10026.jpg)
 
 A _**Kategória**_ opció lehetővé teszi a keresést azon kategóriák neve alapján is, amelyekbe a paraméterek besorolhatók.
 
