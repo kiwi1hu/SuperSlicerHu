@@ -1938,15 +1938,15 @@ Ez a beállítás lehetővé teszi, hogy csökkentse az átfedést a kerület é
 
 Ez az opció további átfedést alkalmaz a kerületek és a kitöltés között a jobb összemosás érdekében. Elméletileg erre nem lenne szükség, de a mechanikus hiányosságokat hibákat okozhatnak. Ha százalékban van megadva \(pl. 15%\), az értéket a kerület extrudálási szélessége alapján számítják ki.
 
-![Ker&#xFC;let/kit&#xF6;lt&#xE9;s &#xE1;tfed&#xE9;s](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_131.png)
+![Ker&#xFC;let/kit&#xF6;lt&#xE9;s &#xE1;tfed&#xE9;s](.gitbook/assets/print_settings_131.png)
 
 {% tabs %}
 {% tab title=" 25%-os átfedés" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_132.jpeg)
+![](.gitbook/assets/print_settings_132.jpeg)
 {% endtab %}
 
 {% tab title="50%-os átfedés" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_133.jpeg)
+![](.gitbook/assets/print_settings_133.jpeg)
 {% endtab %}
 {% endtabs %}
 
@@ -1956,7 +1956,7 @@ A hídvonalak közötti átfedés mértéke. Ha több \(vagy kevesebb\) helyet s
 
 ### Áramlási sebesség
 
-![&#xC1;raml&#xE1;si sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_134.png)
+![&#xC1;raml&#xE1;si sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_134.png)
 
 #### _Áramlási arány_
 
@@ -1964,7 +1964,7 @@ A hídvonalak közötti átfedés mértéke. Ha több \(vagy kevesebb\) helyet s
 
 Ez a tényező befolyásolja a hídhoz felhasznált műanyag mennyiségét. A megereszkedés elkerülése érdekében kissé csökkentheti. Az alapértelmezett érték általában elegendő, és ennek megváltoztatása előtt érdemes kísérletezni a hűtéssel \(ventilátorral\).
 
-![Az &#xE1;raml&#xE1;si sebess&#xE9;g v&#xE1;ltoz&#xE1;sa a t&#xFA;lny&#xFA;l&#xF3; r&#xE9;szekn&#xE9;l \(5Axes k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_135.jpeg)
+![Az &#xE1;raml&#xE1;si sebess&#xE9;g v&#xE1;ltoz&#xE1;sa a t&#xFA;lny&#xFA;l&#xF3; r&#xE9;szekn&#xE9;l \(5Axes k&#xE9;p\)](.gitbook/assets/print_settings_135.jpeg)
 
 #### _A hidak felett_
 
@@ -1988,13 +1988,13 @@ Megjegyzés: 100%-nál ez ~5%-kal változtatja meg az áramlási sebességet egy
 
 ## Több extruder
 
-![T&#xF6;bb extruder ](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_136.png)
+![T&#xF6;bb extruder ](.gitbook/assets/print_settings_136.png)
 
 ### Extruderek
 
 A nyomtatás különböző részeinek létrehozásához használandó extruderek meghatározása.
 
-![Extruderek be&#xE1;ll&#xED;t&#xE1;sai](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_137.png)
+![Extruderek be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/print_settings_137.png)
 
 #### _Kerület extruder_
 
@@ -2018,7 +2018,7 @@ Az extruder, amelyet a támaszték felület nyomtatásához használni kell \(1+
 
 ### Csepegés megelőzése
 
-![A csepeg&#xE9;s megel&#x151;z&#xE9;se be&#xE1;ll&#xED;t&#xE1;sok](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_138.png)
+![A csepeg&#xE9;s megel&#x151;z&#xE9;se be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_138.png)
 
 #### _Engedélyezés_
 
@@ -2030,7 +2030,7 @@ Hőmérsékletkülönbség, amelyet akkor kell alkalmazni, ha az extruder nem ak
 
 ### Tisztítótorony
 
-![Tiszt&#xED;t&#xF3;torony opci&#xF3;k](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_139.png)
+![Tiszt&#xED;t&#xF3;torony opci&#xF3;k](.gitbook/assets/print_settings_139.png)
 
 #### _Engedélyezés_
 
@@ -2038,7 +2038,7 @@ A több anyagból nyomtatóknak szálcsere során szükség lehet az extruder el
 
 Felhívjuk a figyelmet arra, hogy a tisztítótorony aktiválása nem lehetséges a **Az objektumok nyomtatása egyesével** módban \([ **Nyomtatási beállítások - Kimeneti beállítások - Sorrendben történő nyomtatás**](print_settings.md#sorrendben-szekvencialis-toerteno-nyomtatas) menüben\).
 
-![T&#xF6;r&#xF6;lje a jel&#xF6;l&#x151;n&#xE9;gyzetet a tiszt&#xED;t&#xF3;torony aktiv&#xE1;l&#xE1;s&#xE1;hoz.](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_140.png)
+![T&#xF6;r&#xF6;lje a jel&#xF6;l&#x151;n&#xE9;gyzetet a tiszt&#xED;t&#xF3;torony aktiv&#xE1;l&#xE1;s&#xE1;hoz.](.gitbook/assets/print_settings_140.png)
 
 #### _Tisztítótorony X és Y pozíció_
 
@@ -2072,11 +2072,11 @@ Ha engedélyezve van, akkor a tisztítótorony nem lesz nyomtatva a szálcsere n
 
 Ha ez engedélyezve van, akkor a nyomtatási feladat kezdetén az összes nyomtató extruder a nyomtatólemez elején lesz előkészítve.
 
-![Aktiv&#xE1;lt extruderek el&#x151;k&#xE9;sz&#xED;t&#xE9;se](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_141.jpeg)
+![Aktiv&#xE1;lt extruderek el&#x151;k&#xE9;sz&#xED;t&#xE9;se](.gitbook/assets/print_settings_141.jpeg)
 
 ### Haladó
 
-![Halad&#xF3;](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_142.png)
+![Halad&#xF3;](.gitbook/assets/print_settings_142.png)
 
 #### _Tömör héjak_
 
@@ -2084,21 +2084,21 @@ Kényszeríti a szomszédos területek/anyagok közötti tömör héjak létreho
 
 {% tabs %}
 {% tab title="Tömör héjak kikapcsolva" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_143.jpeg)
+![](.gitbook/assets/print_settings_143.jpeg)
 {% endtab %}
 
 {% tab title="Tömör héjak bekapcsolva" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_144.jpeg)
+![](.gitbook/assets/print_settings_144.jpeg)
 {% endtab %}
 {% endtabs %}
 
 ## Kimeneti beállítások
 
-![Kimeneti be&#xE1;ll&#xED;t&#xE1;sok](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_145.png)
+![Kimeneti be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_145.png)
 
 ### Lemez
 
-![Lemez](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_146.png)
+![Lemez](.gitbook/assets/print_settings_146.png)
 
 #### _Objektumok közötti távolság_
 
@@ -2110,7 +2110,7 @@ Ha egyszerre több objektumot nyomtat ki, választhatja, hogy azokat egymás ut�
 
 Ezt a funkciót a **Nyomtatási beállítások - Kimeneti beállítások - Az objektumok nyomtatása egyesével** bekapcsolásával engedélyezheti.
 
-![Szekvenci&#xE1;lis nyomtat&#xE1;s](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_147.png)
+![Szekvenci&#xE1;lis nyomtat&#xE1;s](.gitbook/assets/print_settings_147.png)
 
 Nyomja meg az **E** billentyűt az objektumok **sorrendjének** megtekintéséhez a 3D nézetben.
 
@@ -2147,7 +2147,7 @@ A SuperSlicer azt szeretné, ha minden objektum az extruder távolsági magassá
 
 ### Kimeneti fájl
 
-![Kimeneti f&#xE1;jl](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_148.png)
+![Kimeneti f&#xE1;jl](.gitbook/assets/print_settings_148.png)
 
 #### _Részletes G-kód_
 
@@ -2163,7 +2163,7 @@ Ebben a sablonban az összes konfigurációs opciót használhatja változókén
 
 ### Utófeldolgozás marás
 
-![Ut&#xF3;feldolgoz&#xE1;s mar&#xE1;s](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_149.png)
+![Ut&#xF3;feldolgoz&#xE1;s mar&#xE1;s](.gitbook/assets/print_settings_149.png)
 
 #### _Utófeldolgozás marással_
 
@@ -2185,7 +2185,7 @@ A marószerszám sebessége.
 
 ### Utófeldolgozó szkriptek
 
-![Ut&#xF3;feldolgoz&#xF3; szkriptek](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_150.png)
+![Ut&#xF3;feldolgoz&#xF3; szkriptek](.gitbook/assets/print_settings_150.png)
 
 Ha a kimeneti G-kódot egyéni szkriptekkel szeretné feldolgozni, egyszerűen adja meg itt az abszolút elérési útvonalakat. A különböző szkripteket pontosvesszővel válassza el egymástól. A szkriptek első argumentumként megkapják a G-kód fájl abszolút elérési útvonalát, és a környezeti változók olvasásával hozzáférhetnek a SuperSlicer konfigurációs beállításaihoz.
 
@@ -2252,7 +2252,7 @@ Személyes megjegyzéseit itt adhatja meg. Ez a szöveg a G-kód fejlécében l�
 
 ### **Profilfüggőségek**
 
-![Profilf&#xFC;gg&#x151;s&#xE9;gek](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_151.png)
+![Profilf&#xFC;gg&#x151;s&#xE9;gek](.gitbook/assets/print_settings_151.png)
 
 **Kompatibilis nyomtatók**
 
