@@ -58,8 +58,6 @@ for pos in range\(0,4\) : uni.add\( cube\(1,10,1\).move\(x=2\*pos\) \) scene\(\)
 
 A FreeCad-ben a szkript eredménye az alábbi képen látható 
 
-![\(axes k&#xE9;p\)](.gitbook/assets/12001.png)
-
 ## Címke
 
 Minden függvény elfogadhat egy "name" paramétert. Ez hasznos az egyesítés/kivágás gyökerénél, így elnevezheti az objektumot.

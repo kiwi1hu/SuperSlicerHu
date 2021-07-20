@@ -95,8 +95,6 @@ Válassza ki a felosztani kívánt modellt, és kattintson a felső eszköztáro
 
 A SuperSlicer lehetővé teszi, hogy a modell különböző régióit különböző rétegmagassággal nyomtassa ki, és automatikusan kisimítsa a köztük lévő átmenetet. Ez jelentősen rövidebb nyomtatási időt eredményezhet, a nyomtatási minőség minimális feláldozása mellett.
 
-![V&#xE1;ltoz&#xF3; r&#xE9;tegek \(Prusa k&#xE9;p\)](.gitbook/assets/10018.png)
-
 A változó rétegmagasság beállítható **automatikusan**, **manuálisan** vagy **kombinálhatja a két módszert**.
 
 ### A változó rétegmagasság beállítása

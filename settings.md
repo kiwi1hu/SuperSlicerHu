@@ -117,8 +117,6 @@ Válassza ki a kezdőképernyőként használni kívánt képet.
 
 Ha engedélyezve van, a 3DConnection eszközök konfigurálására szolgáló párbeszédpanel elérhetővé válik, ha megnyomja a **Ctrl + M** gombokat.
 
-![3Dconnexion SpaceMouse](.gitbook/assets/06017.png)
-
 ### Útvonalak
 
 #### FreeCAD elérési út

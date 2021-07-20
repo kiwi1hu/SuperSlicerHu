@@ -6,8 +6,6 @@ A SuperSlicer meglehetősen egyszerű felhasználói felülettel rendelkezik. A 
 
 A “Szeletelés most” \(**5**\) gombbal létrehozható a G-kód, amely ezután SD-kártyára exportálható, vagy közvetlenül nyomtatóra küldhető. Néhány speciális funkció alapértelmezés szerint el van rejtve, ezeket később aktiválhatja, ha haladó vagy szakértői üzemmódba vált \(**10**\).
 
-![Felhaszn&#xE1;l&#xF3;i fel&#xFC;let](.gitbook/assets/06012.jpg)
-
 1. A **Hozzáadás** gomb betölti a modelleket a SuperSlicerbe.
 2. Az Oldalsáv összecsukása/kibontása
 3. Megnyitja a részletes nyomtatási, szál- és nyomtatóbeállításokat
@@ -36,8 +34,6 @@ A skála gyorsan visszaállítható 100%-ra a **narancssárga visszaállító ny
 
 Amikor átalakít egy modellt vagy egy több részből álló modell egy részét, a nyomtatóágyának egy megfelelő helyén jelenik meg, amikor a kiválasztott objektum a nyomtatóágy felett vagy alatt van.
 
-![Objektumkezel&#x151; panel](.gitbook/assets/06013.jpg)
-
 Ha globális koordinátákról helyi koordinátákra vált, 3 gyors tükrözés gombot használhat.
 
 ### Helyi vs. globális koordináták
@@ -45,8 +41,6 @@ Ha globális koordinátákról helyi koordinátákra vált, 3 gyors tükrözés 
 A haladó és szakértői módban a helyi és globális koordináták között lehet váltani.
 
 A helyi koordinátarendszer állandó az objektumhoz képest. A globális koordináták a nyomtatóágyhoz viszonyítva állandóak. Ez azt jelenti, hogy egy objektum mérete a globális koordinátákban változik, ha elforgatja azt például a Z tengely körül. A méret a helyi koordinátákban állandó, függetlenül attól, hogy bármelyik tengely körül elforgatjuk.
-
-![Helyi koordin&#xE1;t&#xE1;k \(balra\) vs. glob&#xE1;lis koordin&#xE1;t&#xE1;k \(jobbra\)](.gitbook/assets/06014.png)
 
 ## Objektumok listája
 
@@ -65,8 +59,6 @@ Az objektumlistában a modell nevére **duplán kattintva** átnevezheti azt. Ez
 A **szem ikon** a “nyomtatható” tulajdonságot kapcsolja. Ha kikapcsolja, a sablon a nyomtatási lemezen marad, de a szeletelőszoftver a G-kód generálásakor figyelmen kívül hagyja ezt a modellt.
 
 A **Szerkesztés** ikonra kattintva egy felugró menü nyílik meg, amely lehetővé teszi a kiválasztott objektum beállításainak testreszabását.
-
-![Panel objektumlist&#xE1;val](.gitbook/assets/06015.jpg)
 
 ## Nézet
 
@@ -112,8 +104,6 @@ A kiválasztás az _**objektumlistán**_ keresztül is elvégezhető.
 
 A felhasználói felület megjelenése attól függően változik, hogy milyen üzemmódban van. A jobb oldali panelen található gombok segítségével vagy a **Konfiguráció - Mód - Egyszerű/haladó/szakértő** menüpontra kattintva válthat másik üzemmódra.
 
-![Egyszer&#x171;, halad&#xF3; &#xE9;s szak&#xE9;rt&#x151;i &#xFC;zemm&#xF3;dok](.gitbook/assets/06028.jpg)
-
 Az Egyszerű mód mögött az áll, hogy a kezdők számára csökkentse a tanulási görbét, az alkalmi felhasználók számára pedig egyszerűsítse a felhasználói felületet. Az olyan összetett funkciók, mint a módosító háló, el vannak rejtve, és csak az alapvető paraméterek egy része jelenik meg a felhasználó számára.
 
 A Haladó módban több paraméter jelenik meg, a Szakértő módban pedig a SuperSlicer összes hatékony funkciója elérhető. A paraméterek könnyebb elsajátítása érdekében színkódoltuk őket.
@@ -122,13 +112,9 @@ A Haladó módban több paraméter jelenik meg, a Szakértő módban pedig a Sup
 * **Zöld** - kezdők számára is biztonságosan használható
 * **Piros** - szakértői beállítások, amelyek többségéhez csak akkor érdemes hozzányúlni, ha új nyomtatóhoz készít profilokat.
 
-![A param&#xE9;terek megtekint&#xE9;se az &#xFC;zemm&#xF3;d szerint](.gitbook/assets/06029.jpg)
-
 ## A szeletelés áttekintése
 
 A modell szeletelése után a szeletelés eredményét az alsó eszköztáron található gombok segítségével tekintheti meg, vagy megnyomhatja a **Tab** billentyűt.
-
-![K&#xE9;p : Megjelen&#xED;t&#xE9;si t&#xED;pus](.gitbook/assets/06030.png)
 
 Az első gomb a 3D szerkesztő módban való megjelenítést teszi lehetővé \(**Ctrl** + **1** \) , a másik a vágások eredményét jeleníti meg\( **Ctrl** + **2**\).
 
@@ -153,8 +139,6 @@ A "Normál elrendezés fülekkel" felülettípusban a 3D nézet, a kivágás el�
 A lenti sávval az is beállítható, hogy milyen típusú pályát szeretne megjeleníteni. 
 
 _A mostani verzióban nincs a lenti lista, az ablakba kell kiválasztani hogy melyik pályatípusokat kell megjeleníteni._
-
-![P&#xE1;ly&#xE1;k t&#xED;pus&#xE1;nak be&#xE1;ll&#xED;t&#xE1;sa \(5axis k&#xE9;p\)](.gitbook/assets/06035.png)
 
 Ez a menüsor lehetővé teszi a kívánt megjelenítés típusának beállítását is.
 

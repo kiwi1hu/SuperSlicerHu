@@ -64,8 +64,6 @@ Ha nincs engedélyezve, az Újratöltés lemezről parancs a megnyitott fájl p�
 
 ### _Megjelenítési mód_ 
 
-![Megtekint&#xE9;si m&#xF3;d](.gitbook/assets/05011.jpg)
-
 A SuperSlicer felhasználói felülete három változatban érhető el
 
 **Egyszerű, haladó és szakértő**
@@ -81,8 +79,6 @@ A pillanatfelvétel tartalmazza a teljes konfigurációt, különösen az össze
 Ha a _Beépített előbeállítások automatikus frissítése engedélyezve_ van a **Beállítások**ban, akkor minden frissítés előtt új pillanatfelvétel készül. Manuálisan is készíthet pillanatképet a **Konfiguráció - Konfigurációs pillanatkép rögzítése** menüpont kiválasztásával.
 
 A pillanatfelvételt az **Aktiválás** gomb segítségével töltheti be.
-
-![Konfigur&#xE1;ci&#xF3;s pillanatk&#xE9;p](.gitbook/assets/05012.jpg)
 
 Miután módosította a profilbeállításokat. Ha nem menti el a módosításokat, a profil bezárásakor vagy a beállítások módosításakor a SuperSlicer megkérdezi, hogy el kívánja-e menteni az elvégzett módosításokat \(feltüntetve a régi és az új értékeket\), vagy inkább figyelmen kívül kívánja hagyni a módosításokat. Ez egy új funkció a 2.3.0 verzióban.
 
