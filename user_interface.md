@@ -6,6 +6,8 @@ A SuperSlicer meglehetősen egyszerű felhasználói felülettel rendelkezik. A 
 
 A “Szeletelés most” \(**5**\) gombbal létrehozható a G-kód, amely ezután SD-kártyára exportálható, vagy közvetlenül nyomtatóra küldhető. Néhány speciális funkció alapértelmezés szerint el van rejtve, ezeket később aktiválhatja, ha haladó vagy szakértői üzemmódba vált \(**10**\).
 
+![Felhaszn&#xE1;l&#xF3;i fel&#xFC;let](.gitbook/assets/user_interface_001.jpg)
+
 1. A **Hozzáadás** gomb betölti a modelleket a SuperSlicerbe.
 2. Az Oldalsáv összecsukása/kibontása
 3. Megnyitja a részletes nyomtatási, szál- és nyomtatóbeállításokat
@@ -34,6 +36,8 @@ A skála gyorsan visszaállítható 100%-ra a **narancssárga visszaállító ny
 
 Amikor átalakít egy modellt vagy egy több részből álló modell egy részét, a nyomtatóágyának egy megfelelő helyén jelenik meg, amikor a kiválasztott objektum a nyomtatóágy felett vagy alatt van.
 
+![Objektumkezel&#x151; panel](.gitbook/assets/user_interface_002.jpg)
+
 Ha globális koordinátákról helyi koordinátákra vált, 3 gyors tükrözés gombot használhat.
 
 ### Helyi vs. globális koordináták
@@ -41,6 +45,8 @@ Ha globális koordinátákról helyi koordinátákra vált, 3 gyors tükrözés 
 A haladó és szakértői módban a helyi és globális koordináták között lehet váltani.
 
 A helyi koordinátarendszer állandó az objektumhoz képest. A globális koordináták a nyomtatóágyhoz viszonyítva állandóak. Ez azt jelenti, hogy egy objektum mérete a globális koordinátákban változik, ha elforgatja azt például a Z tengely körül. A méret a helyi koordinátákban állandó, függetlenül attól, hogy bármelyik tengely körül elforgatjuk.
+
+![Helyi koordin&#xE1;t&#xE1;k \(balra\) vs. glob&#xE1;lis koordin&#xE1;t&#xE1;k \(jobbra\)](.gitbook/assets/user_interface_003.jpg)
 
 ## Objektumok listája
 
@@ -59,6 +65,8 @@ Az objektumlistában a modell nevére **duplán kattintva** átnevezheti azt. Ez
 A **szem ikon** a “nyomtatható” tulajdonságot kapcsolja. Ha kikapcsolja, a sablon a nyomtatási lemezen marad, de a szeletelőszoftver a G-kód generálásakor figyelmen kívül hagyja ezt a modellt.
 
 A **Szerkesztés** ikonra kattintva egy felugró menü nyílik meg, amely lehetővé teszi a kiválasztott objektum beállításainak testreszabását.
+
+![Panel objektumlist&#xE1;val](.gitbook/assets/user_interface_004.jpg)
 
 ## Nézet
 
@@ -104,6 +112,10 @@ A kiválasztás az _**objektumlistán**_ keresztül is elvégezhető.
 
 A felhasználói felület megjelenése attól függően változik, hogy milyen üzemmódban van. A jobb oldali panelen található gombok segítségével vagy a **Konfiguráció - Mód - Egyszerű/haladó/szakértő** menüpontra kattintva válthat másik üzemmódra.
 
+![Egyszer&#x171;, halad&#xF3; &#xE9;s szak&#xE9;rt&#x151;i &#xFC;zemm&#xF3;dok a jobb oldali panelen](.gitbook/assets/user_interface_005.jpg)
+
+![Konfigur&#xE1;ci&#xF3; - M&#xF3;d - egyszer&#x171;/halad&#xF3;/szak&#xE9;rt&#x151;](.gitbook/assets/user_interface_006.jpg)
+
 Az Egyszerű mód mögött az áll, hogy a kezdők számára csökkentse a tanulási görbét, az alkalmi felhasználók számára pedig egyszerűsítse a felhasználói felületet. Az olyan összetett funkciók, mint a módosító háló, el vannak rejtve, és csak az alapvető paraméterek egy része jelenik meg a felhasználó számára.
 
 A Haladó módban több paraméter jelenik meg, a Szakértő módban pedig a SuperSlicer összes hatékony funkciója elérhető. A paraméterek könnyebb elsajátítása érdekében színkódoltuk őket.
@@ -112,27 +124,41 @@ A Haladó módban több paraméter jelenik meg, a Szakértő módban pedig a Sup
 * **Zöld** - kezdők számára is biztonságosan használható
 * **Piros** - szakértői beállítások, amelyek többségéhez csak akkor érdemes hozzányúlni, ha új nyomtatóhoz készít profilokat.
 
+![A param&#xE9;terek megtekint&#xE9;se az &#xFC;zemm&#xF3;d szerint](.gitbook/assets/user_interface_007.jpg)
+
 ## A szeletelés áttekintése
 
 A modell szeletelése után a szeletelés eredményét az alsó eszköztáron található gombok segítségével tekintheti meg, vagy megnyomhatja a **Tab** billentyűt.
+
+![Megjelen&#xED;t&#xE9;si t&#xED;pus](.gitbook/assets/user_interface_008.png)
 
 Az első gomb a 3D szerkesztő módban való megjelenítést teszi lehetővé \(**Ctrl** + **1** \) , a másik a vágások eredményét jeleníti meg\( **Ctrl** + **2**\).
 
 A SuperSlicer normál felületén a kivágást a _**Kivágás előnézet**_ vagy _**G-kód előnézet**_ fül gombjára kattintva is megtekintheti.
 
+![Lap gombok](.gitbook/assets/user_interface_009.jpg)
+
 A SuperSlicer felület esetében a modellt a \(**Ctrl** + **1** \), a másik a szeletelés eredményét \( **Ctrl** + **2** \), végül a következő a G-kód előnézetét \( **Ctrl** + **3** \) jeleníti meg.
 
 A szeletelés nézetmódban a bal felső sarokban színkódolt információkat, valamint az egyes pályatípusok időtartamát és százalékos arányát láthatja.
 
+![&#xDA;tvonal t&#xED;pusa](.gitbook/assets/user_interface_010.gif)
+
 Ha csak bizonyos típusokat szeretne megtekinteni, kattintson az információs területen az elrejteni/megjeleníteni kívánt útvonalakra.
 
-A "Normál elrendezés fülekkel" felülettípusban a 3D nézet, a kivágás előnézet és a G-kód előnézet szakaszok elérhetősége a szoftver menüi alatti fülekbe van integrálva.
+A "Normál elrendezés fülekkel" felülettípusban a 3D nézet, a szeletelés előnézet és a G-kód előnézet szakaszok elérhetősége a szoftver menüi alatti fülekbe van integrálva.
+
+![Norm&#xE1;l elrendez&#xE9;s a lapszalaggal](.gitbook/assets/user_interface_011.jpg)
+
+![P&#xE9;lda: csak a bels&#x151; kit&#xF6;lt&#xE9;s l&#xE1;that&#xF3;](.gitbook/assets/user_interface_012.jpg)
 
 A lenti sávval az is beállítható, hogy milyen típusú pályát szeretne megjeleníteni. 
 
-_A mostani verzióban nincs a lenti lista, az ablakba kell kiválasztani hogy melyik pályatípusokat kell megjeleníteni._
+![P&#xE1;ly&#xE1;k t&#xED;pus&#xE1;nak be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/user_interface_013.jpg)
 
 Ez a menüsor lehetővé teszi a kívánt megjelenítés típusának beállítását is.
+
+![A megjelen&#xED;t&#xE9;s t&#xED;pus&#xE1;nak be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/user_interface_014.jpg)
 
 Választhat a következők közül:
 
@@ -151,6 +177,8 @@ Választhat a következők közül:
 * **Hőmérséklet** : Nyomtatási hőmérséklet
 
 Az ezen a sávon található beállítások lehetővé teszik a vizualizációban megjeleníteni kívánt elemek beállítását is.
+
+![A megjelen&#xED;t&#xE9;si be&#xE1;ll&#xED;t&#xE1;sok be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/user_interface_015.jpg)
 
 Például hozzáadhatja a :
 
@@ -173,6 +201,8 @@ Például hozzáadhatja a :
 A SuperSlicer szinte minden funkciója elérhető billentyűparanccsal. Ezen túlmenően számos funkciónak van egy alternatív módja, amely módosító billentyűvel érhető el. Ezek nagyszerű időmegtakarítást jelentenek, és javasoljuk, hogy legalább a leggyakrabban használt eszközök billentyűparancsait tanulja meg, mint például a: Mozgatás **\(M\)**, Forgatás **\(R\)** és méretváltoztatás **\(S\)**.
 
 Az összes billentyűkombináció listája megtekinthető a **Súgó - Billentyűkombinációk** ablakban \(vagy a **Shift**+**?** billentyűkombinációval\).
+
+![K&#xE9;p: S&#xFA;g&#xF3; - Billenty&#x171;parancsok](.gitbook/assets/user_interface_016.png)
 
 Alternatív megoldásként az eszköz ikonja fölé is mehet, és rövid késleltetés után megjelenik a billentyűkombináció.
 
@@ -203,11 +233,11 @@ A nyomtatólemez billentyűzet gyorsbillentyűi.
 | **F**+ Átméretező eszköz | Átméretezés a megfelelő méretre \(maximális méret\) |
 | **Ctrl**+ Átméretező eszköz | Csak egy irányba történő méretváltoztatás |
 | **K** | A kamera típusának módosítása \(perspektíva/ortográfiai\) |
-|  ``**B** | Nagyítson rá a nyomtatólemezre |
-|  ``**Z** | Nagyítás minden objektumra |
-|  ``**Z**  + Kiválasztott modell | A kiválasztott modell nagyítása |
-|  ``**I** | Nagyítás |
-|  ``**O** | Kicsinyítés |
+| **B** | Nagyítson rá a nyomtatólemezre |
+| **Z** | Nagyítás minden objektumra |
+| **Z**  + Kiválasztott modell | A kiválasztott modell nagyítása |
+| **I** | Nagyítás |
+| **O** | Kicsinyítés |
 | **Ctrl** + **M** | 3D eszközbeállítások megjelenítése/elrejtése |
 | **Esc** | A kiválasztás törlése |
 
@@ -252,13 +282,21 @@ Billentyűparancsok a főablakban történő megtekintéshez.
 
 A Nyomtatás, a Szál és a Nyomtató lapok minden egyes beállítása mellett egy **zárt** vagy **nyitott** lakat ikon látható. A zárt zár ikon azt jelzi, hogy az érték megegyezik az aktuálisan kiválasztott profilban szereplő értékkel. Amint az érték megváltozik, az ikon nyitott lakatra változik, és megjelenik egy vissza nyíl, amely lehetővé teszi a nyomtatási profil értékének visszaállítását. Ezen kívül **a címke narancssárgára változik**. Ez lehetővé teszi, hogy gyorsan megállapítsa, mely beállításokat változtatták meg.
 
+![Nyitott &#xE9;s z&#xE1;rt lakat](.gitbook/assets/user_interface_017.png)
+
 Az alábbi példában egy változót módosítottunk, a zár nyitva van, és az érték mellett megjelenik a törlő nyíl. Ezenkívül a változó szövege narancssárgára változik.
+
+![M&#xF3;dos&#xED;tott v&#xE1;ltoz&#xF3;k](.gitbook/assets/user_interface_018_.jpg)
 
 ### Keresés a beállításokban
 
 Hozzáférés a billentyűkombinációval \(**Ctrl** + **F**\) A nagyító ikon lehetővé teszi a paraméterek keresését a paraméter címének közvetlen megjelölésével. Miután megtalálta a kívánt paramétert, a listában való kattintással közvetlenül a kívánt funkcióra helyezi. A megnyitott paraméteroldalon egy **kis villogó piros nyíl** jelzi az érintett területet.
 
+![Keres&#xE9;s a be&#xE1;ll&#xED;t&#xE1;sokban](.gitbook/assets/user_interface_019.png)
+
 ### Színvak mód
 
 Ha Ön a színvakság valamelyik típusában szenved, a SuperSlicer által használt színek közül néhányat testre szabhat. Kattintson a piros kérdőjelre a Nyomtatás, anyag vagy nyomtató beállításai lapon. Ezután az új ablak alján lévő két szín egyikére kattintva beállíthat egy másik színt.
+
+![Sz&#xED;nvak &#xFC;zemm&#xF3;d be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/user_interface_020.png)
 
