@@ -1084,7 +1084,7 @@ Válassza ki a tömör réteg elrendezését. Az automatikus opció a legkisebb 
 
 ### Haladó
 
-![Halad&#xF3;](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_077.png)
+![Halad&#xF3;](.gitbook/assets/print_settings_077.png)
 
 A SuperSlicer lehetővé teszi, hogy még jobban beállítsa a kitöltési mintákat! Ha a Haladó vagy Szakértő módra vált, a Kitöltés lapon még több beállítást talál. Nézzük meg tehát a kitöltésekkel kapcsolatos összes beállítást, akár haladó, akár szakértői módban vannak.
 
@@ -1110,7 +1110,7 @@ Teljes kitöltést ír elő a megadott küszöbértéknél kisebb területekre.
 
 > **A kikapcsoláshoz állítsa 0-ra.**
 
-![Teljes kit&#xF6;lt&#xE9;si k&#xFC;sz&#xF6;b&#xE9;rt&#xE9;k 0 \(balra\), 15 \(k&#xF6;z&#xE9;pen\), 100 \(jobbra\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_078.jpeg)
+![Teljes kit&#xF6;lt&#xE9;si k&#xFC;sz&#xF6;b&#xE9;rt&#xE9;k 0 \(balra\), 15 \(k&#xF6;z&#xE9;pen\), 100 \(jobbra\)](.gitbook/assets/print_settings_078.jpeg)
 
 A Teljes kitöltés küszöbterület beállítása különösen hasznos a kis vagy összetett alkatrészeknél. Ezzel a beállítással meghatározhatja, hogy a modellben lévő kisebb és nagyobb üregek 100%-os kitöltéssel legyenek kitöltve. Ez segíthet abban, hogy a kis alkatrészek erősebbek legyenek.
 
@@ -1166,13 +1166,13 @@ Ha problémái vannak a vasalással, ne felejtse el megnézni a áramlási sebes
 
 **Speciális kitöltési lehetőségek**
 
-![Speci&#xE1;lis kit&#xF6;lt&#xE9;si lehet&#x151;s&#xE9;gek](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_079.png)
+![Speci&#xE1;lis kit&#xF6;lt&#xE9;si lehet&#x151;s&#xE9;gek](.gitbook/assets/print_settings_079.png)
 
 Az áramlásnak az a százaléka, amelyet a második vasalási menetre használnak fel. Általában 10-20%. Nem lehet 20%-nál nagyobb, kivéve, ha a felső extrudálás szélessége jóval nagyobb, mint a fúvóka szélessége. Egy túl alacsony érték esetén az extruder elfogyasztja a nyomtatószálakat. Túl magas érték esetén az első menet nem fog jól nyomtatni.
 
 ### Vasalás \(utófeldolgozás\)
 
-![Vasal&#xE1;s](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_080.png)
+![Vasal&#xE1;s](.gitbook/assets/print_settings_080.png)
 
 A vasalási folyamat a vízszintes síkokban **sima felületet** eredményez - a szálak útjai szinte láthatatlanok. Hogyan lehetséges ez? A forró fúvóka még **egyszer áthalad a felületen, de csökkentett száláramlási sebességgel.** A vasalás be- vagy kikapcsolása, valamint a vasalás típusának kiválasztása \(minden felület, csak a legfelső felület, minden tömör felület\) a legtöbb 3D nyomtató felhasználó számára elegendőnek kell lennie. Előfordulhat azonban, hogy módosítani kell az áramlási arányt vagy a vasalási lépések közötti távolságot. Az **áramlási arány** a normál rétegmagasság százalékában van megadva, a **vasalási átmenetek távolsága** pedig azt határozza meg, hogy a fúvóka által húzott párhuzamos vonalak milyen távolságra legyenek egymástól. Ezeknek a paramétereknek az értékei optimális értékekre vannak beállítva, de tetszés szerint módosíthatja őket, ha nem tetszik az eredmény.
 
@@ -1184,9 +1184,9 @@ A vasalás lehetővé teszi a sík felületek simítását egy második speciál
 
 Ahogy a forró fúvóka az imént nyomtatott felső réteg fölött mozog, az esetlegesen felgöndörödött műanyagot ellapítja. A fúvóka egy kis mennyiségű **szálat** is extrudál, hogy kitöltse a felső felületen lévő lyukakat. Az egyes vasalások közötti távolság általában a fúvóka átmérőjének töredéke. Ez azt jelenti, hogy a fúvóka többször is elhalad ugyanazon a ponton. A vasalás a felső felület kitöltésének normál első fázisához képest 45 fokos rögzített szögben történik, mivel ez a megközelítés jobb eredményt ad.
 
-![Vasal&#xE1;s kikapcsolva \(balra\), vasal&#xE1;s bekapcsolva \(jobbra\) \(PrusaSlicer k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_081%20%281%29.jpeg)
+![Vasal&#xE1;s kikapcsolva \(balra\), vasal&#xE1;s bekapcsolva \(jobbra\) \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_081.jpeg)
 
-![Makr&#xF3; &#xF6;sszehasonl&#xED;t&#xE1;s a vasal&#xE1;s ki \(balra\) &#xE9;s vasal&#xE1;s be \(jobbra\) \(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_082.jpeg)
+![Makr&#xF3; &#xF6;sszehasonl&#xED;t&#xE1;s a vasal&#xE1;s ki \(balra\) &#xE9;s vasal&#xE1;s be \(jobbra\) \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_082.jpeg)
 
 #### _Hátrányai_
 
@@ -1202,11 +1202,11 @@ A vasalás hasznos sík felületű nyomatoknál, **mint például névtáblák, 
 
 A vasalás akkor is hasznos lehet, ha két darabot szeretne összeragasztani, és a felületeknek a lehető legegyenletesebbnek kell lenniük, hogy a lehető legkisebb legyen a köztük lévő rés.
 
-![Vasal&#xE1;s haszn&#xE1;lata \(prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_083.jpeg)
+![Vasal&#xE1;s haszn&#xE1;lata \(prusa k&#xE9;p\)](.gitbook/assets/print_settings_083.jpeg)
 
 **A vasalás nem hasznos a kerek tárgyak, alakzatok és általában az organikus formák esetében.** Nem hasznos olyan tárgyak esetében sem, amelyeknek sík területei vannak, de ezek a sík területek nem párhuzamosan vannak a nyomtatólemezzel. Ennek ellenére a vasalásnak nincs jelentős negatív hatása az ilyen modellek nyomtatásakor, csak feleslegesen növeli a nyomtatási időt.
 
-![A vasal&#xE1;snak nincs vagy alig van hat&#xE1;sa az egyenetlen fel&#xFC;letekre, vasal&#xE1;s nem akt&#xED;v \(balra\), vasal&#xE1;s akt&#xED;v \(jobbra\) \(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_084.jpeg)
+![A vasal&#xE1;snak nincs vagy alig van hat&#xE1;sa az egyenetlen fel&#xFC;letekre, vasal&#xE1;s nem akt&#xED;v \(balra\), vasal&#xE1;s akt&#xED;v \(jobbra\) \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_084.jpeg)
 
 Egyes minták a hátoldalra is nyomtathatók. Az nyomtatólemezre nyomtatott alsó réteg általában még simább lesz, mint a vasalt felső réteg. A nyomtatásban pedig a használt nyomtatólemeztől függően textúrát is nyomtathat.
 
@@ -1218,17 +1218,15 @@ Az Egyszerű módban a vasalás nem érhető el, ezért váltson Haladó vagy Sz
 
 Ezután válassza a **Nyomtatási beállítások - Kitöltés - Vasalás - Vasalás engedélyezése** lehetőséget.
 
-![Vasal&#xE1;s aktiv&#xE1;l&#xE1;sa](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_085.png)
+![Vasal&#xE1;s aktiv&#xE1;l&#xE1;sa](.gitbook/assets/print_settings_085.png)
 
 #### _Hogyan engedélyezheti a vasalást csak a kiválasztott modellre_
 
 Először kapcsoljon szakértői üzemmódba, az egyes minták vasalása csak ebben az üzemmódban engedélyezett. Kattintson a jobb gombbal egy modellre, és válassza a felugró menüből a **Beállítások hozzáadása - Vasalás** menüpontot. Jelölje be a **Vasalás engedélyezése** lehetőséget, a többi vasalási beállítást is kiválaszthatja, hogy modellenként testre szabhassa azokat. Most a jobb oldali panelen módosíthatja a sablon vasalási beállításait.
 
-![Vasal&#xE1;s hozz&#xE1;ad&#xE1;sa a kiv&#xE1;lasztott modellre \(Gif\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_086k%20%281%29%20%281%29.gif)
+![Vasal&#xE1;s hozz&#xE1;ad&#xE1;sa a kiv&#xE1;lasztott modellre \(Gif\)](.gitbook/assets/print_settings_086k.gif)
 
-```text
-                                                                  [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_086.gif?raw=true)\*\*\*\*
-```
+                                                                                 [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_086.gif?raw=true)\*\*\*\*
 
 Ha ugyanannak az objektumnak több példánya is van a nyomtatólemezen, és az egyiknél engedélyezni szeretné a vasalást, akkor először jobb egérgombbal kell kattintania a modellre, és a szövegkörnyezeti menüből a _**Egyedi objektumként való beállítás**_ parancsot kell választania. Ellenkező esetben az összes példányban engedélyezni fogja, mivel mindannyian ugyanazokat a beállításokat használják.
 
@@ -1246,11 +1244,9 @@ Mivel a vasalás csak sík felületeken működik, érdemes egy magasság módos
 4. Válassza a **Beállítások hozzáadása - Vasalás** lehetőséget.
 5. Jelölje be a **Vasalás engedélyezése** jelölőnégyzetet, most már csak erre a részre engedélyezheti a simítást a jobb oldali panelen.
 
-![Vasal&#xE1;s egy adott r&#xE9;tegtartom&#xE1;nyba \(Gif\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_087k.gif)
+![Vasal&#xE1;s egy magass&#xE1;gi tartom&#xE1;ny m&#xF3;dos&#xED;t&#xF3;val \(Gif\)](.gitbook/assets/print_settings_087k.gif)
 
-```text
-                                                                           ****[**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_087.gif?raw=true)\*\*\*\*
-```
+                                                                              [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_087.gif?raw=true)\*\*\*\*
 
 **Módosító háló**
 
@@ -1261,11 +1257,9 @@ Mivel a vasalás csak sík felületeken működik, érdemes egy magasság módos
 5. Válassza a **Beállítások hozzáadása - Vasalás** lehetőséget.
 6. Jelölje be a Vasalás engedélyezése jelölőnégyzetet, most már csak erre a részre engedélyezheti a vasalást a jobb oldali panelen.
 
-![Vasal&#xE1;s egy m&#xF3;dos&#xED;t&#xF3; h&#xE1;l&#xF3;val \(Gif\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_088k.gif)
+![Vasal&#xE1;s egy m&#xF3;dos&#xED;t&#xF3; h&#xE1;l&#xF3;val \(Gif\)](.gitbook/assets/print_settings_088k.gif)
 
-```text
-                                                                            ****[**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_088.gif?raw=true)\*\*\*\*
-```
+                                                                               [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_088.gif?raw=true)\*\*\*\*
 
 #### _Vasalás típusa_
 
@@ -1277,7 +1271,7 @@ A fúvóka minden felület felső rétegét \(minden sík terület utolsó réte
 
 Csak az objektum utolsó rétege lesz simítva. Ez azt jelenti, hogy a felemelt \(a nyomtatási ágyhoz párhuzamosan tájolt\) szöveg esetében csak a betűk felső része lesz vasalva, a betűk közötti tér nem.
 
-![Minden fels&#x151; fel&#xFC;let \(balra\), Csak a fels&#x151; fel&#xFC;let \(jobbra\) \(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_089%20%281%29.jpeg)
+![Minden fels&#x151; fel&#xFC;let \(balra\), Csak a fels&#x151; fel&#xFC;let \(jobbra\) \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_089.jpeg)
 
 **Minden tömör felület**
 
@@ -1319,17 +1313,17 @@ _A vasalás ötletét először “Neotko” felhasználó javasolta az Ultimake
 
 ## Szoknya és perem
 
-![Szoknya &#xE9;s perem](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_090.png)
+![Szoknya &#xE9;s perem](.gitbook/assets/print_settings_090.png)
 
 ### Szoknya
 
-![Szoknya be&#xE1;ll&#xED;t&#xE1;sai](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_091.png)
+![Szoknya be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/print_settings_091.png)
 
 A szoknya egy körvonal, amely a nyomtatólemezre nyomtatott összes modell köré van nyomtatva. Ezt a modellek előtt nyomtatják ki, és fő célja, hogy **stabilizálja a fúvókán keresztül a szál áramlását**.
 
 A szoknya hasznos az első rétegnek a nyomtatólemezhez való tapadásának **ellenőrzéséhez** is. Mivel a sablonok előtt nyomtatja, gyorsan módosíthatja a **Z-tengely beállítás** értékét, ha úgy látja, hogy az első réteg nem tapad megfelelően, vagy a fúvóka összetöri.
 
-![Szoknya](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_092%20%281%29.jpeg)
+![Szoknya](.gitbook/assets/print_settings_092.jpeg)
 
 #### _Hurok \(minimum\)_
 
@@ -1355,9 +1349,9 @@ Ha ez az opció be van kapcsolva, akkor a legmagasabb objektum megfelelő magass
 
 A pajzs jellemzői a szoknya beállításaitól függenek, különösen a pajzsot alkotó hurkok számától.
 
-![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/13087%20%281%29.jpg)
+![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](.gitbook/assets/print_settings_093.jpg)
 
-![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/13088.jpg)
+![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](.gitbook/assets/print_settings_094.jpg)
 
 #### \_\_
 
@@ -1367,7 +1361,7 @@ Szükség esetén erőltessen több szoknyahurkot, hogy az itt meghatározott mi
 
 ### Perem
 
-![Perem be&#xE1;ll&#xED;t&#xE1;sok](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_095.png)
+![Perem be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_095.png)
 
 Mielőtt a lemezhez való jobb tapadás érdekében extra tapadóanyagot alkalmazna, fontolja meg a SuperSlicer-ben a **Perem** opció használatát, amely megnöveli az első réteg területét. A **SuperSlicer-ben** a **Nyomtatási beállítások - Szoknya és perem - Perem** menüpontban manuálisan állíthatja be a perem méretét. Általában ajánlott legalább 3 mm-es szegélyt használni a tapadás növelése érdekében.
 
@@ -1376,7 +1370,7 @@ Mielőtt a lemezhez való jobb tapadás érdekében extra tapadóanyagot alkalma
 * Magas, kis alapterületű tárgyak
 * Több kis méretű tárgy egyszerre
 
-![Perem](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_096.jpeg)
+![Perem](.gitbook/assets/print_settings_096.jpeg)
 
 Ha az [_**XY méretkompenzáció**_ \(Elefántláb-kompenzáció\)](print_settings.md#szeleteles) aktiválva van, az előnézetben egy kis tér jelenik meg a modell és a keret között.
 
@@ -1388,7 +1382,7 @@ Az első réteg minden egyes objektuma köré nyomtatott perem vízszintes szél
 
 Lehetővé teszi egy sziget határainak létrehozását, ha az egy furatban van \(vagy egy objektummal van körülvéve\).
 
-![Perem szigeten a lyukak belsej&#xE9;ben](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_097.jpeg)
+![Perem szigeten a lyukak belsej&#xE9;ben](.gitbook/assets/print_settings_097.jpeg)
 
 #### _Belső perem szélessége_
 
@@ -1398,7 +1392,7 @@ A belső perem szélessége, az első rétegben lévő objektum furatainak belse
 
 Lehetőség, hogy csak a modell kiemelkedő szélei köré helyezzen peremet.
 
-![Perem a sarokban](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_098.jpeg)
+![Perem a sarokban](.gitbook/assets/print_settings_098.jpeg)
 
 **Maximális szög**
 
@@ -1424,7 +1418,7 @@ Az él és az alkatrész közötti távolság. 0 értéken kell tartani, hacsak 
 
 ## Támaszték
 
-![T&#xE1;maszt&#xE9;k](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_099.png)
+![T&#xE1;maszt&#xE9;k](.gitbook/assets/print_settings_099.png)
 
 A 3D-nyomtatók úgy működnek, hogy rétegről rétegre helyezik a műanyagot, hogy létrehozzanak egy 3D-tárgyat. Minden egyes új réteget az alatta lévőnek kell megtámasztania. Ha a modell egy része a levegőben kezdődik, és nem támasztja meg semmi alatta, akkor a sikeres nyomtatáshoz további tartószerkezetet kell hozzáadni
 
@@ -1439,7 +1433,7 @@ A támaszokat manuálisan is beállíthatja a :
 
 A támasztékokat a **jobb oldali panelen** vagy a **Nyomtatási beállítások - Támaszték - Támaszték létrehozása** menüpontban lehet aktiválni.
 
-![T&#xE1;maszt&#xE9;k l&#xE9;trehoz&#xE1;sa](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_100.png)
+![T&#xE1;maszt&#xE9;k l&#xE9;trehoz&#xE1;sa](.gitbook/assets/print_settings_100.png)
 
 A nyomtatás befejeztével a modell geometriájától és a felhasznált anyagtól függően a tartószerkezet gyakran puszta kézzel is könnyen eltávolítható. Fogóval jobban megfoghatja az egyébként nehezen hozzáférhető helyeket. Egy szike vagy egy kés is használható a modellhez ragadtnak tűnő tartóelemek tiszta eltávolítására.
 
@@ -1451,11 +1445,11 @@ A támaszték mind a nyomtatólemezről, mind bármely modellfelületről kinőh
 
 Ez biztosítja, hogy minden túlnyúlás és minden levegőben induló alkatrész megtámasztásra kerüljön. A felszínen azonban apró tökéletlenségek jelenhetnek meg, ahol a támaszok növekedésnek indultak.
 
-![T&#xE1;maszt&#xE9;kok kezel&#xE9;se a jobb oldali panelen](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_101.png)
+![T&#xE1;maszt&#xE9;kok kezel&#xE9;se a jobb oldali panelen](.gitbook/assets/print_settings_101.png)
 
 ### Támaszték csak az építőlemezről
 
-![K&#xE9;p: t&#xE1;maszt&#xE9;k csak a lemezen \(balra\), t&#xE1;maszt&#xE9;k mindenhol \(jobbra\)\(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_102.jpeg)
+![K&#xE9;p: t&#xE1;maszt&#xE9;k csak a lemezen \(balra\), t&#xE1;maszt&#xE9;k mindenhol \(jobbra\)\(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_102.jpeg)
 
 Csak olyan támasztékokat hoz létre, amelyeknek az alja a nyomtatólemezen van.
 
