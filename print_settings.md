@@ -2,7 +2,7 @@
 
 ## Kerületek és héj
 
-![Ker&#xFC;letek &#xE9;s h&#xE9;j](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_001.png)
+![Ker&#xFC;letek &#xE9;s h&#xE9;j](.gitbook/assets/print_settings_001.png)
 
 ### Függőleges héjak \(falak\)
 
