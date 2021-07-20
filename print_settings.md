@@ -6,7 +6,7 @@
 
 ### Függőleges héjak \(falak\)
 
-![F&#xFC;gg&#x151;leges h&#xE9;jak](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_002.png)
+![F&#xFC;gg&#x151;leges h&#xE9;jak](.gitbook/assets/print_settings_002.png)
 
 #### _Kerületek_
 
@@ -16,7 +16,7 @@ Meghatározza a modell falát alkotó körvonalak minimális számát. A profilo
 
 A modell szilárdságát elsősorban a kerületek száma határozza meg \(nem a kitöltés\). Ha erősebb nyomatot szeretne létrehozni, növelje a kerületek számát.
 
-![A ker&#xFC;letsz&#xE1;mok sz&#xE1;ma \(prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_003%20%281%29.jpeg)
+![A ker&#xFC;letsz&#xE1;mok sz&#xE1;ma \(prusa k&#xE9;p\)](.gitbook/assets/print_settings_003.jpeg)
 
 #### _Spirálváza_
 
@@ -44,7 +44,7 @@ A modellt szilárdtestként kell definiálni, különben a SuperSlicer megprób�
 
 ### Vízszintes héjak
 
-![V&#xED;zszintes h&#xE9;jak](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_004%20%281%29%20%281%29.png)
+![V&#xED;zszintes h&#xE9;jak](.gitbook/assets/print_settings_004.png)
 
 #### _Minimális héjvastagság_
 
@@ -56,13 +56,13 @@ Azt gondolhatja, hogy ha egy kerület extrudálási szélessége 0,45 mm, akkor 
 
 Ahhoz, hogy megértsük, hogyan számolják ki ezt a számot, meg kell néznünk a kerületi keresztmetszetet. A SuperSlicer feltételezi, hogy az extrudálás keresztmetszete egy téglalap, félköríves végekkel. Vegye figyelembe, hogy az extrudálás szélessége magában foglalja a két félköríves véget.
 
-![Egy keresztmetszet](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/13003.png)
+![Egy keresztmetszet](.gitbook/assets/print_settings_005.png)
 
 _\(A kép forrás:_ [https://manual.slic3r.org/advanced/flow-math](https://manual.slic3r.org/advanced/flow-math) _\)_
 
 Most adjunk hozzá egy második extrúziót/kerületet. Ha feltételezzük, hogy nincs átfedés \(érintő pályák\), akkor üres tér lenne \(sárga\). Az üres tér kitöltése és a kerületeket összekötése érdekében a SuperSlicer kissé átfedi a kerületeket. Lényegében ezért nem lehet egyszerűen megszorozni a kerületszámot egyetlen kerület szélességével, hogy megkapjuk az ideális falvastagságot.
 
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/13004.png)
+![&#xC1;tfed&#x151; ker&#xFC;letek](.gitbook/assets/print_settings_006.png)
 
 _\(A kép forrása :_ [https://manual.slic3r.org/advanced/flow-math](https://manual.slic3r.org/advanced/flow-math)_\)_
 
@@ -78,11 +78,11 @@ Meghatározhatja a nyomtatni kívánt szilárd\(tömör\) rétegek \(felső és 
 
 A felső vagy alsó tömör rétegek 0-ra állítása felülírja a minimális falvastagságot. Tehát nem kell a minimális falvastagságot is 0-ra állítania ahhoz, hogy felső vagy alsó rétegeket kapjon.
 
-![A fels&#x151; &#xE9;s als&#xF3; r&#xE9;tegek sz&#xE1;ma](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_004%20%281%29.png)
+![A fels&#x151; &#xE9;s als&#xF3; r&#xE9;tegek sz&#xE1;ma](.gitbook/assets/print_settings_004.png)
 
 A felső tömör kitöltés lényegében egy híd a kitöltési minta felett. Emiatt szinte mindig látni fog némi megereszkedést az első néhány tömör kitöltési vonalnál. Minél alacsonyabb a kitöltés, annál hosszabb az áthidalási távolság, és ezért annál nagyobb a megereszkedés. Ez egyszerűen ellensúlyozható a tömör rétegek számának növelésével - mi **legalább 3 felső réteget** javaslunk. Ezt a viselkedést tovább csökkentheti egy módosító hálóval, amely növeli a kitöltést a tömör kitöltés előtti utolsó néhány rétegben.
 
-![Balr&#xF3;l jobbra, 1, 2, 3 &#xE9;s 5 fels&#x151; r&#xE9;teg, 0,1 mm-es r&#xE9;tegmagass&#xE1;ggal nyomtatva \(Prusa k&#xE9;p\).](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/13006.jpeg)
+![Balr&#xF3;l jobbra, 1, 2, 3 &#xE9;s 5 fels&#x151; r&#xE9;teg, 0,1 mm-es r&#xE9;tegmagass&#xE1;ggal nyomtatva \(Prusa k&#xE9;p\).](.gitbook/assets/print_settings_007.jpeg)
 
 Ne feledje, hogy alacsony rétegmagasságú nyomtatás esetén több tömör rétegre lesz szüksége ugyanazon felső/alsó falvastagság eléréséhez \(pl. 0,3 mm-es rétegmagasság esetén használjon 3 felső réteget, 0,1 mm-es rétegmagasság esetén 9 felső réteget\).
 
@@ -94,7 +94,7 @@ Kísérleti opció, amely módosítja \(teljes kitöltés esetén\) a kitöltés
 
 ### Minőség \(lassabb szeletelés\)
 
-![Min&#x151;s&#xE9;g](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_008.png)
+![Min&#x151;s&#xE9;g](.gitbook/assets/print_settings_008.png)
 
 #### _Csak egy kerület a felső felületeken_
 
@@ -112,13 +112,13 @@ Ez a funkció megoldja a régebbi szeletelő programok egyik legnagyobb problém
 
 Ez a funkció jelenleg még kikapcsolt állapotban is hatással van a G-kód generálására, és váratlan G-kódot eredményezhet. Ez egy ismert probléma, és dolgozunk a javításán.
 
-![A ker&#xFC;letek k&#xF6;z&#xF6;tti lyukak elt&#xE1;vol&#xED;t&#xE1;sa lejt&#x151;s fel&#xFC;leten \(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/13008.jpeg)
+![A ker&#xFC;letek k&#xF6;z&#xF6;tti lyukak elt&#xE1;vol&#xED;t&#xE1;sa lejt&#x151;s fel&#xFC;leten \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_009.jpeg)
 
 #### _Kerülje a határok átlépését_
 
 Optimalizálja az utazást a kerületek keresztezésének minimalizálása érdekében. Ez segíthet megakadályozni a fúvókából a kicsepegést a mozgatás során, különösen a Bowden extruderekkel. A funkció engedélyezése jelentősen lelassítja a G-kód generálását és növeli a nyomtatási időt
 
-![Ker&#xFC;lje a hat&#xE1;rok &#xE1;tl&#xE9;p&#xE9;s&#xE9;t opci&#xF3; balra kikapcsolva, jobbra bekapcsolva \(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_010%20%281%29.jpeg)
+![Ker&#xFC;lje a hat&#xE1;rok &#xE1;tl&#xE9;p&#xE9;s&#xE9;t opci&#xF3; balra kikapcsolva, jobbra bekapcsolva \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_010.jpeg)
 
 #### Kerülje a határkerületek keresztezését - Maximális kerülőút hossza
 
