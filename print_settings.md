@@ -148,7 +148,7 @@ Engedélyezi a túlnyúlások áthidaló áramlását és bekapcsolja a ventilá
 {% endtab %}
 {% endtabs %}
 
-A hidakra vonatkozó áramlási arány beállításához lásd a [Áramlási arány hidakhoz](print_settings-2.md#aramlasi-arany) paramétert.
+A hidakra vonatkozó áramlási arány beállításához lásd a [Áramlási arány hidakhoz](print_settings.md#aramlasi-arany) paramétert.
 
 ### Túlnyúlások
 
@@ -1373,7 +1373,7 @@ Mielőtt a lemezhez való jobb tapadás érdekében extra tapadóanyagot alkalma
 
 ![Perem](.gitbook/assets/13090.jpeg)
 
-Ha az [_**XY méretkompenzáció**_ \(Elefántláb-kompenzáció\)](print_settings-2.md#szeleteles) aktiválva van, az előnézetben egy kis tér jelenik meg a modell és a keret között.
+Ha az [_**XY méretkompenzáció**_ \(Elefántláb-kompenzáció\)](print_settings.md#szeleteles) aktiválva van, az előnézetben egy kis tér jelenik meg a modell és a keret között.
 
 #### _Peremszélesség_
 
@@ -2025,7 +2025,7 @@ Hőmérsékletkülönbség, amelyet akkor kell alkalmazni, ha az extruder nem ak
 
 A több anyagból nyomtatóknak szálcsere során szükség lehet az extruder előkészítésére vagy tisztítására. Extrudálja a felesleges anyagot a tisztítótoronyba.
 
-Felhívjuk a figyelmet arra, hogy a tisztítótorony aktiválása nem lehetséges a **Az objektumok nyomtatása egyesével** módban \([ **Nyomtatási beállítások - Kimeneti beállítások - Sorrendben történő nyomtatás**](print_settings-2.md#sorrendben-szekvencialis-toerteno-nyomtatas) menüben\).
+Felhívjuk a figyelmet arra, hogy a tisztítótorony aktiválása nem lehetséges a **Az objektumok nyomtatása egyesével** módban \([ **Nyomtatási beállítások - Kimeneti beállítások - Sorrendben történő nyomtatás**](print_settings.md#sorrendben-szekvencialis-toerteno-nyomtatas) menüben\).
 
 ![T&#xF6;r&#xF6;lje a jel&#xF6;l&#x151;n&#xE9;gyzetet a tiszt&#xED;t&#xF3;torony aktiv&#xE1;l&#xE1;s&#xE1;hoz.](.gitbook/assets/13134.jpg)
 
