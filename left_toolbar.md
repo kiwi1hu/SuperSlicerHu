@@ -1,6 +1,6 @@
 # Bal oldali eszköztár
 
-![Bal oldali eszk&#xF6;zt&#xE1;r](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/09008.jpg)
+![Bal oldali eszk&#xF6;zt&#xE1;r](.gitbook/assets/left_toolbar_001.jpg)
 
 ## Mozgatás, forgatás és méretváltoztatás eszközei
 
@@ -10,7 +10,9 @@ Az objektumok a bal egérgombbal történő húzással mozgathatók akkor is, ha
 
 * Mozgás 1 mm-es lépésekben, nyomja meg a **Shift** gombot.
 
-![Objektum mozgat&#xE1;sa](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/move.gif)
+![Objektum mozgat&#xE1;sa](.gitbook/assets/left_toolbar_002k.gif)
+
+                                                                                **Nagyobb méret**  
 
 Megjegyzés: A SuperSlicer-el nem lehet az alkatrészt a nyomtatólemez alá vagy fölé helyezni, nincs lehetőség arra, hogy a szoftver megakadályozza, hogy az alkatrész a nyomtatólemezzel érintkezzen. Az egyetlen trükk az, hogy esetleg hozzá kell adni egy kezdő alkatrészt, majd társítani kell az új alkatrészt, hogy a lemez tetejére helyezze. De nem lehet a lemez alatt.
 
@@ -23,7 +25,9 @@ A Forgatás eszköz \(**R**\) egy 3D manipulátort jelenít meg, amely lehetőv�
 * Egér pozícionálása a **külső körön / rövid jelek 5 fokos lépésekben**
 * Egér pozícionálása a **belső körön / hosszú jelek 45 fokos lépésekben**
 
-![Egy objektum elforgat&#xE1;sa](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/rotate.gif)
+![Egy objektum elforgat&#xE1;sa](.gitbook/assets/left_toolbar_003k.gif)
+
+                                                                             **Nagyobb méret**
 
 ### Átméretezés
 
@@ -35,7 +39,9 @@ Alapértelmezés szerint az átméretezés szimmetrikus, a modell mindkét oldal
 * Átméretezés \(maximális méret\) **F** billentyű
   * Csak az átméretező eszköz kiválasztásával
 
-![Objektum &#xE1;tm&#xE9;retez&#xE9;se](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/scale.gif)
+![Objektum &#xE1;tm&#xE9;retez&#xE9;se](.gitbook/assets/left_toolbar_004k.gif)
+
+                                                                             **Nagyobb méret**
 
 ## Helyezze egy síkra \(Irányba helyezés eszköz\)
 
@@ -43,7 +49,9 @@ Előfordulhat, hogy a modell az importálás után helytelenül tájolódik. Ez 
 
 _**Először válassza ki azt a modellt**_, amelyet át szeretne irányítani. Ezután nyomja meg az **F** billentyűt, vagy válassza a bal oldali eszköztárból a **Helyezze egy síkra** parancsot. Több fehér sík jelenik meg a modellen. A fehér síkok egyikére kattintva az adott síkot a nyomtatólaphoz igazítja.
 
-![Helyezze egy s&#xED;kra](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/flat.gif)
+![Helyezze egy s&#xED;kra](.gitbook/assets/left_toolbar_005k.gif)
+
+                                                                                **Nagyobb méret**
 
 A névvel ellentétben a javasolt "síkok" nem csak a modellen lévő síkok, hanem a modellen lévő 3 támpont által megvalósított síkok is lehetnek. Az algoritmus mindezek mögött a modell úgynevezett konvex burkológörbéjének kiszámítása.
 
@@ -56,7 +64,9 @@ Bizonyos esetekben előfordulhat, hogy a modellt nyomtatás előtt több darabra
 
 A SuperSlicer alapvető vágási funkciót biztosít. A vágás az XY síkkal lehetséges. Jelölje ki az objektumot, és nyomja meg a **C** billentyűt, vagy válassza a bal oldali eszköztárból a **Vágás** parancsot. Megjelenik egy 3D manipulátor és egy környezetfüggő menü.
 
-![Objektum v&#xE1;g&#xE1;sa](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/slice.gif)
+![Objektum v&#xE1;g&#xE1;sa](.gitbook/assets/left_toolbar_006k.gif)
+
+                                                                             **Nagyobb méret**
 
 A vágási sík Z-tengelyének pozícióját úgy állíthatja be, hogy megragadja a kezelőelem kocka alakú fogantyúját, és felfelé vagy lefelé húzza. A felugró menüben pontos értéket \[mm\] is megadhat. Alapértelmezés szerint a modell két részre lesz osztva, mindkettő az aktuális tájolásban marad, és a nyomtatólemezre kerül.
 
@@ -72,7 +82,7 @@ A Festett támogatások egy olyan eszköz, amely lehetővé teszi, hogy közvetl
 
 Az eszköz a bal oldali eszköztáron érhető el, és **csak a Haladó és a Szakértő módban jelenik meg**. Egy objektum kiválasztása és az eszköztár ikonjára való kattintás után az összes többi objektum elrejtésre kerül, hogy ne takarja el a látványt, a kiválasztott objektum a kontraszt kedvéért világosszürke színben jelenik meg.
 
-![Kattintson a szak&#xE9;rt&#x151;i m&#xF3;dra, hogy el&#xE9;rje a funkci&#xF3;t](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/09014.jpg)
+![Kattintson a szak&#xE9;rt&#x151;i m&#xF3;dra, hogy el&#xE9;rje a funkci&#xF3;t](.gitbook/assets/left_toolbar_007.jpg)
 
 **Bal egérgomb** - Támasztékok kikényszerítése
 
@@ -82,7 +92,9 @@ Az eszköz a bal oldali eszköztáron érhető el, és **csak a Haladó és a Sz
 
 **Alt** + **Egérkerék** - Ecsetméret módosítása
 
-![Festett t&#xE1;maszt&#xE9;kok](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/paint.gif)
+![Festett t&#xE1;maszt&#xE9;kok](.gitbook/assets/left_toolbar_008k.gif)
+
+                                                                             **Nagyobb méret**
 
 ### Támaszték generálása
 
@@ -118,9 +130,9 @@ A körön belüli összes látható területet kifesti az aktuális nézetből, 
 
 A vágási sík eszközzel elrejtheti az objektum egy részét, így a nehezen hozzáférhető területek könnyen festhetők. A vágási sík mozgatásához mozgassa a csúszkát balról jobbra.
 
-![V&#xE1;g&#xE1;si s&#xED;k](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/09016%20%281%29.jpg)
+![V&#xE1;g&#xE1;si s&#xED;k](.gitbook/assets/left_toolbar_009.jpg)
 
-![Ir&#xE1;ny vissza&#xE1;ll&#xED;t&#xE1;sa](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/09016a.jpg)
+![Ir&#xE1;ny vissza&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/left_toolbar_010.jpg)
 
 Irány visszaállítása gombbal a vágási sík eszközt az aktuális kameranézettel párhuzamosan igazíthatja. Ha például azt szeretné, hogy a vágási sík fel-le mozogjon, nézze a modellt felülről \( Fenti kép\), és nyomja meg a **Irány visszaállítása** gombot. A gomb akkor jelenik meg, ha a csúszkát bármilyen nem nulla értékre mozgatja.
 
@@ -128,13 +140,15 @@ Irány visszaállítása gombbal a vágási sík eszközt az aktuális kamerané
 
 A _**Automatikus szögbeállítás**_ gomb kiválasztja az összes olyan háromszöget, amely "vízszintesebb", mint a küszöbérték. Alapértelmezettként használható a későbbi kézi szerkesztéshez, hogy biztosítsa, hogy nem maradnak alátámasztatlanul túlnyúlások. Egy másik felhasználási lehetőség, hogy egyszerűen előnézetben megnézzük a túlnyúlásokat, és eldöntjük, hogy hol akarjuk a merevítőket festeni. A túlnyúló háromszögek **valós időben** jelennek meg a küszöbérték beállításakor.
 
-![Automatikus sz&#xF6;gbe&#xE1;ll&#xED;t&#xE1;s](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/autoset.gif)
+![Automatikus sz&#xF6;gbe&#xE1;ll&#xED;t&#xE1;s](.gitbook/assets/left_toolbar_011k.gif)
+
+                                                                             **Nagyobb méret**
 
 ### Visszavonás és újra
 
 Amíg a festéstámogató eszköz nyitva van, új visszavonási és újból elvégezni előzmények jönnek létre. Visszavonhat minden egyes festékvonást \(festék felvitele, blokkolás, törlés\).
 
-A _**Festett támasztékok**_ eszközből való kilépés után az utolsó festési munkamenet összes vonása egyetlen lépéssé egyesül a globális visszavonási és újrafestési előzményekben.
+A _**Festett támasztékok**_ eszközből való kilépés után az utolsó festési munkamenet összes vonása egyetlen lépéssé egyesül a globális visszavonási és újra festés előzményekben.
 
 ### Festett támaszték mentése 3MF-be
 
@@ -152,7 +166,7 @@ A nyomtatási beállításokban beállíthatja a varrat pozícióját, hogy megp
 
 A varratfestő eszközzel részletesebben szabályozhatja a varrat elhelyezését. Az eszköz a bal oldali eszköztárból érhető el, és csak a **haladó** és **szakértői** üzemmódban jelenik meg. Az ikonra kattintás után a felhasználó a a támaszokhoz hasonlóan "varratkikényszerítőket" vagy "varratblokkolókat" festhet a modellre.
 
-![Kattintson a szak&#xE9;rt&#x151;i m&#xF3;dra, hogy el&#xE9;rje a funkci&#xF3;t](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/09014%20%281%29.jpg)
+![Kattintson a szak&#xE9;rt&#x151;i m&#xF3;dra, hogy el&#xE9;rje a funkci&#xF3;t](.gitbook/assets/left_toolbar_007.jpg)
 
 **Bal egérgomb** - varrat felhelyezése
 
@@ -162,7 +176,7 @@ A varratfestő eszközzel részletesebben szabályozhatja a varrat elhelyezésé
 
 **Alt** + **egérkerék** - Ecsetméret módosítása
 
-![Varratfest&#xE9;s funkci&#xF3;](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/09018.jpg)
+![Varratfest&#xE9;s funkci&#xF3;](.gitbook/assets/left_toolbar_012.jpg)
 
 ### A varrat elhelyezési logikája
 
@@ -186,9 +200,9 @@ A körön belüli összes látható területet kifesti az aktuális nézetből, 
 
 A vágási sík eszközzel elrejtheti az objektum egy részét, így a nehezen elérhető területek könnyen festhetők. A vágási sík mozgatásához mozgassa a csúszkát balról jobbra.
 
-![V&#xE1;g&#xE1;si s&#xED;k](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/09016%20%281%29%20%281%29.jpg)
+![V&#xE1;g&#xE1;si s&#xED;k](.gitbook/assets/left_toolbar_009.jpg)
 
-![Ir&#xE1;ny vissza&#xE1;ll&#xED;t&#xE1;sa](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/09016a%20%281%29.jpg)
+![Ir&#xE1;ny vissza&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/left_toolbar_010.jpg)
 
 A **Irány visszaállítása** gomb a vágási síkszerszámot az aktuális kameranézettel párhuzamosan igazítja. Ha például azt szeretné, hogy a vágási sík felülről lefelé mozogjon, nézze meg a felső modellt \(**Felső kép**\), és nyomja meg az **Irány visszaállítása** gombot. A gomb akkor jelenik meg, ha a kurzort egy nem nulla értékre mozgatja.
 
@@ -196,7 +210,9 @@ A **Irány visszaállítása** gomb a vágási síkszerszámot az aktuális kame
 
 A varrás a festett területen lesz elhelyezve, de ha azt szeretné, hogy a varrás mindig ugyanazon az oldalon legyen, ne felejtse el kiválasztani a következő opciót: **Igazított varrat pozicionálása**.
 
-![Illesztett varrat poz&#xED;ci&#xF3;ja](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/09021.jpg)
+![Illesztett varrat poz&#xED;ci&#xF3;ja](.gitbook/assets/left_toolbar_013.jpg)
 
-![A varr&#xE1;s ter&#xFC;let&#xE9;nek meghat&#xE1;roz&#xE1;sa \(5axes gif\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/seam.gif)
+![A varr&#xE1;s ter&#xFC;let&#xE9;nek meghat&#xE1;roz&#xE1;sa \(5axes gif\)](.gitbook/assets/left_toolbar_014k.gif)
+
+                                                                             **Nagyobb méret**
 
