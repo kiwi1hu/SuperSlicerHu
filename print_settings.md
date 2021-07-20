@@ -94,7 +94,7 @@ Kísérleti opció, amely módosítja \(teljes kitöltés esetén\) a kitöltés
 
 ### Minőség \(lassabb szeletelés\)
 
-![Min&#x151;s&#xE9;g](.gitbook/assets/print_settings_008.png)
+![Min&#x151;s&#xE9;g  be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_008.png)
 
 #### _Csak egy kerület a felső felületeken_
 
@@ -140,11 +140,11 @@ Engedélyezi a túlnyúlások áthidaló áramlását és bekapcsolja a ventilá
 
 {% tabs %}
 {% tab title="Felderítés kikapcsolva" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_011.jpeg)
+![](.gitbook/assets/print_settings_011.jpeg)
 {% endtab %}
 
 {% tab title="Felderítés bekapcsolva" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_012.jpeg)
+![](.gitbook/assets/print_settings_012.jpeg)
 {% endtab %}
 {% endtabs %}
 
@@ -152,7 +152,7 @@ A hidakra vonatkozó áramlási arány beállításához lásd a [Áramlási ar�
 
 ### Túlnyúlások
 
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_013.png)
+![T&#xFA;lny&#xFA;l&#xE1;sok be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/print_settings_013.png)
 
 #### _**A híd sebesség és a ventilátor küszöbértéke**_
 
@@ -186,15 +186,15 @@ Az a mm-szám, amennyinek a túlnyúlásnak lennie kell ahhoz, hogy az átfordí
 
 ### Haladó
 
-![Halad&#xF3;](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_020.png)
+![Halad&#xF3;](.gitbook/assets/print_settings_020.png)
 
 #### _A hídterületeken nincs kerület_
 
 Ez az opció arra szolgál, hogy segítsen olyan tárgyak szeletelésében, amelyeknek furatuk van.
 
-![P&#xE9;lda egy furatra s&#xFC;llyesztett furattal](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_014%20%282%29.jpeg)
+![P&#xE9;lda egy furatra s&#xFC;llyesztett furattal](.gitbook/assets/print_settings_014.jpeg)
 
-![Szabv&#xE1;nyos kiv&#xE1;g&#xE1;s](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_015%20%281%29.jpeg)
+![Szabv&#xE1;nyos kiv&#xE1;g&#xE1;s](.gitbook/assets/print_settings_015.jpeg)
 
 A probléma megoldására több lehetőség is van:
 
@@ -204,7 +204,7 @@ Előnyök \(+\): egyszerű és hatékony.
 
 Hátrányok \(-\): Egyes hidak nincsenek mindkét oldalon rögzítve.
 
-![Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_016.jpeg)
+![Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa](.gitbook/assets/print_settings_016.jpeg)
 
 * **Hézagok kitöltése hidakkal** : áthelyezi a kerületet, és kiterjeszti a híd területét, hogy kitöltse az üres helyet. Ez egy kaput hoz létre, amelyet a felhasználónak kézzel kell eltávolítania. Megjegyezzük, hogy ezt manuálisan is megteheti, ha létrehoz egy új hengert ezen a helyen \(jobb klikk az alkatrészre -&gt; alkatrész hozzáadása -&gt; henger, a jobb oldali területen oldja fel a skálákat és változtassa meg az X&Y méretet nyomja meg az Entert, majd mozgassa be a lyukba változtassa meg a z méretét a réteg magasságára és adja meg a Z pozíciót\).
 
@@ -212,7 +212,7 @@ Előnyök \(+\): jobb ellenfúró hatás.
 
 Hátrányok \(-\): A meredek szögű fúrókúpok a túl nagy \(a normálisnál is nagyobb mértékű\) túlnyúlás miatt tönkremegy az alkatrészt.
 
-![T&#xF6;ltse ki az &#xFC;res helyeket hidakkal](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_017.jpeg)
+![T&#xF6;ltse ki az &#xFC;res helyeket hidakkal](.gitbook/assets/print_settings_017.jpeg)
 
 * **Csak a hidakat tartsa meg** : ne nyomtasson ki olyan területet, amely nem híd. Túlságosan kísérleti, ne használja, amíg nem lesz egy kicsit jobb. 
 
@@ -220,7 +220,7 @@ Előnyök \(+\) : ? egyszerű ?
 
 Hátrányok \(-\): tönkreteszi a túlnyúlásokat, és nem hiszem, hogy jobban nyomtatná az ellenfúrást sem.
 
-![Csak a hidakat tartsa meg](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/13017%20%281%29.jpeg)
+![Csak a hidakat tartsa meg](.gitbook/assets/print_settings_018.jpeg)
 
 * **Hidak és túlnyúlások karbantartása** : Az előző opcióhoz hasonlóan kinyomtatja a hidat, de a maradékot kitölti egy kerülettel és a "rossz hidakat". Nagyon kísérleti jellegű. 
 
@@ -228,7 +228,7 @@ Előnyök \(+\) esetében: a megfelelő mennyiségű műanyagot nyomja, mint a �
 
 Hátrányok \(-\): nehéz nyomtatni.
 
-![Hidak &#xE9;s t&#xFA;lny&#xFA;l&#xE1;sok karbantart&#xE1;sa](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/13018%20%281%29.jpeg)
+![Hidak &#xE9;s t&#xFA;lny&#xFA;l&#xE1;sok karbantart&#xE1;sa](.gitbook/assets/print_settings_019.jpeg)
 
 #### Hézagkitöltés
 
@@ -257,7 +257,7 @@ Ez a varrás különösen akkor lesz látható, ha a tárgy alakja hengeres, él
 
 Annak érdekében, hogy a varratot a lehető legjobban elrejtse, többféle varratelhelyezési lehetőség áll rendelkezésre a : **Nyomtatási beállítások - Kerületek és héj - Haladó - Varrás.**
 
-![Varr&#xE1;s be&#xE1;ll&#xED;t&#xE1;sok](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_021.png)
+![Varr&#xE1;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_021.png)
 
 A SuperSlicer 2.3-tól kezdve a **varratfestő** eszközzel részletesen szabályozhatja a varratok elhelyezését.
 
@@ -267,13 +267,13 @@ Próbálja meg a varratot az aktuális réteghez legközelebb eső szélén elhe
 
 Pontosabban, megpróbálunk egy túlnyúlás nélküli homorú csúcsot választani, hogy a varrás a homorú szög belsejében legyen elrejtve. Ha nem áll rendelkezésre túlnyúlás nélküli homorú csúcs, akkor egy túlnyúlás nélküli konvex csúcsot választ. Ha egyik sem áll rendelkezésre, akkor egy túlnyúlás nélküli csúcsot választ. A jelöltek közül úgy kell választani, hogy a kiindulási pont a legközelebb legyen az extruder korábbi pozíciójához. Ez az opció ezért rövid távolságok esetén optimális.
 
-![K&#xF6;lts&#xE9;galap&#xFA; varr&#xE1;si poz&#xED;ci&#xF3; \(legk&#xF6;zelebb\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_022.jpeg)
+![K&#xF6;lts&#xE9;galap&#xFA; varr&#xE1;si poz&#xED;ci&#xF3; \(legk&#xF6;zelebb\)](.gitbook/assets/print_settings_022.jpeg)
 
 **Igazított**
 
 Ugyanazzal a logikával keresi a jelölteket, mint a **költségalapú**, de azt választja ki, amelyik a legközelebb van az előző réteg kiindulási pontjához. Ez biztosítja, hogy a varrás többnyire az egész tárgyon egy vonalban legyen.
 
-![V&#xE9;letlenszer&#x171; \(balra\) vagy igaz&#xED;tott \(jobbra\) varr&#xE1;s poz&#xED;ci&#xF3;ja](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_023.jpeg)
+![V&#xE9;letlenszer&#x171; \(balra\) vagy igaz&#xED;tott \(jobbra\) varr&#xE1;s poz&#xED;ci&#xF3;ja](.gitbook/assets/print_settings_023.jpeg)
 
 **Véletlenszerű**
 
@@ -281,7 +281,7 @@ Ez minden réteghez más pontot választ, így a varrás kevésbé lesz észreve
 
 Nem sok értelme van a véletlenszerű illesztési pozíciót használni a sarkokkal/éles élekkel rendelkező modelleknél, sokkal jobb a költségalapú vagy igazított pozíciót használni ebben az esetben. Másrészt, ha hengeres, éles élek nélküli alakzatokat nyomtatunk, a véletlenszerű illesztési pozíció egy életképes lehetőség.
 
-![A varratok v&#xE9;letlenszer&#x171; elhelyez&#xE9;se](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_024.jpeg)
+![A varratok v&#xE9;letlenszer&#x171; elhelyez&#xE9;se](.gitbook/assets/print_settings_024.jpeg)
 
 **Hátul**
 
@@ -297,7 +297,7 @@ Használhatja a “Spirálváza” módot a varrat elkerülésére, de akkor csa
 
 Példa a varrat helyzetére a beállításoktól függően:
 
-| ![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_025.jpeg) | ![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_026.jpeg) | ![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_027.jpeg) | ![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_028.jpeg) |
+| ![](.gitbook/assets/print_settings_025.jpeg) | ![](.gitbook/assets/print_settings_026.jpeg) | ![](.gitbook/assets/print_settings_027.jpeg) | ![](.gitbook/assets/print_settings_028.jpeg) |
 | :---: | :---: | :---: | :---: |
 | Véletlenszerű | Költségalapú | Igazított | Hátul |
 
@@ -313,7 +313,7 @@ Az extruder mozgatásának költsége. A legmagasabb büntetés az, amikor a pon
 
 Ez az opció lehetővé teszi, hogy a kerületeket egymáshoz láncolja, hogy megszakítás nélkül egyetlen folyamatos extrudálást hozzon létre. A hosszú belső elmozdulások \(a külsőtől a lyukakig\) nincsenek extrudálva, hogy maradjon némi hely a kitöltéshez.
 
-![P&#xE9;lda egyhurkos ker&#xFC;letre](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_029.jpeg)
+![P&#xE9;lda egyhurkos ker&#xFC;letre](.gitbook/assets/print_settings_029.jpeg)
 
 A **Kötés** opcióval megadhatja a kerületek közötti összekötések kezdőpontjainak helyzetét. Lehetőség van választani a következők közül:
 
@@ -326,11 +326,11 @@ Ezzel a beállítással a belső kerület megkerüli a hegyes sarkokat, és ahel
 
 {% tabs %}
 {% tab title="Kerekített sarkok opció kikapcsolva" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_030.jpeg)
+![](.gitbook/assets/print_settings_030.jpeg)
 {% endtab %}
 
 {% tab title="kerekített sarkok opció bekapcsolva" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_031.jpeg)
+![](.gitbook/assets/print_settings_031.jpeg)
 {% endtab %}
 {% endtabs %}
 
@@ -340,11 +340,11 @@ A kerületeket a fordított sorrend helyett kívülről befelé nyomtatjuk.
 
 Ez a beállítás segíthet a **méretpontosságban**, mivel a külső kerületet rakja le először, és a további kerület nyomtatásakor extrudált további szálak eltolódnak a külső faltól. Másrészt a felület kissé kevésbé sima lehet.
 
-![El&#x151;sz&#xF6;r a k&#xFC;ls&#x151; ker&#xFC;leteket](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_032.png)
+![El&#x151;sz&#xF6;r a k&#xFC;ls&#x151; ker&#xFC;leteket be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/print_settings_032.png)
 
 **Aktivál**
 
-Először a külső kerületeket _\*\*_opciók bekapcsolása.
+Először a külső kerületeket __opciók bekapcsolása.
 
 **Alkalmazás erre**
 
@@ -389,11 +389,11 @@ Ez a beállítás nagyon kísérleti jellegű, kérjük, számoljon be a hasznos
 
 ## Szeletelés
 
-![Szeletel&#xE9;s](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_033.png)
+![Szeletel&#xE9;s](.gitbook/assets/print_settings_033.png)
 
 ### Réteg magasság
 
-![R&#xE9;teg magass&#xE1;g](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_034.png)
+![R&#xE9;teg magass&#xE1;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_034.png)
 
 #### _Rétegmagasság_
 
@@ -406,7 +406,7 @@ A **nagyobb rétegmagasságok** választásával **jelentősen csökkentheti a n
 
 Általános szabályként nem javasoljuk, hogy 0,10 mm alá menjen, mivel a nyomtatási minőség javulása a 0,07 vagy 0,05 mm-es rétegeknél viszonylag csekély, és a nyomtatási idő jelentősen hosszabb.
 
-![Nyomtat&#xE1;si id&#x151; &#xE9;s min&#x151;s&#xE9;g a be&#xE1;ll&#xED;t&#xE1;sokt&#xF3;l f&#xFC;gg&#x151;en \(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_035.jpeg)
+![Nyomtat&#xE1;si id&#x151; &#xE9;s min&#x151;s&#xE9;g a be&#xE1;ll&#xED;t&#xE1;sokt&#xF3;l f&#xFC;gg&#x151;en \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_035.jpeg)
 
 Ne feledje, hogy a réteg magassága csak a **függőleges** felbontást befolyásolja. Például a nyomtatólemezzel párhuzamos emelt szöveg a rétegmagasságtól függetlenül ugyanúgy fog kinézni. Ha nagyobb felbontást szeretne az XY-síkban, [nézze meg a különböző átmérőjű fúvókákat](oktatoanyagok/nozzles_with_a_different_diameter.md).
 
@@ -426,7 +426,7 @@ Az első réteg magasságának megváltoztatásához valószínűleg **első ré
 
 ### **Szűrés**
 
-![Sz&#x171;r&#xE9;s](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_036.png)
+![Sz&#x171;r&#xE9;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_036.png)
 
 #### _**Felbontás**_
 
@@ -446,7 +446,7 @@ A hézag sugarának kétszeresénél kisebb réseket a háromszögháló szelete
 
 ### **Rétegmódosítás**
 
-![R&#xE9;tegm&#xF3;dos&#xED;t&#xE1;s](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_037.png)
+![R&#xE9;tegm&#xF3;dos&#xED;t&#xE1;s be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/print_settings_037.png)
 
 #### _**Görbék simítása**_
 
@@ -476,7 +476,7 @@ Nyomtatáskor az **első réteg** összenyomódik a fűtött nyomtatólemezen, �
 
 Sok alkalmazás esetében ez nem jelenthet problémát. Ha azonban valaminek nagyon pontos méretekre vagy nagyon szűk tűréshatárok betartására van szüksége, akkor ez problémát jelenthet.
 
-![Az elef&#xE1;ntl&#xE1;b-effektus kompenz&#xE1;l&#xE1;sa n&#xE9;lk&#xFC;l az els&#x151; r&#xE9;teg a v&#xE1;rtn&#xE1;l sz&#xE9;lesebb lehet.](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/13034.png)
+![Az elef&#xE1;ntl&#xE1;b-effektus kompenz&#xE1;l&#xE1;sa n&#xE9;lk&#xFC;l az els&#x151; r&#xE9;teg a v&#xE1;rtn&#xE1;l sz&#xE9;lesebb lehet.](.gitbook/assets/print_settings_038.png)
 
 A beállítások eléréséhez a SuperSlicer**-**nek haladó vagy szakértői módban kell lennie.
 
@@ -492,7 +492,7 @@ Ez a paraméter ugyanúgy viselkedik, mint a belső XY méretkompenzáció, de c
 
 #### _Függőleges furatok átalakítása sokszöggé_
 
-![Soksz&#xF6;gek](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_039.jpeg)
+![Soksz&#xF6;gek](.gitbook/assets/print_settings_039.jpeg)
 
 Az olvadt huzalos technológiával történő 3D nyomtatás során a zsugorodás és az anyag extrudálásának módja miatt a furatok a vártnál kisebbek lesznek. Ennek egyik módja a nagyobb furatok létrehozása, de nem ez az egyetlen megoldás: játszhat a geometriával is. Az élek pontosan vannak nyomtatva, így a körök "oldalainak" számának csökkentésével ÉS a furat "külső" oldalára helyezésével \(nem vágva a sarkokat\) funkcionális furatokat kaphat.
 
@@ -502,7 +502,7 @@ _**A sokszögek elmélete és matematikája:**_ [http://hydraraptor.blogspot.com
 
 ### Egyéb
 
-![Egy&#xE9;b](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_040.png)
+![Egy&#xE9;b be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_040.png)
 
 #### _Több részből álló objektumok szétválasztása_
 
@@ -512,19 +512,19 @@ Több anyagból készült objektumok nyomtatásakor ez a beállítás azt eredm�
 
 Megakadályozza, hogy a szeletelőmotor hibaüzenetet jelenítsen meg, ha egy teljes réteg üres, és ezért a nyomtatást utána újra kell kezdeni az üres rétegben.
 
-![&#xDC;res r&#xE9;teg &#xFC;zenet \(5axes k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/13038.png)
+![&#xDC;res r&#xE9;teg &#xFC;zenet \(5axes k&#xE9;p\)](.gitbook/assets/print_settings_041.png)
 
 ## Kitöltés
 
 A kitöltés fő funkciója, hogy belső támasztékként szolgáljon a felső rétegek számára, amelyeknek egyébként egy rést kellene áthidalniuk. A töltés hatással van a nyomtatási sebességre, a szerkezeti szilárdságra, a szálfogyasztásra és még a kész tárgy megjelenésére is.
 
-![Kit&#xF6;lt&#xE9;s](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_042.png)
+![Kit&#xF6;lt&#xE9;s](.gitbook/assets/print_settings_042.png)
 
 ### Kitöltés
 
 A modellek kitöltéséhez közvetlenül kapcsolódó paraméterek.
 
-![Kit&#xF6;lt&#xE9;s be&#xE1;ll&#xED;t&#xE1;sok](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_043.png)
+![Kit&#xF6;lt&#xE9;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_043.png)
 
 #### _Kitöltési sűrűség_
 
@@ -561,7 +561,7 @@ A következő modelltípusok állnak rendelkezésre:
 
 {% tabs %}
 {% tab title="Egyenes vonalú \(gyors 2D kitöltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_044%20%282%29%20%281%29.jpeg)
+![](.gitbook/assets/print_settings_044.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -571,11 +571,11 @@ Ez a kitöltési típus az egyetlen **a 100%-os nyomtatási kitöltéshez ajánl
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_044.jpeg)
+![](.gitbook/assets/print_settings_044a.jpeg)
 {% endtab %}
 
 {% tab title="Rajz" %}
-![Kit&#xF6;lt&#xE9;si minta: Egyenes vonal&#xFA; \(350,57 mm / 5 m: 23 s\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_044c.png)
+![](.gitbook/assets/print_settings_044c.png)
 {% endtab %}
 {% endtabs %}
 
@@ -589,25 +589,25 @@ Ez a kitöltési típus az egyetlen **a 100%-os nyomtatási kitöltéshez ajánl
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_045%20%281%29.jpeg)
+![](.gitbook/assets/print_settings_045a.jpeg)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Rács \(erős 2D kitöltés\)" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_046.jpeg)
+![](.gitbook/assets/print_settings_046.jpeg)
 {% endtab %}
 
 {% tab title="Leírás" %}
 Ez az egyik legegyszerűbb és leggyorsabb **kitöltési változat**. Az egyenes töltéssel ellentétben **mindkét irányban \(90°-os elfordulással\) nyomtatódik minden egyes rétegnél**. Ennek eredményeként az anyag ott halmozódik fel, ahol az utak keresztezik egymást. A rácsos töltés **erősebb** \(és jobb a rétegtapadása\), mint az egyenes töltés, azonban néha **idegesítő zajt** és akár **nyomtatási hibát** is okozhat, amikor a fúvóka olyan kereszteződéseken halad át, ahol anyag halmozódik fel.
 
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_044b.jpeg)
+![](.gitbook/assets/print_settings_046b.jpeg)
 
 A kitöltőanyag nyomtatásának módja miatt a pályák keresztezik egymást, és ez az anyag felhalmozódását okozza ezeken a területeken. Néha hallani fog egy sajátos hangot, amikor a fúvóka eléri ezeket a területeket. Ez akár a nyomtatás meghiúsulását is okozhatja.
 {% endtab %}
 
 {% tab title="Kép" %}
-![](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_047a%20%281%29%20%282%29.jpg)
+![](.gitbook/assets/print_settings_046a.jpeg)
 {% endtab %}
 {% endtabs %}
 
