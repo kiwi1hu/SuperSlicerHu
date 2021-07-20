@@ -1672,11 +1672,11 @@ Fedje le a hordozók felső érintkezőrétegét hurkokkal. Hozzon létre hurkok
 
 A szoftver sebességbeállítási.
 
-![Sebess&#xE9;g](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_117.png)
+![Sebess&#xE9;g](.gitbook/assets/print_settings_117.png)
 
 ### Nyomtatási mozgások sebessége
 
-![Nyomtat&#xE1;si mozg&#xE1;sok sebess&#xE9;ge be&#xE1;ll&#xED;t&#xE1;sok](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_118.png)
+![Nyomtat&#xE1;si mozg&#xE1;sok sebess&#xE9;ge be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_118.png)
 
 #### Kerületek sebessége
 
@@ -1720,11 +1720,11 @@ A nyomtatási mozgások sebessége.
 
 > Megjegyzés: A sebesség 0-ra állítása letiltja a funkciót.
 
-![Balra a furat kit&#xF6;lt&#xE9;se akt&#xED;v, jobbra a fels&#x151; t&#xF6;m&#xF6;r kit&#xF6;lt&#xE9;s v&#xE1;ltja fel \(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/13111%20%281%29.jpeg)
+![Balra a furat kit&#xF6;lt&#xE9;se akt&#xED;v, jobbra a fels&#x151; t&#xF6;m&#xF6;r kit&#xF6;lt&#xE9;s v&#xE1;ltja fel \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_119.jpeg)
 
 ### Sebesség a nyomtatás nélküli utazáshoz
 
-![Sebess&#xE9;g a nyomtat&#xE1;s n&#xE9;lk&#xFC;li utaz&#xE1;shoz](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_120.png)
+![Sebess&#xE9;g a nyomtat&#xE1;s n&#xE9;lk&#xFC;li utaz&#xE1;shoz](.gitbook/assets/print_settings_120.png)
 
 **Utazási sebesség:** Mozgási sebesség \(két távoli extrudálási pont közötti utazás\).
 
@@ -1732,7 +1732,7 @@ Lehetőség a **X/Y** és **Z** tengelyek sebességének eltérő meghatározás
 
 ### Módosítók
 
-![Sebess&#xE9;g m&#xF3;dos&#xED;t&#xF3;k](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_121.png)
+![Sebess&#xE9;g m&#xF3;dos&#xED;t&#xF3;k](.gitbook/assets/print_settings_121.png)
 
 **Első réteg sebessége**
 
@@ -1756,7 +1756,7 @@ Ezek a paraméterek a kis kerület fogalmának meghatározására szolgálnak.
 
 ### Gyorsulásszabályozás \(haladó\)
 
-![Gyorsul&#xE1;sszab&#xE1;lyoz&#xE1;s be&#xE1;ll&#xED;t&#xE1;sok](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_122.png)
+![Gyorsul&#xE1;sszab&#xE1;lyoz&#xE1;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_122.png)
 
 **Kerületek**: A nyomtató által a kerületekre használt gyorsítás. Nullára állítva letiltja a gyorsítást a kerületekre vonatkozóan.
 
@@ -1770,7 +1770,7 @@ Ezek a paraméterek a kis kerület fogalmának meghatározására szolgálnak.
 
 ### Automatikus sebesség \(haladó\)
 
-![Automatikus sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_123.png)
+![Automatikus sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_123.png)
 
 #### _Maximális nyomtatási sebesség_
 
@@ -1794,17 +1794,17 @@ Az MVS-t néha automatikus sebességnek is nevezik.
 
 **Nyomtatási beállítások - Sebesség - Maximális térfogatsebesség** \(szakértői mód\)
 
-![Maxim&#xE1;lis t&#xE9;rfogatsebess&#xE9;g](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_123%20%281%29.png)
+![Automatikus sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_123%20%281%29.png)
 
 Ez az érték határozza meg a teljes maximális térfogatsebességet. Még ha az MVS-t magasabb értékre is állítja be az izzószál paramétereiben, akkor sem fogja soha meghaladni ezt az értéket.
 
 #### _Az MVS a szál beállításokban_
 
-\*\*\*\*[**Szál beállítások - Nyomtatószál - Nyomtatási sebesség felülbírálása - Maximális térfogatsebesség**](filament_settings.md#maximalis-terfogatsebesseg) \(Speciális mód\)
+[**Szál beállítások - Nyomtatószál - Nyomtatási sebesség felülbírálása - Maximális térfogatsebesség**](filament_settings.md#maximalis-terfogatsebesseg) \(Speciális mód\)
 
 Ezt az értéket a Nyomtatási beállításokban beállított MVS korlátozza, de felülbírálhatja egy alacsonyabb értékkel.
 
-![Sz&#xE1;ll be&#xE1;ll&#xED;t&#xE1;sok - Maxim&#xE1;lis t&#xE9;rfogatsebess&#xE9;g](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_124%20%281%29.png)
+![Sz&#xE1;ll be&#xE1;ll&#xED;t&#xE1;sok - Maxim&#xE1;lis t&#xE9;rfogatsebess&#xE9;g](.gitbook/assets/print_settings_124.png)
 
 A legtöbbször sem a lineáris sebesség, sem a maximális térfogatsebesség nem fontos a kis nyomatok esetében. A fúvóka soha nem éri el a maximális sebességet, és az idő nagy részét kisebb sebességgel gyorsulva és lassulva tölti. Ez akkor számít, amikor nagyobb alkatrészeket készít, vagy gyorsan mozog, például kitöltésnél. A "sebességhatár betartása" a maximális térfogatsebesség beállításával megakadályozza az extruder kattogását és elakadását, amelyek katasztrófát okozhatnak egy nagyméretű nyomtatás felénél.
 
@@ -1850,11 +1850,11 @@ A kisebb modelleknél észre fogja venni, hogy az MVS egyáltalán nem korlátoz
 
 Másrészt, ha nagyobb, nagy rétegmagasságú modelleket nyomtat, észreveheti, hogy az MVS korlátozza a sebességet, különösen a kitöltés nyomtatásakor. Ha a modell nagy része lassabban nyomtat az MVS-korlát miatt, fontolja meg a rétegmagasság csökkentését, így "ingyen" több részletet kap.
 
-![R&#xE9;teg magass&#xE1;g&#xE1;nak be&#xE1;ll&#xED;t&#xE1;sa](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_125.jpg)
+![R&#xE9;teg magass&#xE1;g&#xE1;nak be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/print_settings_125.jpg)
 
 ## Szélesség és áramlás
 
-![Sz&#xE9;less&#xE9;g &#xE9;s &#xE1;raml&#xE1;s](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_126.png)
+![Sz&#xE9;less&#xE9;g &#xE9;s &#xE1;raml&#xE1;s](.gitbook/assets/print_settings_126.png)
 
 ### Extrudálás szélessége
 
@@ -1864,23 +1864,21 @@ Ez a paraméter lehetővé teszi egy nem nulla érték beállítását az extrud
 
 A sortávolság a vonalszélesség meghatározásának alternatív módja. A paraméterek bármelyikét megadhatja. Az egyik mezőben történő változtatással a másik érték automatikusan kiszámításra kerül és fordítva.
 
-![V&#xE1;ltoz&#xF3; meghat&#xE1;roz&#xE1;sa \(Gif\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_127k.gif)
+![V&#xE1;ltoz&#xF3; meghat&#xE1;roz&#xE1;sa \(Gif\)](.gitbook/assets/print_settings_127k.gif)
 
-```text
-                                                                           [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_127.gif?raw=true)\*\*\*\*
-```
+                                                                               [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_127.gif?raw=true)\*\*\*\*
 
 A Távolság paraméter lehetővé teszi egy nem nulla érték beállítását a peremek közötti távolság manuális meghatározásához. Ha az érték százalékban van megadva, akkor a rétegmagassághoz viszonyítva kerül kiszámításra. A következő ábra a Szélesség és a Távolság közötti különbséget szemlélteti. Ha a kerület átfedése 100%-ra van állítva, a sárga területeket ki kell tölteni az átfedéssel. Ha az átfedés értéke 0% Szélesség = Távolság.
 
-![Sz&#xE9;less&#xE9;g vagy t&#xE1;vols&#xE1;g](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_128.png)
+![Sz&#xE9;less&#xE9;g vagy t&#xE1;vols&#xE1;g](.gitbook/assets/print_settings_128.png)
 
 Ha úgy dönt, hogy az értékeket százalékban fejezi ki, akkor a százalékot mindkét típusú specifikációban használni fogja.
 
-![Meghat&#xE1;roz&#xE1;s %-ban.](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_129.jpeg)
+![Meghat&#xE1;roz&#xE1;s %-ban.](.gitbook/assets/print_settings_129.jpeg)
 
 ### Extrudálás szélessége
 
-![Az extrud&#xE1;l&#xE1;s sz&#xE9;less&#xE9;g&#xE9;nek be&#xE1;ll&#xED;t&#xE1;sa](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_129.png)
+![Az extrud&#xE1;l&#xE1;s sz&#xE9;less&#xE9;g&#xE9;nek be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/print_settings_129a.png)
 
 #### _Alapértelmezett extrudálási szélesség_.
 
@@ -1922,7 +1920,7 @@ Az egyes objektumok köré nyomtatott szoknya vízszintes szélessége. Ha az é
 
 ### Átfedés
 
-![&#xC1;tfed&#xE9;si lehet&#x151;s&#xE9;gek](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_130.png)
+![&#xC1;tfed&#xE9;si lehet&#x151;s&#xE9;gek](.gitbook/assets/print_settings_130.png)
 
 #### _Kerület átfedés_
 
