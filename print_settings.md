@@ -866,8 +866,7 @@ A következő modellváltozatok állnak rendelkezésre:
           Monoton kit&#xF6;lt&#xE9;s).</p>
       </th>
       <th style="text-align:left">
-        <img src="https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_061%20(2).jpeg"
-        alt/>
+        <img src=".gitbook/assets/print_settings_061.jpeg" alt/>
       </th>
     </tr>
   </thead>
@@ -889,16 +888,15 @@ A következő modellváltozatok állnak rendelkezésre:
           &#xE1;ltal le&#xED;rt <b>Ant Colony System</b> v&#xE1;ltozatot haszn&#xE1;ltuk.</p>
       </td>
       <td style="text-align:left">
-        <img src="https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_062.jpeg"
-        alt/>
+        <img src=".gitbook/assets/print_settings_062.jpeg" alt/>
       </td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Monotonikus</b>
       </td>
       <td style="text-align:left">
-        <img src="https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_063.jpeg"
-        alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa" />
+        <img src=".gitbook/assets/print_settings_063.jpeg" alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa"
+        />
       </td>
     </tr>
     <tr>
@@ -910,16 +908,16 @@ A következő modellváltozatok állnak rendelkezésre:
           tetej&#xE9;re.</p>
       </td>
       <td style="text-align:left">
-        <img src="https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_064.jpeg"
-        alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa" />
+        <img src=".gitbook/assets/print_settings_064.jpeg" alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa"
+        />
       </td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Koncentrikus (kit&#xF6;lt&#xF6;tt)</b>
       </td>
       <td style="text-align:left">
-        <img src="https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_065.jpeg"
-        alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa" />
+        <img src=".gitbook/assets/print_settings_065.jpeg" alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa"
+        />
       </td>
     </tr>
     <tr>
@@ -933,8 +931,8 @@ A következő modellváltozatok állnak rendelkezésre:
           forma miatt jelent&#x151;sen megn&#xF6;veli a nyomtat&#xE1;si id&#x151;t.</p>
       </td>
       <td style="text-align:left">
-        <img src="https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_066%20(1).jpg"
-        alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa" />
+        <img src=".gitbook/assets/print_settings_066.jpeg" alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa"
+        />
       </td>
     </tr>
     <tr>
@@ -946,8 +944,8 @@ A következő modellváltozatok állnak rendelkezésre:
           mint&#xE1;k nyomtat&#xE1;sakor.</p>
       </td>
       <td style="text-align:left">
-        <img src="https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_067.jpeg"
-        alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa" />
+        <img src=".gitbook/assets/print_settings_067.jpeg" alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa"
+        />
       </td>
     </tr>
     <tr>
@@ -959,24 +957,24 @@ A következő modellváltozatok állnak rendelkezésre:
           a nyomtat&#xE1;si id&#x151;t.</p>
       </td>
       <td style="text-align:left">
-        <img src="https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_068.jpeg"
-        alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa" />
+        <img src=".gitbook/assets/print_settings_068.jpeg" alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa"
+        />
       </td>
     </tr>
     <tr>
       <td style="text-align:left"><b>F&#x171;r&#xE9;szfog</b>
       </td>
       <td style="text-align:left">
-        <img src="https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_069%20(1).jpeg"
-        alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa" />
+        <img src=".gitbook/assets/print_settings_069.jpeg" alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa"
+        />
       </td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Vasal&#xE1;s</b>
       </td>
       <td style="text-align:left">
-        <img src="https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_070.jpeg"
-        alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa" />
+        <img src=".gitbook/assets/print_settings_070.jpeg" alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa"
+        />
       </td>
     </tr>
   </tbody>
@@ -988,7 +986,7 @@ Megjegyzés: Elméletileg az alsó és felső Lineárisan igazított kitöltési
 
 Bizonyára már észrevette, hogy a **SuperSlicer új verziója \(2.3\)** új kitöltési mintákkal bővült. Most, hogy ennyi lehetőség van, talán még egy kicsit elveszettnek is érezheti magát a lehetőségek között. Melyik kitöltést válasszam? Van olyan univerzális minta, amely minden modellnél működik? Vagy egy adott helyzethez kell választanom egy konkrétat? Lássuk, mit lehet tenni a megfelelő típusú kitöltés kiválasztásával és beállításainak módosításával.
 
-![SuperSlicer kit&#xF6;lt&#xE9;sek \(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_0711.jpeg)
+![SuperSlicer kit&#xF6;lt&#xE9;sek \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_0711.jpeg)
 
 #### _Mi a kitöltés és mire használható?_
 
@@ -1012,21 +1010,21 @@ Az adaptív köbös kitöltés egy [**octree**](https://fr.wikipedia.org/wiki/Oc
 
 Bizonyos modelltípusok jobban megfelelnek egy adott mintának, például az organikus és a mechanikus típusok között. Az ábra azt mutatja, hogy a méhsejtes kitöltés jobban megfelelhet ennek a mechanikus alkatrésznek, mivel minden egyes hatszög minden rétegben ugyanahhoz a mögöttes mintához kötődik, erős függőleges szerkezetet alkotva.
 
-![Kit&#xF6;lt&#xE9;si minta &#xF6;sszehasonl&#xED;t&#xE1;sa egy &#xF6;sszetett objektumban. Balra m&#xE9;hsejt, jobbra vonal \(slic3r k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_0712.png)
+![Kit&#xF6;lt&#xE9;si minta &#xF6;sszehasonl&#xED;t&#xE1;sa egy &#xF6;sszetett objektumban. Balra m&#xE9;hsejt, jobbra vonal \(slic3r k&#xE9;p\)](.gitbook/assets/print_settings_0712.png)
 
 A legtöbb modell csak alacsony sűrűségű kitöltést igényel, mivel ha mondjuk 50%-nál nagyobb sűrűségű kitöltést biztosítunk, akkor egy nagyon szorosan tömörített modellt kapunk, amely a szükségesnél több anyagot használ fel. Emiatt a minták általános tartománya 10% és 30% között van, azonban a modell követelményei határozzák meg, hogy melyik sűrűség a legjobb. Az ábra azt mutatja, hogyan változnak a minták a sűrűség növekedésével.
 
-![Kit&#xF6;lt&#xE9;si mint&#xE1;k k&#xFC;l&#xF6;nb&#xF6;z&#x151; s&#x171;r&#x171;s&#xE9;ggel. Balr&#xF3;l jobbra: 20%,40%,60%,80%. Fentr&#x151;l lefel&#xE9;: m&#xE9;hsejtes, koncentrikus, vonal, egyenes vonal, Hilbert-g&#xF6;rbe, Archim&#xE9;deszi akkordok, octagram spir&#xE1;l.](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_0713.png)
+![Kit&#xF6;lt&#xE9;si mint&#xE1;k k&#xFC;l&#xF6;nb&#xF6;z&#x151; s&#x171;r&#x171;s&#xE9;ggel. Balr&#xF3;l jobbra: 20%,40%,60%,80%. Fentr&#x151;l lefel&#xE9;: m&#xE9;hsejtes, koncentrikus, vonal, egyenes vonal, Hilbert-g&#xF6;rbe, Archim&#xE9;deszi akkordok, octagram spir&#xE1;l.](.gitbook/assets/print_settings_0713.png)
 
 #### _A felső és alsó réteg kitöltésének típusai_
 
 A kitöltés szerkesztése nem csak az objektum belső részeinek kitöltési típusának kiválasztásáról szól. A felső és alsó rétegek kitöltési típusait is megváltoztathatja, hogy érdekes eredményeket érjen el. Ez a **Nyomtatási beállítások/Töltés/felső \(alsó\) kitöltési minta** lapon állítható be. A felső vagy alsó kitöltés megváltoztatása azonban **esztétikai változásokat** okoz, és nem javítja a modell mechanikai tulajdonságait.
 
-![A fels&#x151;/als&#xF3; r&#xE9;tegek kit&#xF6;lt&#xE9;se \(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_0714.jpeg)
+![A fels&#x151;/als&#xF3; r&#xE9;tegek kit&#xF6;lt&#xE9;se \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_0714.jpeg)
 
 Az alábbiakban a felső és alsó kitöltések mind a hét típusát 80%-os áramlással nyomtatjuk, hogy kiemeljük a mintákat.
 
-![Egyenes t&#xF6;lt&#xE9;s vs. monotonikus \(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_0715.jpeg)
+![Egyenes t&#xF6;lt&#xE9;s vs. monotonikus \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_0715.jpeg)
 
 **A rögzítő hossza**
 
@@ -1034,7 +1032,7 @@ A kitöltés általában **összekapcsolódik a kerületekkel** egy úgynevezett
 
 Ha százalékban van megadva \(15%\), akkor azt a kitöltőanyag extrudálási szélességére kell számítani.
 
-![R&#xF6;gz&#xED;t&#xE9;s \(Prusa k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_0716.jpeg)
+![R&#xF6;gz&#xED;t&#xE9;s \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_0716.jpeg)
 
 **Rögzítés hossza \(maximális\)**
 
@@ -1042,11 +1040,11 @@ Ez az érték határozza meg a rögzítő maximális hosszát, amely a kitölté
 
 1000-es érték beállítása a **Rögzítés hossza** paraméterben azt jelenti, hogy a paramétert korlátlanra állítjuk \( 0 kikapcsolja\).
 
-![R&#xF6;gz&#xED;t&#xE9;s hossza](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_072%20%281%29.png)
+![R&#xF6;gz&#xED;t&#xE9;s hossza](.gitbook/assets/print_settings_072.png)
 
 ### A nyomtatási idő csökkentése
 
-![Nyomtat&#xE1;si id&#x151; cs&#xF6;kkent&#xE9;si lehet&#x151;s&#xE9;gek](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_072%20%282%29.png)
+![Nyomtat&#xE1;si id&#x151; cs&#xF6;kkent&#xE9;si lehet&#x151;s&#xE9;gek](.gitbook/assets/print_settings_073.png)
 
 A SuperSlicer két módszert kínál az idő- és anyagmegtakarításra. Az első opció lehetővé teszi, hogy **összekapcsolja a kitöltést minden X rétegben.** Az alapértelmezett érték 1, ami azt jelenti, hogy minden kerületi réteg egy kitöltési réteggel kerül nyomtatásra \(1 = 1 kitöltési réteg és 1 kerületi réteg aránya\). Ha ezt az értéket 2-re növeli \(2:1 arány\), akkor minden két kerületi réteghez egy kitöltő réteget nyomtat \(a megfelelő rétegmagassággal\). Ne feledje azonban, hogy ez az érték nem növelhető a végtelenségig. A SuperSlicer lehetővé teszi, hogy nagyon magas értéket adjon meg, de csak a fizikailag lehetséges maximális értéket írja a G-kódba. Pontosabban: Ha 0,4 mm-es fúvókát és 0,15 mm-es rétegmagasságot használ, a szeletelő nem engedi, hogy egy kerületi réteget ritkábban nyomtasson, mint két kerületi réteget. Ellenkező esetben a tölteléket üres térben nyomtatnák ki. Ha azonban 0,05 mm-es rétegmagassággal nyomtat \(0,4 mm-es fúvókával\), akkor a kitöltést 8 rétegenként kombinálhatja. A második módja az idő \(és az anyag\) megtakarításának az, hogy **csak ott nyomtatunk kitöltést, ahol szükség van rá,** Például ha egy gömböt nyomtatunk, ez a funkció csak egy kitöltő oszlopot fog generálni a közepén, hogy támogassa a túlnyúlásokat. Ennek a tulajdonságnak a fő hátránya az alacsony ütésállóság, amely a modell egyes területein a kitöltés hiányából adódik.
 
@@ -1058,7 +1056,7 @@ Különböző rétegmagasságokat használunk a kitöltéshez és a kerülethez 
 
 A maximális rétegmagasságot a fúvóka átmérője korlátozza. Ha megpróbálja kombinálni az 1+ rétegenkénti kitöltést 0,4 mm-es fúvókával és 0,3 mm-es rétegmagassággal, akkor nem történik valódi változás, mert nem tud \(kb.\) 0,32 mm-nél \(a fúvóka átmérőjének 80%-ánál\) nagyobb rétegeket nyomtatni.
 
-![A kit&#xF6;lt&#xE9;s \(sz&#xFC;rke\) a ker&#xFC;letek \(narancss&#xE1;rga\) r&#xE9;tegmagass&#xE1;g&#xE1;nak k&#xE9;tszeres&#xE9;vel nyomtatva \(Prusa k&#xE9;p\).](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_074%20%281%29.png)
+![A kit&#xF6;lt&#xE9;s \(sz&#xFC;rke\) a ker&#xFC;letek \(narancss&#xE1;rga\) r&#xE9;tegmagass&#xE1;g&#xE1;nak k&#xE9;tszeres&#xE9;vel nyomtatva \(Prusa k&#xE9;p\).](.gitbook/assets/print_settings_074.png)
 
 #### _Csak ott töltse ki, ahol szükséges_
 
@@ -1066,7 +1064,7 @@ Ha ezt az opciót választja, a kitöltés úgy történik, mint egy belső tart
 
 Ez az opció nem veszi figyelembe a támaszok **túlnyúlási küszöb** beállítását.
 
-![G&#xF6;mb csak ott k&#xE9;sz&#xFC;lt kit&#xF6;lt&#xE9;si opci&#xF3;val, ahol sz&#xFC;ks&#xE9;ges \(Prusa k&#xE9;p\).](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_075.jpeg)
+![G&#xF6;mb csak ott k&#xE9;sz&#xFC;lt kit&#xF6;lt&#xE9;si opci&#xF3;val, ahol sz&#xFC;ks&#xE9;ges \(Prusa k&#xE9;p\).](.gitbook/assets/print_settings_075.jpeg)
 
 Az elvégzett néhány teszt nem mutatott nagy érdeklődést e lehetőség iránt. A túlnyúlás beállítása nélkül nehéz kezelni ezt a lehetőséget.
 
@@ -1078,7 +1076,7 @@ A sűrű kitöltés 50%-os töltési sűrűséget használ.
 
 Ha ez a kapcsoló be van kapcsolva, ha a kitöltés 40%-nál kisebb, akkor minden egyes tömör felület alatt támogatott területet keres, és csak egyenes vonalak vannak a kerületek között. Ha talál egyet, akkor egy speciális kitöltési folyamatot használ, amely egy kerületet \(átfedéssel, úgy, hogy az ~támogatva legyen az aktuális belső kerület által, majd egy egyenes 42%-os kitöltés belül. Ez megakadályozza a görbüléseket, amelyek tönkretehetik a felső felületet, és biztosítja, hogy minden alátámasztható legyen még 0%-os kitöltési arány mellett is.
 
-![Balra s&#x171;r&#x171; t&#xE1;masz n&#xE9;lk&#xFC;l, jobbra s&#x171;r&#x171; t&#xE1;masszal \(Merill k&#xE9;p\)](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/.gitbook/assets/print_settings_076%20%281%29.jpeg)
+![Balra s&#x171;r&#x171; t&#xE1;masz n&#xE9;lk&#xFC;l, jobbra s&#x171;r&#x171; t&#xE1;masszal \(Merill k&#xE9;p\)](.gitbook/assets/print_settings_076.jpeg)
 
 #### _Algoritmus_
 
