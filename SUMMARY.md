@@ -15,7 +15,7 @@
 * [FreePySCAD script ablak](untitled-1.md)
 * [Nyomtatási beállítások](print_settings-2.md)
 * [Szál beállítások](filament_settings.md)
-* [Nyomtató beállítások](print_settings.md)
+* [Nyomtató beállítások](printer_settings.md)
 * [Speciális funkciók](advanced_functionality.md)
 * [Többféle anyagból történő szeletelés](multimaterial.md)
 * [SLA szeletelés](sla_printer.md)
