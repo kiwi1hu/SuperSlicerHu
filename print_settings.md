@@ -1276,6 +1276,10 @@ Mivel a vasalás csak sík felületeken működik, érdemes egy magasság módos
 5. Válassza a **Beállítások hozzáadása - Vasalás** lehetőséget.
 6. Jelölje be a Vasalás engedélyezése jelölőnégyzetet, most már csak erre a részre engedélyezheti a vasalást a jobb oldali panelen.
 
+![Vasal&#xE1;s egy m&#xF3;dos&#xED;t&#xF3; h&#xE1;l&#xF3;val \(Gif\)](.gitbook/assets/print_settings_088k.gif)
+
+                                                                                ****[**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_088.gif?raw=true)\*\*\*\*
+
 #### _Vasalás típusa_
 
 **Minden felső felület**
@@ -1286,7 +1290,7 @@ A fúvóka minden felület felső rétegét \(minden sík terület utolsó réte
 
 Csak az objektum utolsó rétege lesz simítva. Ez azt jelenti, hogy a felemelt \(a nyomtatási ágyhoz párhuzamosan tájolt\) szöveg esetében csak a betűk felső része lesz vasalva, a betűk közötti tér nem.
 
-![Minden fels&#x151; fel&#xFC;let \(balra\), Csak a fels&#x151; fel&#xFC;let \(jobbra\) \(Prusa k&#xE9;p\)](.gitbook/assets/13085.jpeg)
+![Minden fels&#x151; fel&#xFC;let \(balra\), Csak a fels&#x151; fel&#xFC;let \(jobbra\) \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_089.jpeg)
 
 **Minden tömör felület**
 
@@ -1328,15 +1332,17 @@ _A vasalás ötletét először “Neotko” felhasználó javasolta az Ultimake
 
 ## Szoknya és perem
 
-![Szoknya &#xE9;s perem be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/13086%20%281%29.jpg)
+![Szoknya &#xE9;s perem](.gitbook/assets/print_settings_090.png)
 
 ### Szoknya
+
+![Szoknya be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/print_settings_091.png)
 
 A szoknya egy körvonal, amely a nyomtatólemezre nyomtatott összes modell köré van nyomtatva. Ezt a modellek előtt nyomtatják ki, és fő célja, hogy **stabilizálja a fúvókán keresztül a szál áramlását**.
 
 A szoknya hasznos az első rétegnek a nyomtatólemezhez való tapadásának **ellenőrzéséhez** is. Mivel a sablonok előtt nyomtatja, gyorsan módosíthatja a **Z-tengely beállítás** értékét, ha úgy látja, hogy az első réteg nem tapad megfelelően, vagy a fúvóka összetöri.
 
-![Szoknya](.gitbook/assets/13089.jpeg)
+![Szoknya](.gitbook/assets/print_settings_092.jpeg)
 
 #### _Hurok \(minimum\)_
 
@@ -1362,9 +1368,9 @@ Ha ez az opció be van kapcsolva, akkor a legmagasabb objektum megfelelő magass
 
 A pajzs jellemzői a szoknya beállításaitól függenek, különösen a pajzsot alkotó hurkok számától.
 
-![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](.gitbook/assets/13087.jpg)
+![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](.gitbook/assets/print_settings_093.jpg)
 
-![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](.gitbook/assets/13088.jpg)
+![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](.gitbook/assets/print_settings_094.jpg)
 
 #### \_\_
 
@@ -1374,7 +1380,7 @@ Szükség esetén erőltessen több szoknyahurkot, hogy az itt meghatározott mi
 
 ### Perem
 
-![Perem be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13093.jpg)
+![Perem be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_095.png)
 
 Mielőtt a lemezhez való jobb tapadás érdekében extra tapadóanyagot alkalmazna, fontolja meg a SuperSlicer-ben a **Perem** opció használatát, amely megnöveli az első réteg területét. A **SuperSlicer-ben** a **Nyomtatási beállítások - Szoknya és perem - Perem** menüpontban manuálisan állíthatja be a perem méretét. Általában ajánlott legalább 3 mm-es szegélyt használni a tapadás növelése érdekében.
 
@@ -1383,7 +1389,7 @@ Mielőtt a lemezhez való jobb tapadás érdekében extra tapadóanyagot alkalma
 * Magas, kis alapterületű tárgyak
 * Több kis méretű tárgy egyszerre
 
-![Perem](.gitbook/assets/13090.jpeg)
+![Perem](.gitbook/assets/print_settings_096.jpeg)
 
 Ha az [_**XY méretkompenzáció**_ \(Elefántláb-kompenzáció\)](print_settings.md#szeleteles) aktiválva van, az előnézetben egy kis tér jelenik meg a modell és a keret között.
 
@@ -1395,7 +1401,7 @@ Az első réteg minden egyes objektuma köré nyomtatott perem vízszintes szél
 
 Lehetővé teszi egy sziget határainak létrehozását, ha az egy furatban van \(vagy egy objektummal van körülvéve\).
 
-![Perem szigeten a lyukak belsej&#xE9;ben](.gitbook/assets/13091.jpeg)
+![Perem szigeten a lyukak belsej&#xE9;ben](.gitbook/assets/print_settings_097.jpeg)
 
 #### _Belső perem szélessége_
 
@@ -1405,7 +1411,7 @@ A belső perem szélessége, az első rétegben lévő objektum furatainak belse
 
 Lehetőség, hogy csak a modell kiemelkedő szélei köré helyezzen peremet.
 
-![Perem a sarokban](.gitbook/assets/13092.png)
+![Perem a sarokban](.gitbook/assets/print_settings_098.jpeg)
 
 **Maximális szög**
 
@@ -1431,6 +1437,8 @@ Az él és az alkatrész közötti távolság. 0 értéken kell tartani, hacsak 
 
 ## Támaszték
 
+![T&#xE1;maszt&#xE9;k](.gitbook/assets/print_settings_099.png)
+
 A 3D-nyomtatók úgy működnek, hogy rétegről rétegre helyezik a műanyagot, hogy létrehozzanak egy 3D-tárgyat. Minden egyes új réteget az alatta lévőnek kell megtámasztania. Ha a modell egy része a levegőben kezdődik, és nem támasztja meg semmi alatta, akkor a sikeres nyomtatáshoz további tartószerkezetet kell hozzáadni
 
 Érdemes megfontolni a modell tájolásának megváltoztatását vagy a modell több részre osztását, hogy esetleg csökkenteni lehessen a túlnyúlásokat és következésképpen a generált támaszok mennyiségét.
@@ -1444,6 +1452,8 @@ A támaszokat manuálisan is beállíthatja a :
 
 A támasztékokat a **jobb oldali panelen** vagy a **Nyomtatási beállítások - Támaszték - Támaszték létrehozása** menüpontban lehet aktiválni.
 
+![T&#xE1;maszt&#xE9;k l&#xE9;trehoz&#xE1;sa](.gitbook/assets/print_settings_100.png)
+
 A nyomtatás befejeztével a modell geometriájától és a felhasznált anyagtól függően a tartószerkezet gyakran puszta kézzel is könnyen eltávolítható. Fogóval jobban megfoghatja az egyébként nehezen hozzáférhető helyeket. Egy szike vagy egy kés is használható a modellhez ragadtnak tűnő tartóelemek tiszta eltávolítására.
 
 A támasztékok darabjai meglepően élesek lehetnek, és eltávolítás után néha hevesen, véletlenszerű irányban kirepülnek. Ha nehezen eltávolítható támasztékokkal találkozik, fontolja meg a védőszemüveg viselését \(ez mindaddig butaságnak tűnik, amíg először szemen nem találják\).
@@ -1454,17 +1464,17 @@ A támaszték mind a nyomtatólemezről, mind bármely modellfelületről kinőh
 
 Ez biztosítja, hogy minden túlnyúlás és minden levegőben induló alkatrész megtámasztásra kerüljön. A felszínen azonban apró tökéletlenségek jelenhetnek meg, ahol a támaszok növekedésnek indultak.
 
-![T&#xE1;maszt&#xE9;kok kezel&#xE9;se a jobb oldali panelen](.gitbook/assets/13094.jpg)
+![T&#xE1;maszt&#xE9;kok kezel&#xE9;se a jobb oldali panelen](.gitbook/assets/print_settings_101.png)
 
 ### Támaszték csak az építőlemezről
 
-![K&#xE9;p: t&#xE1;maszt&#xE9;k csak a lemezen \(balra\), t&#xE1;maszt&#xE9;k mindenhol \(jobbra\)\(Prusa k&#xE9;p\)](.gitbook/assets/13095.jpeg)
+![K&#xE9;p: t&#xE1;maszt&#xE9;k csak a lemezen \(balra\), t&#xE1;maszt&#xE9;k mindenhol \(jobbra\)\(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_102.jpeg)
 
 Csak olyan támasztékokat hoz létre, amelyeknek az alja a nyomtatólemezen van.
 
 ### Csak a támasztékok kikényszerítői
 
-Az automatikus támaszték generálás csak a kényszerítővel megjelölt területeken engedélyezett. Ez az opció lényegében egy parancsikon, amely engedélyezi a **Nyomtatási beállítások - Támaszték - Támaszték generálása**, de kikapcsolja a **Nyomtatási beállítások - Támaszték - Automatikusan generált támaszok** opciót.
+Az automatikus támaszték generálás csak a kényszerítővel megjelölt területeken engedélyezett. Ez az opció lényegében egy parancsikon, amely engedélyezi a **Nyomtatási beállítások - Támaszték - Támaszték létrehozását**, de kikapcsolja a **Nyomtatási beállítások - Támaszték - Automatikusan generált támaszok** opciót.
 
 ### A támaszok aktiválása/kikapcsolása az egyes modelleknél
 
@@ -1472,7 +1482,9 @@ Lehetőség van egyszerre több objektum nyomtatására, mindegyikhez saját tá
 
 A jobb oldali panelen egy új ablak jelenik meg **A módosítandó objektum beállításai - Támaszok** címmel. Ezeknek a beállításoknak a módosítása csak az objektumot és annak példányait érinti. A kicserélt beállításokat a piros kereszt ikonra kattintva törölheti. Ha így tesz, a globális beállítások ismét alkalmazásra kerülnek.
 
-![A m&#xF3;dos&#xED;tand&#xF3; objektum be&#xE1;ll&#xED;t&#xE1;sai - T&#xE1;maszt&#xE9;kok](.gitbook/assets/13096.jpg)
+![A t&#xE1;maszok aktiv&#xE1;l&#xE1;sa/kikapcsol&#xE1;sa az egyes modellekn&#xE9;l](.gitbook/assets/print_settings_104k.gif)
+
+                                                                             ****[**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_104.gif?raw=true)\*\*\*\*
 
 ### Támaszték kényszerítő/blokkoló
 
@@ -1518,7 +1530,7 @@ Ennek az értéknek a megváltoztatásával gyorsan beállíthatja a generált t
 
 Minél alacsonyabb az érték, annál kevesebb támasztékot generál.
 
-![](.gitbook/assets/13097.png)
+![](.gitbook/assets/print_settings_105.jpeg)
 
 1. A túlnyúlási küszöbérték és annak mérési módja
 2. Túlnyúlási küszöbérték 55
@@ -1529,7 +1541,9 @@ Minél alacsonyabb az érték, annál kevesebb támasztékot generál.
 
 Alulról felfelé generálja a megadott számú réteg alátámasztását, függetlenül attól, hogy a normál alátámasztások engedélyezve vannak-e vagy sem, és a dőlésküszöböktől függetlenül. Ez hasznos a jobb tapadás eléréséhez olyan tárgyak esetében, amelyeknek nagyon vékony vagy korlátozott az érintkezési felülete a lemezen.
 
-![T&#xE1;maszok l&#xE9;trehoz&#xE1;sa az els&#x151; 10 majd 100 r&#xE9;tegen \(gif\)](.gitbook/assets/13098.gif)
+![T&#xE1;maszok l&#xE9;trehoz&#xE1;sa az els&#x151; 10 majd 100 r&#xE9;tegen \(Gif\)](.gitbook/assets/print_settings_106k.gif)
+
+                                                                        [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_106.gif?raw=true)\*\*\*\*
 
 A **Támaszok generálása** opciót legalább az első X réteg előállításához aktiválni kell.
 
