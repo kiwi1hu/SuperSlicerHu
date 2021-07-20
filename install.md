@@ -28,7 +28,7 @@ A legújabb verzió önálló **AppImage**-je letölthető a [Githubról](https:
 
 Az Ubuntu, a Linux Mint és az MX Linux három népszerű Linux-disztribúció. Mindössze annyit kell tennie, hogy megkeresi az AppImage fájlt, jobb egérgombbal kattint rá, és kiválasztja a Tulajdonságok menüpontot. A megjelenő új menüben válassza az Engedélyek menüpontot, és jelölje be a "Fájl programként való futtatásának engedélyezése" vagy ennek valamilyen változata \(zöld négyzet\) jelölőnégyzetet, hogy a fájl futtatható legyen. Zárja be a tulajdonságokat, és most már duplán kattintson az ikonra a SuperSlicer elindításához.
 
-|  | ![](.gitbook/assets/03001.jpeg)  | ![](.gitbook/assets/03002.jpeg)  | ![](.gitbook/assets/03003.jpeg)  |
+|  | ![](.gitbook/assets/001%20%281%29.jpeg)  | ![](.gitbook/assets/002.jpeg)  | ![](.gitbook/assets/03003.jpeg)  |
 | :--- | :---: | :---: | :---: |
 |  | _Ubuntu 20.04_ | _MX Linux 19.2_ | _Linux Mint 20 Cinnamon_ |
 

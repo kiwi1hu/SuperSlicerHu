@@ -32,7 +32,7 @@ A különböző anyagok különböző nyomtatási hőmérsékletet, nyomtatási 
 
 A nyomtatott rétegek magasságának beállításával egyensúlyt teremthet a nyomtatási minőség és a nyomtatási idő között. A SuperSlicer különböző nyomtatási profilokat kínál. Kezdetben a 0,15 vagy 0,2 mm-es rétegek használatát javasoljuk, mivel ezek nagyon jó nyomtatási minőséget biztosítanak ésszerű nyomtatási idő mellett.
 
-![Nyomtat&#xE1;si profil kiv&#xE1;laszt&#xE1;sa](.gitbook/assets/04005.jpg)
+![Nyomtat&#xE1;si profil kiv&#xE1;laszt&#xE1;sa](.gitbook/assets/04005%20%281%29.jpg)
 
 ## Támogatások
 
@@ -40,19 +40,19 @@ Mivel minden egyes réteg az előző réteg tetején nyugszik, szükség lehet e
 
 ![T&#xE1;mogat&#xE1;sok hozz&#xE1;ad&#xE1;sa](.gitbook/assets/04006.jpg)
 
-![Egy modell, amelynek t&#xE1;maszokra van sz&#xFC;ks&#xE9;ge \(balra\), egy modell gener&#xE1;lt t&#xE1;mogat&#xE1;sokkal \(jobbra\).](.gitbook/assets/04007.jpg)
+![Egy modell, amelynek t&#xE1;maszokra van sz&#xFC;ks&#xE9;ge \(balra\), egy modell gener&#xE1;lt t&#xE1;mogat&#xE1;sokkal \(jobbra\).](.gitbook/assets/007%20%281%29.jpg)
 
 ## Kitöltés
 
 A tárgyakat általában nem nyomtatják tömörre, de nem is üregesek. A modell belsejének kitöltésére egy ritkás kitöltési mintázatot használunk. A kitöltés fő célja, hogy belső tartószerkezetet biztosítson a felső rétegek számára, valamint hogy javítsa a nyomtatás mechanikai tulajdonságait. Másrészt általában a lehető legkevesebb töltelékkel szeretnénk megúszni a nyomtatási idő és az anyagfelhasználás csökkentése érdekében. A kitöltés mennyisége a jobb oldali panelen állítható. Általában a 15% körüli értékek jól működnek.
 
-![Objektum kit&#xF6;lt&#xE9;se](.gitbook/assets/04008.jpg)
+![Objektum kit&#xF6;lt&#xE9;se](.gitbook/assets/008.jpg)
 
 ## **Perem**
 
 A peremet a nyomólemezhez való tapadás növelésére és a vetemedés lehetőségének csökkentésére használják. Ez úgy történik, hogy az első rétegre további körvonalakat nyomtat, és különösen hasznos, ha az első réteg területe nagyon kicsi. Ezt a jobb oldali panelen található négyzet bejelölésével engedélyezheti. Amikor a nyomtatás befejeződött, a peremet általában nagyon könnyű kézzel eltávolítani.
 
-![Perem hozz&#xE1;ad&#xE1;sa](.gitbook/assets/04009.jpeg)
+![Perem hozz&#xE1;ad&#xE1;sa](.gitbook/assets/009.jpeg)
 
 ## G-kód előnézet nyomtatás előtt
 

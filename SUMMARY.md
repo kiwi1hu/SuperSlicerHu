@@ -26,18 +26,14 @@
 
 ## Oktatóanyagok
 
----
-
-* [Hibás modell javítása](repairing-models.md)
-* [SuperSlicer támogatás](superslicer-tamogatas.md)
-* [Különböző átmérőjű fúvókák használata](nozzles_with_a_different_diameter.md)
-* [Fordítás létrehozása és frissítése](software_translation.md)
-* [Fizikai nyomtató hozzáadása](add_printer.md)
+* [Hibás modell javítása](oktatoanyagok/repairing-models.md)
+* [SuperSlicer támogatás](oktatoanyagok/superslicer-tamogatas.md)
+* [Különböző átmérőjű fúvókák használata](oktatoanyagok/nozzles_with_a_different_diameter.md)
+* [Fordítás létrehozása és frissítése](oktatoanyagok/software_translation.md)
+* [Fizikai nyomtató hozzáadása](oktatoanyagok/add_printer.md)
 
 ## Hibaelhárítás
 
----
-
-* [Z oszcilláció \(vibrálás\)](untitled-3.md)
-* [Dimenzió hibák](dimension-errors.md)
+* [Z oszcilláció \(vibrálás\)](hibaelharitas/untitled-3.md)
+* [Dimenzió hibák](hibaelharitas/dimension-errors.md)
 

@@ -118,7 +118,7 @@ A körön belüli összes látható területet kifesti az aktuális nézetből, 
 
 A vágási sík eszközzel elrejtheti az objektum egy részét, így a nehezen hozzáférhető területek könnyen festhetők. A vágási sík mozgatásához mozgassa a csúszkát balról jobbra.
 
-![V&#xE1;g&#xE1;si s&#xED;k](.gitbook/assets/09016.jpg)
+![V&#xE1;g&#xE1;si s&#xED;k](.gitbook/assets/09016%20%281%29.jpg)
 
 ![Ir&#xE1;ny vissza&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/09016a.jpg)
 
@@ -186,7 +186,7 @@ A körön belüli összes látható területet kifesti az aktuális nézetből, 
 
 A vágási sík eszközzel elrejtheti az objektum egy részét, így a nehezen elérhető területek könnyen festhetők. A vágási sík mozgatásához mozgassa a csúszkát balról jobbra.
 
-![V&#xE1;g&#xE1;si s&#xED;k](.gitbook/assets/09016%20%281%29.jpg)
+![V&#xE1;g&#xE1;si s&#xED;k](.gitbook/assets/09016%20%281%29%20%281%29.jpg)
 
 ![Ir&#xE1;ny vissza&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/09016a%20%281%29.jpg)
 
