@@ -4,6 +4,8 @@
 
 A **Konfiguráció - Beállítások** menü lehetővé teszi a szoftver beállításainak elérését.
 
+![&#xC1;ltal&#xE1;nos be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/settings_001.png)
+
 A Beállítások ablakot a Konfiguráció - Beállítások menüpont kiválasztásával  
 vagy a **Ctrl + P** gombokkal.
 
@@ -26,6 +28,10 @@ A háttérben történő feldolgozás különösen hasznos, ha a program ide-oda
 Amikor a táblán változást észlelünk \(pl. egy modell áthelyezése, egy modell másolatának létrehozása\), a G-kód megfelelő része a háttérben frissülni kezd. Kérjük, vegye figyelembe, hogy a Slic3r PE néhány régebbi verziójával ellentétben a háttérfeldolgozás most intelligensebb, és nem generálja újra a teljes G-kódot, ami számításigényes lenne. Csak a felhasználói művelet által érvénytelenített szeletelési lépések kerülnek újraszámításra.
 
 Ne feledje, hogy régebbi, kisebb teljesítményű eszközökön a háttérben történő feldolgozás engedélyezése összességében kevésbé zökkenőmentes élményt eredményezhet.
+
+#### Váltás élőnézetre szeleteléskor
+
+Amikor egy objektumot felszeletel, a kiválasztott opciótól függően automatikusan átvált a nézet a jelenlegi nézetről az előnézetre \(majd a gcode-előnézetre\).
 
 #### Az alkalmazás frissítéseinek ellenőrzése
 
@@ -115,6 +121,8 @@ Válassza ki a kezdőképernyőként használni kívánt képet.
 
 Ha engedélyezve van, a 3DConnection eszközök konfigurálására szolgáló párbeszédpanel elérhetővé válik, ha megnyomja a **Ctrl + M** gombokat.
 
+![3Dconnexion SpaceMouse](.gitbook/assets/settings_002.jpg)
+
 ### Útvonalak
 
 #### FreeCAD elérési út
@@ -125,6 +133,8 @@ Ha ez egy érvényes freecad példányra mutat \(a bin könyvtárra vagy a pytho
 
 Kamera beállításai.
 
+![K&#xE9;p: Kamera be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/settings_003.png)
+
 #### Perspektivikus kamera használata
 
 Ha engedélyezve van, a perspektivikus kamerát használja. Ha nincs engedélyezve, ortografikus kamerát használ.
@@ -132,6 +142,8 @@ Ha engedélyezve van, a perspektivikus kamerát használja. Ha nincs engedélyez
 ### Perspektivikus kamera / ortografikus kamera
 
 A perspektivikus és ortografikus kamera között gyorsan válthat a **K** billentyűvel vagy a felső eszköztáron a **Konfiguráció - Beállítások - Perspektivikus kamera használata** jelölőnégyzet bejelölésével. Mindkét kamerának megvannak a maga előnyei, és előnyös, ha az aktuális igényektől függően váltogat közöttük.
+
+![Perspektivikus n&#xE9;zet / Ortogr&#xE1;fia](.gitbook/assets/settings_004.jpg)
 
 #### Perspektivikus kamera \(alapértelmezett\)
 
@@ -153,6 +165,8 @@ Ha engedélyezve van, megfordítja a zoom irányát az egérkerékkel.
 
 Felhasználói felület beállításai.
 
+![Felhaszn&#xE1;l&#xF3;i fel&#xFC;let \(GUI\) be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/settings_005.png)
+
 #### Csak a legfelső rétegre alkalmazott szekvenciális görgetősáv
 
 Ha engedélyezve van, az előnézetben a szekvenciális görgetősáv segítségével végzett módosítások csak a G-kód legfelső rétegére vonatkoznak. Ha letiltja, az előnézetben a szekvenciális görgetősáv segítségével végzett módosítások a teljes G-kódra vonatkoznak.
@@ -160,6 +174,8 @@ Ha engedélyezve van, az előnézetben a szekvenciális görgetősáv segítség
 #### Az Oldalsáv összecsukása/kibontása gomb megjelenítése
 
 Ha engedélyezve van, a 3D jelenet jobb felső sarkában megjelenik az oldalsáv minimalizálása gomb.
+
+![Az oldals&#xE1;v minimaliz&#xE1;l&#xF3; gombjainak enged&#xE9;lyez&#xE9;se](.gitbook/assets/settings_006.jpg)
 
 #### Hiperhivatkozás megnyitásának tiltása a böngészőben
 
@@ -171,6 +187,8 @@ Ha engedélyezve van, az eszköztár ikonjainak méretét manuálisan is módos�
 
 Ha az opció aktiválva van, egy vezérlősáv lehetővé teszi az ikonok méretének beállítását.
 
+![Az ikonok m&#xE9;ret&#xE9;nek be&#xE1;ll&#xED;t&#xE1;sa ](.gitbook/assets/settings_007.jpg)
+
 #### 3D nézetből előnézetre váltás szeleteléskor
 
 Ez az opció lehetővé teszi, hogy a szeletelés számításának megkezdésekor automatikusan áttérjen az előnézetre.
@@ -181,9 +199,17 @@ _**Normál elrendezés a fülekkel**_ : az összes ablak az alkalmazásban van, 
 
 Amit a legpraktikusabbnak találok.
 
+![Lapoz&#xF3;s&#xE1;v](.gitbook/assets/settings_008.jpg)
+
 _**Régi PrusaSlicer elrendezés**_ : az összes ablak az alkalmazásban van, a paraméterek a felső lapon, a renderelési szakaszok kiválasztása pedig a 3D nézet alján. 
+
+![A 3D n&#xE9;zet alj&#xE1;n l&#xE9;v&#x151; szeletel&#xE9;s v&#xE1;laszt&#xE1;sa](.gitbook/assets/settings_009.jpg)
 
 _**Hozzáférés a felső menü Beállítások gombjával**_ : minden ablak az alkalmazásban van, nincsenek fülek : a beállítások fogaskerék ikonjaira kell kattintania, hogy a beállítások lapjaira váltson.
 
+![Be&#xE1;ll&#xED;t&#xE1;sok gomb](.gitbook/assets/settings_010.jpg)
+
 _**Beállítások egy nem moduláris ablakban**_ : A paraméterek saját ablakban jelennek meg. A beállítások ablakának megjelenítéséhez a beállítások fogaskerék ikonjaira kell kattintania.
+
+![Be&#xE1;ll&#xED;t&#xE1;sok egy nem mod&#xE1;lis ablakban](.gitbook/assets/settings_011.jpg)
 
