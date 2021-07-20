@@ -120,29 +120,19 @@ Az első gomb a 3D szerkesztő módban való megjelenítést teszi lehetővé \(
 
 A SuperSlicer normál felületén a kivágást a _**Kivágás előnézet**_ vagy _**G-kód előnézet**_ fül gombjára kattintva is megtekintheti.
 
-![Lap gomb](.gitbook/assets/06031.jpg)
-
 A SuperSlicer felület esetében a modellt a \(**Ctrl** + **1** \), a másik a szeletelés eredményét \( **Ctrl** + **2** \), végül a következő a G-kód előnézetét \( **Ctrl** + **3** \) jeleníti meg.
 
 A szeletelés nézetmódban a bal felső sarokban színkódolt információkat, valamint az egyes pályatípusok időtartamát és százalékos arányát láthatja.
 
-![&#xDA;tvonal t&#xED;pusa \(5axis gif\)](.gitbook/assets/06032.gif)
-
 Ha csak bizonyos típusokat szeretne megtekinteni, kattintson az információs területen az elrejteni/megjeleníteni kívánt útvonalakra.
 
 A "Normál elrendezés fülekkel" felülettípusban a 3D nézet, a kivágás előnézet és a G-kód előnézet szakaszok elérhetősége a szoftver menüi alatti fülekbe van integrálva.
-
-![&#xDA;tvonal t&#xED;pusa](.gitbook/assets/06033.jpg)
-
-![P&#xE9;lda: csak a bels&#x151; t&#xF6;lt&#xE9;s l&#xE1;that&#xF3;](.gitbook/assets/06034.jpg)
 
 A lenti sávval az is beállítható, hogy milyen típusú pályát szeretne megjeleníteni. 
 
 _A mostani verzióban nincs a lenti lista, az ablakba kell kiválasztani hogy melyik pályatípusokat kell megjeleníteni._
 
 Ez a menüsor lehetővé teszi a kívánt megjelenítés típusának beállítását is.
-
-![A megjelen&#xED;t&#xE9;s t&#xED;pus&#xE1;nak be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/06036.jpg)
 
 Választhat a következők közül:
 
@@ -161,8 +151,6 @@ Választhat a következők közül:
 * **Hőmérséklet** : Nyomtatási hőmérséklet
 
 Az ezen a sávon található beállítások lehetővé teszik a vizualizációban megjeleníteni kívánt elemek beállítását is.
-
-![A megjelen&#xED;t&#xE9;si be&#xE1;ll&#xED;t&#xE1;sok be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/06037.jpg)
 
 Például hozzáadhatja a :
 
@@ -185,8 +173,6 @@ Például hozzáadhatja a :
 A SuperSlicer szinte minden funkciója elérhető billentyűparanccsal. Ezen túlmenően számos funkciónak van egy alternatív módja, amely módosító billentyűvel érhető el. Ezek nagyszerű időmegtakarítást jelentenek, és javasoljuk, hogy legalább a leggyakrabban használt eszközök billentyűparancsait tanulja meg, mint például a: Mozgatás **\(M\)**, Forgatás **\(R\)** és méretváltoztatás **\(S\)**.
 
 Az összes billentyűkombináció listája megtekinthető a **Súgó - Billentyűkombinációk** ablakban \(vagy a **Shift**+**?** billentyűkombinációval\).
-
-![S&#xFA;g&#xF3; - Billenty&#x171;parancsok](.gitbook/assets/06042.jpg)
 
 Alternatív megoldásként az eszköz ikonja fölé is mehet, és rövid késleltetés után megjelenik a billentyűkombináció.
 
@@ -266,21 +252,13 @@ Billentyűparancsok a főablakban történő megtekintéshez.
 
 A Nyomtatás, a Szál és a Nyomtató lapok minden egyes beállítása mellett egy **zárt** vagy **nyitott** lakat ikon látható. A zárt zár ikon azt jelzi, hogy az érték megegyezik az aktuálisan kiválasztott profilban szereplő értékkel. Amint az érték megváltozik, az ikon nyitott lakatra változik, és megjelenik egy vissza nyíl, amely lehetővé teszi a nyomtatási profil értékének visszaállítását. Ezen kívül **a címke narancssárgára változik**. Ez lehetővé teszi, hogy gyorsan megállapítsa, mely beállításokat változtatták meg.
 
-![Ny&#xED;tott &#xE9;s z&#xE1;rt lakat](.gitbook/assets/06038.jpg)
-
 Az alábbi példában egy változót módosítottunk, a zár nyitva van, és az érték mellett megjelenik a törlő nyíl. Ezenkívül a változó szövege narancssárgára változik.
-
-![M&#xF3;dos&#xED;tott v&#xE1;ltoz&#xF3;k](.gitbook/assets/06020.jpg)
 
 ### Keresés a beállításokban
 
 Hozzáférés a billentyűkombinációval \(**Ctrl** + **F**\) A nagyító ikon lehetővé teszi a paraméterek keresését a paraméter címének közvetlen megjelölésével. Miután megtalálta a kívánt paramétert, a listában való kattintással közvetlenül a kívánt funkcióra helyezi. A megnyitott paraméteroldalon egy **kis villogó piros nyíl** jelzi az érintett területet.
 
-![Keres&#xE9;s a be&#xE1;ll&#xED;t&#xE1;sokban](.gitbook/assets/06039.jpg)
-
 ### Színvak mód
 
 Ha Ön a színvakság valamelyik típusában szenved, a SuperSlicer által használt színek közül néhányat testre szabhat. Kattintson a piros kérdőjelre a Nyomtatás, anyag vagy nyomtató beállításai lapon. Ezután az új ablak alján lévő két szín egyikére kattintva beállíthat egy másik színt.
-
-![K&#xE9;p : Sz&#xED;nvak &#xFC;zemm&#xF3;d be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/06041.jpg)
 

@@ -10,8 +10,6 @@ Alternatívaként a nyomtatóágyon lévő összes modell egyetlen STL-ként exp
 
 Az egyes modelleket STL formátumban is exportálhatja. Kattintson a **jobb gombbal** az egyik modellre a 3D nézetben, és válassza az **Exportálás STL-ként** ... Ez akkor lehet hasznos, ha a SuperSlicerben módosításokat végzett a modellen, például kivágta a modellt.
 
-![Export&#xE1;l&#xE1;s STL form&#xE1;tumban](.gitbook/assets/08001.jpg)
-
 SLA üzemmódban a **Fájl - A lemez exportálása STL formátumba a támasztékokkal együtt** menüponton keresztül a fa típusú támasztékok \(nem módosítható STL-ként\) is felvehetők.
 
 _Elavult_
@@ -46,8 +44,6 @@ AMF formátum: [https://en.wikipedia.org/wiki/Additive\_manufacturing\_file\_for
 
 Ha megnyit egy projektfájlt egy másik számítógépen, mindig ugyanazt a G-kódot kell létrehoznia.
 
-![Projekt ment&#xE9;se m&#xE1;sk&#xE9;nt funkci&#xF3;](.gitbook/assets/08002.jpg)
-
 ### 3MF fájlformátum
 
 Az STL fájlokkal ellentétben, amelyek csak egy objektum [geometriáját](http://www.fabbers.com/tech/STL_Format) tárolják \(például egy sor felületi háromszöget\), a 3MF fájl képes különböző fájlok tárolására egyetlen archívumban, például :
@@ -72,23 +68,15 @@ Ha több SD-kártyát vagy USB-meghajtót észlel, a fájl párbeszédpanel az *
 
 Miután a G-kódot kivehető adathordozóra exportálta, a **G-kód exportálása** gomb mellett megjelenik egy **Kiadás** gomb, amely biztonságosan leválasztja az eszközt.
 
-![G-k&#xF3;d export&#xE1;l&#xE1;sa](.gitbook/assets/08003.jpg)
-
-![Export&#xE1;l&#xE1;s befejez&#x151;d&#xF6;tt](.gitbook/assets/08004%20%281%29.jpg)
-
 ## Konfigurációk importálása / exportálása
 
 ### Importálás
-
-![Import&#xE1;l&#xE1;s funkci&#xF3;](.gitbook/assets/08005.jpg)
 
 ### Konfiguráció importálása
 
 Lehetővé teszi egy INI-fájl importálását, amely tartalmazza a konfiguráció exportált beállításait.
 
 Ez a funkció lehetővé teszi a SuperSlicer által generált minden egyes G-kód fájlban elmentett beállítások lekérdezését is.
-
-![Import&#xE1;l&#xE1;s a G-k&#xF3;db&#xF3;l](.gitbook/assets/08006.jpg)
 
 ### A konfiguráció importálása a projektből
 
@@ -99,8 +87,6 @@ Lehetővé teszi a tárolt konfiguráció beállításainak importálását egy 
 Lehetővé teszi, hogy INI formátumban importálja a nyomtatás, a szálak és a nyomtatók _**egy exportfájlban meghatározott összes konfigurációját**_.
 
 ### Exportálás
-
-![Export&#xE1;l&#xE1;si funkci&#xF3;k](.gitbook/assets/08007.jpg)
 
 #### Konfiguráció exportálása
 
@@ -113,6 +99,4 @@ Lehetővé teszi, hogy INI formátumban exportálja az összes nyomtatási, szá
 #### A konfigurációs csomag exportálása fizikai nyomtatókkal
 
 Ugyanaz, mint az előző funkció, de kiegészül a nyomtatók csatlakoztatására vonatkozó információkkal \(hálózati beállítások\).
-
-![Fizikai nyomtat&#xF3; be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/08008.jpg)
 
