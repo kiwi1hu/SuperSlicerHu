@@ -1549,17 +1549,19 @@ A **Támaszok generálása** opciót legalább az első X réteg előállítás�
 
 ### Tutaj
 
+![Tutaj be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_107.png)
+
 #### _Tömör első réteg_
 
 Helyezzen egy tömör réteget a lemezre a tutaj helyett.
 
 {% tabs %}
 {% tab title="Tömör réteg" %}
-![](.gitbook/assets/13099.png)
+![](.gitbook/assets/print_settings_107.jpeg)
 {% endtab %}
 
 {% tab title="Tutaj" %}
-![](.gitbook/assets/13100.png)
+![](.gitbook/assets/print_settings_108.jpeg)
 {% endtab %}
 {% endtabs %}
 
@@ -1567,11 +1569,9 @@ Helyezzen egy tömör réteget a lemezre a tutaj helyett.
 
 Az objektumot ennyi réteggel megemeljük, és alatta támasztékokat hozunk létre. Ha a nyomtatás elkészült, megragadhatja a tutajt, és lehúzhatja az alkatrészről.
 
-![Be&#xE1;l&#xED;t&#xE1;sok a tutaj sz&#xE1;m&#xE1;ra](.gitbook/assets/13101.jpg)
-
 ### Opciók támasztékhoz és tutajhoz
 
-![A t&#xE1;maszt&#xE9;kok &#xE9;s a tutaj be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/13102.jpg)
+![A t&#xE1;maszt&#xE9;kok &#xE9;s a tutaj be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/print_settings_110.png)
 
 #### _Érintkezés Z távolság_
 
@@ -1581,7 +1581,7 @@ Ha ezt az értéket 0-ra állítja, a SuperSlicer nem fogja használni az áraml
 
 A réteg magasságának 50 és 75%-a közötti értékek jól működnek.
 
-![&#xC9;rintkez&#xE9;si Z t&#xE1;vols&#xE1;g](.gitbook/assets/13103.jpeg)
+![&#xC9;rintkez&#xE9;si Z t&#xE1;vols&#xE1;g](.gitbook/assets/print_settings_111.jpeg)
 
 **Típus**
 
@@ -1623,7 +1623,7 @@ A támaszok vonalai közötti távolság. Növelje ezt, hogy könnyebb legyen a 
 
 Legyen óvatos, ez a paraméter nem csak a vonalak közötti távolságot befolyásolja, hanem a támasz túlcsordulását is a támaszterületéhez képest.
 
-![A mintat&#xE1;vols&#xE1;g n&#xF6;vel&#xE9;se](.gitbook/assets/13104.png)
+![A mintat&#xE1;vols&#xE1;g n&#xF6;vel&#xE9;se \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_112.jpeg)
 
 #### _Mintaszög_
 
@@ -1633,7 +1633,7 @@ Elforgatja a kitöltési minta szögét a vízszintes síkban.
 
 A támaszok csak a nyomtatóágyon indulhatnak el. Ennek az opciónak a bekapcsolásával nagyon gyorsan megszabadulhat a felesleges alátámasztásoktól, főleg az organikus formákon. Mindenképpen ellenőrizze az előnézetet, és győződjön meg arról, hogy minden alkatrész vagy megtámasztva van, vagy olyan túlnyúlási szögben van, amelyet a nyomtató kezelni tud.
 
-![T&#xE1;maszt&#xE9;k mindenhol \(balra\) vs. T&#xE1;maszt&#xE9;k csak az &#xE9;p&#xED;t&#x151;lemezr&#x151;l \(jobbra\)](.gitbook/assets/13105.png)
+![T&#xE1;maszt&#xE9;k mindenhol \(balra\) vs. T&#xE1;maszt&#xE9;k csak az &#xE9;p&#xED;t&#x151;lemezr&#x151;l \(jobbra\) \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_113.jpeg)
 
 #### _XY elválasztás egy tárgy és a tartószerkezet között_
 
@@ -1641,7 +1641,7 @@ Meghatározza a modell és a támaszok közötti rés szélességét. A nagyobb 
 
 Ha százalékban van megadva \(pl. 150%\), akkor azt a külső kerület szélességéből kell kiszámítani.
 
-![Sz&#xE1;zal&#xE9;kos kifejez&#xE9;s](.gitbook/assets/13106.jpeg)
+![](.gitbook/assets/print_settings_114.jpeg)
 
 #### _Ne támogassa a hidakat_.
 
@@ -1653,7 +1653,7 @@ A támaszt a modell magasságával megegyező rétegmagassággal nyomtatjuk ki. 
 
 ### A támasz felület beállításai
 
-![A t&#xE1;masz fel&#xFC;let be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/13108.jpg)
+![A t&#xE1;masz fel&#xFC;let be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/print_settings_115.png)
 
 #### _Minta_
 
@@ -1675,13 +1675,13 @@ Ez az opció lehetővé teszi az objektum\(ok\) és a támaszok közé beilleszt
 
 A felületi minták sortávolsága.
 
-A teljes felületi mintázathoz állítsa nullára.
+> A teljes felületi mintázathoz állítsa nullára.
 
 #### _Felületi hurkok_
 
 Fedje le a hordozók felső érintkezőrétegét hurkokkal. Hozzon létre hurkokat a modell körül.
 
-![Fel&#xFC;leti hurkok](.gitbook/assets/13107.png)
+![Fel&#xFC;leti hurkok](.gitbook/assets/print_settings_116.jpeg)
 
 > Alapértelmezés szerint ki van kapcsolva.
 
@@ -1689,11 +1689,11 @@ Fedje le a hordozók felső érintkezőrétegét hurkokkal. Hozzon létre hurkok
 
 A szoftver sebességbeállítási.
 
-![Sebbes&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13109a.jpg)
+![Sebess&#xE9;g](.gitbook/assets/print_settings_117.png)
 
 ### Nyomtatási mozgások sebessége
 
-![Nyomtat&#xE1;si mozg&#xE1;sok sebess&#xE9;ge be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13110.jpg)
+![Nyomtat&#xE1;si mozg&#xE1;sok sebess&#xE9;ge be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_118.png)
 
 #### Kerületek sebessége
 
@@ -1737,11 +1737,11 @@ A nyomtatási mozgások sebessége.
 
 > Megjegyzés: A sebesség 0-ra állítása letiltja a funkciót.
 
-![Balra a furat kit&#xF6;lt&#xE9;se akt&#xED;v, jobbra a fels&#x151; t&#xF6;m&#xF6;r kit&#xF6;lt&#xE9;s v&#xE1;ltja fel](.gitbook/assets/13111.jpeg)
+![Balra a furat kit&#xF6;lt&#xE9;se akt&#xED;v, jobbra a fels&#x151; t&#xF6;m&#xF6;r kit&#xF6;lt&#xE9;s v&#xE1;ltja fel \(Prusa k&#xE9;p\)](.gitbook/assets/print_settings_119.jpeg)
 
 ### Sebesség a nyomtatás nélküli utazáshoz
 
-![Sebess&#xE9;g a nyomtat&#xE1;s n&#xE9;lk&#xFC;li utaz&#xE1;shoz](.gitbook/assets/13112.jpeg)
+![Sebess&#xE9;g a nyomtat&#xE1;s n&#xE9;lk&#xFC;li utaz&#xE1;shoz](.gitbook/assets/print_settings_120.png)
 
 **Utazási sebesség:** Mozgási sebesség \(két távoli extrudálási pont közötti utazás\).
 
@@ -1749,7 +1749,7 @@ Lehetőség a **X/Y** és **Z** tengelyek sebességének eltérő meghatározás
 
 ### Módosítók
 
-![Sebess&#xE9;g m&#xF3;dos&#xED;t&#xF3;k](.gitbook/assets/13113.jpg)
+![Sebess&#xE9;g m&#xF3;dos&#xED;t&#xF3;k](.gitbook/assets/print_settings_121.png)
 
 **Első réteg sebessége**
 
@@ -1773,7 +1773,7 @@ Ezek a paraméterek a kis kerület fogalmának meghatározására szolgálnak.
 
 ### Gyorsulásszabályozás \(haladó\)
 
-![Gyorsul&#xE1;sszab&#xE1;lyoz&#xE1;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13114.jpg)
+![Gyorsul&#xE1;sszab&#xE1;lyoz&#xE1;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_122.png)
 
 **Kerületek**: A nyomtató által a kerületekre használt gyorsítás. Nullára állítva letiltja a gyorsítást a kerületekre vonatkozóan.
 
@@ -1787,7 +1787,7 @@ Ezek a paraméterek a kis kerület fogalmának meghatározására szolgálnak.
 
 ### Automatikus sebesség \(haladó\)
 
-![Automatikus sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/13115.jpg)
+![Automatikus sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_123.png)
 
 #### _Maximális nyomtatási sebesség_
 
