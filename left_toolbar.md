@@ -12,7 +12,7 @@ Az objektumok a bal egérgombbal történő húzással mozgathatók akkor is, ha
 
 ![Objektum mozgat&#xE1;sa](.gitbook/assets/left_toolbar_002k.gif)
 
-                                                                                **Nagyobb méret**  
+                                                                                [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_002.gif?raw=true)  
 
 Megjegyzés: A SuperSlicer-el nem lehet az alkatrészt a nyomtatólemez alá vagy fölé helyezni, nincs lehetőség arra, hogy a szoftver megakadályozza, hogy az alkatrész a nyomtatólemezzel érintkezzen. Az egyetlen trükk az, hogy esetleg hozzá kell adni egy kezdő alkatrészt, majd társítani kell az új alkatrészt, hogy a lemez tetejére helyezze. De nem lehet a lemez alatt.
 
@@ -27,7 +27,7 @@ A Forgatás eszköz \(**R**\) egy 3D manipulátort jelenít meg, amely lehetőv�
 
 ![Egy objektum elforgat&#xE1;sa](.gitbook/assets/left_toolbar_003k.gif)
 
-                                                                             **Nagyobb méret**
+                                                                             [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_003.gif?raw=true)\*\*\*\*
 
 ### Átméretezés
 
@@ -41,7 +41,7 @@ Alapértelmezés szerint az átméretezés szimmetrikus, a modell mindkét oldal
 
 ![Objektum &#xE1;tm&#xE9;retez&#xE9;se](.gitbook/assets/left_toolbar_004k.gif)
 
-                                                                             **Nagyobb méret**
+                                                                             [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_004.gif?raw=true)\*\*\*\*
 
 ## Helyezze egy síkra \(Irányba helyezés eszköz\)
 
@@ -51,7 +51,7 @@ _**Először válassza ki azt a modellt**_, amelyet át szeretne irányítani. E
 
 ![Helyezze egy s&#xED;kra](.gitbook/assets/left_toolbar_005k.gif)
 
-                                                                                **Nagyobb méret**
+                                                                                [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_005.gif?raw=true)\*\*\*\*
 
 A névvel ellentétben a javasolt "síkok" nem csak a modellen lévő síkok, hanem a modellen lévő 3 támpont által megvalósított síkok is lehetnek. Az algoritmus mindezek mögött a modell úgynevezett konvex burkológörbéjének kiszámítása.
 
@@ -66,7 +66,7 @@ A SuperSlicer alapvető vágási funkciót biztosít. A vágás az XY síkkal le
 
 ![Objektum v&#xE1;g&#xE1;sa](.gitbook/assets/left_toolbar_006k.gif)
 
-                                                                             **Nagyobb méret**
+                                                                                [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_006.gif?raw=true)\*\*\*\*
 
 A vágási sík Z-tengelyének pozícióját úgy állíthatja be, hogy megragadja a kezelőelem kocka alakú fogantyúját, és felfelé vagy lefelé húzza. A felugró menüben pontos értéket \[mm\] is megadhat. Alapértelmezés szerint a modell két részre lesz osztva, mindkettő az aktuális tájolásban marad, és a nyomtatólemezre kerül.
 
@@ -94,7 +94,7 @@ Az eszköz a bal oldali eszköztáron érhető el, és **csak a Haladó és a Sz
 
 ![Festett t&#xE1;maszt&#xE9;kok](.gitbook/assets/left_toolbar_008k.gif)
 
-                                                                             **Nagyobb méret**
+                                                                                 [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_008.gif?raw=true)\*\*\*\*
 
 ### Támaszték generálása
 
@@ -142,7 +142,7 @@ A _**Automatikus szögbeállítás**_ gomb kiválasztja az összes olyan hároms
 
 ![Automatikus sz&#xF6;gbe&#xE1;ll&#xED;t&#xE1;s](.gitbook/assets/left_toolbar_011k.gif)
 
-                                                                             **Nagyobb méret**
+                                                                              ****[**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_011.gif?raw=true)\*\*\*\*
 
 ### Visszavonás és újra
 
@@ -214,5 +214,5 @@ A varrás a festett területen lesz elhelyezve, de ha azt szeretné, hogy a varr
 
 ![A varr&#xE1;s ter&#xFC;let&#xE9;nek meghat&#xE1;roz&#xE1;sa \(5axes gif\)](.gitbook/assets/left_toolbar_014k.gif)
 
-                                                                             **Nagyobb méret**
+                                                                             [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_014.gif?raw=true)\*\*\*\*
 
