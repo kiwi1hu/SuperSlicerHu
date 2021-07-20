@@ -1243,7 +1243,9 @@ Ezután válassza a **Nyomtatási beállítások - Kitöltés - Vasalás - Vasal
 
 Először kapcsoljon szakértői üzemmódba, az egyes minták vasalása csak ebben az üzemmódban engedélyezett. Kattintson a jobb gombbal egy modellre, és válassza a felugró menüből a **Beállítások hozzáadása - Vasalás** menüpontot. Jelölje be a **Vasalás engedélyezése** lehetőséget, a többi vasalási beállítást is kiválaszthatja, hogy modellenként testre szabhassa azokat. Most a jobb oldali panelen módosíthatja a sablon vasalási beállításait.
 
-![Vasal&#xE1;s hozz&#xE1;ad&#xE1;sa \(Gif\)](.gitbook/assets/13084.gif)
+![Vasal&#xE1;s hozz&#xE1;ad&#xE1;sa a kiv&#xE1;lasztott modellre \(Gif\)](.gitbook/assets/print_settings_086k%20%281%29.gif)
+
+                                                                      [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_086.gif?raw=true)\*\*\*\*
 
 Ha ugyanannak az objektumnak több példánya is van a nyomtatólemezen, és az egyiknél engedélyezni szeretné a vasalást, akkor először jobb egérgombbal kell kattintania a modellre, és a szövegkörnyezeti menüből a _**Egyedi objektumként való beállítás**_ parancsot kell választania. Ellenkező esetben az összes példányban engedélyezni fogja, mivel mindannyian ugyanazokat a beállításokat használják.
 
@@ -1260,6 +1262,10 @@ Mivel a vasalás csak sík felületeken működik, érdemes egy magasság módos
 3. Kattintson a jobb gombbal a jobb oldali panelen a magassági tartomány módosító melletti fogaskerékre.
 4. Válassza a **Beállítások hozzáadása - Vasalás** lehetőséget.
 5. Jelölje be a **Vasalás engedélyezése** jelölőnégyzetet, most már csak erre a részre engedélyezheti a simítást a jobb oldali panelen.
+
+![Vasal&#xE1;s egy adott r&#xE9;tegtartom&#xE1;nyba \(Gif\)](.gitbook/assets/print_settings_087k.gif)
+
+                                                                               ****[**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_087.gif?raw=true)\*\*\*\*
 
 **Módosító háló**
 
