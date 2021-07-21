@@ -34,6 +34,6 @@
 
 ## Hibaelhárítás
 
-* [Z oszcilláció \(vibrálás\)](hibaelharitas/untitled-3.md)
+* [Z oszcilláció \(vibrálás\)](hibaelharitas/troubleshooting.md)
 * [Dimenzió hibák](hibaelharitas/dimension-errors.md)
 
