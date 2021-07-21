@@ -1,6 +1,6 @@
 # Nyomtató beállítások
 
-## Egyedi SVG és PNG textúrák
+### Egyedi SVG és PNG textúrák
 
 A SuperSlicer támogatja az egyéni textúrákat és nyomtatólemez mintákat **PNG** és **SVG** formátumban.
 
@@ -18,6 +18,8 @@ A [Nano SVG](https://github.com/memononen/nanosvg) elemző, amelyet a SuperSlice
    1. Formázás - **Inline formázás \(belső CSS NEM támogatott\)**
 4. Erősítse meg a **OK** gomb megnyomásával
 
+![SVG text&#xFA;r&#xE1;k export&#xE1;l&#xE1;sa Adobe Illustratorb&#xF3;l](.gitbook/assets/printer_settings_001.jpg)
+
 _SVG textúrák exportálása Adobe Illustratorból_.
 
 ### Teljesítmény
@@ -32,7 +34,15 @@ Ezen túlmenően az alkalmazás elindítása után először egy alacsony felbon
 
 ## Általános
 
+![&#xC1;ltal&#xE1;nos](.gitbook/assets/printer_settings_002.png)
+
 ### Méret és koordináták
+
+![M&#xE9;ret &#xE9;s koordin&#xE1;t&#xE1;k](.gitbook/assets/printer_settings_003.png)
+
+**Ágy alakja**
+
+![&#xC1;gy alakj&#xE1;nak be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/printer_settings_004.png)
 
 #### _Maximális nyomtatási magasság_
 

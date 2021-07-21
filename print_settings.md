@@ -577,19 +577,27 @@ Ez a kitöltési típus az egyetlen **a 100%-os nyomtatási kitöltéshez ajánl
 {% tab title="Rajz" %}
 ![](.gitbook/assets/print_settings_044c.png)
 {% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_044g.gif)
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Monotonikus" %}
-
+![](.gitbook/assets/print_settings_045.jpg)
 {% endtab %}
 
 {% tab title="Leírás" %}
-
+A monoton kitöltés az egyik alapvető kitöltési minta. Egyenes rácsot hoz létre úgy, hogy egy réteget nyomtat egy irányba, majd a következő réteget 90°-os szögben, és így tovább. Így kevesebb szál fogy, és az anyag nem halmozódik fel a kereszteződésekben \(ellentétben a ráccsal\).
 {% endtab %}
 
 {% tab title="Kép" %}
 ![](.gitbook/assets/print_settings_045a.jpeg)
+{% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_045g.gif)
 {% endtab %}
 {% endtabs %}
 
@@ -609,6 +617,10 @@ A kitöltőanyag nyomtatásának módja miatt a pályák keresztezik egymást, �
 {% tab title="Kép" %}
 ![](.gitbook/assets/print_settings_046a.jpeg)
 {% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_046g.gif)
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}
@@ -622,6 +634,10 @@ Ez a kitöltés ugyanúgy működik, mint a rácsos kitöltés - az útvonalak m
 
 {% tab title="Kép" %}
 ![](.gitbook/assets/print_settings_047a.jpeg)
+{% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_047g.gif)
 {% endtab %}
 {% endtabs %}
 
@@ -698,6 +714,10 @@ A koncentrikus kitöltés **meghúzza a modell kerületi vonalait**, majd egyre 
 
 {% tab title="Rajz" %}
 ![](.gitbook/assets/print_settings_051c.png)
+{% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_051g.gif)
 {% endtab %}
 {% endtabs %}
 
@@ -827,21 +847,25 @@ A nyolcágú spirálminta lehetővé teszi, hogy a tárgyat **könnyen meg lehes
 
 {% tabs %}
 {% tab title="Elszórt egyenes vonalú" %}
-
+![](.gitbook/assets/print_settings_058.jpg)
 {% endtab %}
 
 {% tab title="Leírás" %}
-
+A elszórt egyenes vonalú véletlenszerű lineáris kitöltést hoz létre, amely kevesebb szálból áll, és az anyag nem halmozódik fel a kereszteződéseknél. Alacsony sűrűségben alkalmazva jó térlefedettséget és ezáltal jó alátámasztást biztosít a felső rétegek számára. Az egyenes kitöltéshez hasonlóan ez is az egyik leggyorsabb nyomtatási kitöltés.
 {% endtab %}
 
 {% tab title="Kép" %}
 ![](.gitbook/assets/print_settings_058a.jpeg)
 {% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_058g.gif)
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Alkalmazkodó kocka" %}
-![\(Prusa Gif\)](.gitbook/assets/print_settings_059.gif)
+![](.gitbook/assets/print_settings_059.jpg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -851,11 +875,15 @@ Az alkalmazkodó kocka kitöltés **azon az elven működik, mint a kocka kitöl
 {% tab title="Kép" %}
 ![](.gitbook/assets/print_settings_059a.jpeg)
 {% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_059g.gif)
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Kocka támogatás" %}
-![\(Prusa Gif\)](.gitbook/assets/print_settings_060.gif)
+![](.gitbook/assets/print_settings_060.jpg)
 {% endtab %}
 
 {% tab title="Leírás" %}
@@ -867,7 +895,7 @@ A kocka támogatás kitöltés ugyanúgy működik, mint az előző, egy külön
 {% endtab %}
 
 {% tab title="Animáció" %}
-
+![](.gitbook/assets/print_settings_060g.gif)
 {% endtab %}
 {% endtabs %}
 
