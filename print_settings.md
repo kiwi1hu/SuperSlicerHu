@@ -637,6 +637,10 @@ A csillagkitöltés **háromszögeken alapul**, de **az útvonalakat úgy módos
 {% tab title="Kép" %}
 ![](.gitbook/assets/print_settings_048a.jpeg)
 {% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_048g.gif)
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}
@@ -650,6 +654,10 @@ Ez megint egy töltés, amely ugyanazon a rétegen belüli, egymást metsző út
 
 {% tab title="Kép" %}
 ![](.gitbook/assets/print_settings_049a.jpeg)
+{% endtab %}
+
+{% tab title="Animáció" %}
+
 {% endtab %}
 {% endtabs %}
 
@@ -705,6 +713,10 @@ Ez a kitöltés egy **hatszögekből álló rácsot nyomtat.** Fő előnye a **m
 {% tab title="Rajz" %}
 ![](.gitbook/assets/print_settings_052c.png)
 {% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_052g.gif)
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}
@@ -719,6 +731,10 @@ A 3D-s méhsejtek kis és nagy négyzeteket és nyolcszögeket nyomtatnak, hogy 
 {% tab title="Kép" %}
 ![](.gitbook/assets/print_settings_053a.jpeg)
 {% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_053g.gif)
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}
@@ -732,6 +748,10 @@ A gyroid kitöltés a kedvencünk és egyben **az egyik legjobb kitöltés.** Ez
 
 {% tab title="Kép" %}
 ![](.gitbook/assets/print_settings_054a.jpeg)
+{% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_054g.gif)
 {% endtab %}
 {% endtabs %}
 
@@ -751,6 +771,10 @@ A Hilbert-görbe egy téglalap alakú labirintust rajzol a modellben. Ennek a t�
 {% tab title="Rajz" %}
 ![](.gitbook/assets/print_settings_055c.png)
 {% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_055g.gif)
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}
@@ -769,6 +793,10 @@ Ez a spirális kitöltés ismét **könnyebbé teszi a folyadékkal való feltö
 {% tab title="Rajz" %}
 ![](.gitbook/assets/print_settings_056c.png)
 {% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_056g.gif)
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}
@@ -786,6 +814,10 @@ A nyolcágú spirálminta lehetővé teszi, hogy a tárgyat **könnyen meg lehes
 
 {% tab title="Rajz" %}
 ![](.gitbook/assets/print_settings_057c.png)
+{% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_057g.gif)
 {% endtab %}
 {% endtabs %}
 
@@ -828,6 +860,10 @@ A kocka támogatás kitöltés ugyanúgy működik, mint az előző, egy külön
 
 {% tab title="Kép" %}
 ![](.gitbook/assets/print_settings_060a.jpeg)
+{% endtab %}
+
+{% tab title="Animáció" %}
+
 {% endtab %}
 {% endtabs %}
 
