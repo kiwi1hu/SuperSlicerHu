@@ -12,6 +12,8 @@ A fát ',' elválasztású függvényekkel írja meg, mint például `union()(cu
 
 Győződjön meg róla, hogy a szoftver beállításaiban megadta a **FreeCad** futtatható fájlokat tartalmazó Bin könyvtár elérési útvonalát. A szoftverben állítsa be a **Konfiguráció - Beállítások - Útvonal** menüponton keresztül a FreeCad elérési útvonalát.
 
+![Preferencia &#xFA;tvonal](.gitbook/assets/script_freecad_001.png)
+
 ## Hogyan kell írni
 
 Olyan alapvető primitív objektumokhoz férhet hozzá, mint a kocka és a henger.
@@ -52,11 +54,16 @@ Példa:
 
 ```text
 uni = union("lines")
+for pos in range(0,4) :
+    uni.add( cube(1,10,1).move(x=2*pos) )
+scene().redraw(
+  uni
+)
 ```
 
-for pos in range\(0,4\) : uni.add\( cube\(1,10,1\).move\(x=2\*pos\) \) scene\(\).redraw\(uni\)
-
 A FreeCad-ben a szkript eredménye az alábbi képen látható 
+
+![Script eredm&#xE9;ny](.gitbook/assets/script_freecad_002.png)
 
 ## Címke
 
