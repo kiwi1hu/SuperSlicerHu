@@ -1,6 +1,6 @@
 # Kalibrálás
 
-Ez a menü a kalibrációk gyors és hatékony nyomtatását segíti. A legtöbb nyomtatóprofilnak viszonylag jól kell működnie az alapértelmezett beállításokkal, de ha problémákba ütközik, vagy magasabb minőségi szintre szeretne lépni, meg kell győződnie arról, hogy minden kalibrálva van. A kalibrálások három csoportra oszthatók: nyomtató, szál és szeletelő.
+Ez a menü a kalibrációk gyors és hatékony nyomtatását segíti. A legtöbb nyomtatóprofilnak viszonylag jól kell működnie az alapértelmezett beállításokkal, de ha problémákba ütközik, vagy magasabb minőségi szintre szeretne lépni, meg kell győződnie arról, hogy minden kalibrálva van. A kalibrálások három csoportra oszthatók: nyomtató, szál és szoftver.
 
 Először a nyomtatót kell kalibrálni, majd a szálakat, végül pedig a szoftvert.
 
