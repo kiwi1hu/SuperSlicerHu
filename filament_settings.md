@@ -2,6 +2,12 @@
 
 ## Nyomtatószál \(filament\)
 
+![Nyomtat&#xF3;sz&#xE1;l](.gitbook/assets/filament_settings_001.png)
+
+### Nyomtatószál
+
+![Nyomtat&#xF3;sz&#xE1;l be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/filament_settings_002.png)
+
 #### _Szín_
 
 Ezt a SuperSlicer felületén csak vizuális jelzésként használják.
@@ -20,13 +26,15 @@ Itt adja meg az nyomtatószál sűrűségét. Ez csak statisztikai tájékoztat�
 
 #### _Költségek_
 
-Adja meg a szálak kilogrammonkénti költségét. Ez csak statisztikai tájékoztatásul szolgál.
+Adja meg a szálak kilogrammonként költségét. Ez csak statisztikai tájékoztatásul szolgál.
 
 #### _Orsó súlya_
 
 Adja meg a _**üres orsó súlyát**_. Így a nyomtatás előtt lemérheti a részben használt tekercset, és összehasonlíthatja a mért súlyt az orsóval kiszámított szál súlyával, hogy lássa, van-e elég szál a nyomtatás befejezéséhez.
 
 ### **Hőmérséklet**
+
+![H&#x151;m&#xE9;rs&#xE9;klet be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/filament_settings_003.png)
 
 #### _Extruder_
 
@@ -54,6 +62,8 @@ A zárt nyomtatók esetében a géptér hőmérsékletének beállítására szo
 
 ### Nyomtatószál tulajdonságai
 
+![Nyomtat&#xF3;sz&#xE1;l tulajdons&#xE1;gai](.gitbook/assets/filament_settings_004.png)
+
 #### _A nyomtatószál típusa_
 
 Az egyedi G-kódokban használandó nyomtatószál anyag típusa.
@@ -70,6 +80,8 @@ Adja meg a száll százalékos zsugorodását a hűtés után \(94%, ha 100mm he
 
 ### Nyomtatási sebesség felülbírálása
 
+![Nyomtat&#xE1;si sebess&#xE9;g fel&#xFC;lb&#xED;r&#xE1;l&#xE1;sa](.gitbook/assets/filament_settings_005.png)
+
 #### _Maximális sebesség_
 
 A maximális megengedett sebesség ennél az nyomtatószálnál. A nyomtatás maximális sebességét a nyomtatási sebesség és a szálsebesség minimumára korlátozza.
@@ -80,9 +92,11 @@ A maximális megengedett sebesség ennél az nyomtatószálnál. A nyomtatás ma
 
 A maximális megengedett térfogatsebesség ennél az nyomtatószálnál. A nyomtatás térfogatsebességét a nyomtatási és a szálak térfogatsebességének minimumára korlátozza. A határérték megszüntetéséhez állítsa nullára.
 
-Lásd a következő bekezdést: [Maximális térfogatsebesség](../print_settings/print_settings.md#Maximális%20térfogatsebesség)
+Lásd a következő bekezdést: [Maximális térfogatsebesség](print_settings.md#maximalis-terfogatsebesseg)
 
 ## Hűtés
+
+![H&#x171;t&#xE9;s](.gitbook/assets/filament_settings_006.png)
 
 Amint az olvadt műanyag elhagyja a fúvókát, már nem áll az extrudáló rendszer pontos ellenőrzése alatt. Két kérdést kell figyelembe venni:
 
@@ -99,9 +113,13 @@ A nyomtatóventilátor mindig fenntartja legalább a minimális sebességet. **E
 
 Ha engedélyezve van, a hűtőventilátor és a nyomtatási sebesség az alábbi beállításoknak megfelelően változik nyomtatás közben. Az alábbi szöveges leírás **minden alkalommal frissül, amikor a hűtési beállítások bármelyikét megváltoztatja**, és részletesen elmagyarázza a hűtési viselkedést.
 
+![A h&#x171;t&#xE9;s m&#x171;veletei](.gitbook/assets/filament_settings_007.png)
+
 Ha ki van kapcsolva, a nyomtatóventilátor állandóan a **Ventilátor sebessége - Min** által beállított fix sebességgel működik, kivéve a hidakat, amelyek továbbra is a **Ventilátor sebessége hidakhoz** segítségével állíthatók be.
 
 ### Ventilátor beállítások \(alapértelmezett\)
+
+![Ventil&#xE1;tor be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/filament_settings_008.png)
 
 #### _A ventilátort lehetőleg alapértelmezett sebességgel futtassa_
 
@@ -161,6 +179,8 @@ A ventilátor fordulatszáma a "disable\_fan\_first\_layers" réteg esetén null
 
 ### Rövid rétegidő \(elkezdi növelni a ventilátor sebességét\)
 
+![R&#xF6;vid r&#xE9;tegid&#x151; be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/filament_settings_009.png)
+
 #### _Aktiválja a ventilátort, ha a réteg nyomtatási ideje kevesebb, mint_
 
 Ha a réteg becsült nyomtatási ideje kevesebb, mint ez a másodpercszám, a ventilátor aktiválódik, és sebességét a Min és Max sebességek interpolációjával számítja ki.
@@ -170,6 +190,8 @@ Ha a réteg becsült nyomtatási ideje kevesebb, mint ez a másodpercszám, a ve
 Ez a paraméter a ventilátor maximális sebességét jelöli, amelyet akkor használunk, ha egy réteg esetében a nyomtatási idő nagyon rövid.
 
 ### Nagyon rövid rétegidő \(kezdi csökkenni az extrudálás sebességét\)
+
+![Nagyon r&#xF6;vid r&#xE9;tegid&#x151; be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/filament_settings_010.png)
 
 #### _Minimális réteg időtartam_
 
@@ -187,11 +209,13 @@ Ne feledje, hogy ha ezt az értéket túl magasra emeli, akkor részben érvény
 
 ## Többanyagú
 
+![T&#xF6;bbanyag&#xFA;](.gitbook/assets/filament_settings_011.png)
+
 A többanyagú szálak tulajdonsága
 
-#### _**Többanyagú szálcsere hőmérséklete**_
+### _**Többanyagú szálcsere hőmérséklete**_
 
-Többanyagú szálcsere hőmérséklet
+![T&#xF6;bbanyag&#xFA; sz&#xE1;lcsere h&#x151;m&#xE9;rs&#xE9;klet be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/filament_settings_012.png)
 
 **Szálcsere hőmérséklet engedélyezése**
 
@@ -213,11 +237,15 @@ Kísérleti paraméter. Lehet, hogy a fűtőberendezés gyorsabban lehűl a szá
 
 Kísérleti paraméter. A túl magas ventilátorsebesség konfliktusba kerülhet a fűtőberendezés PID rutinjával.
 
-#### _Többanyagú szálcsere húrcsökkentés_
+### _Többanyagú szálcsere húrcsökkentés_
+
+![T&#xF6;bbanyag&#xFA; sz&#xE1;lcsere h&#xFA;rcs&#xF6;kkent&#xE9;s be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/filament_settings_013.png)
 
 **Vékonyszál húzás \(skinnydip\) csökkentés engedélyezése**
 
 A Skinnydip további merülést végez az olvadási zónába, hogy "elégesse" a finom szálakat.
+
+![Eredm&#xE9;ny v&#xE9;konysz&#xE1;l h&#xFA;z&#xE1;s balra letiltva, jobbra  enged&#xE9;lyezve](.gitbook/assets/filament_settings_014.jpeg)
 
 _\(Kép forrása_ [_TNDavid_](https://github.com/TNDavid)_\)_
 
@@ -243,9 +271,11 @@ Ezt az értéket általában nem szükséges megváltoztatni
 
 Ezt az értéket általában nem szükséges megváltoztatni
 
-#### _Tisztítótorony paraméterei_
+### _Tisztítótorony paraméterei_
 
-_Minimális tisztítás a tisztítótoronyban_
+![Tiszt&#xED;t&#xF3;torony param&#xE9;terei](.gitbook/assets/filament_settings_015.png)
+
+**Minimális tisztítás a tisztítótoronyban**
 
 A szálcsere után az éppen betöltött szál pontos helyzete a fúvókában nem feltétlenül ismert, és a szálnyomás valószínűleg még nem stabil. Mielőtt a nyomtatófej kitöltő- vagy áldozati tárgyba tisztítja a nyomtatófejet, a SuperSlicer mindig ezt az anyagmennyiséget használja fel a tisztítótoronyban, hogy megbízhatóan előállítsa az egymást követő kitöltő- vagy áldozati tárgyak extrudálását
 
@@ -258,11 +288,13 @@ Ez a beállítás a maximális sebesség beállítására szolgál a tisztítót
 * FLEX: 35%
 * EGYÉB: 100%
 
-  Vegye figyelembe, hogy a tisztítótorony minden esetben 100%-ra állítja vissza a sebességet a visszahúzásnál.
+Vegye figyelembe, hogy a tisztítótorony minden esetben 100%-ra állítja vissza a sebességet a visszahúzásnál.
 
-  Marlin használata esetén az M220 B/R-t kell használni a sebesség felülírásának mentésére a tisztítótorony nyomtatása előtt.
+Marlin használata esetén az M220 B/R-t kell használni a sebesség felülírásának mentésére a tisztítótorony nyomtatása előtt.
 
-#### _Szálváltási paraméterek egy extruderes többanyagú nyomtatókhoz_
+### _Szálváltási paraméterek egy extruderes többanyagú nyomtatókhoz_
+
+![Sz&#xE1;lv&#xE1;lt&#xE1;si be&#xE1;ll&#xED;t&#xE1;sok egy extruderes t&#xF6;bbanyag&#xFA; nyomtat&#xF3;khoz](.gitbook/assets/filament_settings_016.png)
 
 **Betöltési sebesség induláskor**
 
@@ -308,9 +340,17 @@ A hűtési mozgások ettől a sebességtől fokozatosan felgyorsulnak.
 
 Ezt a karakterláncot a RammingDialog szerkeszti, és a tömörítésre \(gyors extrudálás amelyet közvetlenül a szál kirakása előtt hajt végre annak biztosítása érdekében, hogy az szál csúcsa megfelelő alakú legyen\) jellemző paramétereket tartalmazza.
 
+![Figyelmeztet&#xE9;s](.gitbook/assets/filament_settings_017.png)
+
+![A t&#xF6;m&#xF6;r&#xED;t&#xE9;s testreszab&#xE1;sa](.gitbook/assets/filament_settings_018.png)
+
 ## Nyomtatószál felülbírálások
 
-### Visszahúzási beállítások.
+![Nyomtat&#xF3;sz&#xE1;l fel&#xFC;lb&#xED;r&#xE1;l&#xE1;sok](.gitbook/assets/filament_settings_019.png)
+
+### Visszahúzási beállítások
+
+![Visszah&#xFA;z&#xE1;si be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/filament_settings_020.png)
 
 ### Hosszúság
 
@@ -354,7 +394,7 @@ Ez az opció a fúvókát a már kinyomtatott szálon történő visszahúzások
 
 A visszahúzási pont után a visszahúzás egy része a már lerakott szálat követő fúvókával történik.
 
-Törlési terület
+![Tiszt&#xED;t&#xE1;s a beh&#xFA;z&#xE1;sok sor&#xE1;n \(5Axes k&#xE9;p\)](.gitbook/assets/filament_settings_021.jpg)
 
 ### Extra törlés a külső kerületekre
 
@@ -365,6 +405,8 @@ A külső kerületi hurok extrudálásának végén egy törlés történik, egy
 A bowdenes extruderekkel célszerű a törlő mozdulat végrehajtása előtt egy gyors visszahúzást végezni.
 
 ## Egyedi G-kód
+
+![Egyedi G-k&#xF3;d](.gitbook/assets/filament_settings_022.png)
 
 ### Kezdő G-kód
 
@@ -379,6 +421,8 @@ Ez a befejezési eljárás a kimeneti fájl végére kerül, a nyomtató befejez
 Ebben a mezőben az szálra vonatkozó megjegyzéseket tölthet ki.
 
 ## Függőségek
+
+![F&#xFC;gg&#x151;s&#xE9;gek](.gitbook/assets/filament_settings_023.png)
 
 Ez a rész lehetővé teszi a profil függőségének meghatározását egy géphez képest.
 
@@ -399,8 +443,4 @@ Válassza ki a kompatibilis nyomtatási profilokat. A **Minden** opciót bejelö
 Egy aktív nyomtatási profil konfigurációs értékeit használó logikai kifejezés. Ha a kifejezés értéke igaz, akkor ez a profil kompatibilisnek tekinthető az aktív nyomtatási profillal.
 
 Az Alkalmazás kiválasztja a profillal kompatibilis gépeket.
-
-Következő oldal [Nyomtató beállítások](../printer_settings/printer_settings.md)
-
-[Vissza a főoldalra](../superslicer.md)
 
