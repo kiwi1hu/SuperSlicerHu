@@ -657,7 +657,7 @@ Ez megint egy töltés, amely ugyanazon a rétegen belüli, egymást metsző út
 {% endtab %}
 
 {% tab title="Animáció" %}
-
+![](.gitbook/assets/print_settings_049g.gif)
 {% endtab %}
 {% endtabs %}
 
@@ -676,6 +676,10 @@ A vonal \(lineáris\) kitöltés egyike azoknak, amelyek **nem rendelkeznek mets
 
 {% tab title="Rajz" %}
 ![](.gitbook/assets/print_settings_050c.png)
+{% endtab %}
+
+{% tab title="Animáció" %}
+![](.gitbook/assets/print_settings_050g.gif)
 {% endtab %}
 {% endtabs %}
 
