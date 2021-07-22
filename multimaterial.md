@@ -1,12 +1,16 @@
 # Többféle anyagból történő szeletelés
 
-Ezek a beállítások a **Nyomtatási beállítások** a **Több extruder** szakaszban vannak csoportosítva.
+Ezek a beállítások a [**Nyomtatási beállítások -** **Több extruder**](print_settings.md#toebb-extruder) szakaszban vannak csoportosítva.
+
+![T&#xF6;bb extruder](.gitbook/assets/multimaterial_001.png)
 
 ## Több anyagból álló modell importálása
 
 ### Több STL fájl importálása egyetlen többféle anyagból álló modellként.
 
 Először is **változtassa a nyomtató előbeállítását többanyagú nyomtatóra** \(mint például az MMU2S\), különben a következő lépések nem fognak működni.
+
+![T&#xF6;bbf&#xE9;le anyagot haszn&#xE1;l&#xF3; nyomtat&#xF3; kiv&#xE1;laszt&#xE1;sa](.gitbook/assets/multimaterial_002.jpg)
 
 Ezután :
 
@@ -15,6 +19,8 @@ Ezután :
 3. Válassza a **Hozzáadás...** **Ctrl + I** parancsot a felső eszköztárból **és válassza ki az összes STL fájlt egyszerre**.
 
 A SuperSlicer megkérdezi, hogy a betöltött modelleket egyetlen, több részből álló objektumként kell-e ábrázolnia - erősítse meg a kérést az **Igen** kiválasztásával.
+
+![SuperSlicer k&#xE9;rd&#xE9;s](.gitbook/assets/multimaterial_003.jpg)
 
 ### Egyetlen STL vagy OBJ fájl importálása egyetlen több anyagból álló modellként
 
@@ -25,6 +31,8 @@ Az STL fájlformátum nem támogatja a több objektumot egy fájlban. Nem ritka 
 Mivel a 3MF fájlok natívan támogatnak több objektumot egyetlen fájlban, a több anyagból álló modelleket automatikusan fel kell ismerni és helyesen be kell tölteni. A projektfájl mentése \(Fájl - Mentés\) ideális módja a Prusa nyomtatók több anyagból készült modelljeinek tárolására és megosztására.
 
 ## Csepegés megelőzése
+
+![Lehet&#x151;s&#xE9;gek a csepeg&#xE9;s megel&#x151;z&#xE9;s&#xE9;re](.gitbook/assets/multimaterial_004.jpg)
 
 ### Aktiválás
 
@@ -40,9 +48,13 @@ Ha a modell helyesen importált \(MMU modell importálása\), akkor a jobb oldal
 
 Színt \(extruder\) rendelhet egy alkatrészhez, ha **duplán kattint** a színes téglalapra az objektumlistában.
 
+![Sz&#xED;nek meghat&#xE1;roz&#xE1;sa](.gitbook/assets/multimaterial_005.jpg)
+
 ### Az előnézeti szín módosítása
 
-Az egyes "extruderek" színének megváltoztatása nincs valódi hatással a nyomtatásra, de jó módja a szemléltetésnek, és segíthet a megfelelő szálszínek kiválasztásában. Az extruderhez rendelt színt úgy változtathatja meg, hogy a szálprofil kiválasztásánál a profil neve melletti **szín mezőre** kattint.
+Az egyes extruderek színének megváltoztatása nincs valódi hatással a nyomtatásra, de jó módja a szemléltetésnek, és segíthet a megfelelő szálszínek kiválasztásában. Az extruderhez rendelt színt úgy változtathatja meg, hogy a szálprofil kiválasztásánál a profil neve melletti **szín mezőre** kattint.
+
+![Az el&#x151;n&#xE9;zeti sz&#xED;n megv&#xE1;ltoztat&#xE1;sa](.gitbook/assets/multimaterial_006.jpg)
 
 ## ColorPrint az MMU segítségével
 
@@ -72,7 +84,11 @@ Gondoljon erre úgy, mint egy normál színváltásra az egy extruderes nyomtat�
 
 Mozgassa az előnézeti csúszkát a kívánt színváltoztatási magasságra, kattintson a kék plusz ikonra, és válassza a **Extruder váltása** lehetőséget.
 
-Ha engedélyezi a **Nyomtatási beállítások - Több extruder - Nincsenek ritkás rétegek** engedélyezését, akkor minden színváltoztatás csak egy réteget ad a törlőtoronyhoz.
+![Extruder cser&#xE9;je](.gitbook/assets/multimaterial_007.jpg)
+
+Ha engedélyezi a [**Nyomtatási beállítások - Több extruder - Nincsenek ritkás rétegek**](print_settings.md#nincsenek-ritkas-retegek-kiserleti) engedélyezését, akkor minden színváltoztatás csak egy réteget ad a törlőtoronyhoz.
+
+![T&#xF6;bb extruder - nincsenek ritk&#xE1;s r&#xE9;tegek](.gitbook/assets/multimaterial_008.jpeg)
 
 #### _Nyomtatás egyszerre több mint 5 színnel az MMU2S segítségével \(3. lehetőség\)_
 
@@ -80,7 +96,11 @@ Tegyük fel, hogy van egy több anyagból készült nyomtatás, amelyben mind az
 
 Egyszerűen mozgassa a réteg előnézet csúszkát a kívánt színváltoztatási magasságba, kattintson a kék plusz ikonra, és válassza ki, hogy melyik extruderhez szeretné hozzáadni a színváltoztatást. Az aktuális rétegben használt összes extruder jelölve lesz.
 
+![Sz&#xED;nv&#xE1;lt&#xE1;s hozz&#xE1;ad&#xE1;sa](.gitbook/assets/multimaterial_009.jpg)
+
 A kapott modell összesen 8 színt használ:
+
+![Nyomtat&#xE1;s 8 sz&#xED;nnel \(Prusa k&#xE9;p\)](.gitbook/assets/multimaterial_010.jpeg)
 
 Ebben a példában a tiltott művelet egy rétegalapú színváltoztatás létrehozása azáltal, hogy egy másik extruder hozzárendelésével az alkatrész egyik feléhez. A tető például kéttónusú lehet \(piros/rózsaszín\), de ezt a színváltoztatást csak kézzel lehet elvégezni. Ha a módosítást automatikusan, egy másik extruder hozzárendelésével szeretné elvégezni, ossza a modellt két különálló modellre.
 
@@ -92,7 +112,7 @@ A YouTube-on egy videó segítségével jól megismerheti a Tisztítótornyok k�
 
 Az intelligens tisztítótorony biztosítja a **tiszta színátmenetet** és a **stabil száláramlást** a színváltás után, miközben a lehető legkevesebb szálpazarlásra törekszik. Mindig csak egy tisztítótorony van, függetlenül attól, hogy hány objektumot nyomtatnak egyszerre.
 
-**A tisztítótorony mérete független a nyomtatandó objektum méretétől.\*\***
+**A tisztítótorony mérete független a nyomtatandó objektum méretétől.**
 
 Az egyszerre több példány nyomtatása vagy a nagyméretű tárgyak nyomtatása javítja a teljes szálfelhasználás hatékonyságát.
 
@@ -102,7 +122,7 @@ Amint a Nyomtató kiválasztása mezőben kiválaszt egy több anyaghoz készül
 
 Az objektum és a tisztítótorony közötti távolság lerövidítéséhez helyezze a tornyot az objektum\(ok\) közelébe.
 
-_A Tisztítótorony tényleges mérete a G-kód előnézetben látható._
+![A Tiszt&#xED;t&#xF3;torony t&#xE9;nyleges m&#xE9;rete l&#xE1;that&#xF3; a G-k&#xF3;d el&#x151;n&#xE9;zetben.](.gitbook/assets/multimaterial_011.jpeg)
 
 #### _A tisztítótorony mérete_
 
@@ -116,12 +136,16 @@ A Tisztítótorony ritkán van tele. Ehelyett a ritkás és sűrű töltés ará
 
 Ha a Tisztítótorony felett egy vonalat lát a levegőben, az **normális**. Ez az utolsó extruder kilökődésének megjelenítése, mielőtt az utolsó felhasznált szál kiürülne \(az ép hegy létrehozásához\).
 
+![Tiszt&#xED;t&#xF3;torony ki&#xFC;r&#xED;t&#x151; vonal](.gitbook/assets/multimaterial_012.png)
+
 ### Tisztítótorony ritkás rétegek nélkül
 
 A Tisztítótorony mérete csökkenthető a ritkás rétegek \(váltás nélküli rétegek\) kihagyásával. Ez anyagot takarít meg, és szinte minden esetben csökkenti a nyomtatási időt.
 
 1. Válassza a **Nyomtatási beállítások - Több extruder** menüpontot.
 2. Jelölje be **Nincs ritkás réteg \(Kísérleti\)**
+
+![Tiszt&#xED;t&#xF3;torony \(Prusa k&#xE9;p\)](.gitbook/assets/multimaterial_013.jpeg)
 
 A több anyagból álló projektjeink esetében ez a funkció 3,16%-kal csökkentette a teljes nyomtatási időt, és 16,17%-kal csökkentette a Tisztítótoronyra lerakódott szál mennyiségét.
 
@@ -139,9 +163,11 @@ Mivel a modell belseje nem látható, a színátmenet során a fúvóka tisztít
 2. Válassza a **Tisztítási lehetőségek** lehetőséget.
 3. Ezután a jobb oldali panelen jelölje be a **Tisztítás ennek az objektumnak a kitöltésébe**.
 
+![Tiszt&#xED;t&#xE1;si lehet&#x151;s&#xE9;gek](.gitbook/assets/multimaterial_014.jpg)
+
 A kitöltésben kitisztított sötét szálak a világos színű falakon keresztül láthatóak lehetnek. A probléma elkerülése érdekében javasoljuk, hogy növelje a kerületeinek számát.
 
-_Probléma a világos/sötét szálak nyomtatásával \(Prusa kép\)_
+![Probl&#xE9;ma a vil&#xE1;gos/s&#xF6;t&#xE9;t sz&#xE1;lak nyomtat&#xE1;s&#xE1;val \(Prusa k&#xE9;p\)](.gitbook/assets/multimaterial_015.jpeg)
 
 ### Objektumba tisztítás
 
@@ -161,9 +187,9 @@ A tisztító objektum kinyomtatása után a tisztítás átkerül a Tisztítóto
 
 A színváltás során az áramlás nem tökéletesen stabil. Például egy kis mennyiségű levegő kerülhet a fúvókába, amikor az új olvadt anyag felülről tolódik. Ennek eredményeképpen a Tisztító objektumon enyhe részecskék jelenhetnek meg.
 
-_A tisztítótorony helyigénye minimális a tisztító objektumnak \(a fogaskeréknek\) köszönhetően. \( Prusa kép\)_
+![A tiszt&#xED;t&#xF3;torony helyig&#xE9;nye minim&#xE1;lis a tiszt&#xED;t&#xF3; objektumnak \(a fogasker&#xE9;knek\) k&#xF6;sz&#xF6;nhet&#x151;en K&#xE9;p Prusa](.gitbook/assets/multimaterial_016.jpeg)
 
-## **Tisztítási mennyiség**
+**Tisztítási mennyiség**
 
 Szálak cseréjekor kis mennyiségű olvadt műanyag marad a fúvókában. Az új szál betöltésekor az is megolvad, és elkezdi kinyomni a fúvóka tartalmát. Ez idő alatt az extrudált szál színe fokozatosan megváltozik.
 
@@ -175,13 +201,15 @@ A tiszta színátmenet biztosítása érdekében a SuperSlicer többféleképpen
 
 A szálcsere során kiürítendő anyagmennyiséget a jobb oldali eszköztárban található **Tisztítási mennyiségek...** gombra kattintva lehet beállítani.
 
-_A jobb oldali birka fehér színét az előző szál kék pigmentje szennyezi \(Prusa kép\)_
+![K&#xE9;p: A jobb oldali b&#xE1;r&#xE1;ny feh&#xE9;r sz&#xED;n&#xE9;t az el&#x151;z&#x151; sz&#xE1;l k&#xE9;k pigmentje szennyezi \(Prusa k&#xE9;p\).](.gitbook/assets/multimaterial_017.jpeg)
 
 Alapértelmezés szerint egyszerűen beállíthatja a szálak ki- vagy betöltésekor kiürítendő anyag mennyiségét. Ez lehetővé teszi a pazarolt szál mennyiségének optimalizálását, például a fekete szál betöltésekor az ürítendő mennyiség csökkentésével. Másrészt növelheti az értéket, amikor nagyon világos színekre tér át, hogy azok ne szennyeződjenek a korábbi színekkel.
 
 Az ürítési mennyiségek beállításai a _**Tisztítási mennyiségek**_ gombbal érhetők el:
 
-Ez a gomb csak akkor érhető el, ha a Tisztítótorony opció aktív \(_**Nyomtatási beállítások**_ -&gt; _**Több extruder**_ -&gt; **Tisztítótorony** -&gt; **Engedélyezés** \).
+![Tisztas&#xE1;gi mennyis&#xE9;gek](.gitbook/assets/multimaterial_019.jpg)
+
+Ez a gomb csak akkor érhető el, ha a Tisztítótorony opció aktív \([_**Nyomtatási beállítások**_ -&gt; _**Több extruder**_ -&gt; **Tisztítótorony** -&gt; **Engedélyezés**](print_settings.md#engedelyezes-1) \).
 
 **Példa:**
 
