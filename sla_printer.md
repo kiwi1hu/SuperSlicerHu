@@ -6,17 +6,23 @@ A mechanikus alkatrészeket, az egymáshoz illeszkedő tárgyakat precízen kell
 
 Az ok egyszerű: folyékony gyantával történő nyomtatás esetén a kikeményített anyag a bevilágítás után még viszonylag puha, ami azt jelenti, hogy **a tárgy a platform mozgása során nagyon enyhén** elfordulhat. **A legtöbb gyanta hajlamos egy kicsit zsugorodni** az UV-fény által történő kikeményítés után, ami a nyomtatott tárgyon enyhén torzított éleket eredményezhet. A nyomtatott geometria fenntartásához ezért elengedhetetlen a megfelelő mennyiségű alátámasztás.
 
- _Nem organikus formák nyomtatásakor használja a kézi hordozóelhelyező eszközt, hogy vastagabb hordozót helyezzen el a tárgy szélei mentén_.
+![A t&#xE1;maszt&#xE9;k meghat&#xE1;roz&#xE1;sa SLA &#xFC;zemm&#xF3;dban](.gitbook/assets/sla_printer_001.jpg)
+
+ _Nem organikus formák nyomtatásakor használja a kézi támaszték elhelyező eszközt, hogy vastagabb támasztékot helyezzen el a tárgy szélei mentén_.
 
 Ne feledje azt sem, hogy amikor közvetlenül a platformra nyomtat tárgyakat, az első néhány réteg általában kialakul az úgynevezett **elefántláb** - ahogy az első néhány réteg megszilárdul, az anyag egy kicsit kitágul, és egyenetlen felületet hoz létre. Ezért **ajánlott a bázis használata**.
 
 Mint már említettük, a nyomtatás mindig ugyanannyi időt vesz igénybe, függetlenül a nyomtatási platformon lévő objektumok számától. A teljes időt a megszilárduló rétegek száma határozza meg. Használja ezt ki: ha egy bonyolult, kényes tájolású objektummal rendelkezik, helyezzen több példányt a nyomtatási platformra, és forgassa el mindegyik objektumot más-más irányba. Ez segít időt megtakarítani.
+
+![ A nyomtatand&#xF3; objektumok elhelyez&#xE9;se SLA nyomtat&#xE1;shoz \(Prusa k&#xE9;p\)](.gitbook/assets/sla_printerl_002.jpg)
 
  _Nyomtassa ki a tárgyat egyszerre több elforgatással, hogy gyorsan megtalálja az optimális tájolást - a nyomtatási idő nem változik._
 
 ## Fa támaszok
 
 Az FDM támaszokkal ellentétben, amelyek jellemzően rács- vagy rácsszerűek, az SLA támaszok **három alakú, nagyon vékony végű állványzatra** hasonlítanak. Könnyen eltávolíthatók, és eltávolításuk után alig vagy egyáltalán nem hagynak nyomot a nyomtatott tárgy felületén. Ez azt is jelenti, hogy a túl kevés rögzítés nemkívánatos hatásokkal járhat - például a nehéz tárgyak leválhatnak nyomtatás közben. A támaszték kéz a kézben jár az objektum orientációjával - az objektum optimális pozícióba történő elforgatásával minimalizálhatja a támaszték szükségességét.
+
+![Fa t&#xED;pus&#xFA; t&#xE1;maszt&#xE9;k](.gitbook/assets/sla_printerl_003.jpg)
 
 Sok támasztól megszabadulhat, ha az objektumot optimális pozícióba forgatja.
 
@@ -30,7 +36,11 @@ A SuperSlicer 2.3 teljes mértékben fel van szerelve automatikus fa típusú t�
 4. Kattintson az pontok automatikusan generálása gombra, és várja meg a folyamat végét.
 5. Az előnézeti módban ellenőrizheti, hogy minden "sziget" támogatott-e - ha nem, akkor manuálisan beállíthatja a támogatásokat.
 
+![SLA t&#xE1;mogat&#xE1;si men&#xFC; a SuperSlicerben](.gitbook/assets/sla_printerl_004.jpg)
+
 Egy másik dolog, amit érdemes megfontolni, az a bázis. A **bázis** \(alapértelmezés szerint engedélyezve\) egy nagyméretű szerkezet a nyomtatás alján, amely a hordozó alapjául szolgál. Bár a támaszték közvetlenül az alumínium nyomtatási platformra is nyomtatható, az alap sokkal jobb stabilitást biztosít.
+
+![Az SLA nyomtat&#xF3; t&#xE1;maszt&#xE9;k hozz&#xE1;ad&#xE1;sa](.gitbook/assets/sla_printerl_005.jpg)
 
 Lehetőség van a szoftver jobb oldali részében meghatározni a **Bázis** definícióját, amely lehet :
 
@@ -38,13 +48,17 @@ Lehetőség van a szoftver jobb oldali részében meghatározni a **Bázis** def
 * Tárgy körül
 * vagy letilthatja \(Nincs\)
 
+![B&#xE1;zis a t&#xE1;rgy alatt](.gitbook/assets/sla_printerl_006.jpg)
+
+![B&#xE1;zis a t&#xE1;rgy k&#xF6;r&#xFC;l](.gitbook/assets/sla_printerl_007.jpg)
+
   A fenti képek a különbséget mutatják a **tárgy alatt** és a **tárgy körül** lévő bázis között.
 
 ### A támaszték kézi szerkesztése
 
 Néhány esetben az automatikus támaszték generálás nem ad 100%-ban tökéletes eredményt - ez normális, mivel az importált objektumok végtelenül összetettek lehetnek. Folyamatosan fejlesztjük a támaszték generálás rutinjainkat, hogy megelőzzük az ilyen helyzetek kialakulását. Vannak azonban olyan esetek, amikor a támasztékot manuálisan kell hozzáadni - ez akkor is megtehető, ha már vannak automatikusan generált támasztékok.
 
- _Az automatikusan generált támaszték és a kézzel szerkesztett támaszték összehasonlítása \(Prusa kép\)._
+![Az automatikusan gener&#xE1;lt &#xE9;s a k&#xE9;zzel szerkesztett t&#xE1;maszt&#xE9;k &#xF6;sszehasonl&#xED;t&#xE1;sa \(Prusa k&#xE9;p\)](.gitbook/assets/sla_printerl_008.jpg)
 
 Kattintson a **Kézzel történő szerkesztés** gombra. A korábban generált támaszok ideiglenesen eltűnnek, hogy jobban láthassa a modellt. Az **bal egérgombbal** **új támaszpontok hozzáadásához**. A támaszték vastagságát a kézi szerkesztési módban a **Fejátmérő** csúszkával módosíthatja, vagy a **Nyomtatási beállítások - Támaszték** menüpontban módosíthatja a következő beállításokat a támaszték vastagságának növelése érdekében:
 
@@ -84,7 +98,7 @@ Az objektumok tájolásának megváltoztatására 3 eszköz áll rendelkezésre:
 * Helyezze egy síkra eszköz \(**F**\)
 * Tájolás optimalizálása eszköz \(jobb egérgombbal kattintva a szövegkörnyezeti menüben\)
 
- \*A Forgatás eszköz \(balra\), az Helyezze egy síkra eszköz \(középen\) és az Tájolás optimalizálása eszköz \(jobbra\).
+![A Forgat&#xE1;s eszk&#xF6;z \(balra\), az Helyezze egy s&#xED;kra eszk&#xF6;z \(k&#xF6;z&#xE9;pen\) &#xE9;s az T&#xE1;jol&#xE1;s optimaliz&#xE1;l&#xE1;sa eszk&#xF6;z \(jobbra\).](.gitbook/assets/sla_printerl_009.jpg)
 
 ### Tájolás optimalizálása
 
@@ -118,9 +132,37 @@ A süllyesztés és a leeresztőnyílás munkafolyamata **nem roncsoló**. A sü
 
 A modellmélyedés a következő paraméterekkel van konfigurálva:
 
-| A keletkező héj vastagsága. A minimális érték 1 mm.A pontosság és a teljesítmény közötti kompromisszum. Ha alacsony bemélyedési pontosságot állít be, a kapott modell falvastagsága egyenetlen lehet. Ezért kis mélyedésvastagság esetén \(vékony héjak esetén\) nagyobb mélyedési pontosság ajánlott a minimális falvastagság biztosítása érdekében.A mélyedés eltávolítja a zárási távolság küszöbértékénél keskenyebb üregeket, és kitölti a belső fal éles homorú sarkait is, amelyekből egyébként nehéz lenne eltávolítani az erősen viszkózus, nem kikeményedett gyantát. | !\[Image : Réglage Épaisseur d'évidement\]\(./images/007.png\) |
-| :--- | :--- |
-
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">
+        <p>A keletkez&#x151; h&#xE9;j vastags&#xE1;ga.</p>
+        <p>A minim&#xE1;lis &#xE9;rt&#xE9;k 1 mm.</p>
+        <p></p>
+        <p>A pontoss&#xE1;g &#xE9;s a teljes&#xED;tm&#xE9;ny k&#xF6;z&#xF6;tti kompromisszum.
+          Ha alacsony bem&#xE9;lyed&#xE9;si pontoss&#xE1;got &#xE1;ll&#xED;t be,
+          a kapott modell falvastags&#xE1;ga egyenetlen lehet. Ez&#xE9;rt kis m&#xE9;lyed&#xE9;svastags&#xE1;g
+          eset&#xE9;n (v&#xE9;kony h&#xE9;jak eset&#xE9;n) nagyobb m&#xE9;lyed&#xE9;si
+          pontoss&#xE1;g aj&#xE1;nlott a minim&#xE1;lis falvastags&#xE1;g biztos&#xED;t&#xE1;sa
+          &#xE9;rdek&#xE9;ben.</p>
+        <p></p>
+        <p>A m&#xE9;lyed&#xE9;s elt&#xE1;vol&#xED;tja a z&#xE1;r&#xE1;si t&#xE1;vols&#xE1;g
+          k&#xFC;sz&#xF6;b&#xE9;rt&#xE9;k&#xE9;n&#xE9;l keskenyebb &#xFC;regeket,
+          &#xE9;s kit&#xF6;lti a bels&#x151; fal &#xE9;les homor&#xFA; sarkait is,
+          amelyekb&#x151;l egy&#xE9;bk&#xE9;nt neh&#xE9;z lenne elt&#xE1;vol&#xED;tani
+          az er&#x151;sen viszk&#xF3;zus, nem kikem&#xE9;nyedett gyant&#xE1;t.</p>
+      </th>
+      <th style="text-align:left">
+        <p></p>
+        <p>
+          <img src=".gitbook/assets/sla_printerl_010.png" alt="Image : R&#xE9;glage &#xC9;paisseur d&apos;&#xE9;videment"
+          />
+        </p>
+      </th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
 
 ### Leeresztő lyukak hozzáadása
 
@@ -142,23 +184,27 @@ Az üregesítés és a furatfúrás az Előzetes üregesítés és fúrás model
 
 A vágási sík eszközzel az objektum belsejébe lehet belelátni \(ugyanez az eszköz megtalálható az SLA támpontok szerkesztő manipulátorba is\). A csúszkát balról jobbra mozgatva mozgathatja a vágási síkot. Átnézheti az üregesített geometriát, és megfelelően elhelyezheti a leeresztő lyukakat.
 
+![V&#xE1;g&#xE1;si s&#xED;k be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/sla_printerl_011.jpg)
+
 Az Irány **visszaállítása gomb** a vágási sík eszközt az aktuális kameranézettel párhuzamosan igazítja. Ha például azt szeretné, hogy a vágási sík fel-le mozogjon, nézze a modellt felülről \( **Felső nézet**\), és nyomja meg a Visszaállítás iránya gombot.
 
+![Ir&#xE1;ny vissza&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/sla_printerl_012.jpg)
+
 Az Irány visszaállítása gomb csak akkor látható, ha a Vágási sík eszközt nem nulla értékre mozgatja.
+
+![Metszeti n&#xE9;zet](.gitbook/assets/sla_printerl_013.jpg)
 
 Az üreges és fúrt modellt a **Fájl - Exportálás - Lemez exportálása STL-be**  menüpont kiválasztásával exportálhatja.
 
 Bármely paraméter megváltoztatása a háló érvénytelenítését kényszeríti ki \(például egy lyuk áthelyezése, az objektum méretezése stb.\). A modell nézete visszaáll az eredeti objektumra a fúrt lyukak és az alkalmazott mélyedés nélkül.
 
-\*\*Példa a tömör vs. üreges modellre
+Példa a tömör vs. üreges modellre
 
 Tömör modell: 237 ml, gyanta ára $13.75
 
 Üreges modell: 81 ml, gyanta ára $4.70
 
+![P&#xE9;lda: Hellboy mellszobor bara t&#xF6;m&#xF6;r jobbra &#xFC;reges](.gitbook/assets/sla_printerl_014.jpg)
+
 Az üregesítés és a lyukfúrás funkciói az [OpenVDB](https://www.openvdb.org/) és a [CGAL](https://www.cgal.org/) könyvtárakon alapulnak. Köszönet mindkét könyvtár szerzőinek.
-
-Következő oldal [SLA nyomtatási paraméterek](sla_parameters.md)
-
-[Vissza a főoldalra](../superslicer.md)
 
