@@ -45,5 +45,5 @@ A Freecad egy teljes és ingyenes CAD program, amely tartalmaz egy hálós modul
 * Fontos megvizsgálni a javítási szkript hatását a modellre. Előfordulhat, hogy a szkript károsítja a fájlt, ahelyett, hogy javítaná, például fontos háromszögek eltávolításával..
 * Exportálja a javított modellt az "Exportálás" menüpont vagy a kontextusmenü segítségével.
 
-\*\*Megjegyzés: A FreeCad jelenlegi verziója 0.19
+Megjegyzés: A FreeCad jelenlegi verziója 0.19
 
