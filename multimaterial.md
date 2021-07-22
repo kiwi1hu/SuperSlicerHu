@@ -211,7 +211,7 @@ Az ürítési mennyiségek beállításai a _**Tisztítási mennyiségek**_ gomb
 
 Ez a gomb csak akkor érhető el, ha a Tisztítótorony opció aktív \([_**Nyomtatási beállítások**_ -&gt; _**Több extruder**_ -&gt; **Tisztítótorony** -&gt; **Engedélyezés**](print_settings.md#engedelyezes-1) \).
 
-**Példa:**
+![P&#xE9;lda](.gitbook/assets/multimaterial_020.jpg)
 
 Átállás **Zöld** és **Kék** között = kiürítés **Zöld** + betöltés **Kék** = **80 + 70 = 150 mm³**
 
@@ -219,15 +219,15 @@ Ez a gomb csak akkor érhető el, ha a Tisztítótorony opció aktív \([_**Nyom
 
 Ha a speciális módra vált, láthatja az egyes színváltoztatási kombinációkhoz kiszámított, az egyszerű mód aktuális beállításaival kiszámított kivágási mennyiséget.
 
-Ha **oldható filamentet** használ a támaszték nyomtatásához, növelje az ürítési térfogatot legalább **120** **mm³-re a kiürítéshez.**
+Ha **oldható szálat** használ a támaszték nyomtatásához, növelje az ürítési térfogatot legalább **120** **mm³-re a kiürítéshez.**
 
 Az adalékanyagokat \(magas fényű, sok csillámot stb.\) tartalmazó szálak szintén megnövelt tisztítási mennyiséget igényelhetnek.
+
+![A tiszt&#xED;t&#xE1;si mennyis&#xE9;g be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/multimaterial_021.jpg)
 
 ### Haladó mód
 
 A haladó módban egy táblázat jelenik meg. Az egyes cellák az X szálról \(bal oldali oszlop\) az Y szálra \(felső sor\) történő átváltás során a tisztításhoz szükséges szálmennyiséget jelölik.
 
-Következő oldal [SLA szeletelés](../sla_printer/sla_printer.md)
-
-[Vissza a főoldalra](../superslicer.md)
+![Halad&#xF3; m&#xF3;d](.gitbook/assets/multimaterial_022.jpg)
 
