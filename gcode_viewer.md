@@ -15,6 +15,8 @@ A szoftver jelenleg elemzi és bizonyos mértékig értelmezi a :
 * [Craftware](https://craftbot.com/software)
 * [KISSlicer](https://www.kisslicer.com/)
 
+![SuperSlicer-gcode viewer](.gitbook/assets/gcode_viewer_001.jpg)
+
 A SuperSlicer önálló G-kód megjelenítője megpróbálja megbecsülni az extrudálási szélességeket, rétegmagasságokat, extrudálási típusokat, mozgástípusokat, rétegeket stb. a különböző szoftvermegoldások által generált G-kódból. Maga a G-kód nem tartalmazza az összes fenti információt, ezért a G-kódot általában szeletelőspecifikus megjegyzésekkel egészítik ki. Igyekszünk minél több adatot összegyűjteni, de előfordulhat, hogy egyes részek még mindig ismeretlenként vannak megjelölve.
 
 A SuperSlicer a G-kódot a ";TYPE:", ";HEIGHT:", ";LAYER\_CHANGE", ";COLOR\_CHANGE", ";PAUSE\_PRINT" és ";CUSTOM\_GCODE" megjegyzésekkel értelmezi. Az ezeket az új megjegyzéseket nem tartalmazó generált G-kód továbbra is megjelenik, de a szélességek vagy extrudálási típusok nem biztos, hogy megbízhatóan megjelennek.
@@ -60,8 +62,4 @@ A leírás mostantól a nyomtatási időt és a nyomtatási idő töredékét mu
 ### Több példány
 
 Annyi SuperSlicer G-kódnézőt indíthat, amennyit csak akar, akár úgy, hogy megnyit egy G-kódot a "Fájl-&gt;G-kód előnézet" menüben, akár úgy, hogy elindítja a G-kódnéző alkalmazást, akár úgy, hogy duplán kattint egy G-kód fájlra a fájlkeresőben.
-
-Következő oldal [Érvénytelen modell javítása](../tutorial/repairing-models.md)
-
-[Vissza a főoldalra](../superslicer.md)
 
