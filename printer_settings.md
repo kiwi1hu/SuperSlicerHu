@@ -42,6 +42,8 @@ Ezen túlmenően az alkalmazás elindítása után először egy alacsony felbon
 
 **Ágy alakja**
 
+Itt állíthatja be az ágy alakját, méretét, textúráját és modellt.
+
 ![&#xC1;gy alakj&#xE1;nak be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/printer_settings_004.png)
 
 #### _Maximális nyomtatási magasság_
@@ -62,6 +64,8 @@ Vegye figyelembe, hogy a G-kód 6 számjegyű z-értékeket ír ki a pont után,
 
 ### Lehetőségek
 
+![Lehet&#x151;s&#xE9;gek](.gitbook/assets/printer_settings_005.png)
+
 #### _Extruderek_
 
 A nyomtatóban lévő extruderek száma.
@@ -78,9 +82,13 @@ A gépen rendelkezésre álló marófejek száma.
 
 ### Firmware
 
+![Firmware be&#xE1;ll&#xED;t&#xE1;sai](.gitbook/assets/printer_settings_006.png)
+
 #### _G-kód típus_
 
 Egyes G/M-kódú parancsok, köztük a hőmérséklet-szabályozás és mások, nem univerzálisak. Állítsa be ezt a beállítást a nyomtató firmware-ében, hogy kompatibilis kimenetet kapjon. A "_**Nincs extrudálás**_" opció teljesen megakadályozza, hogy a SuperSlicer bármilyen extrudálási értéket exportáljon.
+
+![G-k&#xF3;d t&#xED;pus](.gitbook/assets/printer_settings_007.png)
 
 #### _Támogatja a csendes módot_
 
@@ -97,6 +105,8 @@ Az M73 P\[nyomtatott százalék\] R\[hátralévő idő percben\] 1 perces idők�
 Beállítja a pont utáni számjegyek számát a **XYZ** koordináták és az **E** extruder vezérlőértékek esetében.
 
 ### Hűtőventilátor
+
+![H&#x171;t&#x151;ventil&#xE1;tor be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/printer_settings_008.png)
 
 #### _Gyorsítás_
 
@@ -118,6 +128,8 @@ Adjon hozzá egy M106 S255-öt \(maximális ventilátorsebesség\) erre a másod
 
 ### Miniatűr
 
+![Miniat&#x171;r be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/printer_settings_009.png)
+
 #### _Méret a G-kódhoz_
 
 A miniatűrök méretét .gcode és .sl1 fájlban kell tárolni a következő formátumban: "XxY, XxY, ...".
@@ -131,6 +143,8 @@ Egy adott színt alkalmazhat a miniatűrökre. Ha nem, akkor a színük a szál 
 Mutassa a lemez textúráját a miniatűr képen.
 
 ### Haladó
+
+![Halad&#xF3; be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/printer_settings_010.png)
 
 #### _Relatív E értékek használata_.
 
@@ -157,6 +171,8 @@ A túl sok kis mozgatási parancs túlterhelheti a firmware-t/kapcsolatot. Ha fu
 Egyes nyomtatók vagy nyomtatóbeállítások nehézséget okozhatnak a változó rétegmagasságú nyomtatással. Alapértelmezés szerint engedélyezve.
 
 ## Egyedi G-kód
+
+![Egyedi G-k&#xF3;d](.gitbook/assets/printer_settings_011.png)
 
 ### Csak a saját G-kód indításakor
 
@@ -222,9 +238,13 @@ A vegyes csak akkor használatos, ha az extrudálás típusa nem egyedi, nem csa
 
 ## A gép korlátai
 
+![A g&#xE9;p korl&#xE1;tai](.gitbook/assets/printer_settings_012.png)
+
 ### Gép korlátozások
 
 Lehetőség annak meghatározására, hogy a szoftver ezen szakaszában meghatározott határértékek hogyan kerülnek alkalmazásra. Mindenesetre a G-kód fájlba kerülnek elmentésre.
+
+![G&#xE9;p korl&#xE1;toz&#xE1;sok](.gitbook/assets/printer_settings_013.png)
 
 Legyen óvatos, még akkor is, ha olyan nyomtatási profilt használ, amely 5000-es gyorsulást határoz meg, ha a gépén a gyorsulási határ 4000, a G-kód kimenet a 4000-es határértéket fogja használni.
 
@@ -265,9 +285,7 @@ Maximális gyorsulás behúzás közben \(M204R\)
 
 Maximális gyorsulás elmozdulás közben \(M204T\)
 
-#### _A rángatás \(jerk\) korlátai_
-
-_**\(A hirtelen mozgások korlátai\)**_
+#### _A rángatás \(jerk\) korlátai **\(A hirtelen mozgások korlátai\)**_
 
 Az XYZ és E tengelyek maximális rándulásának meghatározása mm/s-ban kifejezve.
 
@@ -281,9 +299,17 @@ Meg lehet különböztetni a _**minimum értéket az extrudálás során**_: M20
 
 ## Extruder
 
+![Extruder](.gitbook/assets/printer_settings_014.png)
+
 Extruderrel kapcsolatos beállítások.
 
+A menü listában annyi extruder jelenik meg amennyit a gép tartalmaz és extruderenként lehet mindent beállítani.
+
+![5 extruderes g&#xE9;p](.gitbook/assets/printer_settings_015.png)
+
 ### Név és méret
+
+![N&#xE9;v &#xE9;s m&#xE9;ret](.gitbook/assets/printer_settings_016.png)
 
 #### _Extruder neve_
 
@@ -294,6 +320,8 @@ Csak a klipper esetében használatos, ahol megnevezheti az extruder nevét. Ha 
 Ez az extruder fúvókájának átmérője \(például: 0,5, 0,35, stb.\)
 
 ### Rétegmagassági korlátok
+
+![R&#xE9;tegmagass&#xE1;gi korl&#xE1;tok](.gitbook/assets/printer_settings_017.png)
 
 #### _Minimum_
 
@@ -307,15 +335,29 @@ Ha 0-ra van állítva, a réteg magassága a fúvóka átmérőjének 75%-ára k
 
 A SuperSlicer változó rétegmagasságot használ, amely eltér a modell rétegmagasságától, ezért ez a paraméter nagyon fontos a szoftver által kiszámított rétegmagasságok meghatározásához.
 
+![V&#xE1;ltoz&#xF3; r&#xE9;tegmagass&#xE1;g a t&#xE1;maszokhoz](.gitbook/assets/printer_settings_018.png)
+
 A tartókon lévő rétegmagasságokat a Slicer automatikusan kezeli, és azok nem egyeznek meg az alkatrész rétegmagasságával. Ezért fontos az ezeket a magasságokat szabályozó minimális és maximális rétegmagassági határértékek beállítása.
 
-### Eltolás \(több extruderrel működő nyomtatók esetében\)
+### Eltolás \(több extruderes nyomtatók esetében\)
+
+![Eltol&#xE1;s \(t&#xF6;bb extruderes nyomtat&#xF3;k eset&#xE9;ben\)](.gitbook/assets/printer_settings_019.png)
 
 #### _Extruder eltolás_
 
 Ha a nyomtató firmware-e nem támogatja az extruder eltolását, a G-kódnak ezt figyelembe kell vennie. Ezzel az opcióval megadhatja az egyes extrudereknek az elsőtől való eltolását. Pozitív értékeket várunk \(ezeket kivonjuk az XY-koordinátákból\).
 
+#### Extruder hőmérséklet eltolás
+
+Ez az eltolás hozzáadódik a szálbeállításokban beállított extruder hőmérsékletekhez. Ne feledje, hogy az 'M104 S{first\_layer\_temperature\[initial\_extruder\] + extruder\_temperature\_offset\[initial\_extruder\]}' értéket kell beállítania. az 'M104 S\[irst\_layer\_temperature\]' helyett a start\_gcode-ban.
+
+#### Extruder ventilátor eltolás
+
+Ez az eltolás hozzáadódik az izzószál tulajdonságaiban beállított összes ventilátor értékhez. Ez nem fogja őket 100%-nál magasabbra és 0%-nál alacsonyabbra állítani.
+
 ### Visszahúzás
+
+![Visszah&#xFA;z&#xE1;s be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/printer_settings_020.png)
 
 #### _Hosszúság_
 
@@ -373,7 +415,7 @@ Ez az opció a fúvókát visszahúzás közben mozgatja, így korlátozva a cso
 
 A visszahúzás pont után a visszahúzás egy része a már lerakott szálat követő fúvókával történik.
 
-Törlési terület
+![ Tiszt&#xED;t&#xE1;s a visszah&#xFA;z&#xE1;s sor&#xE1;n \(5Axes k&#xE9;p\)](.gitbook/assets/printer_settings_021.jpg)
 
 #### _Visszahúzott mennyiség törlés előtt_
 
@@ -383,11 +425,13 @@ A bowdenes extruderekkel célszerű a törlő mozdulat végrehajtása előtt egy
 
 A külső kerületi hurok extrudálásának végén egy törlés történik, egy kicsit a nyomtatás belsejébe haladva. Az ebben a paraméterben beállított szám növeli a törlést azáltal, hogy a fúvókát a hurok mentén a végső törlés előtt visszaviszi.
 
-### Visszahúzás, ha a szerszám ki van kapcsolva
-
-Speciális beállítások több extruderes konfigurációkhoz
+### Visszahúzás, ha a szerszám ki van kapcsolva \(Speciális beállítások több extruderes konfigurációkhoz\)
 
 Szálváltás specifikus beállítások.
+
+![Visszah&#xFA;z&#xE1;s, ha a szersz&#xE1;m ki van kapcsolva](.gitbook/assets/printer_settings_022.png)
+
+
 
 #### _Hosszúság_
 
@@ -399,19 +443,23 @@ Amikor a szálcsere után a visszahúzás kompenzálásra kerül, az extruder ez
 
 ### Előnézet
 
+![El&#x151;n&#xE9;zet](.gitbook/assets/printer_settings_023.png)
+
 #### _Extruder szín_
 
 Ezt csak a SuperSlicer kezelőfelületén használjuk vizuális jelzésként, nem pedig az szál színét.
 
 ### G-Kód
 
-**\*Extruder tizedesjegyek**
+**Extruder tizedesjegyek**
 
 Lehetővé teszi annak meghatározását, hogy a pont után hány számjegyet használjon az extruder mozgatásához.
 
 ## Marás
 
-A marási műveletek beállítására szolgáló paraméter. Ahhoz, hogy láthatóvá váljon, szükséges, hogy előzőleg az **Általános** részen elérhető marók számát definiáljuk.
+![](.gitbook/assets/printer_settings_025.png)
+
+A marási műveletek beállítására szolgáló paraméter. Ahhoz, hogy láthatóvá váljon, szükséges, hogy előzőleg az **Általános** részen elérhető marók számát definiáljuk. Annyi maró jelenik meg a menübe amennyit beállítottunk, és külön maróként lehet beállítani a paramétereket. 
 
 ### Méret
 
@@ -419,9 +467,15 @@ A marási műveletek beállítására szolgáló paraméter. Ahhoz, hogy láthat
 
 A használt vágószerszám átmérője
 
+![Mar&#xE1;si &#xE1;tm&#xE9;r&#x151;](.gitbook/assets/printer_settings_026.png)
+
+### _Művelet_
+
 #### _Szerszám felemelése_
 
 A Z-eltolódások értéke a marási mozgások során.
+
+![Szersz&#xE1;m felemel&#xE9;se](.gitbook/assets/printer_settings_027.png)
 
 ### G-kód
 
@@ -441,11 +495,19 @@ Az extruderek száma az \[extruder\] változóban, a marószerszámok száma ped
 
  A marási művelethez kapcsolódó mozgások megjelenítéséhez aktiválnia kell a mozgások megjelenítését a megjelenítési beállítások között:
 
+![Utaz&#xE1;s n&#xE9;z&#x151; be&#xE1;ll&#xED;t&#xE1;sok \(5Axes\)](.gitbook/assets/printer_settings_028.jpg)
+
 ## Egyetlen extruder MM beállítása
 
-Ez a beállításcsoport akkor érhető el, ha a SuperSlicerben engedélyezte a több extruderes gépet és az Egyetlen többanyagú extruder opciót.
+![Egyetlen extruder MM be&#xE1;ll&#xED;t&#xE1;sa](.gitbook/assets/printer_settings_029.png)
+
+Ez a beállításcsoport akkor érhető el, ha a SuperSlicerben engedélyezte a több extruderes gépet és az Egyetlen többanyagú extruder opciót a [**Nyomtató beállítások-Általános**](printer_settings.md#lehetosegek) részbe.
+
+![Be&#xE1;ll&#xED;t&#xE1;s](.gitbook/assets/printer_settings_030.png)
 
 ### Egyetlen extruder többanyagú paraméterei
+
+![Egyetlen extruder t&#xF6;bbanyag&#xFA; param&#xE9;terei](.gitbook/assets/printer_settings_031.png)
 
 #### _Hűtőcső pozíciója_
 
@@ -465,9 +527,11 @@ Ha nullára van állítva, akkor a szál a betöltés során pontosan ugyanolyan
 
 #### _Magas extruderáram szálak cseréjekor_
 
-Érdemes lehet megnövelni az extrudermotor áramát a szálcsere-sorozat során, hogy lehetővé tegye a gyors kiürítési sebességet, és kompenzálja az ellenállást a rosszul vágott végű szál betöltésekor.
+Érdemes lehet megnövelni az extruder motor áramát a szálcsere-sorozat során, hogy lehetővé tegye a gyors kiürítési sebességet, és kompenzálja az ellenállást a rosszul vágott végű szál betöltésekor.
 
 ### Fejlett tisztitótorony térfogat számítások
+
+![Fejlett tisztit&#xF3;torony t&#xE9;rfogat sz&#xE1;m&#xED;t&#xE1;sok](.gitbook/assets/printer_settings_032.png)
 
 #### _Fokozott tisztítási mennyiség aktiválása_
 
@@ -489,6 +553,14 @@ Fejlett tisztítási algoritmus.
 * _**Kvadratikus**_ : térfogat = fúvóka + térfogat\_mult \* \(pigmentAvant-pigmentAfter\) + térfogat\_mult \* \(pigmentAvant-pigmentAfter\)^3
 * _**Hiperbola**_ : térfogat = buse + volume\_mult \* \(0.5 + pigmentAvant\) / \(0.5 + pigmentAfter\)
 
+### Megjegyzések
+
+A nyomtatóval kapcsolatos megjegyzéseit itt helyezheti el.
+
+### Függőségek
+
+![F&#xFC;gg&#x151;s&#xE9;gek](.gitbook/assets/printer_settings_033.png)
+
 ## Profilok létrehozása különböző fúvókákhoz
 
 A legtöbb nyomtató alapértelmezett fúvókaátmérője ma 0,4 mm. Ha úgy dönt, hogy más fúvókaátmérőjű fúvókát szeretne használni, és nincs hozzá beépített profil, akkor magának kell létrehoznia egyet.
@@ -506,7 +578,7 @@ A SuperSlicer Prusa nyomtatók beépített profilokkal rendelkeznek 0,25, 0,4 é
 
 ### Fúvókaátmérő az extruder beállításaiban
 
-Menjen a **Nyomtatóbeállítások - Extruder 1 - Fúvókaátmérő** menüpontba, és adja meg az új fúvóka pontos átmérőjét.
+Menjen a [**Nyomtató beállítások - Extruder 1 - Fúvókaátmérő**](printer_settings.md#nev-es-meret) menüpontba, és adja meg az új fúvóka pontos átmérőjét.
 
 Ezt az értéket elsősorban a SuperSlicerben használják gépi korlátként. Például nem nyomtathat a fúvóka átmérőjénél nagyobb rétegmagassággal. A SuperSlicer a fúvóka átmérőjét is megjegyzi az exportált G-kódban megjegyzésként. Ez nagyon hasznos, mert a nyomtató figyelmeztetni tudja Önt, ha véletlenül megpróbál egy másik fúvókamérethez generált G-kódot nyomtatni.
 
@@ -516,7 +588,7 @@ Ezt az értéket elsősorban a SuperSlicerben használják gépi korlátként. P
 
 Az extrudálás szélességének beállítása a legfontosabb dolog, amikor egy új fúvóka profilját hozza létre.
 
-Válassza a **Nyomtatási beállítások - Szélesség és áramlás** menüpontot.
+Válassza a [**Nyomtatási beállítások - Szélesség és áramlás**](print_settings.md#szelesseg-es-aramlas) menüpontot.
 
 Megjelenik a különböző extrudálási szélesség beállítások listája.
 
@@ -533,8 +605,4 @@ Alapszabályként az extrudálás szélessége körülbelül a fúvóka átmér�
 Növelheti az első réteg extrudálási szélességét, hogy jobban tapadjon a nyomtatólemezhez \(pl. a fúvóka átmérőjének 120-140%-a\), ami az XY-síkban alacsonyabb felbontás árán érhető el.
 
 Az extrudálás szélességének **a fúvóka átmérőjénél kisebb értékre** történő beállításával gyengítheti a hordozót, és könnyebben eltávolíthatja azt.
-
-Következő oldal [Speciális funkciók](../advanced_functionality/advanced_functionality.md)
-
-[Vissza a főoldalra](../superslicer.md)
 
