@@ -12,9 +12,11 @@ Vagy bármelyik nézetben a jobb oldali nyomtató lista fogaskerekére kattintva
 
 ![Jobb oldali men&#xFC;b&#x151;l](../.gitbook/assets/add_printer_002.png)
 
-### Gazdatípus: Octoprint/Duet/FlashAir/Astrobox/Repetier
+### Gazdatípus: Octoprint/Duet/FlashAir/Astrobox/Repetier/Klipper
 
 Válassza ki a használt wifi/usb eszköz típusát.
+
+![](../.gitbook/assets/add_printer_003.png)
 
 ### Host név, IP vagy URL cím
 
@@ -26,9 +28,15 @@ Használhatja a _**Teszt**_ gombot, és a SuperSlicer megpróbál választ kapni
 
 Amint kitölti ezt a mezőt, a G-kód exportálása gomb felett minden alkalommal, amikor a modellt szeleteli, egy új G-kód küldése gomb jelenik meg.
 
+![](../.gitbook/assets/add_printer_004.png)
+
+### 
+
+![G-k&#xF3;d nyomtat&#xF3;ra k&#xFC;ld&#xE9;se ](../.gitbook/assets/add_printer_005.png)
+
 ### API kulcs / jelszó
 
 Az Octoprint API kulcsát az **Octoprint beállítások** - **API** menüpontban találja.
 
-[Vissza a változók listájához](variable_list.md)
+![](../.gitbook/assets/add_printer_006.png)
 

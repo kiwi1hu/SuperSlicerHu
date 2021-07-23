@@ -22,6 +22,8 @@ Ha egy görbe mentén extrudál, akkor egységnyi távolságra több anyag rakó
 
 Az STL-fájlok csak sík háromszögekből álló hálót tartalmaznak, így a síkbeli metszeteik csak sokszög alakzatokat tartalmazhatnak. Például egy kör alakú lyukat egy sokszöggel közelíthetünk meg:
 
+![](../.gitbook/assets/dimension-errors_001.png)
+
 Ha az STL fájl exportálása előtt megnöveli a **szegmensek számát** a CAD-ben, az segít csökkenteni a hibát. Az OpenSCAD felhasználók használhatják a [nophead](http://hydraraptor.blogspot.it/2011/02/polyholes.html) által kifejlesztett `polyhole()` függvényt, amely kiszámítja a szegmensek optimális számát.
 
 ### A szál hajlamos lekerekíteni a sarkokat
@@ -30,11 +32,15 @@ Mivel a görbéket sokszögek alkotják, csúcsaik hegyesek. A **műanyag azonba
 
 ### Z billegés
 
-Még ha egy réteg méretpontossága helyes is, több egymásra helyezett réteg kisebbé teheti a lyukat, ha nem pontosan igazodnak egymáshoz. A mechanikai problémák okozta Z ingadozás csökkenti a lyuk méretét az egymásra helyezett rétegek belső héján:
+Még ha egy réteg méretpontossága helyes is, több egymásra helyezett réteg kisebbé teheti a lyukat, ha nem pontosan igazodnak egymáshoz. A mechanikai problémák okozta Z ingadozás csökkenti a lyuk méretét az egymásra helyezett rétegek belső héján.
+
+![](../.gitbook/assets/dimension-errors_002.png)
 
 ### Szálkeresztmetszet
 
-A gyenge és közepes minőségű szálak átmérője nem túl szabályos. Ha megmérjük az átmérőjüket egyetlen méter hosszan, gyakran sok különböző értéket találunk \(és sok gyenge minőségű szál még a keresztmetszetük sem tökéletesen kerek\). Ez a folyamatos **átmérő-változás** **szabálytalan áramlást** eredményez, és az így keletkező lyuk még mindig az összes réteg belső burkát fogja alkotni:
+A gyenge és közepes minőségű szálak átmérője nem túl szabályos. Ha megmérjük az átmérőjüket egyetlen méter hosszan, gyakran sok különböző értéket találunk \(és sok gyenge minőségű szál még a keresztmetszetük sem tökéletesen kerek\). Ez a folyamatos **átmérő-változás** **szabálytalan áramlást** eredményez, és az így keletkező lyuk még mindig az összes réteg belső burkát fogja alkotni.
+
+![](../.gitbook/assets/dimension-errors_003.png)
 
 ### Visszahatás
 
