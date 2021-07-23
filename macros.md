@@ -146,5 +146,5 @@ Ou on peut utiliser l'opérateur ternaire :
 M104 S{(layer_z < 10) ? 265 : (layer_z > 45) ? 240 : 265+(240-265)(layer_z-10.0)/(45-10)}
 ```
 
-Résultat du code dans la fenêtre de personnalisation du G-Code avant changement de couche
+A kód eredménye a G-kód testreszabási ablakban a réteg módosítása előtt
 
