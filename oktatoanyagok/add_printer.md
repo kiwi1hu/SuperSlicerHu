@@ -6,6 +6,12 @@ A SuperSlicer a nyomtató hálózati kapcsolatának beállításait a nyomtató 
 
 Tehát a 2.3.0 verzió óta, ha az [Octoprint](https://octoprint.org/) vagy a [Duet](https://www.duet3d.com/) programot használja, akkor a SuperSlicerből közvetlenül a nyomtatóra küldhet G-kódokat. Válassza a **Nyomtatóbeállítások** - **Fizikai nyomtató hozzáadása** \(fogaskerék ikon a nyomtató nevétől jobbra\)
 
+![Nyomtat&#xF3;be&#xE1;ll&#xED;t&#xE1;sok - Fizikai nyomtat&#xF3; hozz&#xE1;ad&#xE1;sa](../.gitbook/assets/add_printer_001.png)
+
+Vagy bármelyik nézetben a jobb oldali nyomtató lista fogaskerekére kattintva fizikai nyomtató hozzáadása.
+
+![Jobb oldali men&#xFC;b&#x151;l](../.gitbook/assets/add_printer_002.png)
+
 ### Gazdatípus: Octoprint/Duet/FlashAir/Astrobox/Repetier
 
 Válassza ki a használt wifi/usb eszköz típusát.
