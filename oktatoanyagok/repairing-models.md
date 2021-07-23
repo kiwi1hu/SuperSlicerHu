@@ -8,6 +8,8 @@ A **File** - **STL fájl javítása** menüpontban a szoftver megkéri, hogy adj
 
 Ha a modellben leírt 3D háló lyukakat tartalmaz, vagy ha az élek rosszul igazodnak egymáshoz \(azt mondják, hogy nem sokrétűek vagy nem vízzáróak\), a SuperSlicer nehezen tud dolgozni rajtuk. A SuperSlicer megpróbál minden problémát megoldani, de vannak olyan problémák, amelyeket nem tud megoldani.
 
+![SuperSlicer szeletel&#x151;vel jav&#xED;tott modell](../.gitbook/assets/repairing-models_001.jpg)
+
  _A SuperSlicer olvasáskor javított modellt jelez._
 
 ## Modelljavítás külső megoldásokkal
@@ -16,13 +18,17 @@ Ha a SuperSlicer azt jelzi, hogy egy modell nem szeletelhető megfelelően, töb
 
 ### MeshMixer
 
-Az Autodesk számos 3D modellező alkalmazást készít, köztük a szoftver MeshMixer nevű verzióját
+Az Autodesk számos 3D modellező alkalmazást készít, köztük a szoftver [MeshMixer](https://www.meshmixer.com/) nevű verzióját.
+
+![MeshMixer](../.gitbook/assets/repairing-models_002.jpg)
 
 **Megjegyzés**: Jelenleg a MeshMixer verziója 3.5.474.
 
 ### Netfabb Cloud szolgáltatás
 
-A Netfabb egy webes szolgáltatásnak is otthont ad, ahová STL-fájlokat lehet feltölteni ellenőrzés és javítás céljából . Az STL feltölthető ellenőrzés és javítás céljából .
+A [Netfabb](http://cloud.netfabb.com/) egy webes szolgáltatásnak is otthont ad, ahová STL-fájlokat lehet feltölteni ellenőrzés és javítás céljából . Az STL feltölthető ellenőrzés és javítás céljából .
+
+![Netfabb Cloud Services](../.gitbook/assets/repairing-models_003.jpg)
 
 * Navigáljon a [http://cloud.netfabb.com](http://cloud.netfabb.com)
 * Válassza ki a letöltendő STL fájlt a megadott gomb segítségével.
@@ -33,9 +39,13 @@ A Netfabb egy webes szolgáltatásnak is otthont ad, ahová STL-fájlokat lehet 
 
   Ha az elemzés gyors, akkor az eredményt közvetlenül online is megkaphatja a javított fájlok letöltésére szolgáló linkkel együtt.
 
+![Netfabb Cloud Services](../.gitbook/assets/repairing-models_004.png)
+
 ### FreeCAD
 
-A Freecad egy teljes és ingyenes CAD program, amely tartalmaz egy hálós modult a degenerált modellek javítására. A háló modul, ahol a degenerált modellek javíthatók. A következő lépések leírják, hogyan lehet egy problémás modellfájlt elemezni és javítani.
+A[ Freecad](http://sourceforge.net/projects/free-cad) egy teljes és ingyenes CAD program, amely tartalmaz egy hálós modult a degenerált modellek javítására. A háló modul, ahol a degenerált modellek javíthatók. A következő lépések leírják, hogyan lehet egy problémás modellfájlt elemezni és javítani.
+
+![FreeCAD alkatr&#xE9;sz jav&#xED;t&#xE1;s.](../.gitbook/assets/repairing-models_005.png)
 
 * Indítsa el a FreeCAD-et, és a kezdőlapon válassza a következő menüpontot `Hálós kialakítás`.
 * Töltse be a sablont a munkaterületre történő húzással vagy a "Fájl" menü segítségével. A bal alsó sarokban egy kis üzenet jelzi, ha a sablonnal problémák merülnek fel.

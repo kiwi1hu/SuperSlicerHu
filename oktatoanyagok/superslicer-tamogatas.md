@@ -6,7 +6,11 @@ Ha a kézikönyv nem ad választ a kérdésére, akkor más lehetőségei is van
 
 A SuperSlicer projektnek van egy Discord szervere, a csatlakozáshoz ezt kell követnie meghívó link: [https://discord.gg/ygBBdRRwJY](https://discord.gg/ygBBdRRwJY)
 
+![Megh&#xED;v&#xF3;](../.gitbook/assets/getting-support_001.png)
+
 Ha még nem ismeri a Discordot, ez a cikk hasznos lehet: [Kezdők útmutatója a Discordhoz](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord).
+
+![A SuperSlicer Discord oldala](../.gitbook/assets/getting-support_002.jpg)
 
 ## Problémakövetés
 
@@ -38,8 +42,4 @@ Ne feledje, hogy a fejlesztők önkéntesek, és a SuperSlicerre vonatkozó kér
 A SuperSlicer egy közösségi projekt, és a funkciókat általában akkor adjuk hozzá, amikor általános a általános konszenzus velük kapcsolatban. Kérjük, kezdje a _célja_ leírásával, bemutatva a következőket egy valódi eset. Mutassa meg egy valós eset G kódját, amelyet a jelenlegi SuperSlicerrel készítettek. és írja le, mit szeretne javítani és miért. Törekedjen a dokumentálásra képekkel, G-kódos előnézeti képernyőfotókkal, közeli ellenőrzéssel.
 
 Ha már a **miért** összpontosított, továbbléphet a cél eléréséhez szükséges **hogyan** ötletekkel. a cél elérése érdekében. De ne fordítsa meg a sorrendet és az erőfeszítést.
-
-Következő oldal [Első nyomtatás SuperSlicerrel](first_print/first_print.md)
-
-[Vissza a főoldalra](superslicer.md)
 
