@@ -31,6 +31,7 @@
 * [Különböző átmérőjű fúvókák használata](oktatoanyagok/nozzles_with_a_different_diameter.md)
 * [Fordítás létrehozása és frissítése](oktatoanyagok/software_translation.md)
 * [Fizikai nyomtató hozzáadása](oktatoanyagok/add_printer.md)
+* [Áramlás matematika](oktatoanyagok/untitled.md)
 
 ## Hibaelhárítás
 
