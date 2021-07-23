@@ -1,37 +1,22 @@
 # Makrók
 
-## Contenu de la page
+A SuperSlicer kétféle makró létrehozását teszi lehetővé az egyéni G-kód szakaszokban:  
 
-* Macros
-  * [Opérateurs]() 
-  * [Fonctions]() 
-  * [Variables scalaires]() 
-  * [Variables sous forme de tableau]()
-  * [Tableaux multidimensionnels]()
-  * [Tour de température]()
-  * [SuperSlicer Liste de variables]() 
-    * [Variables les plus utiles]()
-    * [Variables supplémentaires dans le Format du nom de fichier de sortie]() 
-    * [Variables moins utiles]()  
-* [Retour Page principale](../superslicer.md)
-
-SuperSlicer permet deux types de constructions de macro dans les sections de G-code personnalisé :
-
-**Évaluation conditionnelle :**
+**Feltételes értékelés :**
 
 ```text
 {if <condition_1>}<GCode_condition_1>[][{else}<GCode_else>]{endif}
 ```
 
-**Évaluation d'expression :**
+**A kifejezés kiértékelése :**
 
 ```text
 {<expression>}
 ```
 
-Dans les deux constructions, les variables de configuration de SuperSlicer sont accessibles par leur nom \(par exemple `layer_z`\) et les éléments des variables sous forme de tableau sont accessibles en utilisant des crochets \(par exemple`temperature[0]`fait référence à la température du premier extrudeur\).
+Mindkét konstrukcióban a SuperSlicer konfigurációs változói névvel \(pl. `layer_z`\), a tömbváltozók elemei pedig szögletes zárójelek segítségével érhetők el \(pl. `temperature[0]` az első extruder hőmérsékletére utal\).
 
-Les tableaux multidimensionnels ne sont actuellement accessibles que sous la forme d'une simple variable sous forme de tableau résultant en une valeur de chaîne \(par exemple, si la variable `extruder_offset`contient une valeur de 0x0,nx0 elle n'est accessible que comme `extruder_variable[1]` résultant en une valeur de chaîne \[n, 0\] - peut être affiché dans le G-code mais ne peut pas être utilisé dans les opérations arithmétiques\).
+A többdimenziós tömbök jelenleg csak egyszerű tömbváltozóként érhetőek el, ami egy string értéket eredményez \(pl. ha az `extruder_offset` változó 0x0,nx0 értéket tartalmaz, akkor csak `extruder_variable[1]`-ként érhető el, ami egy string értéket \[n, 0\] eredményez - megjeleníthető a G-kódban, de nem használható aritmetikai műveletekben\).
 
 Les chaînes sont identifiées par des guillemets `"chaîne"` et les expressions régulières par des barres obliques `/` . Les chaînes ne sont pas analysées récursivement, c'est-à-dire que les crochets et les crochets à l'intérieur des chaînes apparaîtront dans la sortie. Cela permet des constructions telles que `{"[texte entre crochets]"}`
 
@@ -162,8 +147,4 @@ M104 S{(layer_z < 10) ? 265 : (layer_z > 45) ? 240 : 265+(240-265)(layer_z-10.0)
 ```
 
 Résultat du code dans la fenêtre de personnalisation du G-Code avant changement de couche
-
-Page suivante : [SuperSlicer Liste des variables](variable_list.md)
-
-[Retour Page principale](../superslicer.md)
 
