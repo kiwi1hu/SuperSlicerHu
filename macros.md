@@ -1,86 +1,86 @@
 # Makrók
 
-A SuperSlicer kétféle makró létrehozását teszi lehetővé az egyéni G-kód szakaszokban:  
+A SuperSlicer kétféle makró létrehozását teszi lehetővé az egyéni G-kód szakaszokban:
 
-**Feltételes értékelés :**
+**Feltételes kiértékelés :**
 
 ```text
 {if <condition_1>}<GCode_condition_1>[][{else}<GCode_else>]{endif}
 ```
 
-**A kifejezés kiértékelése :**
+**Kifejezés kiértékelése :**
 
 ```text
 {<expression>}
 ```
 
-Mindkét konstrukcióban a SuperSlicer konfigurációs változói névvel \(pl. `layer_z`\), a tömbváltozók elemei pedig szögletes zárójelek segítségével érhetők el \(pl. `temperature[0]` az első extruder hőmérsékletére utal\).
+Mindkét konstrukcióban a SuperSlicer konfigurációs változói névvel \(pl. `layer_z`\), a tömbváltozók elemei pedig szögletes zárójelek segítségével érhetők el \(pl. a `temperature[0]` az első extruder hőmérsékletére utal\).
 
-A többdimenziós tömbök jelenleg csak egyszerű tömbváltozóként érhetőek el, ami egy string értéket eredményez \(pl. ha az `extruder_offset` változó 0x0,nx0 értéket tartalmaz, akkor csak `extruder_variable[1]`-ként érhető el, ami egy string értéket \[n, 0\] eredményez - megjeleníthető a G-kódban, de nem használható aritmetikai műveletekben\).
+A többdimenziós tömbök jelenleg csak egyszerű tömbváltozóként érhetőek el, ami egy string értéket eredményez \(pl. ha az `extruder_offset` változó 0x0,nx0 értéket tartalmaz, akkor csak \`extruder\_variable\[1\]-ként érhető el, ami egy \[n, 0\] string értéket eredményez - G-kódban megjeleníthető, de nem használható aritmetikai műveletekben\).
 
-Les chaînes sont identifiées par des guillemets `"chaîne"` et les expressions régulières par des barres obliques `/` . Les chaînes ne sont pas analysées récursivement, c'est-à-dire que les crochets et les crochets à l'intérieur des chaînes apparaîtront dans la sortie. Cela permet des constructions telles que `{"[texte entre crochets]"}`
+A karakterláncokat fordított vesszőkkel `"string"`, a reguláris kifejezéseket pedig perjelekkel `/` azonosítjuk. A karakterláncokat nem elemzi rekurzívan, azaz a szögletes zárójelek és a karakterláncokon belüli zárójelek megjelennek a kimeneten. Ez lehetővé teszi az olyan konstrukciókat, mint a \`{"\[zárójeles szöveg\]"}".
 
-## Opérateurs
+## Operátorok
 
-Les opérateurs suivants sont autorisés :
+A következő operátorok engedélyezettek :
 
-1. Comparaison
+1. Összehasonlítás
 
    ```text
     <,>, ==,! =, <>, <=,> =
    ```
 
-   1. Exemple :
+   1. Példa :
 
-      `{if layer_height == 0.2}; Faire quelque chose {endif}`
+      `{if layer_height == 0.2}; Csináljon valamit {endif}`
 
-2. Logique booléenne ou les équivalents,
+2. Boole-logika vagy annak megfelelői,
 
    ```text
     &&, ||,!
    ```
 
-   1. Exemple :
+   1. Példa :
 
-      `{if layer_height> 0.1 and first_layer_temperature [0]> 220}; Faire quelque chose {endif}`
+      `{if layer_height> 0.1 and first_layer_temperature [0]> 220}; Csináljon valamit {endif}`
 
-3. Arithmétique
+3. Aritmetikai
 
    ```text
     +, -, 
    ```
 
-   1. Exemple :
+   1. Példa :
 
       `M104 S {first_layer_temperature[0]2/3}`
 
-      \(Notez que first\_layer\_temperature est un tableau\)
+      \(Megjegyezzük, hogy a first\_layer\_temperature egy tömb\)
 
-4. Opérateur [ternaire](https://fr.wikipedia.org/wiki/Op%C3%A9ration_ternaire#:~:text=En%20informatique%2C%20un%20op%C3%A9rateur%20ternaire,qui%20d%C3%A9finit%20une%20expression%20conditionnelle.) `?`
+4. Operátor [terner](https://hu.abcdef.wiki/wiki/Ternary_operation) `?`
 
    ```text
     <condition> ? <cond_true>:<cond_false>
    ```
 
-   1. Exemple :
+   1. Példa :
 
       `M104 S {(first_layer_temperature [0]> 220? 230 : 200)}`
 
-      Cela semble devoir être placé entre parenthèses pour fonctionner. . Cette expression règle la température de l'extrudeur à 230 ou 200 selon que la première couche doit être supérieure à 220°.
+      Úgy tűnik, hogy ezt zárójelben kell elhelyezni, hogy működjön. Ez a kifejezés az extruder hőmérsékletét 230-ra vagy 200-ra állítja be, attól függően, hogy az első rétegnek 220° fölött kell-e lennie.
 
-5. Correspondance d'expressions régulières
+5. Szabályos kifejezések illesztése
 
    ```text
-    = ~ (correspondant), ! ~ (ne correspondant pas)
+    = ~ (megfelel), ! ~ (nem felel meg)
    ```
 
-6. Les expressions régulières sont placées entre des barres obliques /. 1. Exemple :
+6. A reguláris kifejezéseket perjelek \(/\) fogják körül. 1. Példa :
 
    ```text
         {if printer_notes=~/./};Printer is Prusa{endif}
    ```
 
-## Fonctions
+## Funkciók
 
 ```text
 Minimum min(a,b)
@@ -88,35 +88,35 @@ Minimum min(a,b)
 Maximum max(a,b)
 ```
 
-## Variables scalaires
+## Skaláris változók
 
-Ces valeurs sont scalaires et peuvent être directement référencées.
+Ezek az értékek skalárisak és közvetlenül hivatkozhatók.
 
-* printer\_notes \(chaîne\)
-* layer\_z \(uniquement disponible dans le G-Code de changement de couche\)
-* layer\_num \(uniquement disponible dans le G-Code de changement de couche\)
+* printer\_notes \(string\)
+* layer\_z \(csak a rétegváltás G-kódjában érhető el\)
+* layer\_num \(csak a rétegváltás G-kódjában érhető el\)
 
-## Variables sous forme de tableau
+## Változók tömb alakban
 
-Ces variables sont des tableaux et doivent être accédées en indiquant l'indice du tableau.
+Ezek a változók tömbök, és a tömbindex megadásával kell őket elérni.
 
 * temperature
 * first\_layer\_temperature
-* bed\_temperature \(notez qu'il s'agit d'un tableau, même si une seule valeur a du sens : bed\_temperature\[0\]\)
-* first\_layer\_bed\_temperature \(voir remarque ci-dessus \)
+* bed\_temperature \(jegyezzük meg, hogy ez egy táblázat, még akkor is, ha csak egy értéknek van értelme. : bed\_temperature\[0\]\)
+* first\_layer\_bed\_temperature \(lásd a fenti megjegyzést \)
 
-## Tableaux multidimensionnels
+## Többdimenziós tömbök
 
-Ces variables ne sont accessibles que sous forme de tableaux simples et ne peuvent pas être utilisées dans les expressions arithmétiques.
+Ezek a változók csak egyszerű tömbökként érhetők el, és nem használhatók aritmetikai kifejezésekben.
 
 * extruder\_offset
 * bed\_shape
 
-## Exemples
+## Példák
 
-### Tour de température
+### Hőmérséklet fordulat
 
-Vous pouvez utiliser le G-code personnalisé "Avant changement de couche" pour diminuer lentement la température de la hotend. Tout d'abord, on peut utiliser l'expression if/elseif/else :
+A "Rétegváltás előtt" egyéni G-kóddal lassan csökkentheti a hotend hőmérsékletét. Először is, használhatja az if/elseif/else kifejezést:
 
 ```text
 {if layer_z < 10}M104 S265
@@ -134,13 +134,13 @@ Vous pouvez utiliser le G-code personnalisé "Avant changement de couche" pour d
 {endif}
 ```
 
-Le même résultat peut être obtenu par une expression if/else/endif plus courte avec une interpolation linéaire :
+Ugyanezt az eredményt egy rövidebb if/else/endif kifejezéssel is el lehet érni lineáris interpolációval:
 
 ```text
 M104 S{if layer_z < 10}265{elsif layer_z > 45}240{else}265+(240-265)
 ```
 
-Ou on peut utiliser l'opérateur ternaire :
+Vagy használhatja a terner operátort :
 
 ```text
 M104 S{(layer_z < 10) ? 265 : (layer_z > 45) ? 240 : 265+(240-265)(layer_z-10.0)/(45-10)}
