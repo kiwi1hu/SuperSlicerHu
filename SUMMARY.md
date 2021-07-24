@@ -21,7 +21,7 @@
 * [SLA szeletelés](sla_printer.md)
 * [SLA nyomtatási beállítások](sla_parameters.md)
 * [Makrók](macros.md)
-* [SuperSlicer változók listája](printconfig.md)
+* [SuperSlicer változók listája](variable_list.md)
 * [SuperSlicer G-code Viewer \(SuperSlicer G-kódnéző\)](gcode_viewer.md)
 
 ## Oktatóanyagok

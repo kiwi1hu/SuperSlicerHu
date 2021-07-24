@@ -1,2 +1,0 @@
-# SuperSlicer változók listája
-

@@ -146,5 +146,7 @@ Vagy használhatja a terner operátort :
 M104 S{(layer_z < 10) ? 265 : (layer_z > 45) ? 240 : 265+(240-265)(layer_z-10.0)/(45-10)}
 ```
 
-A kód eredménye a G-kód testreszabási ablakban a réteg módosítása előtt
+A kód eredménye a G-kód testreszabási ablakban a réteg módosítása előtt:
+
+![](.gitbook/assets/macros_001.png)
 
