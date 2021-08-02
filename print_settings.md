@@ -1838,7 +1838,7 @@ Ezek a paraméterek a kis kerület fogalmának meghatározására szolgálnak.
 
 ### Automatikus sebesség \(haladó\)
 
-![Automatikus sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_123.png)
+![Automatikus sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_123%20%281%29.png)
 
 #### _Maximális nyomtatási sebesség_
 
@@ -1862,7 +1862,7 @@ Az MVS-t néha automatikus sebességnek is nevezik.
 
 **Nyomtatási beállítások - Sebesség - Maximális térfogatsebesség** \(szakértői mód\)
 
-![Automatikus sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_123%20%281%29.png)
+![Automatikus sebess&#xE9;g be&#xE1;ll&#xED;t&#xE1;sok](.gitbook/assets/print_settings_123%20%281%29%20%281%29.png)
 
 Ez az érték határozza meg a teljes maximális térfogatsebességet. Még ha az MVS-t magasabb értékre is állítja be az izzószál paramétereiben, akkor sem fogja soha meghaladni ezt az értéket.
 

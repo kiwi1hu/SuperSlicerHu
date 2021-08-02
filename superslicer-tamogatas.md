@@ -6,11 +6,11 @@ Ha a kézikönyv nem ad választ a kérdésére, akkor más lehetőségei is van
 
 A SuperSlicer projektnek van egy Discord szervere, a csatlakozáshoz ezt kell követnie meghívó link: [https://discord.gg/ygBBdRRwJY](https://discord.gg/ygBBdRRwJY)
 
-![Megh&#xED;v&#xF3;](../.gitbook/assets/getting-support_001.png)
+![Megh&#xED;v&#xF3;](.gitbook/assets/getting-support_001.png)
 
 Ha még nem ismeri a Discordot, ez a cikk hasznos lehet: [Kezdők útmutatója a Discordhoz](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord).
 
-![A SuperSlicer Discord oldala](../.gitbook/assets/getting-support_002.jpg)
+![A SuperSlicer Discord oldala](.gitbook/assets/getting-support_002.jpg)
 
 ## Problémakövetés
 

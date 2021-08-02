@@ -415,7 +415,7 @@ Ez az opció a fúvókát visszahúzás közben mozgatja, így korlátozva a cso
 
 A visszahúzás pont után a visszahúzás egy része a már lerakott szálat követő fúvókával történik.
 
-![ Tiszt&#xED;t&#xE1;s a visszah&#xFA;z&#xE1;s sor&#xE1;n \(5Axes k&#xE9;p\)](.gitbook/assets/printer_settings_021.jpg)
+![ Tiszt&#xED;t&#xE1;s a visszah&#xFA;z&#xE1;s sor&#xE1;n \(5Axes k&#xE9;p\)](.gitbook/assets/filament_settings_021.jpg)
 
 #### _Visszahúzott mennyiség törlés előtt_
 

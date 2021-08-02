@@ -394,7 +394,7 @@ Ez az opció a fúvókát a már kinyomtatott szálon történő visszahúzások
 
 A visszahúzási pont után a visszahúzás egy része a már lerakott szálat követő fúvókával történik.
 
-![Tiszt&#xED;t&#xE1;s a beh&#xFA;z&#xE1;sok sor&#xE1;n \(5Axes k&#xE9;p\)](.gitbook/assets/filament_settings_021.jpg)
+![Tiszt&#xED;t&#xE1;s a beh&#xFA;z&#xE1;sok sor&#xE1;n \(5Axes k&#xE9;p\)](.gitbook/assets/filament_settings_021%20%281%29.jpg)
 
 ### Extra törlés a külső kerületekre
 
