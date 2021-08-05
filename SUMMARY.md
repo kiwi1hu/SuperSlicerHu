@@ -42,7 +42,9 @@
 * [SuperSlicer G-code Viewer \(SuperSlicer G-kódnéző\)](gcode_viewer.md)
 * [FreePySCAD script ablak](script_freecad.md)
 * [Makrók](macros.md)
-* [SuperSlicer változók listája](variable_list.md)
+* [SuperSlicer változók listája](variable_list/README.md)
+  * [bed\_temperature](variable_list/bed_temperature.md)
+  * [current\_extruder](variable_list/current_extruder.md)
 
 ## Oktatóanyagok
 
