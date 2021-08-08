@@ -3,7 +3,7 @@ title: SuperSlicer változók listája
 order: 8
 ---
 
-# 0
+# SuperSlicer változók listája
 
 Ezen az oldalon a SuperSlicer változók listáját találja, amelyek a G-kód egyéni beállításaiban használhatók.
 
