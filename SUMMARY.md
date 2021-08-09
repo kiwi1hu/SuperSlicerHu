@@ -34,6 +34,8 @@
 * [SuperSlicer G-code Viewer \(SuperSlicer G-kódnéző\)](egyeb/gcode_viewer.md)
 * [FreePySCAD script ablak](egyeb/script_freecad.md)
 * [Makrók](egyeb/macros.md)
+* [SuperSlicer változók listája](egyeb/superslicer-valtozok-listaja/README.md)
+  * [index](egyeb/superslicer-valtozok-listaja/untitled.md)
 
 ## Oktatóanyagok
 
