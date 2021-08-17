@@ -4,13 +4,13 @@
 
 ## Automatikus elrendezés eszköze
 
-Ha több modellt importál, vagy több példányt hoz létre ugyanabból a modellből, a nyomtatási tálcán való elrendezésük nagyon időigényes lehet. A SuperSlicer rendelkezik egy automatikus elrendező eszközzel, amely az objektumokat a teljes nyomtatólemezen ésszerű távolsággal osztja el. Az automatikus elrendezés a **A** billentyű lenyomásával vagy a felső eszköztár Automatikus elrendezés parancsával indítható.
+Ha több modellt importál, vagy több példányt hoz létre ugyanabból a modellből, a nyomtatási tálcán való elrendezésük nagyon időigényes lehet. A SuperSlicer rendelkezik egy automatikus elrendező eszközzel, amely az objektumokat a teljes nyomtatólemezen ésszerű távolsággal osztja el. Az automatikus elrendezés a **`A`** billentyű lenyomásával vagy a felső eszköztár Automatikus elrendezés parancsával indítható.
 
 ![P&#xE9;lda egy elrendez&#xE9;sre \(5Axes Gif\)](../.gitbook/assets/top_toolbar_002.gif)
 
 ### Részleges elrendezés
 
-Az Automatikus elrendezés eszközzel a táblán lévő objektumoknak csak egy részhalmazát rendezheti el, miközben a ki nem választott objektumok pozíciója változatlan marad. Ehhez jelölje ki az elrendezendő objektumokat, és nyomja meg az **Elrendezés** gombot, miközben lenyomva tartja a **Shift** billentyűt, vagy nyomja meg a **Shift** + **A** billentyűkombinációt.
+Az Automatikus elrendezés eszközzel a táblán lévő objektumoknak csak egy részhalmazát rendezheti el, miközben a ki nem választott objektumok pozíciója változatlan marad. Ehhez jelölje ki az elrendezendő objektumokat, és nyomja meg az **Elrendezés** gombot, miközben lenyomva tartja a **`Shift`** billentyűt, vagy nyomja meg a **`Shift`**+ **`A`** billentyűkombinációt.
 
 ![P&#xE9;lda a r&#xE9;szleges elrendez&#xE9;sre \(5Axes Gif\)](../.gitbook/assets/top_toolbar_003.gif)
 
@@ -18,11 +18,11 @@ Az Automatikus elrendezés eszközzel a táblán lévő objektumoknak csak egy r
 
 A 3D szerkesztő nézetből elérhető összes művelet visszavonható, beleértve az objektum kiválasztását, az oldalsávban végzett műveleteket \(módosítók hozzáadása, attribútumaik módosítása\), kivéve a nyomtatási, szál- és SLA anyagprofilok módosítását.
 
-**Ctrl** + **Z** **Visszavonás**
+**`Ctrl`**+ **`Z`** **Visszavonás**
 
-**Ctrl** + **Y** \(vagy**Ctrl** + **Shift**+ **Z**\) **Újra**
+**`Ctrl`**+ **`Y`** \(vagy **`Ctrl`**+ **`Shift`**+ **`Z`**\) **Újra**
 
-Egyszerre több lépést is visszavonhat vagy újrakezdhet, ha jobb gombbal **kattint a Visszavonás vagy Újrakezdés gombra**, és kiválaszt egy pontot az előzmények között. Mivel minden pillanatképhez egy kifejező név van rendelve, könnyű eligazodni a műveletek hosszú listáján.
+Egyszerre több lépést is visszavonhat vagy újrakezdhet, ha **jobb gombbal** kattint a **Visszavonás vagy Újra gombra**, és kiválaszt egy pontot az előzmények között. Mivel minden pillanatképhez egy kifejező név van rendelve, könnyű eligazodni a műveletek hosszú listáján.
 
 ![Visszavon&#xE1;s funkci&#xF3; jobb eg&#xE9;rgomb](../.gitbook/assets/top_toolbar_004.jpg)
 
@@ -34,25 +34,25 @@ A Nyomtatás / Szál / SLA anyag vagy nyomtató lapon a beállítások megválto
 
 Kiválaszthat egy vagy több modellt, és a felső eszköztáron található gombok segítségével vagy a megszokott gyorsbillentyűkkel másolhatja/beillesztheti őket:
 
-**Ctrl** + **C** **Másolás**
+**`Ctrl`**+ **`C`** **Másolás**
 
-**Ctrl** + **V** **Beillesztés**
+**`Ctrl`**+ **`V`** **Beillesztés**
 
-LAz objektumok másolása a módosítóktól kezdve az objektumpéldányokig vagy a támogatási blokkolókig és kényszerítőkig mindent tartalmaz.
+Az objektumok másolása a módosítóktól kezdve az objektum példányokig vagy a támaszték blokkolókig és kényszerítőkig mindent tartalmaz.
 
 ## Példányok
 
 ### Példány hozzáadása / eltávolítása
 
-A modell kiválasztásával, majd a felső eszköztáron lévő plusz vagy mínusz ikonokra kattintva, vagy a billentyűzet gyorsbillentyűvel adhat hozzá vagy távolíthat el példányokat:
+A modell kiválasztásával, majd a felső eszköztáron lévő **plusz** vagy **mínusz** ikonokra kattintva, vagy a billentyűzet gyorsbillentyűvel adhat hozzá vagy távolíthat el példányokat:
 
-+ **Példány hozzáadása**
+`+` **Példány hozzáadása**
 
-- **A példány törlése**
+`-` **A példány törlése**
 
 Ez a lehetőség a szövegkörnyezeti menüben is elérhető, ha jobb gombbal kattint egy modellre. A szövegkörnyezeti menüben található a példányok számának beállítása opció is, ami akkor hasznos, ha sok kisebb objektumot kell kinyomtatnia.
 
-A másolás **Ctrl** + **C** és a beillesztés **Ctrl** + **V** nem példányokat, hanem a szülőobjektum független másolatait hozza létre.
+A másolás **`Ctrl`**+ **`C`** és a beillesztés **`Ctrl`**+ **`V`** nem példányokat, hanem a szülőobjektum független másolatait hozza létre.
 
 ### Objektum példányok
 
@@ -62,7 +62,7 @@ Ha az egyik példány méretét megváltoztatja, az összes példány méretét 
 
 ### Egy példány elválasztása a szülőobjektumtól
 
-Kattintson a jobb gombbal egy példányra, és válassza a Különálló objektumként való beállítás parancsot. A példányt az objektumlistában az objektum szülőobjektumától el is húzhatja.
+Kattintson a jobb gombbal egy példányra, és válassza a **Különálló objektumként** való beállítás parancsot. A példányt az objektumlistában az objektum szülőobjektumától el is húzhatja.
 
 A különálló példányok önálló objektumként viselkednek, és változásuk csak őket érinti. Létrehozhatja azonban ennek az új objektumnak a példányait, amelyek visszahivatkoznak rá.
 
@@ -84,7 +84,9 @@ Válassza ki a felosztani kívánt modellt, és kattintson a felső eszköztáro
 
 * Minden egyes héjhoz külön objektumot hoz létre
 * Minden egyes újonnan létrehozott objektumot elhelyez a nyomtatólemezen.
-* **Részekre osztás**
+
+### **Részekre osztás**
+
 * A modell egyetlen példányát tartja a lemezen, de több részt hoz létre
 * Az alkatrészek az eredeti helyükön maradnak, még akkor is, ha a levegőben lebegnek a nyomtatólemez felett.
 * Általában az MMU-modellek felosztására használják az egyes részek eltolódása nélkül.

@@ -4,7 +4,7 @@
 
 A nyomtatási tálcán lévő összes objektum és a SuperSlicer összes beállítása egyetlen _**3MF projektfájlként**_ menthető a **Fájl - Projekt mentése** menü segítségével.
 
-A **3MF** fájlok letöltése egy remek módja annak, hogy online megossza modelljét. Az STL-hez képest a 3MF további információkat tartalmaz, például a nyomtatási beállításokat, az alkatrésznézeti miniatűröket, az egyéni médiát, a változó rétegmagasságot és még sok mást!
+A **3MF** fájlok letöltése egy remek módja annak, hogy online megossza modelljét. Az STL-hez képest a 3MF további információkat tartalmaz, például a nyomtatási beállításokat, az alkatrész nézeti miniatűröket, egyéni médiát, a változó rétegmagasságot és még sok mást!
 
 Alternatívaként a nyomtatóágyon lévő összes modell egyetlen STL-ként exportálható a **Fájl - Export - Tálca exportálása STL-ként** menüpont segítségével.
 
@@ -44,7 +44,7 @@ AMF formátum: [https://en.wikipedia.org/wiki/Additive\_manufacturing\_file\_for
 
 **File - Projekt mentése** egy 3MF fájlt ment el, amely tartalmazza az összes objektumot, beállítást, módosítót és azok paramétereit. Ez lényegében **a SuperSlicer teljes pillanatfelvétele**.
 
-Ha megnyit egy projektfájlt egy másik számítógépen, mindig ugyanazt a G-kódot kell létrehoznia.
+Ha megnyit egy projektfájlt egy másik számítógépen, mindig ugyanazt a G-kódot kell kapnia.
 
 ![Projekt ment&#xE9;se m&#xE1;sk&#xE9;nt funkci&#xF3;](../.gitbook/assets/input_output_002.jpg)
 
@@ -53,7 +53,7 @@ Ha megnyit egy projektfájlt egy másik számítógépen, mindig ugyanazt a G-k�
 Az STL fájlokkal ellentétben, amelyek csak egy objektum [geometriáját](http://www.fabbers.com/tech/STL_Format) tárolják \(például egy sor felületi háromszöget\), a 3MF fájl képes különböző fájlok tárolására egyetlen archívumban, például :
 
 * Több modell
-* **Szeletelő beállításai**
+* Szeletelő beállításai
 * Címke
 * Színek
 * Textúrák
@@ -68,13 +68,13 @@ A SuperSlicer automatikusan felismeri, ha SD-kártyát, USB meghajtót vagy más
 
 Ha felismerte, a G-kód exportálása gomb mellett \(jobb alsó sarokban\) megjelenik egy új **Exportálás SD-kártyára/USB meghajtóra** gomb. Kattintson rá, hogy megnyíljon a fájl mentése párbeszédpanel az SD-kártyán vagy USB-meghajtón inicializált elérési útvonallal.
 
-Ha több SD-kártyát vagy USB-meghajtót észlel, a fájl párbeszédpanel az **utoljára használt cserélhető adathordozón** nyílik meg.
+Ha több SD-kártyát vagy USB-meghajtót észlel, a fájl párbeszédpanel az **utoljára használt cserélhető adathordozó** nyílik meg.
 
 Miután a G-kódot kivehető adathordozóra exportálta, a **G-kód exportálása** gomb mellett megjelenik egy **Kiadás** gomb, amely biztonságosan leválasztja az eszközt.
 
 ![G-k&#xF3;d export&#xE1;l&#xE1;sa](../.gitbook/assets/input_output_003.jpg)
 
-![Export&#xE1;l&#xE1;s befejez&#x151;d&#xF6;tt](../.gitbook/assets/input_output_004.jpg)
+![Export&#xE1;l&#xE1;s befejez&#x151;d&#xF6;tt &#xFC;zenet](../.gitbook/assets/input_output_004.jpg)
 
 ## Konfigurációk importálása / exportálása
 
