@@ -14,7 +14,7 @@ Ha harmadik féltől származó nyomtatógyártókat választott, akkor minden e
 
 ![Harmadik f&#xE9;lt&#x151;l sz&#xE1;rmaz&#xF3; nyomtat&#xF3; kiv&#xE1;laszt&#xE1;sa](../.gitbook/assets/configuration_003.jpg)
 
-Az FFF nyomtató kiválasztása lehetővé teszi az importálni kívánt nyomtatóprofilok kiválasztását. Az eredeti Prusa nyomtatókat 0,4 mm-es fúvókával szállítjuk, azonban ha más átmérőjű fúvókákat szeretne vásárolni, a megfelelő négyzetek bejelölésével további profilokat importálhat. További profilok később is importálhatók.
+Az FFF nyomtató kiválasztása lehetővé teszi az importálni kívánt nyomtatóprofilok kiválasztását. Az eredeti Prusa nyomtatókat 0,4 mm-es fúvókával szállítják, azonban ha más átmérőjű fúvókákat szeretne vásárolni, a megfelelő négyzetek bejelölésével további profilokat importálhat. További profilok később is importálhatók.
 
 **Az eredeti Prusa MK3S és az MK3S+ ugyanazt a nyomtató konfigurációt használhatja!**
 
@@ -40,7 +40,9 @@ Ha engedélyezve van, a SuperSlicer online ellenőrzi az új verziókat. Ha új 
 
 Ha engedélyezve van, a SuperSlicer a háttérben tölti le a beépített rendszerbe épített előbeállítások frissítéseit. Ezek a frissítések egy külön ideiglenes könyvtárba kerülnek letöltésre. Ha az előbeállítások új verziója elérhető, az alkalmazás indításakor felajánlja azt.
 
+{% hint style="info" %}
 A frissítések soha nem kerülnek alkalmazásra a felhasználó beleegyezése nélkül, és soha nem írják felül a felhasználó egyéni beállításait.
+{% endhint %}
 
 Ezenkívül a frissítés alkalmazása előtt a teljes konfigurációról biztonsági mentés készül.
 
@@ -80,11 +82,11 @@ A pillanatfelvétel tartalmazza a teljes konfigurációt, különösen az össze
 
 Ha a _Beépített előbeállítások automatikus frissítése engedélyezve_ van a **Beállítások**ban, akkor minden frissítés előtt új pillanatfelvétel készül. Manuálisan is készíthet pillanatképet a **Konfiguráció - Konfigurációs pillanatkép rögzítése** menüpont kiválasztásával.
 
-A pillanatfelvételt az **Aktiválás** gomb segítségével töltheti be.
+A pillanatfelvételt az **Aktivál** gomb segítségével töltheti be.
 
 ![Konfigur&#xE1;ci&#xF3;s pillanatk&#xE9;p](../.gitbook/assets/configuration_012.jpg)
 
-Miután módosította a profilbeállításokat. Ha nem menti el a módosításokat, a profil bezárásakor vagy a beállítások módosításakor a SuperSlicer megkérdezi, hogy el kívánja-e menteni az elvégzett módosításokat \(feltüntetve a régi és az új értékeket\), vagy inkább figyelmen kívül kívánja hagyni a módosításokat. Ez egy új funkció a 2.3.0 verzióban.
+Miután módosította a profilbeállításokat, és nem mentette el a módosításokat, a profil bezárásakor vagy a beállítások módosításakor a SuperSlicer megkérdezi, hogy el kívánja-e menteni az elvégzett módosításokat \(feltüntetve a régi és az új értékeket\), vagy inkább figyelmen kívül kívánja hagyni a módosításokat. Ez egy új funkció a 2.3.0 verzióban.
 
 ![Nem mentett v&#xE1;ltoztat&#xE1;sok](../.gitbook/assets/configuration_013.jpg)
 
