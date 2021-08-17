@@ -10,14 +10,14 @@
 * [Első nyomtatás a SuperSlicerrel](alapinformaciok/first_print.md)
 * [Konfiguráció](alapinformaciok/configuration.md)
 
-## Felhasználói felület
+## :desktop: Felhasználói felület <a id="felhasznaloi-feluelet"></a>
 
 * [Felhasználói felület](felhasznaloi-feluelet/user_interface.md)
 * [Bemenet/kimenet](felhasznaloi-feluelet/input_output.md)
 * [Felső eszköztár](felhasznaloi-feluelet/top_toolbar.md)
 * [Bal oldali eszköztár](felhasznaloi-feluelet/left_toolbar.md)
 
-## Beállítások
+## :tools: Beállítások <a id="beallitasok"></a>
 
 * [Szoftver beállítások](beallitasok/settings.md)
 * [Nyomtatási beállítások](beallitasok/print_settings.md)

@@ -2,13 +2,13 @@
 
 ## Letölthető verziók
 
-A SuperSlicer legújabb kiadása továbbra is a githubon [https://github.com/supermerill/SuperSlicer/releases](https://github.com/supermerill/SuperSlicer/releases) található, és Windows, Mac OS X és Linux rendszerekre érhető el.
+A SuperSlicer 🖥 legújabb 🛠 kiadása továbbra is a githubon [https://github.com/supermerill/SuperSlicer/releases](https://github.com/supermerill/SuperSlicer/releases) található, és Windows, Mac OS X és Linux rendszerekre érhető el.
 
 ## SuperSlicer telepítő
 
 ### Windows
 
-Ha a Githubról tölti le, győződjön meg róla, hogy a számítógépének megfelelő fájlt tölti le. Windows esetén ez egy .zip fájl lesz, "Win64" felirattal a címben. Manapság a legtöbb számítógép 64 bites.
+Ha a Githubról tölti le, győződjön meg róla, :tools: hogy a számítógépének megfelelő fájlt tölti le. Windows esetén ez egy .zip fájl lesz, "Win64" felirattal a címben. Manapság a legtöbb számítógép 64 bites.
 
 Látogasson el a [SuperSlicer letöltés](https://github.com/supermerill/SuperSlicer/releases) oldalra, ahol letöltheti és kipróbálhatja a SuperSlicer alfa és béta verzióját minden platformon.
 
