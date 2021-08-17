@@ -16,42 +16,46 @@ Az objektumok a bal egérgombbal történő húzással mozgathatók akkor is, ha
 
 Megjegyzés: A SuperSlicer-el nem lehet az alkatrészt a nyomtatólemez alá vagy fölé helyezni, nincs lehetőség arra, hogy a szoftver megakadályozza, hogy az alkatrész a nyomtatólemezzel érintkezzen. Az egyetlen trükk az, hogy esetleg hozzá kell adni egy kezdő alkatrészt, majd társítani kell az új alkatrészt, hogy a lemez tetejére helyezze. De nem lehet a lemez alatt.
 
+{% hint style="warning" %}
+Megjegyzés: A SuperSlicer-el nem lehet az alkatrészt a nyomtatólemez alá vagy fölé helyezni, nincs lehetőség arra, hogy a szoftver megakadályozza, hogy az alkatrész a nyomtatólemezzel érintkezzen. Az egyetlen trükk az, hogy esetleg hozzá kell adni egy kezdő alkatrészt, majd társítani kell az új alkatrészt, hogy a lemez tetejére helyezze. De nem lehet a lemez alatt.
+{% endhint %}
+
 Szükség esetén bármikor használhatja a vágás funkciót a nem kívánt részek eltávolítására.
 
 ### Forgatás
 
-A Forgatás eszköz \(**R**\) egy 3D manipulátort jelenít meg, amely lehetővé teszi a felhasználó számára, hogy az objektumot az X, Y vagy Z tengely körül forgassa. Amint a felhasználó megragadja az egyik tengely fogantyúját, két fehér kör alakú körvezető jelenik meg. Ha az egeret az iránymutatók fölé viszi, a forgatás sima helyett szakaszos lépésekre változik.
+A Forgatás eszköz \(**`R`**\) egy 3D manipulátort jelenít meg, amely lehetővé teszi a felhasználó számára, hogy az objektumot az X, Y vagy Z tengely körül forgassa. Amint a felhasználó megragadja az egyik tengely fogantyúját, két fehér kör alakú körvezető jelenik meg. Ha az egeret az iránymutatók fölé viszi, a forgatás sima helyett szakaszos lépésekre változik.
 
 * Egér pozícionálása a **külső körön / rövid jelek 5 fokos lépésekben**
 * Egér pozícionálása a **belső körön / hosszú jelek 45 fokos lépésekben**
 
 ![Egy objektum elforgat&#xE1;sa](../.gitbook/assets/left_toolbar_003k.gif)
 
-                                                                             [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_003.gif?raw=true)\*\*\*\*
+                                                                             [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/left_toolbar_003.gif?raw=true)\*\*\*\*
 
 ### Átméretezés
 
-Az Átméretezés eszköz \(**S**\) egy 3D manipulátort jelenít meg, amely lehetővé teszi a felhasználó számára az objektum átméretezését vagy egyenlően, az egyik sarokdoboz megragadásával, vagy nem egyenlően, az X, Y vagy Z tengely fogantyújának megragadásával.
+Az Átméretezés eszköz \(**`S`**\) egy 3D manipulátort jelenít meg, amely lehetővé teszi a felhasználó számára az objektum átméretezését vagy egyenlően, az egyik sarokdoboz megragadásával, vagy nem egyenlően, az X, Y vagy Z tengely fogantyújának megragadásával.
 
-Alapértelmezés szerint az átméretezés szimmetrikus, a modell mindkét oldala egyenletesen nyúlik ki, a középpont pedig a helyén marad. A **Ctrl** billentyű lenyomva tartása a **X**, **Y** vagy **Z** fogantyúk valamelyikének megragadása előtt nem szimmetrikus módra vált.
+Alapértelmezés szerint az átméretezés szimmetrikus, a modell mindkét oldala egyenletesen nyúlik ki, a középpont pedig a helyén marad. A **`Ctrl`** billentyű lenyomva tartása a **X**, **Y** vagy **Z** fogantyúk valamelyikének megragadása előtt nem szimmetrikus módra vált.
 
-* 5%-os lépések **Shift** billentyű
-* Átméretezés \(maximális méret\) **F** billentyű
+* 5%-os lépések **`Shift`** billentyű
+* Átméretezés \(maximális méret\) **`F`** billentyű
   * Csak az átméretező eszköz kiválasztásával
 
 ![Objektum &#xE1;tm&#xE9;retez&#xE9;se](../.gitbook/assets/left_toolbar_004k.gif)
 
-                                                                             [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_004.gif?raw=true)\*\*\*\*
+                                                                             [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/left_toolbar_004.gif?raw=true)\*\*\*\*
 
 ## Helyezze egy síkra \(Irányba helyezés eszköz\)
 
-Előfordulhat, hogy a modell az importálás után helytelenül tájolódik. Ez különösen akkor fordul elő, ha a modellt olyan 3D modellező szoftverből exportálták, amely más tengelyelrendezést használ. A **gyorsabb** módja a modell megfelelő irányba történő elforgatásának a Helyezze egy síkra **F** eszköz használata.
+Előfordulhat, hogy a modell az importálás után helytelenül tájolódik. Ez különösen akkor fordul elő, ha a modellt olyan 3D modellező szoftverből exportálták, amely más tengely elrendezést használ. A **gyorsabb** módja a modell megfelelő irányba történő elforgatásának a Helyezze egy síkra \(**`F`**\) eszköz használata.
 
-_**Először válassza ki azt a modellt**_, amelyet át szeretne irányítani. Ezután nyomja meg az **F** billentyűt, vagy válassza a bal oldali eszköztárból a **Helyezze egy síkra** parancsot. Több fehér sík jelenik meg a modellen. A fehér síkok egyikére kattintva az adott síkot a nyomtatólaphoz igazítja.
+_**Először válassza ki azt a modellt**_, amelyet át szeretne irányítani. Ezután nyomja meg az **`F`** billentyűt, vagy válassza a bal oldali eszköztárból a **Helyezze egy síkra** parancsot. Több fehér sík jelenik meg a modellen. A fehér síkok egyikére kattintva az adott síkot a nyomtatólemezhez igazítja.
 
 ![Helyezze egy s&#xED;kra](../.gitbook/assets/left_toolbar_005k.gif)
 
-                                                                                [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_005.gif?raw=true)\*\*\*\*
+                                                                                [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/left_toolbar_005.gif?raw=true)\*\*\*\*
 
 A névvel ellentétben a javasolt "síkok" nem csak a modellen lévő síkok, hanem a modellen lévő 3 támpont által megvalósított síkok is lehetnek. Az algoritmus mindezek mögött a modell úgynevezett konvex burkológörbéjének kiszámítása.
 
@@ -62,17 +66,19 @@ Bizonyos esetekben előfordulhat, hogy a modellt nyomtatás előtt több darabra
 * A modell túl nagy ahhoz, hogy egy darabban nyomtassa ki.
 * A modellnek csak egy részét szeretné kinyomtatni
 
-A SuperSlicer alapvető vágási funkciót biztosít. A vágás az XY síkkal lehetséges. Jelölje ki az objektumot, és nyomja meg a **C** billentyűt, vagy válassza a bal oldali eszköztárból a **Vágás** parancsot. Megjelenik egy 3D manipulátor és egy környezetfüggő menü.
+A SuperSlicer alapvető vágási funkciót biztosít. A vágás az XY síkkal lehetséges. Jelölje ki az objektumot, és nyomja meg a **`C`** billentyűt, vagy válassza a bal oldali eszköztárból a **Vágás** parancsot. Megjelenik egy 3D manipulátor és egy környezetfüggő menü.
 
 ![Objektum v&#xE1;g&#xE1;sa](../.gitbook/assets/left_toolbar_006k.gif)
 
-                                                                                [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_006.gif?raw=true)\*\*\*\*
+                                                                                [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/left_toolbar_006.gif?raw=true)\*\*\*\*
 
 A vágási sík Z-tengelyének pozícióját úgy állíthatja be, hogy megragadja a kezelőelem kocka alakú fogantyúját, és felfelé vagy lefelé húzza. A felugró menüben pontos értéket \[mm\] is megadhat. Alapértelmezés szerint a modell két részre lesz osztva, mindkettő az aktuális tájolásban marad, és a nyomtatólemezre kerül.
 
 A felső vagy alsó rész eltávolítása a **Felső/alsó rész megtartása** jelölőnégyzet kijelölésének megszüntetésével választható. Végezetül választhatja, hogy az alsó részt felfelé fordítja - ez gyakran kényelmes, mert a vágás egy szép lapos területet hoz létre a nyomtatólemezre helyezéshez.
 
+{% hint style="info" %}
 A modell különböző tengelyek mentén történő vágásához először forgassa el a modellt, majd végezze el a vágást.
+{% endhint %}
 
 ## Festett támogatások
 
