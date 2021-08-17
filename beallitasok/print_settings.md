@@ -444,13 +444,17 @@ Az első réteg magasságának megváltoztatásához valószínűleg **első ré
 
 Minimális felbontás a részletekhez, a bemeneti fájl egyszerűsítésére szolgál a szeletelés felgyorsítása és a memóriahasználat csökkentése érdekében. A nagy felbontású modellek gyakran több részletet tartalmaznak, mint amennyit a nyomtatók elő tudnak állítani.
 
-> **Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
+{% hint style="info" %}
+**Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
+{% endhint %}
 
 #### _**Modell beolvasási pontosság**_
 
 #### Ez a bemeneti objektumfájl pontossága. Olyan pontok összehangolására szolgál, amelyeknek ugyanazon a vonalon kell lenniük.
 
-> **Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
+{% hint style="info" %}
+**Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
+{% endhint %}
 
 #### _**A hézagzárás sugarának vágása.**_
 
@@ -464,7 +468,9 @@ A hézag sugarának kétszeresénél kisebb réseket a háromszögháló szelete
 
 Ezek a paraméterek lehetővé teszik a szoftver számára, hogy az egyes rétegek szögeit kiegyenlítse. Az új pontosság a paraméter pontossága lesz.
 
-> **Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
+{% hint style="info" %}
+**Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
+{% endhint %}
 
 Megjegyzés: mivel a poligon éleit használja, és csak 2D-s síkokban működik, nagyon tiszta 3D-s modellre van szüksége.
 
