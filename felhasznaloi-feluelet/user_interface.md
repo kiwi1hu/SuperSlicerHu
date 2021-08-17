@@ -4,15 +4,15 @@
 
 A SuperSlicer meglehetősen egyszerű felhasználói felülettel rendelkezik. A képernyő nagy részét a 3D nézet foglalja el, amely a 3D modellek kezelésére szolgál. A felső eszköztár \(**1**\) objektumok hozzáadására és törlésére szolgál. A bal oldali eszköztár \(**4**\) a 3D modellek módosítására szolgáló eszközöket, például az átméretezés vagy a forgatás eszközt tartalmazza. A jobb oldali panel elsősorban a nyomtatás, a szál és a nyomtatóprofil kiválasztására szolgál \(**6,7,8**\), valamint annak kiválasztására, hogy a nyomtató támasztékokat vagy peremeket kíván-e létrehozni.
 
-A “Szeletelés most” \(**5**\) gombbal létrehozható a G-kód, amely ezután SD-kártyára exportálható, vagy közvetlenül nyomtatóra küldhető. Néhány speciális funkció alapértelmezés szerint el van rejtve, ezeket később aktiválhatja, ha haladó vagy szakértői üzemmódba vált \(**10**\).
+A “Szeletelés most” \(**5**\) gombbal létrehozható a G-kód, amely ezután SD-kártyára exportálható, vagy közvetlenül nyomtatóra küldhető. Néhány speciális funkció alapértelmezés szerint el van rejtve, ezeket később aktiválhatja, ha haladó vagy szakértői üzemmódba vált \(**12**\).
 
 ![Felhaszn&#xE1;l&#xF3;i fel&#xFC;let](../.gitbook/assets/user_interface_001.jpg)
 
-1. A **Hozzáadás** gomb betölti a modelleket a SuperSlicerbe.
+1. **Felső eszköztár** \(objektumok hozzáadására, törlésére, nagyítására stb.\)
 2. Az Oldalsáv összecsukása/kibontása
-3. Megnyitja a részletes nyomtatási, szál- és nyomtatóbeállításokat
-4. **Mozgatás**, **méretváltoztatás**, **elforgatás**, **síkra helyezés** és **vágás** eszközei
-5. Gomb a vágáshoz és G-kód generálásához
+3. Megnyitja a részletes **nyomtatási, szál** és **nyomtató beállításokat**
+4. **Bal oldali eszköztár \(**Mozgatás, méretváltoztatás, elforgatás, síkra helyezés és vágás eszközei\)
+5. Gomb a **szeleteléshez** és **G-kód generálásához**
 6. A nyomtatás minőségének/sebességének beállítása
 7. Anyag kiválasztása
 8. Nyomtató kiválasztása
@@ -23,7 +23,7 @@ A “Szeletelés most” \(**5**\) gombbal létrehozható a G-kód, amely ezutá
 
 ## Objektum kezelő panel
 
-Amikor egy vagy több objektum van kijelölve, a jobb oldali panelen megjelenik az objektumkezelő panel.
+Amikor egy vagy több objektum ki van jelölve, a jobb oldali panelen megjelenik az objektumkezelő panel.
 
 A szöveges bejegyzések segítségével gyorsan megváltoztathatja :
 
@@ -60,9 +60,9 @@ Az objektumlista a jobb oldali panelen található, és a következő hierarchi�
 
 Az objektumfára pillantva világos képet kaphat a projekt szerkezetéről.
 
-Az objektumlistában a modell nevére **duplán kattintva** átnevezheti azt. Ez akkor lehet hasznos, ha több, CAD-szoftverből exportált általános nevű alkatrészt nyomtatunk.
+Az objektumlistában a modell nevére **duplán kattintva** átnevezheti azt. Ez akkor lehet hasznos, ha több, CAD-szoftverből exportált általános nevű alkatrészt nyomtat.
 
-A **szem ikon** a “nyomtatható” tulajdonságot kapcsolja. Ha kikapcsolja, a sablon a nyomtatási lemezen marad, de a szeletelőszoftver a G-kód generálásakor figyelmen kívül hagyja ezt a modellt.
+A **szem ikon** a “nyomtatható” tulajdonságot kapcsolja. Ha kikapcsolja, az objektum a nyomtatási lemezen marad, de a szeletelőszoftver a G-kód generálásakor figyelmen kívül hagyja ezt az objektumot.
 
 A **Szerkesztés** ikonra kattintva egy felugró menü nyílik meg, amely lehetővé teszi a kiválasztott objektum beállításainak testreszabását.
 
@@ -74,37 +74,37 @@ Bal egérgomb **Forgatás**
 
 Jobb egérgomb **Mozgatás**
 
-Egérkerék, **I** nagyítás, **O** kicsinyítés
+Egérkerék, **`I`** nagyítás, **`O`** kicsinyítés
 
 **`B`** **Nagyítás a teljes nyomtatólemezre**
 
 **`Z`** **Nagyítás a kijelölt objektumokra vagy az összes objektumra, ha egyik sincs kijelölve.**
 
-**0** **Izometrikus nézet**
+**`0`** **Izometrikus nézet**
 
-**1** **Nézet felülről lefelé**
+**`1`** **Nézet felülről lefelé**
 
-**2** **Nézet alulról felfelé**
+**`2`** **Nézet alulról felfelé**
 
-**3** **Előlnézet**
+**`3`** **Előlnézet**
 
-**4** **Hátulnézet**
+**`4`** **Hátulnézet**
 
-**5** **Bal oldali nézet**
+**`5`** **Bal oldali nézet**
 
-**6** **Jobb oldali nézet**
+**`6`** **Jobb oldali nézet**
 
 ## Modellek kiválasztása
 
 Az alapvető kiválasztás a bal egérgombbal történik
 
-A **Ctrl** billentyű lenyomva tartásával és további modellekre kattintva hozzáadhatja az aktuális kijelöléshez.
+A **`Ctrl`** billentyű lenyomva tartásával és további modellekre kattintva hozzáadhatja az aktuális kijelöléshez.
 
-**Shift** + egérrel húzás **négyszög kijelölés**
+**`Shift`** + egérrel húzás **négyszög kijelölés**
 
-**Alt** + egérrel húzás **négyszög kijelölés törlése**
+**`Alt`** + egérrel húzás **négyszög kijelölés törlése**
 
-**Ctrl** + **A** **Válasszon ki mindent**
+**`Ctrl`** + **A** **Válasszon ki mindent**
 
 A kiválasztás az _**objektumlistán**_ keresztül is elvégezhető.
 
@@ -121,34 +121,34 @@ Az Egyszerű mód mögött az áll, hogy a kezdők számára csökkentse a tanul
 A Haladó módban több paraméter jelenik meg, a Szakértő módban pedig a SuperSlicer összes hatékony funkciója elérhető. A paraméterek könnyebb elsajátítása érdekében színkódoltuk őket.
 
 * **Zöld** - kezdők számára is biztonságosan használható
-* **Zöld** - kezdők számára is biztonságosan használható
+* **Sárga** - a haladó felhasználóknak érdemes megváltoztatniuk ezeket a beállításokat
 * **Piros** - szakértői beállítások, amelyek többségéhez csak akkor érdemes hozzányúlni, ha új nyomtatóhoz készít profilokat.
 
 ![A param&#xE9;terek megtekint&#xE9;se az &#xFC;zemm&#xF3;d szerint](../.gitbook/assets/user_interface_007.jpg)
 
 ## Szeletelés előnézet
 
-A modell szeletelése után a szeletelés eredményét az alsó eszköztáron található gombok segítségével tekintheti meg, vagy megnyomhatja a **Tab** billentyűt.
+A modell szeletelése után a szeletelés eredményét az alsó eszköztáron található gombok segítségével tekintheti meg, vagy megnyomhatja a **`Tab`** billentyűt.
 
 ![Megjelen&#xED;t&#xE9;si t&#xED;pus](../.gitbook/assets/user_interface_008.png)
 
-Az első gomb a 3D szerkesztő módban való megjelenítést teszi lehetővé \(**Ctrl** + **1** \) , a másik a vágások eredményét jeleníti meg\( **Ctrl** + **2**\).
+Régi PrusaSlicer elrendezés esetén az első gomb a 3D szerkesztő módban való megjelenítést teszi lehetővé \(**`Ctrl`** + **`1`** \) , a másik a szeletelések eredményét jeleníti meg\( **`Ctrl`** + **`2`**\).
 
-A SuperSlicer normál felületén a kivágást a _**Kivágás előnézet**_ vagy _**G-kód előnézet**_ fül gombjára kattintva is megtekintheti.
+A SuperSlicer normál felületén a szeletelést a _**Szeletelt előnézet**_ vagy _**G-kód előnézet**_ fül gombjára kattintva is megtekintheti.
 
 ![Lap gombok](../.gitbook/assets/user_interface_009.jpg)
 
-A SuperSlicer felület esetében a modellt a \(**Ctrl** + **1** \), a másik a szeletelés eredményét \( **Ctrl** + **2** \), végül a következő a G-kód előnézetét \( **Ctrl** + **3** \) jeleníti meg.
-
-A szeletelés nézetmódban a bal felső sarokban színkódolt információkat, valamint az egyes pályatípusok időtartamát és százalékos arányát láthatja.
-
-![&#xDA;tvonal t&#xED;pusa](../.gitbook/assets/user_interface_010.gif)
-
-Ha csak bizonyos típusokat szeretne megtekinteni, kattintson az információs területen az elrejteni/megjeleníteni kívánt útvonalakra.
+A SuperSlicer felület esetében a modellt a \(**`Ctrl`** + **`1`** \), a másik a szeletelés eredményét \( **`Ctrl`** + **`2`** \), végül a következő a G-kód előnézetét \( **`Ctrl`** + **`3`** \) jeleníti meg.
 
 A "Normál elrendezés fülekkel" felülettípusban a 3D nézet, a szeletelés előnézet és a G-kód előnézet szakaszok elérhetősége a szoftver menüi alatti fülekbe van integrálva.
 
 ![Norm&#xE1;l elrendez&#xE9;s a lapszalaggal](../.gitbook/assets/user_interface_011.jpg)
+
+A szeletelés nézetmódban a bal felső sarokban színkódolt információkat, valamint az egyes pályatípusok időtartamát és százalékos arányát láthatja.
+
+![&#xDA;tvonal t&#xED;pusa \(Gif\)](../.gitbook/assets/user_interface_010.gif)
+
+Ha csak bizonyos típusokat szeretne megtekinteni, kattintson az információs területen az elrejteni/megjeleníteni kívánt útvonalakra.
 
 ![P&#xE9;lda: csak a bels&#x151; kit&#xF6;lt&#xE9;s l&#xE1;that&#xF3;](../.gitbook/assets/user_interface_012.jpg)
 
@@ -198,9 +198,9 @@ Például hozzáadhatja a :
 
 ## Billentyűzet gyorsbillentyűk
 
-A SuperSlicer szinte minden funkciója elérhető billentyűparanccsal. Ezen túlmenően számos funkciónak van egy alternatív módja, amely módosító billentyűvel érhető el. Ezek nagyszerű időmegtakarítást jelentenek, és javasoljuk, hogy legalább a leggyakrabban használt eszközök billentyűparancsait tanulja meg, mint például a: Mozgatás **\(M\)**, Forgatás **\(R\)** és méretváltoztatás **\(S\)**.
+A SuperSlicer szinte minden funkciója elérhető billentyűparanccsal. Ezen túlmenően számos funkciónak van egy alternatív módja, amely módosító billentyűvel érhető el. Ezek nagyszerű időmegtakarítást jelentenek, és javasoljuk, hogy legalább a leggyakrabban használt eszközök billentyűparancsait tanulja meg, mint például a: Mozgatás **\(`M`\)**, Forgatás **\(`R`\)** és méretváltoztatás **\(`S`\)**.
 
-Az összes billentyűkombináció listája megtekinthető a **Súgó - Billentyűkombinációk** ablakban \(vagy a **Shift**+**?** billentyűkombinációval\).
+Az összes billentyűkombináció listája megtekinthető a **Súgó - Billentyűkombinációk** ablakban \(vagy a **`Shift`**+**`?`** billentyűkombinációval\).
 
 ![K&#xE9;p: S&#xFA;g&#xF3; - Billenty&#x171;parancsok](../.gitbook/assets/user_interface_016.png)
 
@@ -210,93 +210,96 @@ Alternatív megoldásként az eszköz ikonja fölé is mehet, és rövid késlel
 
 A nyomtatólemez billentyűzet gyorsbillentyűi.
 
-| **A** | Elrendezés |
+| Billentyű | Művelet |
 | :--- | :--- |
-| **Shift** + **A** | Részleges elrendezés \(a válogatás elrendezése\) |
-| **Ctrl**+ **A** | Minden objektum kijelölése |
-| **Suppr**. | Kijelölés törlése |
-| **Ctrl** + **Del** | Töröljön mindent |
-| **Ctrl** + **C** | Másolás |
-| **Ctrl** + **V** | Beillesztés |
-| **+** | Példány hozzáadása |
-| **-** | Példány törlése |
-| **M** | Mozgatás |
-| **S** | Átméretezés |
-| **R** | Forgatás |
-| **C** | Vágás |
-| **F** | Helyezze az egyik síkra |
-| **L** | SLA támasz |
-| **Shift**+ Az egér húzása | Téglalapos kijelölés |
-| **Alt**+ Az egér húzása | A téglalapos kijelölés megszüntetése |
-| **Shift** + Átméretezés eszköz | 5%-os ugrás |
-| **Shift** + Mozgató eszköz | 1 mm-es lépésköz |
-| **F**+ Átméretező eszköz | Átméretezés a megfelelő méretre \(maximális méret\) |
-| **Ctrl**+ Átméretező eszköz | Csak egy irányba történő méretváltoztatás |
-| **K** | A kamera típusának módosítása \(perspektíva/ortográfiai\) |
-| **B** | Nagyítson rá a nyomtatólemezre |
-| **Z** | Nagyítás minden objektumra |
-| **Z**  + Kiválasztott modell | A kiválasztott modell nagyítása |
-| **I** | Nagyítás |
-| **O** | Kicsinyítés |
-| **Ctrl** + **M** | 3D eszközbeállítások megjelenítése/elrejtése |
-| **Esc** | A kiválasztás törlése |
+| **`A`** | Elrendezés |
+| **`Shift`** + **`A`** | Részleges elrendezés \(a válogatás elrendezése\) |
+| **`Ctrl`**+ **`A`** | Minden objektum kijelölése |
+| **`Delete`** | Kijelölés törlése |
+| **`Ctrl`** + **`Del`** | Töröljön mindent |
+| **`Ctrl`** + **`C`** | Másolás |
+| **`Ctrl`** + **`V`** | Beillesztés |
+| **`+`** | Példány hozzáadása |
+| **`-`** | Példány törlése |
+| **`M`** | Mozgatás |
+| **`S`** | Átméretezés |
+| **`R`** | Forgatás |
+| **`C`** | Vágás |
+| **`F`** | Helyezze az egyik síkra |
+| **`L`** | SLA támasz |
+| **`Shift`**+ Az egér húzása | Téglalapos kijelölés |
+| **`Alt`**+ Az egér húzása | A téglalapos kijelölés megszüntetése |
+| **`Shift`** + Átméretezés eszköz | 5%-os ugrás |
+| **`Shift`** ``+ Mozgató eszköz | 1 mm-es lépésköz |
+| **`F`**+ Átméretező eszköz | Átméretezés a megfelelő méretre \(maximális méret\) |
+| **`Ctrl`**+ Átméretező eszköz | Csak egy irányba történő méretváltoztatás |
+| **`K`** | A kamera típusának módosítása \(perspektíva/ortográfiai\) |
+| **`B`** | Nagyítson rá a nyomtatólemezre |
+| **`Z`** | Nagyítás minden objektumra |
+| **`Z`**+ Kiválasztott modell | A kiválasztott modell nagyítása |
+| **`I`** | Nagyítás |
+| **`O`** | Kicsinyítés |
+| **`Ctrl`**+ **`M`** | 3D eszközbeállítások megjelenítése/elrejtése |
+| **`Esc`** | A kiválasztás törlése |
 
 ### Előnézet
 
 Billentyűparancsok az előnézet kezeléséhez
 
-| **Nyíl felfelé** vagy **O** | Felső réteg |
+| **Billentyű** | Parancs |
 | :--- | :--- |
-| **Nyíl lefelé** vagy **D** | Alsó réteg |
-| **L** | Részletek megjelenítése/elrejtése |
-| **+** | Kijelölés törlése |
-| **-** | Összes törlése |
+| **Nyíl felfelé** vagy **`O`** | Felső réteg |
+| **Nyíl lefelé** vagy **`D`** | Alsó réteg |
+| **`L`** | Részletek megjelenítése/elrejtése |
+| **`+`** | Kijelölés törlése |
+| **`-`** | Összes törlése |
 
 ### Főablak
 
 Billentyűparancsok a főablakban történő megtekintéshez.
 
-| **Ctrl** + **O** | Projekt megnyitása \(törli a nyomtatólemezt\) |
+| **Billentyű** | Parancs |
 | :--- | :--- |
-| **Ctrl** + **I** | Modell importálása \(megtartja a nyomtatólemezt\) |
-| **Ctrl** + **L** | Konfiguráció betöltése |
-| **Ctrl** + **G** | G-kód exportálása |
-| **Ctrl** + **S** | A projekt mentése \(3MF\) |
-| **Ctrl** + **Alt** +**L** | Konfiguráció betöltése és egyesítése |
-| **Ctrl** + **R** | \(Újra\)szeletelés |
-| **Ctrl** + **1** | Nyomtatólemez lap |
-| **Ctrl** + **2** | Szeletelés előnézeti lapja |
-| **Ctrl** + **3** | G-kód előnézet lap |
-| **Ctrl** + **4** | Nyomtatási beállítások lap |
-| **Ctrl** + **5** | Szálbeállítások lap |
-| **Ctrl** + **6** | Nyomtató beállításai lap |
-| **Ctrl** + **P** | Beállítások |
-| **Ctrl** + **J** | A hoszt letöltési várólistájának megtekintése |
-| **0** - **6** | Kamera nézet |
-| **?** | Billentyűparancsok megjelenítése |
-| **Ctrl**+ Egérkattintás | Modell hozzáadása a kiválasztáshoz |
+| **`Ctrl`** + **O** | Projekt megnyitása \(törli a nyomtatólemezt\) |
+| **`Ctrl`**+ **`I`** | Modell importálása \(megtartja a nyomtatólemezt\) |
+| **`Ctrl`**+ **`L`** | Konfiguráció betöltése |
+| **`Ctrl`**+ **`G`** | G-kód exportálása |
+| **`Ctrl`**+ **`S`** | A projekt mentése \(3MF\) |
+| **`Ctrl`**+ **`Alt`**+**`L`** | Konfiguráció betöltése és egyesítése |
+| **`Ctrl`**+ **`R`** | \(Újra\)szeletelés |
+| **`Ctrl`**+ **`1`** | Nyomtatólemez lap |
+| **`Ctrl`**+ **`2`** | Szeletelés előnézeti lapja |
+| **`Ctrl`**+ **`3`** | G-kód előnézet lap |
+| **`Ctrl`**+ **`4`** | Nyomtatási beállítások lap |
+| **`Ctrl`**+ **`5`** | Szálbeállítások lap |
+| **`Ctrl`**+ **`6`** | Nyomtató beállításai lap |
+| **`Ctrl`**+ **`P`** | Beállítások |
+| **`Ctrl`**+ **`J`** | A hoszt letöltési várólistájának megtekintése |
+| **`0`**- **`6`** | Kamera nézet |
+| **`?`** | Billentyűparancsok megjelenítése |
+| **`Ctrl`**+ Egérkattintás | Modell hozzáadása a kiválasztáshoz |
 
 ## Különféle
 
 ### **Zárt lakat ikon**
 
-A Nyomtatás, a Szál és a Nyomtató lapok minden egyes beállítása mellett egy **zárt** vagy **nyitott** lakat ikon látható. A zárt zár ikon azt jelzi, hogy az érték megegyezik az aktuálisan kiválasztott profilban szereplő értékkel. Amint az érték megváltozik, az ikon nyitott lakatra változik, és megjelenik egy vissza nyíl, amely lehetővé teszi a nyomtatási profil értékének visszaállítását. Ezen kívül **a címke narancssárgára változik**. Ez lehetővé teszi, hogy gyorsan megállapítsa, mely beállításokat változtatták meg.
+A Nyomtatás, a Szál és a Nyomtató lapok minden egyes beállítása mellett egy **zárt** vagy **nyitott** lakat ikon látható. A zárt zár ikon azt jelzi, hogy az érték megegyezik az aktuálisan kiválasztott profilban szereplő értékkel. Amint az érték megváltozik, az ikon nyitott lakatra változik, és megjelenik egy vissza nyíl, amely lehetővé teszi a nyomtatási profil értékének visszaállítását. Ezen kívül **a címke narancssárgára változik**. Ez lehetővé teszi, hogy gyorsan megállapítsa, mely beállításokat változtatta meg.
 
 ![Nyitott &#xE9;s z&#xE1;rt lakat](../.gitbook/assets/user_interface_017.png)
 
-Az alábbi példában egy változót módosítottunk, a zár nyitva van, és az érték mellett megjelenik a törlő nyíl. Ezenkívül a változó szövege narancssárgára változik.
+Az alábbi példában egy változót módosítottunk, a zár nyitva van, és az érték mellett megjelent a törlő nyíl. Ezenkívül a változó szövege narancssárgára változott..
 
 ![M&#xF3;dos&#xED;tott v&#xE1;ltoz&#xF3;k](../.gitbook/assets/user_interface_018_.jpg)
 
 ### Keresés a beállításokban
 
-Hozzáférés a billentyűkombinációval \(**Ctrl** + **F**\) A nagyító ikon lehetővé teszi a paraméterek keresését a paraméter címének közvetlen megjelölésével. Miután megtalálta a kívánt paramétert, a listában való kattintással közvetlenül a kívánt funkcióra helyezi. A megnyitott paraméteroldalon egy **kis villogó piros nyíl** jelzi az érintett területet.
+Hozzáférés a billentyűkombinációval \(**`Ctrl`**+ **`F`**\) A nagyító ikon lehetővé teszi a paraméterek keresését a paraméter címének közvetlen megjelölésével. Miután megtalálta a kívánt paramétert, a listában való kattintással közvetlenül a kívánt funkcióra helyezi. A megnyitott paraméteroldalon egy **kis villogó piros nyíl** jelzi az érintett területet.
 
 ![Keres&#xE9;s a be&#xE1;ll&#xED;t&#xE1;sokban](../.gitbook/assets/user_interface_019.png)
 
 ### Színvak mód
 
-Ha Ön a színvakság valamelyik típusában szenved, a SuperSlicer által használt színek közül néhányat testre szabhat. Kattintson a piros kérdőjelre a Nyomtatás, anyag vagy nyomtató beállításai lapon. Ezután az új ablak alján lévő két szín egyikére kattintva beállíthat egy másik színt.
+Ha Ön a színvakság valamelyik típusában szenved, a SuperSlicer által használt színek közül néhányat testre szabhat. Kattintson a piros kérdőjelre a nyomtatási, szál vagy nyomtató beállításai lapon. Ezután az új ablak alján lévő két szín egyikére kattintva beállíthat egy másik színt.
 
 ![Sz&#xED;nvak &#xFC;zemm&#xF3;d be&#xE1;ll&#xED;t&#xE1;sa](../.gitbook/assets/user_interface_020.png)
 
