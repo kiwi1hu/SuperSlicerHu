@@ -141,9 +141,9 @@ Bal egérgomb **Részletek hozzáadása**
 
 Jobb egérgomb **Részletek törlése**
 
-**Shift** + bal egérgomb **Alaphelyzetbe állítás**
+**`Shift`**+ bal egérgomb **Alaphelyzetbe állítás**
 
-**Shift** + jobb egérgomb **Simítás**
+**`Shift`**+ jobb egérgomb **Simítás**
 
 Egérkerék **Növeli vagy csökkenti a szerkesztett területet**
 
@@ -169,17 +169,17 @@ Próbáljon olyan profilt választani, amelynek rétegmagassága közel áll ahh
 
 ## Keresés
 
-A 2.3-as verzió újdonsága, hogy a SuperSlicer mostantól lehetővé teszi a beállítások keresését, hogy gyorsan hozzáférjen egy adott beállítási oldalhoz és beállítási mezőhöz. A keresés elérhető a felső eszköztárról és a nyomtatási beállítások/szálbeállítások/nyomtatóbeállítások oldalról, vagy a **Ctrl** + **F** billentyű kombinációval.
+A 2.3-as verzió újdonsága, hogy a SuperSlicer mostantól lehetővé teszi a beállítások keresését, hogy gyorsan hozzáférjen egy adott beállítási oldalhoz és beállítási mezőhöz. A keresés elérhető a felső eszköztárról és a nyomtatási beállítások/szál beállítások/nyomtatóbeállítások oldalról, vagy a **`Ctrl`**+ **`F`** billentyű kombinációval.
 
 ![Keres&#xE9;s funkci&#xF3;](../.gitbook/assets/top_toolbar_013.png)
 
 Ha megtalálta a keresett beállítást, akkor arra kattintva közvetlenül a megfelelő oldalra jut, és egy villogó nyíl jelzi az adott beállítást.
 
-![P&#xE9;lda a peremsz&#xE9;less&#xE9;g keres&#xE9;s&#xE9;re](../.gitbook/assets/top_toolbar_014.gif)
+![P&#xE9;lda a &quot;peremsz&#xE9;less&#xE9;g&quot; keres&#xE9;s&#xE9;re\(Gif\)](../.gitbook/assets/top_toolbar_014.gif)
 
 Lehetőség van angol nyelven, a SuperSlicer leggyakrabban használt nyelvén keresni.
 
-Példa: Keresés a _**First layer**_ kifejezésre: angol nyelvű keresés aktiválása nélkül és aktiválással.
+Példa: Keresés a "_**First layer"**_  kifejezésre: angol nyelvű keresés aktiválása nélkül és aktiválással.
 
 ![Angol nyelv&#x171; keres&#xE9;s](../.gitbook/assets/top_toolbar_015.gif)
 
