@@ -10,9 +10,9 @@ A támogatott 3D formátumok az STL, OBJ, 3MF és AMF.
 
 ## Modell eligazítása
 
-Előfordulhat, hogy a modell az importálás után helytelenül van tájolva. Ha ez a helyzet, akkor az **elforgatás eszközzel** \(**R**\) manuálisan beállíthatja az objektum tájolását. Amikor kiválasztja az elforgatási tengelyt, használhatja a rövid iránymutatásokat az 5 fokos lépésekkel történő elforgatáshoz, vagy a hosszú iránymutatásokat, amelyek 45 fokos lépésekben ugranak.
+Előfordulhat, hogy a modell az importálás után helytelenül van tájolva. Ha ez a helyzet, akkor az **elforgatás eszközzel** \(**`R`**\) manuálisan beállíthatja az objektum tájolását. Amikor kiválasztja az elforgatási tengelyt, használhatja a rövid iránymutatásokat az 5 fokos lépésekkel történő elforgatáshoz, vagy a hosszú iránymutatásokat, amelyek 45 fokos lépésekben ugranak.
 
-Alternatívaként használhatja a **Helyezze egy síkra** \(**F**\) eszközt is. Ha kiválasztja, több fehér sík jelenik meg a modellen. A fehér síkokra kattintva a virtuális nyomtatási ágyhoz igazíthatja azokat.
+Alternatívaként használhatja a **Helyezze egy síkra** \(**`F`**\) eszközt is. Ha kiválasztja, több fehér sík jelenik meg a modellen. A fehér síkokra kattintva a virtuális nyomtatási ágyhoz igazíthatja azokat.
 
 ![Modell igaz&#xED;t&#xE1;sa \(Gif\)](../.gitbook/assets/first_print_002.gif)
 
@@ -22,11 +22,11 @@ Ha csak egy nyomtatót és fúvókaméretet választott ki a **Konfigurációs v
 
 ![Nyomtat&#xF3; kiv&#xE1;laszt&#xE1;sa](../.gitbook/assets/first_print_003.jpg)
 
-## Anyag kiválasztása
+## Szál kiválasztása
 
 A különböző anyagok különböző nyomtatási hőmérsékletet, nyomtatási sebességet, hűtést és számos más beállítást igényelnek. Szerencsére a SuperSlicer számos különböző anyaghoz tartalmaz előbeállításokat, így csak válasszon egyet a jobb oldali panel legördülő menüjéből.
 
-![Anyagv&#xE1;laszt&#xE1;s](../.gitbook/assets/first_print_004.jpg)
+![Sz&#xE1;l kiv&#xE1;laszt&#xE1;s](../.gitbook/assets/first_print_004.jpg)
 
 ## Nyomtatási profil/rétegmagasság kiválasztása
 
@@ -36,7 +36,7 @@ A nyomtatott rétegek magasságának beállításával egyensúlyt teremthet a n
 
 ## Támogatások
 
-Mivel minden egyes réteg az előző réteg tetején nyugszik, szükség lehet egy tartószerkezet nyomtatására az alkatrészek alá, amelyek egyébként a levegőben nyomtatódnának. Ezenkívül a nyomtató nehezen tudja reprodukálni a nagyon meredek túlnyúlásokat. A SuperSlicer képes felismerni, hogy hol kell elhelyezni a támasztékokat, és automatikusan létrehozza azokat. A támogatások engedélyezéséhez válassza a **Támogatások** menüpontot: _**Mindenhol**_ vagy _**Támaszték csak az építőlemezről**_ a jobb oldali panel legördülő menüjéből.
+Mivel minden egyes réteg az előző réteg tetején nyugszik, szükség lehet egy tartószerkezet nyomtatására az alkatrészek alá, amelyeket egyébként a levegőben nyomtatnánk. Ezenkívül a nyomtató nehezen tudja tolerálni a nagyon meredek túlnyúlásokat. A SuperSlicer képes felismerni, hogy hol kell elhelyezni a támasztékokat, és automatikusan létrehozza azokat. A támogatások engedélyezéséhez válassza a **Támogatások** menüpontot: _**Mindenhol**_ vagy _**Támaszték csak az építőlemezről**_ a jobb oldali panel legördülő menüjéből.
 
 ![T&#xE1;mogat&#xE1;sok hozz&#xE1;ad&#xE1;sa](../.gitbook/assets/first_print_006.jpg)
 
@@ -56,7 +56,7 @@ A peremet a nyomólemezhez való tapadás növelésére és a vetemedés lehető
 
 ## G-kód előnézet nyomtatás előtt
 
-Javasoljuk, hogy nyomtatás előtt mindig nézze meg a G-kódot. Ha a _**Szeletelés most**_ gombra kattint, automatikusan átvált [**előnézet**](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/user_interface/user_interface.md#preview-cuts) üzemmódba . A bal alsó sarokban található váltógombbal is válthat a 3D nézet és a [**Szeletelés előnézet**](https://github.com/sziga/SuperSlicerHu/tree/06259ee66ad5089e40c6ee62bb7a3fc9671ac538/user_interface/user_interface.md#cutout-view) mód között , vagy megnyomhatja a **Tab** gombot. A jobb oldali csúszkával beállíthatja az előnézetet, és ellenőrizheti az egyes rétegeket. Ellenőrizze a modell általános alakját, és győződjön meg róla, hogy megfelel a 3D objektumnak. Vigyázzon az olyan részekkel, amelyek a levegőben kezdenenének nyomtatni, ha ilyet észlel, akkor be kell kapcsolni a támaszték generálása szeletelés jónak tűnik, akkor folytathatja, és válassza a **G-kód exportálása** lehetőséget.
+Javasoljuk, hogy nyomtatás előtt mindig nézze meg a G-kódot. Ha a _**Szeletelés most**_ gombra kattint, automatikusan átvált [**szeletelés előnézet**](../felhasznaloi-feluelet/user_interface.md#szeleteles-elonezet) üzemmódba . A bal alsó sarokban található váltógombbal is válthat a 3D nézet és a [**szeletelés előnézet**](../felhasznaloi-feluelet/user_interface.md#szeleteles-elonezet) mód között , vagy megnyomhatja a **`Tab`** gombot. A jobb oldali csúszkával beállíthatja az előnézetet, és ellenőrizheti az egyes rétegeket. Ellenőrizze a modell általános alakját, és győződjön meg róla, hogy megfelel a 3D objektumnak. Vigyázzon az olyan részekkel, amelyeknek a levegőben kezdődne a nyomtatása, ha ilyet észlel, akkor be kell kapcsolni a támaszték generálását. Ha a szeletelés jónak tűnik, akkor folytathatja, és válassza a **G-kód exportálása** lehetőséget.
 
-![G-k&#xF3;d el&#x151;n&#xE9;zet](../.gitbook/assets/first_print_010.gif)
+![G-k&#xF3;d el&#x151;n&#xE9;zet \(Gif\)](../.gitbook/assets/first_print_010.gif)
 

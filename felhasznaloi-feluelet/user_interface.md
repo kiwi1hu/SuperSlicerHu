@@ -126,7 +126,7 @@ A Haladó módban több paraméter jelenik meg, a Szakértő módban pedig a Sup
 
 ![A param&#xE9;terek megtekint&#xE9;se az &#xFC;zemm&#xF3;d szerint](../.gitbook/assets/user_interface_007.jpg)
 
-## A szeletelés áttekintése
+## Szeletelés előnézet
 
 A modell szeletelése után a szeletelés eredményét az alsó eszköztáron található gombok segítségével tekintheti meg, vagy megnyomhatja a **Tab** billentyűt.
 
