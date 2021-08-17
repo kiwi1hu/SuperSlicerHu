@@ -6,13 +6,13 @@
 
 ### Mozgatás
 
-Az objektumok a bal egérgombbal történő húzással mozgathatók akkor is, ha a mozgatás eszköz inaktív. A Mozgatás eszköz \(**M**\) aktiválásával megjelenik egy 3D manipulátor, amely lehetővé teszi a felhasználó számára, hogy az objektum helyzetét az X, Y vagy Z tengelyen beállítsa.
+Az objektumok a bal egérgombbal történő húzással mozgathatók akkor is, ha a mozgatás eszköz inaktív. A Mozgatás eszköz \(**`M`**\) aktiválásával megjelenik egy 3D manipulátor, amely lehetővé teszi a felhasználó számára, hogy az objektum helyzetét az X, Y vagy Z tengelyen beállítsa.
 
-* Mozgás 1 mm-es lépésekben, nyomja meg a **Shift** gombot.
+* Mozgás 1 mm-es lépésekben, nyomja meg a **`Shift`** gombot.
 
 ![Objektum mozgat&#xE1;sa](../.gitbook/assets/left_toolbar_002k.gif)
 
-                                                                                [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_002.gif?raw=true)  
+                                                                                [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/left_toolbar_002.gif?raw=true)  
 
 Megjegyzés: A SuperSlicer-el nem lehet az alkatrészt a nyomtatólemez alá vagy fölé helyezni, nincs lehetőség arra, hogy a szoftver megakadályozza, hogy az alkatrész a nyomtatólemezzel érintkezzen. Az egyetlen trükk az, hogy esetleg hozzá kell adni egy kezdő alkatrészt, majd társítani kell az új alkatrészt, hogy a lemez tetejére helyezze. De nem lehet a lemez alatt.
 

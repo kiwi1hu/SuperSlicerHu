@@ -107,7 +107,7 @@ Először válasszon ki egy modellt a 3D nézetben. Ezután a felső eszköztár
 
 ![V&#xE1;ltoz&#xF3; r&#xE9;tegmagass&#xE1;g](../.gitbook/assets/top_toolbar_009k.gif)
 
-                                                                                [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/top_toolbar_009.gif)\*\*\*\*
+                                                                                [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/top_toolbar_009.gif?raw=true)\*\*\*\*
 
 **Alkalmazkodó \(Adaptív\)**
 
