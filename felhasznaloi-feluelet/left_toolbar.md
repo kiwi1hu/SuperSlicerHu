@@ -94,13 +94,13 @@ Az eszköz a bal oldali eszköztáron érhető el, és **csak a Haladó és a Sz
 
 **Jobb egérgomb** - Támasztékok blokkolása
 
-**Shift** + **bal egérgomb** - Kijelölés törlése
+**`Shift`** + **bal egérgomb** - Kijelölés törlése
 
-**Alt** + **Egérkerék** - Ecsetméret módosítása
+**`Alt`** + **Egérkerék** - Ecsetméret módosítása
 
 ![Festett t&#xE1;maszt&#xE9;kok](../.gitbook/assets/left_toolbar_008k.gif)
 
-                                                                                 [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_008.gif?raw=true)\*\*\*\*
+                                                                                 [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/left_toolbar_008.gif?raw=true)\*\*\*\*
 
 ### Támaszték generálása
 
@@ -108,7 +108,7 @@ Az eszköz a bal oldali eszköztáron érhető el, és **csak a Haladó és a Sz
 
 #### Támasztékok kikényszerítése
 
-Ha manuálisan határozza meg a támaszték mezöket, célszerűbb a támasztékokat **Csak a támasztékok kikényszerítői** beállításra módosítani.
+Ha manuálisan határozza meg a támaszték mezőket, célszerűbb a támasztékokat **Csak a támasztékok kikényszerítői** beállításra módosítani.
 
 Természetesen a támaszokat **Mindenhol** vagy **Csak az építőlemezről** is beállíthatja, és a támaszték kényszerítőkkel további megtámasztandó területeket is megjelölhet. Ez a második felhasználási eset akkor hasznos, ha a **Túlnyúlás küszöbérték**et nagyon alacsonyra állítja, így csak a nagyon meredek túlnyúlások kapnak automatikusan generált támaszokat
 
@@ -120,7 +120,9 @@ Ha támaszték blokkolókat használ, akkor a támasztékokat csak a **Mindenhol
 
 Nagyon összetett modellek esetén előfordulhat, hogy egyszerre szeretne kényszerítő és blokkoló támasztékokat használni. Ebben az esetben állítsd be a támaszokat a **Mindenhol** vagy **Csak az építőlemezről**. Blokkolókkal blokkolhat néhány automatikusan generált támasztékot, ugyanakkor kényszerítőkkel jelölheti azokat a területeket, amelyek nem kaptak automatikus támasztékot,
 
+{% hint style="warning" %}
 **FONTOS MEGJEGYZÉS:** Ha a festett terület nagyon kicsi, akkor a kiválasztás nem lesz teljes mértékben betartva. Maga a támaszgenerátor belsőleg rácshálóval dolgozik, így a támogatott/nem támogatott területek nem végtelenül részletesek.
+{% endhint %}
 
 ### Kurzor típusa
 
@@ -140,15 +142,15 @@ A vágási sík eszközzel elrejtheti az objektum egy részét, így a nehezen h
 
 ![Ir&#xE1;ny vissza&#xE1;ll&#xED;t&#xE1;sa](../.gitbook/assets/left_toolbar_010.jpg)
 
-Irány visszaállítása gombbal a vágási sík eszközt az aktuális kameranézettel párhuzamosan igazíthatja. Ha például azt szeretné, hogy a vágási sík fel-le mozogjon, nézze a modellt felülről \( Fenti kép\), és nyomja meg a **Irány visszaállítása** gombot. A gomb akkor jelenik meg, ha a csúszkát bármilyen nem nulla értékre mozgatja.
+Irány visszaállítása gombbal a vágási sík eszközt az aktuális kameranézettel párhuzamosan igazíthatja. Ha például azt szeretné, hogy a vágási sík fel-le mozogjon, nézze a modellt felülről , és nyomja meg a **Irány visszaállítása** gombot. A gomb akkor jelenik meg, ha a csúszkát bármilyen nem nulla értékre mozgatja.
 
 ### Automatikus szögbeállítás
 
-A _**Automatikus szögbeállítás**_ gomb kiválasztja az összes olyan háromszöget, amely "vízszintesebb", mint a küszöbérték. Alapértelmezettként használható a későbbi kézi szerkesztéshez, hogy biztosítsa, hogy nem maradnak alátámasztatlanul túlnyúlások. Egy másik felhasználási lehetőség, hogy egyszerűen előnézetben megnézzük a túlnyúlásokat, és eldöntjük, hogy hol akarjuk a merevítőket festeni. A túlnyúló háromszögek **valós időben** jelennek meg a küszöbérték beállításakor.
+Az _**Automatikus szögbeállítás**_ gomb kiválasztja az összes olyan háromszöget, amely "vízszintesebb", mint a küszöbérték. Alapértelmezettként használható a későbbi kézi szerkesztéshez, hogy biztosítsa, hogy nem maradnak alátámasztatlanul túlnyúlások. Egy másik felhasználási lehetőség, hogy egyszerűen előnézetben megnézzük a túlnyúlásokat, és eldöntjük, hogy hova akarjuk a támasztékokat festeni. A túlnyúló háromszögek **valós időben** jelennek meg a küszöbérték beállításakor.
 
 ![Automatikus sz&#xF6;gbe&#xE1;ll&#xED;t&#xE1;s](../.gitbook/assets/left_toolbar_011k.gif)
 
-                                                                              ****[**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_011.gif?raw=true)\*\*\*\*
+                                                                              ****[**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/left_toolbar_011.gif?raw=true)\*\*\*\*
 
 ### Visszavonás és újra
 
@@ -168,7 +170,7 @@ Ez az eszköz a **SuperSlicer 2.3**-as és újabb verziójában érhető el.
 
 Hacsak nem "spirálváza" üzemmódban nyomtat, a kerület minden egyes hurokjának el kell kezdődnie és véget kell érnie valahol. A nyomtatónak egy rövid időre le kell állnia az extrudálással, amikor a nyomtatófej a következő rétegre lép. Ez a kezdő- és végpont egy potenciálisan látható **függőleges varratot** hoz létre az objektum oldalán. Ezt általában pattanásoknak, rétegvarratoknak vagy hegeknek nevezik.
 
-A nyomtatási beállításokban beállíthatja a varrat pozícióját, hogy megpróbálja elrejteni a varrást egy sarokban, véletlenszerűvé teheti a varrat pozícióját, vagy a sablon hátuljához igazíthatja.
+A nyomtatási beállításokban beállíthatja a varrat pozícióját, hogy megpróbálja elrejteni a varrást egy sarokban, véletlenszerűvé teheti a varrat pozícióját, vagy a modell hátuljához igazíthatja.
 
 A varratfestő eszközzel részletesebben szabályozhatja a varrat elhelyezését. Az eszköz a bal oldali eszköztárból érhető el, és csak a **haladó** és **szakértői** üzemmódban jelenik meg. Az ikonra kattintás után a felhasználó a a támaszokhoz hasonlóan "varratkikényszerítőket" vagy "varratblokkolókat" festhet a modellre.
 
@@ -178,19 +180,19 @@ A varratfestő eszközzel részletesebben szabályozhatja a varrat elhelyezésé
 
 **Jobb egérgomb** - Varrat blokkolása
 
-**Shift** + **bal egérgomb** - Kijelölés törlése
+**`Shift`**+ **bal egérgomb** - Kijelölés törlése
 
-**Alt** + **egérkerék** - Ecsetméret módosítása
+**`Alt`**+ **egérkerék** - Ecsetméret módosítása
 
 ![Varratfest&#xE9;s funkci&#xF3;](../.gitbook/assets/left_toolbar_012.jpg)
 
 ### A varrat elhelyezési logikája
 
-Ha van varráskényszerítő, akkor a varrattokat mindig a kényszerítő területre helyezi.
+Ha van varráskényszerítő, akkor a varratokat mindig a kényszerítő területre helyezi.
 
 Ha van blokkoló, akkor a területet kizárja a lehetséges varratjelöltek közül
 
-A legközelebbi varrás, a hátsó varrás és a véletlenszerű varrás helyzeti beállításait mindig tiszteletben tartja. Ha az Igazított opció aktív, és kényszerítőket használ, a varrat a **megszabott terület közepén** helyezkedik el. Ez lehetővé teszi, hogy tiszta varrattokat rajzoljon a modellre.
+A legközelebbi varrás, a hátsó varrás és a véletlenszerű varrás helyzeti beállításait mindig tiszteletben tartja. Ha az Igazított opció aktív, és kényszerítőket használ, a varrat a **megszabott terület közepén** helyezkedik el. Ez lehetővé teszi, hogy tiszta varratokat rajzoljon a modellre.
 
 ### A kurzor típusa
 
@@ -210,7 +212,7 @@ A vágási sík eszközzel elrejtheti az objektum egy részét, így a nehezen e
 
 ![Ir&#xE1;ny vissza&#xE1;ll&#xED;t&#xE1;sa](../.gitbook/assets/left_toolbar_010.jpg)
 
-A **Irány visszaállítása** gomb a vágási síkszerszámot az aktuális kameranézettel párhuzamosan igazítja. Ha például azt szeretné, hogy a vágási sík felülről lefelé mozogjon, nézze meg a felső modellt \(**Felső kép**\), és nyomja meg az **Irány visszaállítása** gombot. A gomb akkor jelenik meg, ha a kurzort egy nem nulla értékre mozgatja.
+A **Irány visszaállítása** gomb a vágási síkszerszámot az aktuális kameranézettel párhuzamosan igazítja. Ha például azt szeretné, hogy a vágási sík felülről lefelé mozogjon, nézze meg a felső modellt \(Felső kép\), és nyomja meg az **Irány visszaállítása** gombot. A gomb akkor jelenik meg, ha a kurzort egy nem nulla értékre mozgatja.
 
 ### A varrat igazítása
 
@@ -220,5 +222,5 @@ A varrás a festett területen lesz elhelyezve, de ha azt szeretné, hogy a varr
 
 ![A varr&#xE1;s ter&#xFC;let&#xE9;nek meghat&#xE1;roz&#xE1;sa \(5axes gif\)](../.gitbook/assets/left_toolbar_014k.gif)
 
-                                                                             [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/left_toolbar_014.gif?raw=true)\*\*\*\*
+                                                                             [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/left_toolbar_014.gif?raw=true)\*\*\*\*
 

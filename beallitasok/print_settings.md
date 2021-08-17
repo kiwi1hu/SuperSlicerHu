@@ -24,7 +24,7 @@ Egy hengert hoz létre egyetlen folyamatos körvonallal, fokozatosan növelve a 
 
 Ha bármit nyomtat, aminek egyetlen kerületű fala van, mindig van egy kis hiba, ahol a nyomtató a következő rétegre lép. Ez a pont, ahol a nyomtató megáll és befejezi a kerületet, megemeli a Z magasságot a rétegmagassággal és új kerületet kezd, egy csúnya “heget” hoz létre, amely a modell oldalán fut végig. Ez a heg egyben a nyomtatás gyenge pontja is.
 
-A spirálváza nem rendelkezik ezzel a hibával, kivéve az első N alsó teljes réteget. Ehelyett a magasság fokozatosan növekszik, amíg el nem éri a nyomtatás tetejét.
+A spirálváza nem rendelkezik ezzel a hibával, kivéve az első **X** alsó teljes réteget. Ehelyett a magasság fokozatosan növekszik, amíg el nem éri a nyomtatás tetejét.
 
 Ha a váza üzemmód engedélyezve van, a SuperSlicer automatikusan beállítja a kapcsolódó paramétereket:
 
@@ -60,13 +60,15 @@ Ahhoz, hogy megértsük, hogyan számolják ki ezt a számot, meg kell néznünk
 
 _\(A kép forrás:_ [https://manual.slic3r.org/advanced/flow-math](https://manual.slic3r.org/advanced/flow-math) _\)_
 
-Most adjunk hozzá egy második extrúziót/kerületet. Ha feltételezzük, hogy nincs átfedés \(érintő pályák\), akkor üres tér lenne \(sárga\). Az üres tér kitöltése és a kerületeket összekötése érdekében a SuperSlicer kissé átfedi a kerületeket. Lényegében ezért nem lehet egyszerűen megszorozni a kerületszámot egyetlen kerület szélességével, hogy megkapjuk az ideális falvastagságot.
+Most adjunk hozzá egy második extrudálási keresztmetszetet. Ha feltételezzük, hogy nincs átfedés \(érintő pályák\), akkor üres tér lenne \(sárga\). Az üres tér kitöltése és a kerületeket összekötése érdekében a SuperSlicer kissé átfedi a kerületeket. Lényegében ezért nem lehet egyszerűen megszorozni a kerületszámot egyetlen kerület szélességével, hogy megkapjuk az ideális falvastagságot.
 
 ![&#xC1;tfed&#x151; ker&#xFC;letek](../.gitbook/assets/print_settings_006.png)
 
 _\(A kép forrása :_ [https://manual.slic3r.org/advanced/flow-math](https://manual.slic3r.org/advanced/flow-math)_\)_
 
-> Ne feledje, hogy a számítás során a rétegmagasságot \(h\) használják, és ennek következménye van - ha megváltoztatja a rétegmagasságot, akkor az ideális falvastagság is változik!
+{% hint style="warning" %}
+Ne feledje, hogy a számítás során a rétegmagasságot \(h\) használják, és ennek következménye van - ha megváltoztatja a rétegmagasságot, akkor az ideális falvastagság is változik!
+{% endhint %}
 
 További információért nézze meg a [Slic3r áramlásának matematikája oldalát](https://manual.slic3r.org/advanced/flow-math) \(ennek a szövegnek egyes részei arról az oldalról származik\).
 
@@ -104,7 +106,7 @@ Lehetőség, hogy csak egy kerületet használjon a sík felső felületeken, ho
 
 Egy örökölt lehetőség, amely tudomásunk szerint már nem sok mindenre használható. Szóljon nekünk, ha talál olyan esetet, ahol ez különbséget jelent.
 
-Elméletileg ez a lehetőség lehetővé teszi, hogy szükség esetén több kerületet adjon hozzá a lejtős falakon lévő lyukak elkerülése érdekében. A Slic3r addig növeli a kerületeket, amíg a közvetlenül felette lévő kerület több mint 70%-át nem támasztják.
+Elméletileg ez a lehetőség lehetővé teszi, hogy szükség esetén több kerületet adjon hozzá a lejtős falakon lévő lyukak elkerülése érdekében. A S_uperSlicer_ addig növeli a kerületeket, amíg a közvetlenül felette lévő kerület több mint 70%-át nem támasztják.
 
 #### _Függőleges héjvastagságának biztosítása_
 
@@ -122,7 +124,7 @@ Optimalizálja az utazást a kerületek keresztezésének minimalizálása érde
 
 #### Kerülje a határkerületek keresztezését - Maximális kerülőút hossza
 
-Ez a paraméter akkor aktív, ha a **Kerülje a határok keresztezését** opció aktív. A kerülőút maximális hosszát jelzi, hogy elkerülhető legyen a keresztezés. Ha a kerülőút hosszabb ennél az értéknél, a Kerülje a kerülőutak keresztezését opció nem alkalmazható erre az útvonalra. A kerülőút hossza megadható abszolút értékként vagy a közvetlen utazási útvonal százalékában \(pl. 50%\).
+Ez a paraméter akkor aktív, ha a **Kerülje a határok keresztezését** opció aktív. A kerülőút maximális hosszát jelzi, hogy elkerülhető legyen a keresztezés. Ha a kerülőút hosszabb ennél az értéknél, a Kerülje a határkerületek keresztezését opció nem alkalmazható erre az útvonalra. A kerülőút hossza megadható abszolút értékként vagy a közvetlen utazási útvonal százalékában \(pl. 50%\).
 
 #### _Vékony falak_
 
@@ -158,17 +160,21 @@ A hidakra vonatkozó áramlási arány beállításához lásd a [Áramlási ar�
 
 Egy extrudálás minimális nem alátámasztott szélessége a híd ventilátor és a túlnyúlás sebességének az adott túlnyúlásra történő alkalmazásához.
 
-> A fúvókaátmérő mm-ben vagy %-ban adható meg.
->
-> _**A kikapcsoláshoz állítsa 0-ra.**_
+{% hint style="info" %}
+ A fúvókaátmérő mm-ben vagy %-ban adható meg. 
+
+**A kikapcsoláshoz állítsa 0-ra.**
+{% endhint %}
 
 #### _A hídáramlás küszöbértéke_
 
 Egy extrudálás minimális nem alátámasztott szélessége ahhoz, hogy az adott túlnyúlásra hídáramlást lehessen alkalmazni.
 
-> A fúvókaátmérő mm-ben vagy %-ban adható meg.
->
-> _**A letiltáshoz állítsa 0-ra.**_
+{% hint style="info" %}
+ A fúvókaátmérő mm-ben vagy %-ban adható meg. 
+
+**A kikapcsoláshoz állítsa 0-ra.**
+{% endhint %}
 
 #### _Extrudálási irány_
 
@@ -176,13 +182,17 @@ Egy extrudálás minimális nem alátámasztott szélessége ahhoz, hogy az adot
 
 Extrudálja a kerületeket, amelyek egy része túlnyúlik az ellenkező irányba, páratlan rétegekben. Ez a váltakozó mintázat nagymértékben javíthatja a meredek túlnyúlásokat.
 
+{% hint style="danger" %}
 !!! Ez az algoritmus nagyon lassú \(ugyanazokat az eredményeket használja, mint az extra\_perimeters\_overhangs\)!!!
+{% endhint %}
 
 **Fordított küszöbérték**
 
 Az a mm-szám, amennyinek a túlnyúlásnak lennie kell ahhoz, hogy az átfordítás használható legyen.
 
-> A kerület szélességének %-ában határozható meg.
+{% hint style="info" %}
+A kerület szélességének %-ában határozható meg
+{% endhint %}
 
 ### Haladó
 
@@ -238,7 +248,9 @@ Hátrányok \(-\): nehéz nyomtatni.
 
 Ez a paraméter a falak közötti hézagkitöltő extrudálás létrehozásához szükséges minimális mm²-t jelenti.
 
-> Meghatározható a \(kerület szélességének\) százalékaként.
+{% hint style="info" %}
+Meghatározható a \(kerület szélességének\) százalékaként.
+{% endhint %}
 
 #### _Varrás helyzete_
 
@@ -329,7 +341,7 @@ Ezzel a beállítással a belső kerület megkerüli a hegyes sarkokat, és ahel
 ![](../.gitbook/assets/print_settings_030.jpeg)
 {% endtab %}
 
-{% tab title="kerekített sarkok opció bekapcsolva" %}
+{% tab title="Kerekített sarkok opció bekapcsolva" %}
 ![](../.gitbook/assets/print_settings_031.jpeg)
 {% endtab %}
 {% endtabs %}

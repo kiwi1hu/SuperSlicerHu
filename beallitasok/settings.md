@@ -7,7 +7,7 @@ A **Konfiguráció - Beállítások** menü lehetővé teszi a szoftver beállí
 ![&#xC1;ltal&#xE1;nos be&#xE1;ll&#xED;t&#xE1;sok](../.gitbook/assets/settings_001.png)
 
 A Beállítások ablakot a Konfiguráció - Beállítások menüpont kiválasztásával  
-vagy a **Ctrl + P** gombokkal.
+vagy a **`Ctrl`+ `P`** gombokkal.
 
 ### Általános
 
@@ -17,15 +17,15 @@ Ha ez engedélyezve van, a SuperSlicer az utolsó kimeneti könyvtárat fogja me
 
 #### Automatikusan központosítja az objektumokat
 
-Ha ez be van kapcsolva, a SuperSlicer automatikusan a nyomtatási tálca közepe köré központosítja az objektumokat.
+Ha ez be van kapcsolva, a SuperSlicer automatikusan a nyomtatólemez közepe köré központosítja az objektumokat.
 
 #### Háttérfeldolgozás
 
-Alapértelmezés szerint a G-kód generálása akkor kezdődik, amikor a felhasználó a Szeletelés most gombra kattint, vagy közvetlenül az előnézetre váltás után. Ha a háttérfeldolgozás engedélyezve van, a G-kód a sablonok betöltése után azonnal generálódik. Ezért a G-kód előnézet, valamint a becsült nyomtatási idő a legtöbb esetben azonnal megjeleníthető, miután az előnézetre váltott.
+Alapértelmezés szerint a G-kód generálása akkor kezdődik, amikor a felhasználó a **Szeletelés most** gombra kattint, vagy közvetlenül az előnézetre váltás után. Ha a háttérfeldolgozás engedélyezve van, a G-kód a modell betöltése után azonnal generálódik. Ezért a G-kód előnézet, valamint a becsült nyomtatási idő a legtöbb esetben azonnal megjeleníthető, miután az előnézetre váltott.
 
-A háttérben történő feldolgozás különösen hasznos, ha a program ide-oda mozog a paraméterek és a G-kód előnézetben \(pl. a médiaparaméterek beállításakor\).
+A háttérben történő feldolgozás különösen hasznos, ha a program ide-oda mozog a paraméterek és a G-kód előnézetben \(pl. a paraméterek beállításakor\).
 
-Amikor a táblán változást észlelünk \(pl. egy modell áthelyezése, egy modell másolatának létrehozása\), a G-kód megfelelő része a háttérben frissülni kezd. Kérjük, vegye figyelembe, hogy a Slic3r PE néhány régebbi verziójával ellentétben a háttérfeldolgozás most intelligensebb, és nem generálja újra a teljes G-kódot, ami számításigényes lenne. Csak a felhasználói művelet által érvénytelenített szeletelési lépések kerülnek újraszámításra.
+Amikor a nyomtatólemezen változást észlelünk \(pl. egy modell áthelyezése, egy modell másolatának létrehozása\), a G-kód megfelelő része a háttérben frissülni kezd. Kérjük, vegye figyelembe, hogy a Slic3r PE néhány régebbi verziójával ellentétben a háttérfeldolgozás most intelligensebb, és nem generálja újra a teljes G-kódot, ami számításigényes lenne. Csak a felhasználói művelet által érvénytelenített szeletelési lépések kerülnek újraszámításra.
 
 Ne feledje, hogy régebbi, kisebb teljesítményű eszközökön a háttérben történő feldolgozás engedélyezése összességében kevésbé zökkenőmentes élményt eredményezhet.
 
@@ -41,7 +41,7 @@ Ha engedélyezve van, és a SuperSlicer új, [stabil verzió](https://github.com
 
 Ha engedélyezve van, lehetővé teszi, hogy a Újratöltés lemezről parancs automatikusan megkeresse és betöltse a fájlokat.
 
-Miért van alapértelmezés szerint letiltva a teljes elérési útvonal rögzítése?
+**Miért van alapértelmezés szerint letiltva a teljes elérési útvonal rögzítése?**
 
 A 3MF formátum lényegében egy zip-archívum, amely ember által olvasható XML-fájlokat, egy miniatűr képet és néhány egyéb fájlt tartalmaz. A 3MF fájlformátum egyik előnye, hogy az XML fájlok ember által olvashatóak. Bizonyos esetekben azonban előfordulhat, hogy nem szeretné felfedni a modellfájlok helyét, például: `C:\MyCompanyName\MySecretProjectName\friend_name_gift.stl`
 
@@ -57,7 +57,7 @@ Ha engedélyezve van, a SuperSlicer lesz az alapértelmezett alkalmazás a .stl 
 
 Ha engedélyezve van, a SuperSlicer a háttérben letölti a beépített rendszerbe épített alapbeállítások \(nyomtatási, szál- és nyomtatóprofilok\) frissítéseit. \(nyomtatási, szál- és nyomtatóprofilok\) a háttérben. Ezek a frissítések letöltése egy külön ideiglenes könyvtárban. Ha új előbeállítás-frissítés érhető el, a következő indításkor az alkalmazás felajánlja azt.
 
-A SuperSlicer **SOHA** nem törli a felhasználó által létrehozott profilokat. Ezenkívül egy teljes pillanatfelvétel minden egyes előbeállítás frissítésénél az összes előbeállításra vonatkozóan.
+A SuperSlicer **SOHA** nem törli a felhasználó által létrehozott profilokat. Ezenkívül készül egy teljes pillanatfelvétel minden egyes előbeállítás frissítésénél az összes előbeállításra vonatkozóan.
 
 **Pillanatkép helye**
 
@@ -75,7 +75,7 @@ Törölje az “- alapértelmezett -” előbeállításokat a Nyomtatás / Szá
 
 #### A nem kompatibilis nyomtatási és szálkészletek megjelenítése
 
-jelölve, a nyomtató és a szálak előbeállításai akkor is láthatóak az előbeállításszerkesztőben, ha a használt nyomtatóval nem kompatibilisek.
+Ha engedélyezve van, a nyomtató és a szálak előbeállításai akkor is láthatóak az előbeállítás szerkesztőben, ha a használt nyomtatóval nem kompatibilisek.
 
 #### A fő felhasználói felület mindig szakértői módban van
 
@@ -83,7 +83,7 @@ Ha engedélyezve van, a felület akkor is szakértői módban lesz, ha az egysze
 
 #### A projekt elküldéséhez szükséges párbeszédpanel megjelenítése
 
-Ha ez a négyzet be van jelölve, akkor egy fájlprojekt alkalmazáson történő áthúzásakor egy párbeszédpanel jelenik meg, amely a betöltendő fájlon végrehajtandó művelet kiválasztását kéri.
+Ha ez a négyzet be van jelölve, akkor egy fájlprojekt alkalmazáson történő átvitelkor egy párbeszédpanel jelenik meg, amely a betöltendő fájlon végrehajtandó művelet kiválasztását kéri.
 
 #### Csak egyetlen SuperSlicer példány engedélyezése
 
@@ -101,7 +101,7 @@ Az alkalmazás bezárásakor mindig kérdezzen rá a nem mentett változtatások
 
 Amikor új projektet hoz létre, a program megtartja az aktuális előbeállítás állapotát, és nem nyitja meg az előbeállítás módosítása párbeszédpanelt.
 
-#### Nem mentett projektmódosítások lekérdezése
+#### Nem mentett projektmódosítások kérdezése
 
 Mindig kérdezze meg, hogy szeretné-e menteni a projekt módosítását, ha elveszítené néhány változtatást. Különben alapértelmezés szerint eldobja őket.
 
@@ -119,7 +119,7 @@ Válassza ki a kezdőképernyőként használni kívánt képet.
 
 #### A 3DConnexion eszközök támogatásának engedélyezése.
 
-Ha engedélyezve van, a 3DConnection eszközök konfigurálására szolgáló párbeszédpanel elérhetővé válik, ha megnyomja a **Ctrl + M** gombokat.
+Ha engedélyezve van, a 3DConnection eszközök konfigurálására szolgáló párbeszédpanel elérhetővé válik, ha megnyomja a **`Ctrl` + `M`** gombokat.
 
 ![3Dconnexion SpaceMouse](../.gitbook/assets/settings_002.jpg)
 
@@ -141,7 +141,7 @@ Ha engedélyezve van, a perspektivikus kamerát használja. Ha nincs engedélyez
 
 ### Perspektivikus kamera / ortografikus kamera
 
-A perspektivikus és ortografikus kamera között gyorsan válthat a **K** billentyűvel vagy a felső eszköztáron a **Konfiguráció - Beállítások - Perspektivikus kamera használata** jelölőnégyzet bejelölésével. Mindkét kamerának megvannak a maga előnyei, és előnyös, ha az aktuális igényektől függően váltogat közöttük.
+A perspektivikus és ortografikus kamera között gyorsan válthat a **`K`** billentyűvel vagy a felső eszköztáron a **Konfiguráció - Beállítások - Perspektivikus kamera használata** jelölőnégyzet bejelölésével. Mindkét kamerának megvannak a maga előnyei, és előnyös, ha az aktuális igényektől függően váltogat közöttük.
 
 ![Perspektivikus n&#xE9;zet / Ortogr&#xE1;fia](../.gitbook/assets/settings_004.jpg)
 
@@ -183,7 +183,7 @@ Ha engedélyezve van, a beállítások lapjain a konfigurációs paraméterek le
 
 #### Egyéni méret használata az eszköztár ikonjaihoz
 
-Ha engedélyezve van, az eszköztár ikonjainak méretét manuálisan is módosíthatja.
+Ha engedélyezve van, az eszköztár ikonjainak méretét manuálisan is módosíthatja. 
 
 Ha az opció aktiválva van, egy vezérlősáv lehetővé teszi az ikonok méretének beállítását.
 
@@ -197,7 +197,7 @@ Ez az opció lehetővé teszi, hogy a szeletelés számításának megkezdéseko
 
 _**Normál elrendezés a fülekkel**_ : az összes ablak az alkalmazásban van, mindegyik kiválasztható egy lapon.
 
-Amit a legpraktikusabbnak találok.
+Amit a legpraktikusabbnak találunk.
 
 ![Lapoz&#xF3;s&#xE1;v](../.gitbook/assets/settings_008.jpg)
 
