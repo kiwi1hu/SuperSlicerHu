@@ -1,14 +1,14 @@
 # A SuperSlicer célja
 
-**SuperSlicer** a PrusaSlicer \(amely a slic3r egy változata\) \(korábban Slic3r++\) egy változata.
+**SuperSlicer** a PrusaSlicer \(amely a slic3r egy változata\(korábban Slic3r++\)\) egy változata.
 
-A Windows, Linux és macOS előre lefordított 64 bites változatai a [git kiadások oldal](https://github.com/supermerill/SuperSlicer/releases) oldalon érhetőek el. A Linux és macOS verziók nem teszteltek, csak lefordítottak, ezért kérjük, jelezzétek az esetlegesen a használat során felmerülő hibákat. Az éjszakai buildek elérhetőek a [git műveletek oldal](https://github.com/supermerill/SuperSlicer/actions) oldalon. Kattints a platformodnak megfelelő verzióra, majd a jobb felső sarokban a 'Artifacts \(1\)' gombra.
+A Windows, Linux és macOS előre lefordított 64 bites változatai a [git kiadások oldal](https://github.com/supermerill/SuperSlicer/releases) oldalon érhetőek el. A Linux és macOS verziók nem teszteltek, csak lefordítottak, ezért kérjük, jelezzék az esetlegesen a használat során felmerülő hibákat. Az éjszakai buildek elérhetőek a [git műveletek oldal](https://github.com/supermerill/SuperSlicer/actions) oldalon. Kattintson a platformjának megfelelő verzióra, majd a jobb felső sarokban a 'Artifacts \(1\)' gombra.
 
 A SuperSlicer 3D modelleket \(STL, OBJ, AMF\) fogad el, és G-kód utasításokká alakítja át FFF nyomtatókhoz vagy PNG rétegekké SLA 3D nyomtatókhoz. Kompatibilis az összes modern RepRap alapú nyomtatóval, amelyek Marlin, Prusa, Klipper stb. alapú firmware-t használnak.
 
-A SuperSlicer a Prusa Research által készített [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer/issues/2729) alapján készült. A PrusaSlicer az Alessandro Ranellucci és a RepRap közösség által készített \[Slic3r\]-en \([https://github.com/Slic3r/Slic3r](https://github.com/Slic3r/Slic3r)\) alapul.
+A SuperSlicer a Prusa Research által készített [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer/issues/2729) alapján készült. A PrusaSlicer az Alessandro Ranellucci és a RepRap közösség által készített [Slic3r](https://github.com/Slic3r/Slic3r)-en  alapul.
 
-A fordítási információkért lásd a [wiki](https://github.com/supermerill/SuperSlicer/wiki) és a [dokumentációs könyvtár](https://github.com/supermerill/SuperSlicer/tree/master/doc).
+A fordítási információkért lásd a [wiki](https://github.com/supermerill/SuperSlicer/wiki) és a [dokumentációs könyvtárat](https://github.com/supermerill/SuperSlicer/tree/master/doc).
 
 ## Melyek a SuperSlicer fő jellemzői? Mik a fő különbségek?
 
@@ -17,10 +17,7 @@ A fordítási információkért lásd a [wiki](https://github.com/supermerill/Su
 * Egy "sűrűbb kitöltés" lehetőség a felső \(tömör\) rétegek alátámasztására.
 * Jobb vékony falak \(a nyomtatás belsejében rögzítve, nincs több véletlenszerű darab a végeken, integrálva a kerületi hurkokba\).
 * Lehetőségek a lyukak méreteinek és/vagy geometriájának módosítására a megfelelő méretű nyomtatáshoz.
-* Jobb túlfolyások \(ha szükséges, adjunk hozzá kerületeket, vágjuk őket az ellenkező 
-
-  irányban ellentétes irányban minden réteghez\).
-
+* Jobb túlfolyások \(ha szükséges, adjunk hozzá kerületeket, szeleteljük őket ellentétes irányban minden rétegnél\).
 * Szélek retusálása: sokkal több lehetőség \(csak belül, csak kívül, “sarkok”,
 
    objektumonként\).
@@ -52,7 +49,7 @@ A főbb jellemzők a következők:
 * Kitöltő rétegek kombinációja minden “n” kerületenként és változó sűrűséggel a nyomtatás felgyorsítása érdekében.
 * _**3D előnézet**_ \(beleértve a több anyagot tartalmazó fájlokat is\).
 * _**Többféle rétegmagasság**_ egy nyomtatásban.
-* Spirálváza mód a domborzat nélküli vázákhoz.
+* Spirálváza mód a varrat nélküli vázákhoz.
 * A sebesség, a gyorsulás és az extrudálás szélességének finom beállítása.
 * Számos kitöltési minta, köztük méhsejtek, spirálok, Hilbert-görbék és gyroidok állnak rendelkezésre.
 * A támasz, a tutaj, a perem és a szoknya geometriája.
@@ -67,13 +64,13 @@ A főbb jellemzők a következők:
 
 Szinte minden C++ nyelven készült.
 
-A szeletelőmotor magja a libslic3r könyvtár, amely önállóan is fejleszthető és használható. A parancssori interfész a libslic3r csomagolása. Letölthet egy előre lefordított csomagot a kiadási oldalról - ez függőségek nélkül is működni fog.
+A szeletelőmotor magja a libslic3r könyvtár, amely önállóan is fejleszthető és használható. A parancssori interfész a libslic3r csomagolása. Letölthet egy előre lefordított csomagot a kiadási oldalról ez függőségek nélkül is működni fog.
 
 ### Segíthetek valamiben?
 
 Hát persze! A következő módon találhatja meg azokat a dolgokat, amelyekben segítségünkre lehet:
 
-* Adjon hozzá egy problémát a [GitHub nyomkövetőhöz](https://github.com/supermerill/SuperSlicer/issues) **ha még nincs ilyen**.
+* Adjon hozzá egy problémát a [GitHub problémakövetőhöz](https://github.com/supermerill/SuperSlicer/issues) **ha még nincs ilyen**.
 
 A javítások és kérelmek elküldése előtt lépjen kapcsolatba velünk \(lehetőleg a GitHubon egy probléma megnyitásával vagy egy meglévő, kapcsolódó probléma kommentálásával\), hogy megbeszéljük a javasolt változtatásokat. Így biztosíthatjuk, hogy senki sem vesztegeti az idejét, és nem merülnek fel konfliktusok a fejlesztés során.
 

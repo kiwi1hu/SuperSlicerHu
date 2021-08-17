@@ -76,9 +76,9 @@ Jobb egérgomb **Mozgatás**
 
 Egérkerék, **I** nagyítás, **O** kicsinyítés
 
-**B** **Nagyítás a teljes nyomtatólemezre**
+**`B`** **Nagyítás a teljes nyomtatólemezre**
 
-**Z** **Nagyítás a kijelölt objektumokra vagy az összes objektumra, ha egyik sincs kijelölve.**
+**`Z`** **Nagyítás a kijelölt objektumokra vagy az összes objektumra, ha egyik sincs kijelölve.**
 
 **0** **Izometrikus nézet**
 
