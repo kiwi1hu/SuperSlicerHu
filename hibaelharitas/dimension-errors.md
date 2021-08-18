@@ -1,6 +1,6 @@
 # Dimenzió hibák
 
-Ha nem elégedett a nyomatok méretpontosságával, először győződjön meg arról, hogy a **firmware** helyesen van-e konfigurálva: az **X, Y és Z** tengelyek **lépés/mm** értékeit a szíjak, csigák és csavarok alapján kell kiszámítani. Ne próbálkozzon a kalibrálással próbálgatással: ezeknek az értékeknek pontosnak kell lenniük. Használja Josef Prusa eszközét [Kalkulátor](http://calculator.josefprusa.cz).
+Ha nem elégedett a nyomatok méretpontosságával, először győződjön meg arról, hogy a **firmware** helyesen van-e konfigurálva: az **X, Y és Z** tengelyek **lépés/mm** értékeit a szíjak, csigák és csavarok alapján kell kiszámítani. Ne próbálkozzon a kalibrálással próbálgatással: ezeknek az értékeknek pontosnak kell lenniük. Használja Josef Prusa eszközét: [Kalkulátor](http://calculator.josefprusa.cz).
 
 ## Függőleges méretek
 

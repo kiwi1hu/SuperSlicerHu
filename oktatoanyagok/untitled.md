@@ -27,7 +27,9 @@ Valójában, ha csökkenti az anyagáramlást, akkor bizonyos mértékig kisebb 
 
 Kezdjük tehát a meghatározással:
 
-> Az extrudálási szélesség a szabad levegőben vagy egy felület felett extrudált **egyetlen szál vastagsága**. Ez **nem** két szomszédos útvonal távolsága, mivel a jobb kötés érdekében általában némi átfedést alkalmaznak.
+{% hint style="info" %}
+ Az extrudálási szélesség a levegőben vagy egy felület felett extrudált **egyetlen szál vastagsága**. Ez **nem** két szomszédos útvonal távolsága, mivel a jobb kötés érdekében általában némi átfedést alkalmaznak
+{% endhint %}
 
 ## Hidak: az egyszerű eset
 
@@ -79,7 +81,7 @@ Az ideális átfedés valami ilyesmi lenne:
 0 < overlap_factor*void_area < void_area
 ```
 
-Az overlap\_factor \(átfedési tényező\) értéke 0 és 1 között mozog. Az overlap\_factor azt jelzi, hogy mennyi üres tér marad az extrúziók között. Ezt a mennyiséget nehéz megbecsülni, mivel valószínűleg a műanyag viszkozitásától, az extrudálási sebességtől és a hőmérséklettől is függ. Korábban több értéket is kipróbáltunk az overlap\_factor értékére, de egyes felhasználók még mindig túl ritkás pályákat jelentettek. Jelenleg az 1 értéket használják, hogy garantálják, hogy a hiba \(ami mindig jelen van\) teljes mértékben a bőséges extrudálás, és nem az anyaghiány oldalán van.
+Az `overlap_factor` \(átfedési tényező\) értéke 0 és 1 között mozog. Az `overlap_factor` azt jelzi, hogy mennyi üres tér marad az extrúziók között. Ezt a mennyiséget nehéz megbecsülni, mivel valószínűleg a műanyag viszkozitásától, az extrudálási sebességtől és a hőmérséklettől is függ. Korábban több értéket is kipróbáltunk az `overlap_factor` értékére, de egyes felhasználók még mindig túl ritkás pályákat jelentettek. Jelenleg az 1 értéket használják, hogy garantálják, hogy a hiba \(ami mindig jelen van\) teljes mértékben a bőséges extrudálás, és nem az anyaghiány oldalán van.
 
 Az útvonaltávolság tehát:
 
@@ -91,7 +93,7 @@ spacing = extrusion_width - layer_height * (1 - PI/4)
 
 A SuperSlicer lehetővé teszi a felhasználók számára, hogy manuálisan határozzák meg az extrudálás szélességét az egyes extrudálási típusokhoz \(peremek, kitöltés, tartóanyag stb.\), de ha nem adnak meg egyéni értékeket, akkor az alapértelmezett értékeket számítja ki.
 
-A kerületek **legkülső hurkához** \(más néven külső kerület\) a Slic3r alapértelmezés szerint **vékony extrudálási szélességet** használ, ami egyenlő a \`nozzle\_diameter  _1,05\`\`\(fúvóka átmérő\). Ezt tekintjük a legvékonyabb biztonságos extrudálási szélességnek. A vékony extrudálási szélesség \*jobb pontosságot_ biztosít a tárgy alakjához, és minimalizálja a szabálytalan szálak okozta áramlási hibákat.
+A kerületek **legkülső hurkához** \(más néven külső kerület\) a Slic3r alapértelmezés szerint **vékony extrudálási szélességet** használ, ami egyenlő a \``nozzle_diameter`  _1,05\`\`\(fúvóka átmérő\). Ezt tekintjük a legvékonyabb biztonságos extrudálási szélességnek. A vékony extrudálási szélesség \*jobb pontosságot_ biztosít a tárgy alakjához, és minimalizálja a szabálytalan szálak okozta áramlási hibákat.
 
 Az extrudálási szélességet más dolgok esetében úgy számítják ki, hogy megkapják a konfigurált fúvókaátmérő keresztmetszeti területét, majd kiszámítják az adott anyagmennyiség extrudálásával előállított extrudálási szélességet. Más szóval, az áramlási sebesség és a fejsebesség összehangolásával. Ennek a logikának az a célja, hogy megtalálja azt a " natív" áramlást, amely minimalizálja az extrudálás során fellépő oldalerőket. Az ilyen kiszámított extrudálást a `nozzle_diameter * 1,7` \(fúvóka átmérő\) maximális értékre korlátozza, kivéve a belső ritkás kitöltés esetén, ahol a teljes natív áramlás kerül alkalmazásra.
 
