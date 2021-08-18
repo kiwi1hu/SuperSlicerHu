@@ -5,6 +5,8 @@ order: 8
 
 # SuperSlicer változók listája
 
+## SuperSlicer változók listája
+
 Ezen az oldalon a SuperSlicer változók listáját találja, amelyek a G-kód egyéni beállításaiban használhatók.
 
 Egyszerre több változót is használhat, például :
@@ -21,9 +23,9 @@ M109 T1 S190
 
 Ne feledje, hogy a SuperSlicer GUI-ban szereplő értékeket használja, és nem azokat, amelyeket a firmware elvár. Ez különösen igaz például azokra a sebességekre, amelyek a szeletelő interfészeken mm/s-ban vannak megadva, míg a G-kód fájlokban általában m/min-ben vannak megadva.
 
-## Leghasznosabb változók
+### Leghasznosabb változók
 
-[bed\_temperature](variable_list/bed_temperature.md)
+[bed\_temperature](bed_temperature.md)
 
 ```text
 M140 S[bed_temperature]
@@ -31,7 +33,7 @@ M140 S[bed_temperature]
 
 megjegyzés: Mindig az extruder\_0-ba töltött szál értékét veszi fel.
 
-[current\_extruder](current_extruder.md)
+[current\_extruder](current_extruder)
 
 ```text
 M104 S[first_layer_temperature[current_extruder]]
@@ -39,13 +41,13 @@ M104 S[first_layer_temperature[current_extruder]]
 
 megjegyzés: ez nem fog működni az indító G-kódban, mert a \[current\_extruder\] hely az utoljára használt extruder számával van kitöltve, ami az indításkor még nincs beállítva, és véletlenszerű más, esetleg nyomtatandó alkatrészek számára.
 
-[first\_layer\_temperature](first_layer_temperature.md)
+[first\_layer\_temperature](first_layer_temperature)
 
 ```text
 M104 S[first_layer_temperature_0] M104 S[first_layer_temperature[next_extruder]]
 ```
 
-[first\_layer\_bed\_temperature](first_layer_bed_temperature.md)
+[first\_layer\_bed\_temperature](first_layer_bed_temperature)
 
 ```text
 M140 S[first_layer_bed_temperature]
@@ -53,25 +55,25 @@ M140 S[first_layer_bed_temperature]
 
 megjegyzés: Mindig az extruder\_0-ba töltött szál értékét veszi fel.
 
-[layer\_num](layer_num.md)
+[layer\_num](layer_num)
 
 ```text
 M117 printing layer [layer_num]
 ```
 
-[layer\_z](layer_z.md)
+[layer\_z](layer_z)
 
 ```text
 M117 printing layer [layer_num] at [layer_z]mm
 ```
 
-[total\_layer\_count](total_layer_count.md)
+[total\_layer\_count](total_layer_count)
 
 ```text
 M117 printing layer {layer_num+1}/[total_layer_count]
 ```
 
-[next\_extruder](next_extruder.md)
+[next\_extruder](next_extruder)
 
 ```text
 M104 S[first_layer_temperature[next_extruder]]
@@ -79,7 +81,7 @@ M104 S[first_layer_temperature[next_extruder]]
 
 Megjegyzés: ez csak az eszközváltás G-kódjában működik.
 
-[previous\_extruder](previous_extruder.md)
+[previous\_extruder](previous_extruder)
 
 ```text
 M104 S[first_layer_temperature[previous_extruder]]
@@ -87,105 +89,105 @@ M104 S[first_layer_temperature[previous_extruder]]
 
 Megjegyzés: ez csak az eszközváltás G-kódjában működik.
 
-[temperature](temperature.md)
+[temperature](temperature)
 
 ```text
 M109 S[temperature_0] M109 S[temperature[previous_extruder]]
 ```
 
-[extrusion\_role](extrusion_role.md)
+[extrusion\_role](extrusion_role)
 
-## További változók a kimeneti fájlnév formátumban
+### További változók a kimeneti fájlnév formátumban
 
-* [print\_time](print_time.md)
-* [normal\_print\_time](normal_print_time.md)
-* [silent\_print\_time](silent_print_time.md)
-* [used\_filament](used_filament.md)
-* [extruded\_volume](extruded_volume.md)
-* [total\_cost](total_cost.md)
-* [total\_weight](total_weight.md)
-* [total\_wipe\_tower\_cost](total_wipe_tower_cost.md)
-* [total\_wipe\_tower\_filament](total_wipe_tower_filament.md)
+* [print\_time](print_time)
+* [normal\_print\_time](normal_print_time)
+* [silent\_print\_time](silent_print_time)
+* [used\_filament](used_filament)
+* [extruded\_volume](extruded_volume)
+* [total\_cost](total_cost)
+* [total\_weight](total_weight)
+* [total\_wipe\_tower\_cost](total_wipe_tower_cost)
+* [total\_wipe\_tower\_filament](total_wipe_tower_filament)
 
-## Kevésbé hasznos változók
+### Kevésbé hasznos változók
 
-* [printer\_technology](printer_technology.md)
-* [layer\_height](layer_height.md)
-* [initial\_layer\_height](initial_layer_height.md)
-* [max\_print\_height](max_print_height.md)
-* [preset\_name](preset_name.md)
+* [printer\_technology](printer_technology)
+* [layer\_height](layer_height)
+* [initial\_layer\_height](initial_layer_height)
+* [max\_print\_height](max_print_height)
+* [preset\_name](preset_name)
 
-## Nyomtatóágy
+### Nyomtatóágy
 
-* [bed\_shape](bed_shape.md)
-* [bed\_custom\_texture](bed_custom_texture.md)
-* [bed\_custom\_Modell](bed_custom_model.md)
-* [bed\_texture](bed_texture.md)
-* [bed\_Módl](bed_Módl.md)
+* [bed\_shape](bed_shape)
+* [bed\_custom\_texture](bed_custom_texture)
+* [bed\_custom\_model](bed_custom_model)
+* [bed\_texture](bed_texture)
+* [bed\_model](bed_model)
 
-## Miniatűrök
+### Miniatűrök
 
-* [thumbnails](thumbnails.md)
+* [thumbnails](thumbnails)
 * [thumbnails\_color](thumbnails_color.md)
-* [thumbnails\_color\_int](thumbnails_color_int.md)
-* [thumbnails\_custom\_color](thumbnails_custom_color.md)
-* [thumbnails\_with\_bed](thumbnails_with_bed.md)
-* [thumbnails\_with\_support](thumbnails_with_support.md)
+* [thumbnails\_color\_int](thumbnails_color_int)
+* [thumbnails\_custom\_color](thumbnails_custom_color)
+* [thumbnails\_with\_bed](thumbnails_with_bed)
+* [thumbnails\_with\_support](thumbnails_with_support)
 
-## Printhost
+### Printhost
 
-* [print\_host](print_host.md)
-* [printhost\_apikey](printhost_apikey.md)
-* [printhost\_port](printhost_port.md)
-* [printhost\_cafile](printhost_cafile.md)
-* [printhost\_user](printhost_user.md)
-* [printhost\_password](printhost_password.md)
-* [printhost\_authorization\_type](printhost_authorization_type.md)
-* [allow\_empty\_layers](allow_empty_layers.md)
-* [before\_layer\_gcode](before_layer_gcode.md)
-* [between\_objects\_gcode](between_objects_gcode.md)
-* [bottom\_solid\_layers](bottom_solid_layers.md)
-* [bottom\_solid\_min\_thickness](bottom_solid_min_thickness.md)
-* [bridge\_acceleration](bridge_acceleration.md)
-* [bridge\_angle](bridge_angle.md)
-* [bridge\_fan\_speed](bridge_fan_speed.md)
-* [top\_fan\_speed](top_fan_speed.md)
-* [bridge\_flow\_ratio](bridge_flow_ratio.md)
-* [over\_bridge\_flow\_ratio](over_bridge_flow_ratio.md)
-* [bridge\_overlap](bridge_overlap.md)
-* [bridge\_speed](bridge_speed.md)
-* [bridge\_speed\_internal](bridge_speed_internal.md)
-* [brim\_inside\_holes](brim_inside_holes.md)
-* [brim\_width](brim_width.md)
-* [brim\_width\_interior](brim_width_interior.md)
-* [brim\_ears](brim_ears.md)
-* [brim\_ears\_max\_angle](brim_ears_max_angle.md)
-* [brim\_ears\_pattern](brim_ears_pattern.md)
-* [brim\_offset](brim_offset.md)
-* [chamber\_temperature](chamber_temperature.md)
-* [clip\_multipart\_objects](clip_multipart_objects.md)
-* [colorprint\_heights](colorprint_heights.md)
-* [compatible\_printers](compatible_printers.md)
-* [compatible\_printers\_condition](compatible_printers_condition.md)
-* [compatible\_prints](compatible_prints.md)
-* [compatible\_prints\_condition](compatible_prints_condition.md)
-* [compatible\_printers\_condition\_cummulative](compatible_printers_condition_cummulative.md)
-* [compatible\_prints\_condition\_cummulative](compatible_prints_condition_cummulative.md)
-* [complete\_objects](complete_objects.md)
-* [complete\_objects\_one\_skirt](complete_objects_one_skirt.md)
-* [complete\_objects\_sort](complete_objects_sort.md)
-* [cooling](cooling.md)
-* [cooling\_tube\_retraction](cooling_tube_retraction.md)
-* [cooling\_tube\_length](cooling_tube_length.md)
-* [default\_acceleration](default_acceleration.md)
-* [default\_filament\_profile](default_filament_profile.md)
-* [default\_print\_profile](default_print_profile.md)
-* [disable\_fan\_first\_layers](disable_fan_first_layers.md)
-* [duplicate\_distance](duplicate_distance.md)
-* [end\_gcode](end_gcode.md)
+* [print\_host](print_host)
+* [printhost\_apikey](printhost_apikey)
+* [printhost\_port](printhost_port)
+* [printhost\_cafile](printhost_cafile)
+* [printhost\_user](printhost_user)
+* [printhost\_password](printhost_password)
+* [printhost\_authorization\_type](printhost_authorization_type)
+* [allow\_empty\_layers](allow_empty_layers)
+* [before\_layer\_gcode](before_layer_gcode)
+* [between\_objects\_gcode](between_objects_gcode)
+* [bottom\_solid\_layers](bottom_solid_layers)
+* [bottom\_solid\_min\_thickness](bottom_solid_min_thickness)
+* [bridge\_acceleration](bridge_acceleration)
+* [bridge\_angle](bridge_angle)
+* [bridge\_fan\_speed](bridge_fan_speed)
+* [top\_fan\_speed](top_fan_speed)
+* [bridge\_flow\_ratio](bridge_flow_ratio)
+* [over\_bridge\_flow\_ratio](over_bridge_flow_ratio)
+* [bridge\_overlap](bridge_overlap)
+* [bridge\_speed](bridge_speed)
+* [bridge\_speed\_internal](bridge_speed_internal)
+* [brim\_inside\_holes](brim_inside_holes)
+* [brim\_width](brim_width)
+* [brim\_width\_interior](brim_width_interior)
+* [brim\_ears](brim_ears)
+* [brim\_ears\_max\_angle](brim_ears_max_angle)
+* [brim\_ears\_pattern](brim_ears_pattern)
+* [brim\_offset](brim_offset)
+* [chamber\_temperature](chamber_temperature)
+* [clip\_multipart\_objects](clip_multipart_objects)
+* [colorprint\_heights](colorprint_heights)
+* [compatible\_printers](compatible_printers)
+* [compatible\_printers\_condition](compatible_printers_condition)
+* [compatible\_prints](compatible_prints)
+* [compatible\_prints\_condition](compatible_prints_condition)
+* [compatible\_printers\_condition\_cummulative](compatible_printers_condition_cummulative)
+* [compatible\_prints\_condition\_cummulative](compatible_prints_condition_cummulative)
+* [complete\_objects](complete_objects)
+* [complete\_objects\_one\_skirt](complete_objects_one_skirt)
+* [complete\_objects\_sort](complete_objects_sort)
+* [cooling](cooling)
+* [cooling\_tube\_retraction](cooling_tube_retraction)
+* [cooling\_tube\_length](cooling_tube_length)
+* [default\_acceleration](default_acceleration)
+* [default\_filament\_profile](default_filament_profile)
+* [default\_print\_profile](default_print_profile)
+* [disable\_fan\_first\_layers](disable_fan_first_layers)
+* [duplicate\_distance](duplicate_distance)
+* [end\_gcode](end_gcode)
 * [end\_filament\_gcode](end_filament_gcode.md)
 * [ensure\_vertical\_shell\_thickness](ensure_vertical_shell_thickness.md)
-* [top\_fill\_pattern](top_fill_pattern.md)
+* [top\_fill\_pattern]()
 * [bottom\_fill\_pattern](bottom_fill_pattern.md)
 * [solid\_fill\_pattern](solid_fill_pattern.md)
 * [enforce\_full\_fill\_volume](enforce_full_fill_volume.md)
@@ -206,9 +208,9 @@ M109 S[temperature_0] M109 S[temperature[previous_extruder]]
 * [perimeter\_loop\_seam](perimeter_loop_seam.md)
 * [extra\_perimeters](extra_perimeters.md)
 
-## Kerület és héj
+### Kerület és héj
 
-### Minőség
+#### Minőség
 
 * [only\_one\_perimeter\_top](only_one_perimeter_top.md)
 * [min\_width\_top\_surface](min_width_top_surface.md)
@@ -216,7 +218,10 @@ M109 S[temperature_0] M109 S[temperature[previous_extruder]]
 * [extra\_perimeters\_odd\_layers](extra_perimeters_odd_layers.md)
 * [avoid\_crossing\_perimeters](avoid_crossing_perimeters.md)
 * [avoid\_crossing\_not\_first\_layer](avoid_crossing_not_first_layer.md)
-* [avoid\_crossing\_perimeters\_max\_detours](avoid_crossing_perimeters_max_detours.md)
+* [avoid\_crossing\_perimeters\_max\_detours](avoid_crossing_perimeters_max_detour.md)
+
+## Extruder
+
 * [extruder](extruder.md)
 * [extruder\_clearance\_height](extruder_clearance_height.md)
 * [extruder\_clearance\_radius](extruder_clearance_radius.md)
@@ -248,7 +253,7 @@ M109 S[temperature_0] M109 S[temperature[previous_extruder]]
 * [filament\_dip\_insertion\_speed](filament_dip_insertion_speed.md)
 * [filament\_dip\_extraction\_speed](filament_dip_extraction_speed.md)
 * [filament\_toolchange\_temp](filament_toolchange_temp.md)
-* [filament\_skinnydip\_distance](layefilament_skinnydip_distancer_height.md)
+* [filament\_skinnydip\_distance](filament_skinnydip_distance.md)
 * [filament\_loading\_speed\_start](filament_loading_speed_start.md)
 * [filament\_unloading\_speed](filament_unloading_speed.md)
 * [filament\_unloading\_speed\_start](filament_unloading_speed_start.md)
@@ -293,7 +298,7 @@ M109 S[temperature_0] M109 S[temperature[previous_extruder]]
 * [first\_layer\_bed\_temperature](first_layer_bed_temperature.md)
 * [first\_layer\_extrusion\_width](first_layer_extrusion_width.md)
 * [first\_layer\_height](first_layer_height.md)
-* [first\_layer\_speed](first_layer_speed.md)
+* [first\_layer\_speed]()
 * [first\_layer\_infill\_speed](first_layer_infill_speed.md)
 * [first\_layer\_temperature](first_layer_temperature.md)
 * [full\_fan\_speed\_layer](full_fan_speed_layer.md)
@@ -327,11 +332,11 @@ M109 S[temperature_0] M109 S[temperature[previous_extruder]]
 * [layer\_gcode](layer_gcode.md)
 * [feature\_gcode](feature_gcode.md)
 * [exact\_last\_layer\_height](exact_last_layer_height.md)
-* [remaining\_times](layerremaining_times_height.md)
-* [silent\_Mód](silent_Mód.md)
+* [remaining\_times](remaining_times.md)
+* [silent\_Mod](silent_mode.md)
 * [fan\_speedup\_time](fan_speedup_time.md)
 * [fan\_speedup\_overhangs](fan_speedup_overhangs.md)
-* [fan\_kickstart](fan_kickstart.md)
+* [fan\_kickstart]()
 * [machine\_limits\_usage](machine_limits_usage.md)
 * [machine\_min\_extruding\_rate](machine_min_extruding_rate.md)
 * [machine\_min\_travel\_rate](machine_min_travel_rate.md)
@@ -390,24 +395,24 @@ Ez a kitöltött tényleges értéket \(mm/sec\) fogja mutatni, nem pedig a mm/p
 
 * [perimeters](perimeters.md)
 * [post\_process](post_process.md)
-* [printer\_Módl](printer_Módl.md)
+* [printer\_model](printer_model.md)
 * [printer\_notes](printer_notes.md)
-* [printer\_vendor](printer_vendor.md)
+* [printer\_vendor]()
 * [printer\_variant](printer_variant.md)
 * [print\_settings\_id](print_settings_id.md)
 
-### Szeletelési pontosság
+#### Szeletelési pontosság
 
 * [resolution](resolution.md)
-* [Módl\_precision](Módl_precision.md)
+* [model\_precision](model_precision.md)
 * [slice\_closing\_radius](slice_closing_radius.md)
 
-### Támaszok és tutajok
+#### Támaszok és tutajok
 
 * [support\_material\_solid\_first\_layer](support_material_solid_first_layer.md)
 * [raft\_layers](raft_layers.md)
 
-### Támaszok és tutajok
+#### Támaszok és tutajok
 
 * [retract\_before\_travel](retract_before_travel.md)
 * [retract\_before\_wipe](retract_before_wipe.md)
@@ -439,7 +444,7 @@ Ez a kitöltött tényleges értéket \(mm/sec\) fogja mutatni, nem pedig a mm/p
 * [small\_perimeter\_min\_length](small_perimeter_min_length.md)
 * [small\_perimeter\_max\_length](small_perimeter_max_length.md)
 
-### Rétegek módosítása
+#### Rétegek módosítása
 
 * [curve\_smoothing\_angle\_convex](curve_smoothing_angle_convex.md)
 * [curve\_smoothing\_angle\_concave](curve_smoothing_angle_concave.md)
@@ -455,8 +460,8 @@ Ez a kitöltött tényleges értéket \(mm/sec\) fogja mutatni, nem pedig a mm/p
 * [spiral\_vase](spiral_vase.md)
 * [standby\_temperature\_delta](standby_temperature_delta.md)
 * [start\_gcode](start_gcode.md)
-* [start\_filament\_gcode](start_filament_gcode.md)
-* [color\_change\_gcode](color_change_gcode.md)
+* [start\_filament\_gcode]()
+* [color\_change\_gcode]()
 * [pause\_print\_gcode](pause_print_gcode.md)
 * [template\_custom\_gcode](template_custom_gcode.md)
 * [single\_extruder\_multi\_material](single_extruder_multi_material.md)
@@ -483,7 +488,7 @@ Ez a kitöltött tényleges értéket \(mm/sec\) fogja mutatni, nem pedig a mm/p
 * [support\_material\_spacing](support_material_spacing.md)
 * [support\_material\_speed](support_material_speed.md)
 * [support\_material\_synchronize\_layers](support_material_synchronize_layers.md)
-* [support\_material\_threshold](support_material_threshold.md)
+* [support\_material\_threshold]()
 * [support\_material\_with\_sheath](support_material_with_sheath.md)
 * [dont\_support\_bridges](dont_support_bridges.md)
 * [temperature](temperature.md)
@@ -510,7 +515,7 @@ Ez a kitöltött tényleges értéket \(mm/sec\) fogja mutatni, nem pedig a mm/p
 * [use\_volumetric\_e](use_volumetric_e.md)
 * [variable\_layer\_height](variable_layer_height.md)
 
-### Tisztítótorony
+#### Tisztítótorony
 
 * [wipe](wipe.md)
 * [wipe\_tower](wipe_tower.md)
@@ -531,7 +536,7 @@ Ez a kitöltött tényleges értéket \(mm/sec\) fogja mutatni, nem pedig a mm/p
 * [wipe\_extra\_perimeter](wipe_extra_perimeter.md)
 * [wipe\_tower\_bridging](wipe_tower_bridging.md)
 
-### Méretkompenzáció
+#### Méretkompenzáció
 
 * [xy\_size\_compensation](xy_size_compensation.md)
 * [xy\_inner\_size\_compensation](xy_inner_size_compensation.md)
@@ -541,7 +546,7 @@ Ez a kitöltött tényleges értéket \(mm/sec\) fogja mutatni, nem pedig a mm/p
 * [z\_offset](z_offset.md)
 * [z\_step](z_step.md)
 
-### Marás
+#### Marás
 
 * [milling\_cutter](milling_cutter.md)
 * [milling\_diameter](milling_diameter.md)
@@ -568,7 +573,7 @@ Ez a kitöltött tényleges értéket \(mm/sec\) fogja mutatni, nem pedig a mm/p
 * [absolute\_correction](absolute_correction.md)
 * [elephant\_foot\_min\_width](elephant_foot_min_width.md)
 
-### SLA paraméterek
+#### SLA paraméterek
 
 * [gamma\_correction](gamma_correction.md)
 * [material\_type](material_type.md)
@@ -583,15 +588,15 @@ Ez a kitöltött tényleges értéket \(mm/sec\) fogja mutatni, nem pedig a mm/p
 * [initial\_exposure\_time](initial_exposure_time.md)
 * [min\_initial\_exposure\_time](min_initial_exposure_time.md)
 * [max\_initial\_exposure\_time](max_initial_exposure_time.md)
-* [material\_correction](material_correction.md)
+* [material\_correction]()
 * [material\_notes](material_notes.md)
 * [material\_vendor](material_vendor.md)
 * [default\_sla\_material\_profile](default_sla_material_profile.md)
-* [sla\_material\_settings\_id](sla_material_settings_id.md)
+* [sla\_material\_settings\_id]()
 * [default\_sla\_print\_profile](default_sla_print_profile.md)
 * [sla\_print\_settings\_id](sla_print_settings_id.md)
 
-### SLA támaszték és bázis
+#### SLA támaszték és bázis
 
 * [supports\_enable](supports_enable.md)
 * [support\_head\_front\_diameter](support_head_front_diameter.md)
@@ -600,7 +605,7 @@ Ez a kitöltött tényleges értéket \(mm/sec\) fogja mutatni, nem pedig a mm/p
 * [support\_pillar\_diameter](layer_height.md)
 * [support\_small\_pillar\_diameter\_percent](support_small_pillar_diameter_percent.md)
 * [support\_max\_bridges\_on\_pillar](support_max_bridges_on_pillar.md)
-* [support\_pillar\_connection\_Mód](support_pillar_connection_Mód.md)
+* [support\_pillar\_connection\_mode](support_pillar_connection_mode.md)
 * [support\_buildplate\_only](support_buildplate_only.md)
 * [support\_pillar\_widening\_factor](support_pillar_widening_factor.md)
 * [support\_base\_diameter](support_base_diameter.md)
@@ -625,14 +630,14 @@ Ez a kitöltött tényleges értéket \(mm/sec\) fogja mutatni, nem pedig a mm/p
 * [pad\_object\_connector\_width](pad_object_connector_width.md)
 * [pad\_object\_connector\_penetration](pad_object_connector_penetration.md)
 
-### Természetesen SLA
+#### Természetesen SLA
 
 * [hollowing\_enable](hollowing_enable.md)
 * [hollowing\_min\_thickness](hollowing_min_thickness.md)
 * [hollowing\_quality](hollowing_quality.md)
 * [hollowing\_closing\_distance](hollowing_closing_distance.md)
 
-### Változó nem hozzáférhető
+#### Változó nem hozzáférhető
 
-[export\_obj](export_obj.md) [export\_svg](export_svg.md) [export\_sla](export_sla.md) [export\_3mf](export_3mf.md) [export\_amf](export_amf.md) [export\_stl](export_stl.md) [export\_gcode](export_gcode.md) [gcodeviewer](laygcodeviewerer_height.md) [slice](slice.md) [help](help.md) [help\_fff](help_fff.md) [help\_sla](help_sla.md) [info](info.md) [save](save.md) [align\_xy](align_xy.md) [cut](cut.md) [cut\_grid](cut_grid.md) [cut\_x](cut_x.md) [cut\_y](cut_y.md) [center](center.md) [dont\_arrange](dont_arrange.md) [duplicate](duplicate.md) [duplicate\_grid](duplicate_grid.md) [merge](merge.md) [repair](repair.md) [rotate](rotate.md) [rotate\_x](rotate_x.md) [rotate\_y](rotate_y.md) [scale](scale.md) [split](split.md) [scale\_to\_fit](scale_to_fit.md) [ignore\_nonexistent\_config](ignore_nonexistent_config.md) [load](load.md) [output](output.md) [single\_instance](single_instance.md) [autosave](autosave.md) [datadir](datadir.md) [loglevel](loglevel.md) [sw\_renderer](sw_renderer.md)
+[export\_obj](export_obj.md) [export\_svg](export_svg.md) [export\_sla](export_sla.md) [export\_3mf](export_3mf.md) [export\_amf](export_amf.md) [export\_stl](export_stl.md) [export\_gcode](export_gcode.md) [gcodeviewer](laygcodeviewerer_height.md) [slice](slice.md) [help](help.md) [help\_fff](help_fff.md) [help\_sla](help_sla.md) [info](info.md) [save](save.md) [align\_xy](align_xy.md) [cut](cut.md) [cut\_grid](cut_grid.md) [cut\_x](cut_x.md) [cut\_y](cut_y.md) [center](center.md) [dont\_arrange](dont_arrange.md) [duplicate](duplicate.md) [duplicate\_grid](duplicate_grid.md) [merge](merge.md) [repair](repair.md) [rotate](rotate.md) [rotate\_x](rotate_x.md) [rotate\_y](rotate_y.md) [scale](scale.md) [split](split.md) [scale\_to\_fit](scale_to_fit.md) [ignore\_nonexistent\_config](ignore_nonexistent_config.md) [load](load.md) [output](output.md) [single\_instance](single_instance.md) [autosave](autosave.md) [datadir](datadir.md) [loglevel](loglevel.md) [sw\_renderer]()
 
