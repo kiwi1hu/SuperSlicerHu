@@ -6,7 +6,9 @@ A SuperSlicer támogatja az egyéni textúrákat és nyomtatólemez mintákat **
 
 Egyéni mintát vagy textúrát a **Nyomtatóbeállítások - Általános \(méret és koordináták\) - Ágy formája - Beállítás** menüpont kiválasztásával rendelhet hozzá.
 
-> A kiválasztott fájlok teljes elérési útvonalát az `bed_custom_texture` és az `bed_custom_model` nyomtatási profilváltozók tárolják.
+{% hint style="info" %}
+A kiválasztott fájlok teljes elérési útvonalát az `bed_custom_texture` és az `bed_custom_model` nyomtatási profilváltozók tárolják.
+{% endhint %}
 
 ### SVG textúrák exportálása Adobe Illustratorból
 
@@ -60,7 +62,9 @@ Ez az érték hozzáadódik \(vagy kivonásra kerül\) a kimeneti G-kódban szer
 
 Vegye figyelembe, hogy a G-kód 6 számjegyű z-értékeket ír ki a pont után, ha a z\_step be van kapcsolva \(3 számjegyű, ha ki van kapcsolva\).
 
-> A letiltáshoz állítsa 0-ra.
+{% hint style="info" %}
+A letiltáshoz állítsa 0-ra
+{% endhint %}
 
 ### Lehetőségek
 
@@ -112,7 +116,9 @@ Beállítja a pont utáni számjegyek számát a **XYZ** koordináták és az **
 
 Gyorsítási idő: Lehetővé teszi, hogy a ventilátor indítása legalább ennyi idővel \(másodpercben, tizedesjegyeket is használhat\) korábban kezdődjön. Ehhez az időbecsléshez végtelen gyorsulást feltételez, és csak a G1 és G0 elmozdulásokat veszi figyelembe.
 
-> A kikapcsoláshoz használja a 0 értéket.
+{% hint style="info" %}
+A kikapcsoláshoz használja a 0 értéket.
+{% endhint %}
 
 A _**Csak a túlnyúlásoknál**_ opció csak a túlnyúlások hűtésének késleltetését veszi figyelembe.
 
@@ -120,7 +126,9 @@ A _**Csak a túlnyúlásoknál**_ opció csak a túlnyúlások hűtésének kés
 
 Adjon hozzá egy M106 S255-öt \(maximális ventilátorsebesség\) erre a másodpercszámra, mielőtt a kívánt sebességre váltana a hűtőventilátor indításához.
 
-> A letiltáshoz állítsa 0-ra.
+{% hint style="info" %}
+A letiltáshoz állítsa 0-ra
+{% endhint %}
 
 #### _Ventilátor PWM 0-100 között._
 
@@ -164,7 +172,9 @@ Ez a kísérleti függvény lineáris milliméter helyett köbmilliméterben adj
 
 A túl sok kis mozgatási parancs túlterhelheti a firmware-t/kapcsolatot. Ha furcsa lassulást észlel a nyomtatónál, állítson be itt magasabb értéket.
 
-> Állítsa 0-ra a minimális extrudálási hossz kezelésének teljes kikapcsolásához.
+{% hint style="info" %}
+Állítsa 0-ra a minimális extrudálási hossz kezelésének teljes kikapcsolásához.
+{% endhint %}
 
 #### _A változó rétegmagasság funkció engedélyezése_
 
@@ -190,7 +200,7 @@ Egy adott szálra vonatkozó beállítások felülbírálására szolgál.
 
 Ha a SuperSlicer érzékeli az M104, M109, M140 vagy M190 parancsokat az egyéni kódokban, ezek a parancsok nem kerülnek automatikusan hozzáadásra, így testre szabhatja a fűtési eljárást és más műveleteket.
 
-Ne feledje, hogy általános változókat használhat az összes SuperSlicer beállításhoz, így bárhová beírhat egy _**M109 S\[first\_layer\_temperature\]**_ parancsot.
+Ne feledje, hogy általános változókat használhat az összes SuperSlicer beállításhoz, így bárhová beírhat egy _**`M109 S[first_layer_temperature]`**_ parancsot.
 
 Ha több extrudere van, a G-kód az extruderek sorrendjében kerül végrehajtásra.
 
@@ -204,13 +214,13 @@ Vegye figyelembe, hogy a SuperSlicer összes paraméteréhez használhat helyett
 
 Ez az egyéni kód minden rétegváltáskor, közvetlenül a Z elmozdulás előtt kerül beillesztésre.
 
-Vegye figyelembe, hogy a SuperSlicer összes beállításához használhat általános változókat, valamint a \[layer\_num\] és \[layer\_z\] értékeket.
+Vegye figyelembe, hogy a SuperSlicer összes beállításához használhat általános változókat, valamint a `layer_num` és `layer_z` értékeket.
 
 #### _G-kód rétegváltás után_
 
 Ez az egyéni kód minden rétegváltásnál beillesztésre kerül, közvetlenül a Z mozgás után, és mielőtt az extruder a következő réteg kezdőpontjára lépne.
 
-Vegye figyelembe, hogy a SuperSlicer összes beállításához használhat általános változókat, valamint a \[layer\_num\] és \[layer\_z\] értékeket.
+Vegye figyelembe, hogy a SuperSlicer összes beállításához használhat általános változókat, valamint a `layer_num` és `layer_z` értékeket.
 
 #### _G-Kód extruder váltáskor_
 
@@ -218,21 +228,23 @@ Ez az egyéni kód minden egyes extruder váltáskor beillesztésre kerül. Ha n
 
 A SuperSlicer nem ad más G-kódot a szálcseréhez.
 
-Használhat helyettesítő változókat az összes SuperSlicer paraméterhez, valamint például a \[previous\_extruder\] és \[next\_extruder\] paraméterekhez.
+Használhat helyettesítő változókat az összes SuperSlicer paraméterhez, valamint például a `previous_extruder` és `next_extruder`paraméterekhez.
 
-A szabványos extruderváltási parancsot a következőképpen írhatjuk le: _T \[next\_extruder\]._
+A szabványos extruderváltási parancsot a következőképpen írhatjuk le: `T [next_extruder]`_._
 
-**!! Figyelmeztetés!!** Ha ide bármilyen karaktert ír, a SuperSlicer nem fog magától fúvókaváltó G-kódot írni.
+{% hint style="warning" %}
+**!! Figyelmeztetés!!** Ha ide bármilyen karaktert ír, a SuperSlicer nem fog magától extruder váltó G-kódot írni.
+{% endhint %}
 
 #### _Objektumok közötti G-kód \(szekvenciális nyomtatáshoz\)._
 
-Ez a kód a szekvenciális\(sorrendi\) nyomtatás használatakor az objektumok közé kerül. Alapértelmezés szerint az extruder és a lemez hőmérséklete visszaáll, és a várakozás nélküli parancsot használja; azonban ha az M104, M109, M140 vagy M190 parancsokat észleli ebben az egyéni kódban, a SuperSlicer nem ad hozzá hőmérséklet-parancsokat. Ne feledje, hogy a SuperSlicer összes beállításához használhat általános változókat, így bárhová beírhat egy "_**M109S\[first\_layer\_temperature\]**_ parancsot."
+Ez a kód a szekvenciális\(sorrendi\) nyomtatás használatakor az objektumok közé kerül. Alapértelmezés szerint az extruder és a lemez hőmérséklete visszaáll, és a várakozás nélküli parancsot használja; azonban ha az M104, M109, M140 vagy M190 parancsokat észleli ebben az egyéni kódban, a SuperSlicer nem ad hozzá hőmérséklet-parancsokat. Ne feledje, hogy a SuperSlicer összes beállításához használhat általános változókat, így bárhová beírhat egy _**`M109S[first_layer_temperature]`**_ parancsot.
 
 #### _Extrudálás típus változás G-kód_
 
 Ez az egyéni kód minden egyes alkalommal beillesztésre kerül, amikor az extrudálás típusa megváltozik.
 
-Vegye figyelembe, hogy az összes SuperSlicer paraméterhez, valamint a \[layer\_num\], \[layer\_z\] és \[extrusion\_role\] paraméterekhez használhat helyettesítő változókat, amelyek ezeket a string értékeket vehetik fel: {Perimeter, ExternalPerimeter, OverhangPerimeter, InternalInfill, SolidInfill, TopSolidInfill, BridgeInfill, GapFill, Skirt, SupportMaterial, SupportMaterialInterface, WipeTower, Mixed}.
+Vegye figyelembe, hogy az összes SuperSlicer paraméterhez, valamint a `layer_num`, `layer_z`\]és`extrusion_role` paraméterekhez használhat helyettesítő változókat, amelyek ezeket a string értékeket vehetik fel: Perimeter, ExternalPerimeter, OverhangPerimeter, InternalInfill, SolidInfill, TopSolidInfill, BridgeInfill, GapFill, Skirt, SupportMaterial, SupportMaterialInterface, WipeTower, Mixed.
 
 A vegyes csak akkor használatos, ha az extrudálás típusa nem egyedi, nem csak egy kategóriába tartozik vagy nem ismert.
 
@@ -259,15 +271,15 @@ Legyen óvatos, még akkor is, ha olyan nyomtatási profilt használ, amely 5000
 
 Példa a határértékeket meghatározó kódra G-kódban :
 
-M201 X500 Y500 Z100 E5000 ; maximális gyorsulást állít be, mm/sec^2
+`M201 X500 Y500 Z100 E5000` ; maximális gyorsulást állít be, mm/sec^2
 
-M203 X500 Y500 Z10 E60 ; sets maximum feedrates, mm/sec
+`M203 X500 Y500 Z10 E60` ; sets maximum feedrates, mm/sec
 
-M204 P500 R1000 T1500 ; beállítja a gyorsulást \(P, T\) és a behúzási gyorsulást \(R\), mm/sec^2
+`M204 P500 R1000 T1500` ; beállítja a gyorsulást \(P, T\) és a behúzási gyorsulást \(R\), mm/sec^2
 
-M205 X8.00 Y8.00 Z0.40 E5.00 ; beállítja a rántás határértékét, mm/sec
+`M205 X8.00 Y8.00 Z0.40 E5.00` ; beállítja a rántás határértékét, mm/sec
 
-M205 S0 T0 ; beállítja a minimális extrudálási és haladási előtolási sebességet, mm/sec
+`M205 S0 T0` ; beállítja a minimális extrudálási és haladási előtolási sebességet, mm/sec
 
 #### _Maximális sebességek_
 
@@ -337,7 +349,7 @@ A SuperSlicer változó rétegmagasságot használ, amely eltér a modell réteg
 
 ![V&#xE1;ltoz&#xF3; r&#xE9;tegmagass&#xE1;g a t&#xE1;maszokhoz](../.gitbook/assets/printer_settings_018.png)
 
-A tartókon lévő rétegmagasságokat a Slicer automatikusan kezeli, és azok nem egyeznek meg az alkatrész rétegmagasságával. Ezért fontos az ezeket a magasságokat szabályozó minimális és maximális rétegmagassági határértékek beállítása.
+A tartókon lévő rétegmagasságokat a SuperSlicer automatikusan kezeli, és azok nem egyeznek meg az alkatrész rétegmagasságával. Ezért fontos az ezeket a magasságokat szabályozó minimális és maximális rétegmagassági határértékek beállítása.
 
 ### Eltolás \(több extruderes nyomtatók esetében\)
 
@@ -349,7 +361,7 @@ Ha a nyomtató firmware-e nem támogatja az extruder eltolását, a G-kódnak ez
 
 #### Extruder hőmérséklet eltolás
 
-Ez az eltolás hozzáadódik a szálbeállításokban beállított extruder hőmérsékletekhez. Ne feledje, hogy az 'M104 S{first\_layer\_temperature\[initial\_extruder\] + extruder\_temperature\_offset\[initial\_extruder\]}' értéket kell beállítania. az 'M104 S\[irst\_layer\_temperature\]' helyett a start\_gcode-ban.
+Ez az eltolás hozzáadódik a szálbeállításokban beállított extruder hőmérsékletekhez. Ne feledje, hogy az '`M104 S{first_layer_temperature[initial_extruder] + extruder_temperature_offset[initial_extruder]}`' értéket kell beállítania. az '`M104 S[irst_layer_temperature]`' helyett a start\_gcode-ban.
 
 #### Extruder ventilátor eltolás
 
@@ -431,8 +443,6 @@ Szálváltás specifikus beállítások.
 
 ![Visszah&#xFA;z&#xE1;s, ha a szersz&#xE1;m ki van kapcsolva](../.gitbook/assets/printer_settings_022.png)
 
-
-
 #### _Hosszúság_
 
 Ha a visszahúzás a szálcsere előtt beindul, a szál a megadott hosszban visszahúzódik \(a hosszúságot a nyers szálon mérik, mielőtt az az extruderbe kerülne\).
@@ -481,17 +491,17 @@ A Z-eltolódások értéke a marási mozgások során.
 
 #### _G-kód a marófejre való váltáshoz_
 
-Tegye ide a szerszámfej cseréjéhez szükséges G-kódot \(a T \[next\_extruder\] G-kód után\). Hozzáférése van a \[next\_extruder\] és \[previous\_extruder\] értékekhez. Next\_extruder az új marószerszám "extruder száma", ez egyenlő a marószerszám indexével \(0-val kezdődően\) és az extruderek számával.
+Tegye ide a szerszámfej cseréjéhez szükséges G-kódot \(a `T [next_extruder]` G-kód után\). Hozzáférése van a `next_extruder` és `previous_extruder` értékekhez. `Next_extruder` az új marószerszám "extruder száma", ez egyenlő a marószerszám indexével \(0-val kezdődően\) és az extruderek számával.
 
-previous\_extruder az előző szerszám "extruder száma", ez lehet egy normál extruder, ha kevesebb, mint az extruderek száma. Az extruder száma a \[extruder\], a marógép száma pedig a \[milling\_cutter\] címen érhető el.
+`previous_extruder` az előző szerszám "extruder száma", ez lehet egy normál extruder, ha kevesebb, mint az extruderek száma. Az extruder száma a `extruder`, a marógép száma pedig a `milling_cutter` címen érhető el.
 
 #### _G-kód a marófej leállításához_
 
 Ide írja be a G-kódot a szerszámfej műveletének befejezéséhez, például az orsó leállításához.
 
-A \[next\_extruder\] és \[previous\_extruder\] értékekhez hozzáférhet. previous\_extruder az aktuális marószerszám "extruder száma", egyenlő a marószerszám indexével \(0-tól kezdődően\) plusz az extruderek számával. next\_extruder a következő szerszám "extruder száma", ez lehet egy normál extruder, ha kevesebb, mint az extruderek száma.
+A `next_extruder` és `previous_extruder` értékekhez hozzáférhet. `previous_extruder` az aktuális marószerszám "extruder száma", egyenlő a marószerszám indexével \(0-tól kezdődően\) plusz az extruderek számával. `next_extruder` a következő szerszám "extruder száma", ez lehet egy normál extruder, ha kevesebb, mint az extruderek száma.
 
-Az extruderek száma az \[extruder\] változóban, a marószerszámok száma pedig a \[milling\_cutter\] változóban érhető el.
+Az extruderek száma az \[extruder\] változóban, a marószerszámok száma pedig a `milling_cutter`\]változóban érhető el.
 
  A marási művelethez kapcsolódó mozgások megjelenítéséhez aktiválnia kell a mozgások megjelenítését a megjelenítési beállítások között:
 
@@ -550,7 +560,7 @@ Az algoritmus által extrudálandó végső térfogat kiszámításához haszná
 Fejlett tisztítási algoritmus.
 
 * _**Lineáris**_ : térfogat = fúvóka + volume\_mult \* \(pigmentAvant-pigmentAfter\)
-* _**Kvadratikus**_ : térfogat = fúvóka + térfogat\_mult \* \(pigmentAvant-pigmentAfter\) + térfogat\_mult \* \(pigmentAvant-pigmentAfter\)^3
+* _**Kvadratikus**_ : térfogat = fúvóka + volume\_mult \* \(pigmentAvant-pigmentAfter\) + volume\_mult \* \(pigmentAvant-pigmentAfter\)^3
 * _**Hiperbola**_ : térfogat = buse + volume\_mult \* \(0.5 + pigmentAvant\) / \(0.5 + pigmentAfter\)
 
 ### Megjegyzések
