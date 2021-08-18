@@ -19,19 +19,19 @@ Győződjön meg róla, hogy a szoftver beállításaiban megadta a **FreeCad** 
 Olyan alapvető primitív objektumokhoz férhet hozzá, mint a kocka és a henger.
 
 ```text
-példa : cylinder(r=5,h=2)
+cylinder(r=5,h=2)
 ```
 
-Elmozdíthatja és elforgathatja őket.
+Elmozdíthatja és elforgathatja őket
 
 ```text
-példa: cylinder(r=5,h=2).rotate(x=90)
+cylinder(r=5,h=2).rotate(x=90)
 ```
 
 Létrehozhatja objektumok egyesítését, metszését és különbségét \(vágását\).
 
 ```text
-példa : cut()( cylinder(r=5,h=2).rotate(x=90), cylinder(r=2,h=2) )
+cut()( cylinder(r=5,h=2).rotate(x=90), cylinder(r=2,h=2) )
 ```
 
 Minden egyesülés, metszés vagy vágás szintén egy objektum.
@@ -79,7 +79,7 @@ cut("my object")( cube(10), cylinder(1,10) )
 
 A súgó a kis ablakban található.
 
-Először is, van automatikus kitöltés, automatikusan vagy a **ctrl+space** billentyűkombinációval.
+Először is, van automatikus kitöltés, automatikusan vagy a **`ctrl`+`space`** billentyűkombinációval.
 
 Másodszor, van egy kis súgóablak, amely megmondja, hogy milyen lehetséges paramétereket adhat meg a függvénybe \(ha van ilyen\). Minden paraméter használható `x=12` formában, de nem kötelező, ha a súgóablakban nincs '=': `cube(size)` azt jelenti, hogy hívhatjuk `cube(10)` vagy `cube(size=10); cylinder(d=,h=)` azt jelenti, hogy csak a `cylinder(d=2,h=3)` formát használhatjuk.
 
@@ -87,10 +87,10 @@ A szkript ablak megpróbálja kijavítani a hibákat, például ha elfelejti a '
 
 ## Gyorsbillentyűk
 
-* **crtl + szóköz**: Automatikus kitöltés
-* **ctrl + escape** : kilépés
-* **ctrl + s**: Gyorsmentés \(ha már mentett/betöltött\)
-* **ctrl + shift + s** : Mentés másként
-* **ctrl + n** : Törölje a címet.
-* **ctrl + g \| F5** : Generálás
+* **`crtl` + `szóköz`**: Automatikus kitöltés
+* **`ctrl` + `escape`** : kilépés
+* **`ctrl` + `S`**: Gyorsmentés \(ha már mentett/betöltött\)
+* **`ctrl` + `shift` + `S`** : Mentés másként
+* **`ctrl` + `N`** : Törölje a címet.
+* **`ctrl` + `G` \| `F5`** : Generálás
 
