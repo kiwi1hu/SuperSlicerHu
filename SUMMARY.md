@@ -17,13 +17,13 @@
 * [Felső eszköztár](felhasznaloi-feluelet/top_toolbar.md)
 * [Bal oldali eszköztár](felhasznaloi-feluelet/left_toolbar.md)
 
-## Beállítások
+## Beállítások <a id="konfig"></a>
 
-* [Szoftver beállítások](beallitasok/settings.md)
-* [Nyomtatási beállítások](beallitasok/print_settings.md)
-* [Szál beállítások](beallitasok/filament_settings.md)
-* [Nyomtató beállítások](beallitasok/printer_settings.md)
-* [SLA nyomtatási beállítások](beallitasok/sla_parameters.md)
+* [Szoftver beállítások](konfig/settings.md)
+* [Nyomtatási beállítások](konfig/print_settings.md)
+* [Szál beállítások](konfig/filament_settings.md)
+* [Nyomtató beállítások](konfig/printer_settings.md)
+* [SLA nyomtatási beállítások](konfig/sla_parameters.md)
 
 ## Egyéb
 

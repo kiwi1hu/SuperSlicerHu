@@ -1,8 +1,8 @@
 # bed\_temperature
 
 * Technológia : FDM
-* Csoport: [Szál beállítások](../../beallitasok/filament_settings.md)
-* Alcsoport : [Nyomtatószál](../../beallitasok/filament_settings.md#nyomtatoszal) - [Hőmérséklet](../../beallitasok/filament_settings.md#homerseklet)
+* Csoport: [Szál beállítások](../../konfig/filament_settings.md)
+* Alcsoport : [Nyomtatószál](../../konfig/filament_settings.md#nyomtatoszal) - [Hőmérséklet](../../konfig/filament_settings.md#homerseklet)
 * Mód : Egyszerű
 
 ## Ágy hőmérséklet \(Egyéb rétegek\)
