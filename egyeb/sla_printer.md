@@ -68,15 +68,17 @@ Kattintson a **Kézzel történő szerkesztés** gombra. A korábban generált t
 
 **Hasznos rövidítések**
 
-**CTRL** + bal egérkattintás **Egyetlen támaszpont hozzáadása a kijelöléshez** **ALT** + bal egérkattintás
+**`Shift`** + bal egérgomb húzás **Több pont hozzáadása a kijelöléshez**
 
-**ALT** + Bal egérkattintás **Egyetlen támaszpont törlése a kijelölésből** **ALT** + Húzás bal egérkattintással
+**`CTRL`** + bal egérgomb kattintás **Egyetlen támaszpont hozzáadása a kijelöléshez**
 
-**ALT** + Bal egérgombos húzás **Másik pont törlése a kijelölésből** **CTRL** + **Egyetlen támpont hozzáadása a kijelöléshez** \*\*CTRL
+**`ALT`** + Bal egérgomb kattintás **Egyetlen támaszpont eltávolítása a kijelölésből**
 
-**CTRL** + **A** **Minden pont kiválasztása** **CTRL** + Kerék
+**`ALT`** + Bal egérgombos húzás **Több támpontpont eltávolítása a kijelölésbő**l
 
-**CTRL** + egérkerék **Vágási sík mozgatása** **CTRL** + egérkerék **Vágási sík mozgatása**
+**`CTRL`** + **`A`** **Minden pont kiválasztása**
+
+**`CTRL`** + egérkerék **Vágási sík mozgatása** 
 
 ## Egy objektum tájolása
 
@@ -94,8 +96,8 @@ A legtöbb esetben az objektumnak egynél több jó orientációja van. Ez álta
 
 Az objektumok tájolásának megváltoztatására 3 eszköz áll rendelkezésre:
 
-* Forgatás eszköz \(**R**\)
-* Helyezze egy síkra eszköz \(**F**\)
+* Forgatás eszköz \(**`R`**\)
+* Helyezze egy síkra eszköz \(**`F`**\)
 * Tájolás optimalizálása eszköz \(jobb egérgombbal kattintva a szövegkörnyezeti menüben\)
 
 ![A Forgat&#xE1;s eszk&#xF6;z \(balra\), az Helyezze egy s&#xED;kra eszk&#xF6;z \(k&#xF6;z&#xE9;pen\) &#xE9;s az T&#xE1;jol&#xE1;s optimaliz&#xE1;l&#xE1;sa eszk&#xF6;z \(jobbra\).](../.gitbook/assets/sla_printerl_009.jpg)
