@@ -86,7 +86,9 @@ Adja meg a száll százalékos zsugorodását a hűtés után \(94%, ha 100mm he
 
 A maximális megengedett sebesség ennél az nyomtatószálnál. A nyomtatás maximális sebességét a nyomtatási sebesség és a szálsebesség minimumára korlátozza.
 
-> Nulla értékre állítva nincs határérték.
+{% hint style="info" %}
+Nulla értékre állítva nincs határérték.
+{% endhint %}
 
 #### _Maximális térfogatsebesség_
 
@@ -100,7 +102,7 @@ Lásd a következő bekezdést: [Maximális térfogatsebesség](print_settings.m
 
 Amint az olvadt műanyag elhagyja a fúvókát, már nem áll az extrudáló rendszer pontos ellenőrzése alatt. Két kérdést kell figyelembe venni:
 
-1. A nyomtatást mindig **megszilárdult** rétegre\*\* kell végezni, különben a korábban extrudált műanyagot az új réteg elmozdítja és deformálja.
+1. A nyomtatást mindig **megszilárdult** rétegre kell végezni, különben a korábban extrudált műanyagot az új réteg elmozdítja és deformálja.
 2. A **túlnyúlások** vagy **hidak** nyomtatásakor fontos, hogy a műanyagot a lehető leghamarabb rögzítsük és megszilárdítsuk a helyén. Ellenkező esetben a nyomtatószál megereszkedik.
 
 A legtöbb 3D nyomtatóhoz **nyomtatóventilátor** tartozik. A környezeti levegőnek az extrudált szálak fölé fújásával a hűtés nagymértékben javítható. Egyes anyagok esetében azonban ez ronthat a helyzeten, és vetemedést vagy rétegleválást okozhat. A SuperSlicer lehetővé teszi a hűtési beállítások beállítását az egyes szálakhoz.
@@ -145,17 +147,23 @@ Megnöveli a ventilátor sebességét a **híd és túlnyúlás** nyomtatásakor
 
 Az opció nem lassítja le a ventilátort, ha az már magasabb fordulatszámon működik.
 
-> A ventilátor kikapcsolásához állítsa 1-re.
->
-> Állítsa az értéket -1-re, hogy a normál ventilátorsebességet használja a hidakon és a túlnyúlásokon.
+{% hint style="info" %}
+A ventilátor kikapcsolásához állítsa 1-re.
+
+Állítsa az értéket -1-re, hogy a normál ventilátorsebességet használja a hidakon és a túlnyúlásokon.
+{% endhint %}
+
+
 
 #### _**A ventilátor sebessége a felső rétegen**_
 
 Ez a ventilátor fordulatszám minden felső rétegnél érvényes.
 
-> A ventilátor kikapcsolásához állítsa 1-re.
->
-> Állítsa az értéket -1-re, hogy a felső rétegeknél a normál ventilátorsebességet használja.
+{% hint style="info" %}
+A ventilátor kikapcsolásához állítsa 1-re.
+
+Állítsa az értéket -1-re, hogy a felső rétegeknél a normál ventilátorsebességet használja.
+{% endhint %}
 
 Csak a disable\_fan\_first\_layers kapcsolóval helyettesíthető.
 
@@ -163,9 +171,11 @@ Csak a disable\_fan\_first\_layers kapcsolóval helyettesíthető.
 
 Ha nem nulla értékre van beállítva, akkor ez a ventilátorsebesség csak a külső \(látható\) kerületekre vonatkozik.
 
-> A ventilátor kikapcsolásához állítsa 1-re.
->
-> Helyezze az értéket -1-re, ha normál ventilátorsebességet szeretne használni a külső kerületeken.
+{% hint style="info" %}
+A ventilátor kikapcsolásához állítsa 1-re.
+
+Állítsa az értéket -1-re, ha normál ventilátorsebességet szeretne használni a külső kerületeken.
+{% endhint %}
 
 A külső kerületeknek előnyös lehet a nagyobb sebességű légáramlás a felületkezelés javítása érdekében, míg a belső kerületeknek, kitöltéseknek stb. előnyös lehet az alacsonyabb légáramlás a rétegtapadás javítása érdekében.
 
@@ -281,7 +291,7 @@ A szálcsere után az éppen betöltött szál pontos helyzete a fúvókában ne
 
 **Maximális sebesség a tisztítótoronyba**
 
-Ez a beállítás a maximális sebesség beállítására szolgál a tisztítótoronyban történő extrudáláskor \(használja az M220-at\). A %-ban állítsa be a 0 értéket a letiltáshoz, és használja helyette a Filament type \(nyomtatószál típus\) értéket. Ha ki van kapcsolva, ezek a nyomtatószál típusok alapértelmezett értéket kapnak:
+Ez a beállítás a maximális sebesség beállítására szolgál a tisztítótoronyban történő extrudáláskor \(használja az M220-at\). A %-ban állítsa be a 0 értéket a letiltáshoz, és használja helyette a Filament\_type \(nyomtatószál típus\) értéket. Ha ki van kapcsolva, ezek a nyomtatószál típusok alapértelmezett értéket kapnak:
 
 * PVA: 80% és 60% között
 * SCAFF: 35%
