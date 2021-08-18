@@ -1,8 +1,8 @@
 # compatible\_prints
 
 * Technológia : FDM
-* Csoport : [Szál beállítások](../filament_settings/filament_settings.md)
-* Alcsoport : [Függőségek](../../konfig/print_settings.md#függőségek) - [Profilfüggőségek](../../konfig/print_settings.md#profilfüggőségek)
+* Csoport : [Szál beállítások](../../konfig/filament_settings.md)
+* Alcsoport : [Függőségek](../../konfig/filament_settings.md#fueggosegek) - [Profilfüggőségek](../../konfig/filament_settings.md#fueggosegek)
 * Mód : Haladó
 
 ## Kompatibilis nyomtatási profilok
@@ -13,5 +13,5 @@ A kompatibilis nyomtatási profilok kiválasztása, amelyekkel a beállítások 
 
 A Minden mező kiválasztása az összeset kijelöli.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

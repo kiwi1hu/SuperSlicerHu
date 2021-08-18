@@ -14,5 +14,5 @@
 
 A hűtőcső középpontjától az extruder csúcsáig mért távolság.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

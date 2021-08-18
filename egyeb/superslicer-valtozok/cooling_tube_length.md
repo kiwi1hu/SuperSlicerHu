@@ -14,5 +14,5 @@
 
 A hűtőcső hossza, hogy korlátozza a benne lévő hűtési mozgások helyét.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 
