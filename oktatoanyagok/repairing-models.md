@@ -2,7 +2,7 @@
 
 ## Modelljavítás a SuperSlicer által
 
-A SuperSlicer kínál egy funkciót az érvénytelen modell javítására.
+A SuperSlicer kínál egy funkciót a hibás modell javítására.
 
 A **File** - **STL fájl javítása** menüpontban a szoftver megkéri, hogy adja meg a javítandó STL fájlt és a célfájlt, amely egy Obj fájl lesz. A javítás után importálhatja az Obj fájlt feldolgozásra.
 
