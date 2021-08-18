@@ -1,6 +1,6 @@
 # SuperSlicer G-code Viewer \(SuperSlicer G-kódnéző\)
 
-A **SuperSlicer G-code Viewer \(SuperSlicer G-kódnéző\)** egy könnyű alkalmazás, amellyel gyorsan megtekintheti az összes népszerű szeletelő G-kódját. A viselkedése megegyezik a SuperSlicer előnézetével \(ugyanazt a kódot használja\), de betölthet egy külső G-kód fájlt.
+A **SuperSlicer G-code Viewer \(SuperSlicer G-kódnéző\)** egy egyszerű alkalmazás, amellyel gyorsan megtekintheti az összes népszerű szeletelő G-kódját. A viselkedése megegyezik a SuperSlicer előnézetével \(ugyanazt a kódot használja\), de betölthet egy külső G-kód fájlt.
 
 ## Támogatott szeletelők
 
