@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtató beállítások](../../konfig/printer_settings.md)
-* Alcsoport : [Általános](../../konfig/printer_settings.md#általános) - [Méret és koordináták](../../konfig/printer_settings.md#méretéskoordináták)
+* Alcsoport : [Általános](../../konfig/printer_settings.md#altalanos) - [Méret és koordináták](../../konfig/printer_settings.md#meret-es-koordinatak)
 * Mód: Haladó
 
 ## Ágy egyedi modell
@@ -11,5 +11,5 @@
 
 Az ágy egyedi modellje.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

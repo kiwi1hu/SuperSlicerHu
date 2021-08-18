@@ -2,12 +2,9 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Kerület és héj](../../beallitasok/print_settings.md#périmètre-et-enveloppe) - [Minőség](../../beallitasok/print_settings.md#qualité)
+* Alcsoport : [Kerület és héj](../../konfig/print_settings.md#kerueletek-es-hej) - [Minőség](../../konfig/print_settings.md#minoseg-lassabb-szeleteles)
 * Mód : Szakértő
-* Mértékegység : mm vagy % \(nulla a letiltáshoz
-
-  \)
-
+* Mértékegység : mm vagy % \(nulla a letiltáshoz\)
 * Minimális érték :  0
 * Alapértelmezett érték : 0.
 
@@ -15,11 +12,11 @@
 
 ### Leírás
 
-A maximális kerülőút hossza a határok keresztezésének elkerülése érdekében. Ha a kerülőút hosszabbak, mint ez az érték, az [Kerülje a határok átlépését](avoid_crossing_perimeters.md) opció nem alkalmazható erre az útvonalra. A terelések hossza megadható abszolút értékként vagy a közvetlen utazási útvonal százalékában \(pl. 50%\).
+A maximális kerülőút hossza a határok keresztezésének elkerülése érdekében. Ha a kerülőút hosszabbak, mint ez az érték, az [avoid\_crossing\_perimeters](avoid_crossing_perimeters.md) opció nem alkalmazható erre az útvonalra. A terelések hossza megadható abszolút értékként vagy a közvetlen utazási útvonal százalékában \(pl. 50%\).
 
-> Mettre à Zéro pour désactiver
+> Nulla értékre állítva letiltja
 
-Paramètre disponible si l'option [avoid\_crossing\_perimeters](avoid_crossing_perimeters.md) est active.
+Ez a beállítás akkor érhető el, ha az [avoid\_crossing\_perimeters](avoid_crossing_perimeters.md) opció aktív.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 
