@@ -56,7 +56,7 @@ Az egyes extruderek színének megváltoztatása nincs valódi hatással a nyomt
 
 ![Az el&#x151;n&#xE9;zeti sz&#xED;n megv&#xE1;ltoztat&#xE1;sa](../.gitbook/assets/multimaterial_006.jpg)
 
-## ColorPrint az MMU segítségével
+## ColorPrint \(többszínű nyomtatás\) az MMU segítségével
 
 A SuperSlicer a következő lehetőségeket támogatja:
 
@@ -122,7 +122,7 @@ Amint a Nyomtató kiválasztása mezőben kiválaszt egy több anyaghoz készül
 
 Az objektum és a tisztítótorony közötti távolság lerövidítéséhez helyezze a tornyot az objektum\(ok\) közelébe.
 
-![A Tiszt&#xED;t&#xF3;torony t&#xE9;nyleges m&#xE9;rete l&#xE1;that&#xF3; a G-k&#xF3;d el&#x151;n&#xE9;zetben.](../.gitbook/assets/multimaterial_011.jpeg)
+![A Tiszt&#xED;t&#xF3;torony t&#xE9;nyleges m&#xE9;rete l&#xE1;that&#xF3; a G-k&#xF3;d el&#x151;n&#xE9;zetben \(prusa k&#xE9;p\).](../.gitbook/assets/multimaterial_011.jpeg)
 
 #### _A tisztítótorony mérete_
 
@@ -136,7 +136,7 @@ A Tisztítótorony ritkán van tele. Ehelyett a ritkás és sűrű töltés ará
 
 Ha a Tisztítótorony felett egy vonalat lát a levegőben, az **normális**. Ez az utolsó extruder kilökődésének megjelenítése, mielőtt az utolsó felhasznált szál kiürülne \(az ép hegy létrehozásához\).
 
-![Tiszt&#xED;t&#xF3;torony ki&#xFC;r&#xED;t&#x151; vonal](../.gitbook/assets/multimaterial_012.png)
+![Tiszt&#xED;t&#xF3;torony ki&#xFC;r&#xED;t&#x151; vonal \(prusa k&#xE9;p\)](../.gitbook/assets/multimaterial_012.png)
 
 ### Tisztítótorony ritkás rétegek nélkül
 
