@@ -575,7 +575,7 @@ A SuperSlicer lehetővé teszi a nyomtatott kitöltési struktúra mintázatána
 
 A következő modelltípusok állnak rendelkezésre:
 
-> Az egyes **rajzok** alatt zárójelben megadott számok a felhasznált anyag és az idő durva becslését jelentik egy egyszerű 20 mm-es kocka esetében. Ne feledje, hogy ez csak tájékoztató jellegű, mivel a modell összetettsége és más tényezők befolyásolják az időt és az anyagot.
+> **A rajzok** alatt zárójelben megadott számok a felhasznált anyag és az idő durva becslését jelentik egy egyszerű 20 mm-es kocka esetében. Ne feledje, hogy ez csak tájékoztató jellegű, mivel a modell összetettsége és más tényezők befolyásolják az időt és az anyagot.
 
 {% tabs %}
 {% tab title="Egyenes vonalú \(gyors 2D kitöltés\)" %}
@@ -593,7 +593,7 @@ Ez a kitöltési típus az egyetlen **a 100%-os nyomtatási kitöltéshez ajánl
 {% endtab %}
 
 {% tab title="Rajz" %}
-![](../.gitbook/assets/print_settings_044c.png)
+![\(350,57mm /5:23\)](../.gitbook/assets/print_settings_044c.png)
 {% endtab %}
 
 {% tab title="Animáció" %}
@@ -709,7 +709,7 @@ A vonal \(lineáris\) kitöltés egyike azoknak, amelyek **nem rendelkeznek mets
 {% endtab %}
 
 {% tab title="Rajz" %}
-![](../.gitbook/assets/print_settings_050c.png)
+![\(344.51mm/5:20\)](../.gitbook/assets/print_settings_050c.png)
 {% endtab %}
 
 {% tab title="Animáció" %}
@@ -731,7 +731,7 @@ A koncentrikus kitöltés **meghúzza a modell kerületi vonalait**, majd egyre 
 {% endtab %}
 
 {% tab title="Rajz" %}
-![](../.gitbook/assets/print_settings_051c.png)
+![Rajz\(351,80mm/5:30\)](../.gitbook/assets/print_settings_051c.png)
 {% endtab %}
 
 {% tab title="Animáció" %}
@@ -753,7 +753,7 @@ Ez a kitöltés egy **hatszögekből álló rácsot nyomtat.** Fő előnye a **m
 {% endtab %}
 
 {% tab title="Rajz" %}
-![](../.gitbook/assets/print_settings_052c.png)
+![\(362.73mm/5:39\)](../.gitbook/assets/print_settings_052c.png)
 {% endtab %}
 
 {% tab title="Animáció" %}
@@ -811,7 +811,7 @@ A Hilbert-görbe egy téglalap alakú labirintust rajzol a modellben. Ennek a t�
 {% endtab %}
 
 {% tab title="Rajz" %}
-![](../.gitbook/assets/print_settings_055c.png)
+![\(332.82mm/5:28\)](../.gitbook/assets/print_settings_055c.png)
 {% endtab %}
 
 {% tab title="Animáció" %}
@@ -833,7 +833,7 @@ Ez a spirális kitöltés ismét **könnyebbé teszi a folyadékkal való feltö
 {% endtab %}
 
 {% tab title="Rajz" %}
-![](../.gitbook/assets/print_settings_056c.png)
+![\(333.66mm/5:27\)](../.gitbook/assets/print_settings_056c.png)
 {% endtab %}
 
 {% tab title="Animáció" %}
@@ -855,7 +855,7 @@ A nyolcágú spirálminta lehetővé teszi, hogy a tárgyat **könnyen meg lehes
 {% endtab %}
 
 {% tab title="Rajz" %}
-![](../.gitbook/assets/print_settings_057c.png)
+![\(318.63mm/5m:15\)](../.gitbook/assets/print_settings_057c.png)
 {% endtab %}
 
 {% tab title="Animáció" %}
@@ -888,6 +888,8 @@ A elszórt egyenes vonalú véletlenszerű lineáris kitöltést hoz létre, ame
 
 {% tab title="Leírás" %}
 Az alkalmazkodó kocka kitöltés **azon az elven működik, mint a kocka kitöltés:** olyan kockákat tartalmaz, amelyek egyik sarka lefelé néz, és ugyanazon a rétegen belül metszik egymást a vonalak. Van azonban egy nagy előnye: az egyszerű kocka alakú kitöltéssel ellentétben ez a minta **sűrűbbé teszi a kitöltést, ahogy közeledik a modell szélei felé,** és nagy üregeket hagy középen. **Az anyagfogyasztás** körülbelül ¼-ével kevesebb, mint az egyenes töltésnél.
+
+Az alkalmazkodó kocka kitöltés egy [**octree**](https://fr.wikipedia.org/wiki/Octree) azon celláinak finomításával működik, amelyek egy háromszög objektumot tartalmaznak. Minden töltésvonalhoz rögzítőket adunk hozzá. Ezáltal a töltés robusztusabbá válik, és stabilizálja az extrudálási áramlást a töltősor elején. Alapvetően ez a kitöltés a legközelebbi faltól való távolságtól függően válik többé-kevésbé sűrűvé. Ez különösen hasznos a nagy belső térfogatú, nagyméretű nyomatok esetében. Ez rövidebb nyomtatási időt és alacsonyabb szálfogyasztást eredményez, miközben a felső réteg jó alátámasztása és ugyanazok a mechanikai tulajdonságok maradnak meg.
 {% endtab %}
 
 {% tab title="Kép" %}
@@ -917,7 +919,7 @@ A kocka támogatás kitöltés ugyanúgy működik, mint az előző, egy külön
 {% endtab %}
 {% endtabs %}
 
-**Gyroid kitöltés**
+**Javasolt kitöltési minta: Gyroid kitöltés**
 
 A gyroid kitöltés az egyik legsokoldalúbb kitöltő minta.
 
@@ -925,7 +927,7 @@ A gyroid kitöltés az egyik legsokoldalúbb kitöltő minta.
 * Elég **gyorsan kinyomtatható**
 * Nem **keresztezi** ugyanazt a réteget.
 * **Jó szilárdság/tömeg arány**.
-* \(Véleményünk szerint\) **ez igazán esztétikus**
+* \(Véleményünk szerint\) **igazán esztétikus**
 
 További információ a Gyroid töltésről [https://mathcurve.com/surfaces/Gyroide/gyroide.shtml](https://mathcurve.com/surfaces/Gyroide/gyroide.shtml)
 
@@ -942,7 +944,14 @@ A következő modellváltozatok állnak rendelkezésre:
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">
+      <th style="text-align:left"><b>                                           Le&#xED;r&#xE1;s</b>
+      </th>
+      <th style="text-align:left">K&#xE9;p</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
         <p><b>Egyenes vonal&#xFA;:</b>
         </p>
         <p>Ism&#xE9;tlem, ez a legelterjedtebb (&#xE9;s legalapvet&#x151;bb) t&#xED;pus&#xFA;
@@ -950,13 +959,11 @@ A következő modellváltozatok állnak rendelkezésre:
           r&#xE9;tegen cikcakkos mint&#xE1;zatban helyezkednek el. Ez azonban a legegyszer&#x171;bb
           kit&#xF6;lt&#xE9;s, &#xE9;s <b>nem ny&#xFA;jt semmilyen el&#x151;nyt</b> (l&#xE1;sd:
           Monoton kit&#xF6;lt&#xE9;s).</p>
-      </th>
-      <th style="text-align:left">
+      </td>
+      <td style="text-align:left">
         <img src="../.gitbook/assets/print_settings_061.jpeg" alt/>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody>
     <tr>
       <td style="text-align:left">
         <p><b>Monoton:</b>
@@ -1056,7 +1063,30 @@ A következő modellváltozatok állnak rendelkezésre:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Vasal&#xE1;s</b>
+      <td style="text-align:left">
+        <p><b>Vasal&#xE1;s:</b>
+        </p>
+        <p>A <b>vasal&#xE1;s</b> egy 90&#xB0;-os &#xE1;tmenettel eg&#xE9;sz&#xED;ti
+          ki a m&#xE1;r nyomtatott r&#xE9;teget. Ez a kieg&#xE9;sz&#xED;t&#x151;
+          menet nagyon kis vonalsz&#xE9;less&#xE9;g&#x171;, &#xE9;s a nyomtat&#xE1;s
+          a t&#xF6;lt&#xE9;si sebess&#xE9;ggel megegyez&#x151; sebess&#xE9;ggel t&#xF6;rt&#xE9;nik.A
+          sim&#xED;t&#xE1;s lehet&#x151;v&#xE9; teszi, hogy egyenes vonal&#xFA; mint&#xE1;t
+          nyomtassunk a nyomtatott r&#xE9;tegre.</p>
+        <p>Ennek k&#xE9;t f&#x151; el&#x151;nye van:</p>
+        <ul>
+          <li>A m&#xE1;r kinyomtatott r&#xE9;teget &#xFA;gy olvasztja meg, hogy t&#xF6;bbsz&#xF6;r
+            &#xE1;tvezetik egy forr&#xF3; f&#xFA;v&#xF3;ka alatt. Mivel a halad&#xE1;si
+            sebess&#xE9;g nagyon alacsony &#xE9;s a vonalsz&#xE9;less&#xE9;g nagyon
+            kicsi, a f&#xFA;v&#xF3;ka jelent&#x151;sen felmeleg&#xED;ti a fel&#xFC;letet.
+            A f&#xFA;v&#xF3;ka lapos r&#xE9;sze ezut&#xE1;n sim&#xE1;n felsz&#xED;nre
+            ker&#xFC;l.</li>
+          <li>Kit&#xF6;lti a m&#xE1;r kinyomtatott r&#xE9;teg h&#xE9;zagait. A sim&#xED;t&#xF3;
+            mozg&#xE1;s a r&#xE9;teggel azonos magass&#xE1;gban van. Kevesebb &#xE1;raml&#xE1;ssal
+            rendelkezik, mint a szil&#xE1;rd r&#xE9;teg, de m&#xE9;g mindig nagyon
+            alacsony az &#xE1;raml&#xE1;s. Minden alkalommal, amikor a f&#xFA;v&#xF3;ka
+            &#xE1;thalad a fel&#xFC;let egy egyenetlens&#xE9;g&#xE9;n, a f&#xFA;v&#xF3;k&#xE1;ban
+            l&#xE9;v&#x151; anyag az adott t&#xE9;rbe &#xE1;ramlik.</li>
+        </ul>
       </td>
       <td style="text-align:left">
         <img src="../.gitbook/assets/print_settings_070.jpeg" alt="Ker&#xFC;letek elt&#xE1;vol&#xED;t&#xE1;sa"
@@ -1068,7 +1098,7 @@ A következő modellváltozatok állnak rendelkezésre:
 
 Megjegyzés: Elméletileg az alsó és felső Lineárisan igazított kitöltési módnak lehetővé kellene tennie a kitöltést a 2 réteg közötti orientációváltás nélkül, de a tesztelt 2.3.0-s verziókon a mód nem változott a standard lineárishoz képest.
 
-### További információ a kitöltéséről
+### További információk a kitöltéséről
 
 Bizonyára már észrevette, hogy a **SuperSlicer új verziója \(2.3\)** új kitöltési mintákkal bővült. Most, hogy ennyi lehetőség van, talán még egy kicsit elveszettnek is érezheti magát a lehetőségek között. Melyik kitöltést válasszam? Van olyan univerzális minta, amely minden modellnél működik? Vagy egy adott helyzethez kell választanom egy konkrétat? Lássuk, mit lehet tenni a megfelelő típusú kitöltés kiválasztásával és beállításainak módosításával.
 
@@ -1078,9 +1108,9 @@ Bizonyára már észrevette, hogy a **SuperSlicer új verziója \(2.3\)** új ki
 
 Először is, nézzük át gyorsan, mi is az a kitöltés, és miért fontos. Ha Ön már profi 3D nyomtató, akkor ezt a fejezetet valószínűleg kihagyja, de nem árt, ha leporolja az alapokat, nem igaz?
 
-A 3D nyomtatott modelleket ritkán nyomtatják 100%-os kitöltéssel vagy teljesen üregesen. Ehelyett egy olyan módszert használunk, amely **kitölti a tárgy belsejét egy tartószerkezettel.** Ez a módszer segít megszilárdítani a modellt, és **megakadályozza, hogy hézagok és lyukak keletkezzenek a tárgy felületén.** A teljes modellek \(100%-os kitöltés\) száligényesek és időigényesek. Emellett a szilárd modellek legtöbbször nem rendelkeznek jobb mechanikai tulajdonságokkal, mint a kevésbé sűrű kitöltésű modellek. Ha úgy dönt, hogy kitöltés nélkül nyomtatja ki a modellt, fennáll a veszélye, hogy a modell felülete sérül - kisebb hézagok, esetleg nagyobb lyukak is keletkezhetnek. Elég nyilvánvalónak tűnik, hogy a legjobb megoldás a kettő között van. A jó kitöltési beállításokkal **sok anyagot és időt takaríthat meg**, de érdekes mintákat is létrehozhat a felületen.
+A 3D nyomtatott modelleket ritkán nyomtatják 100%-os kitöltéssel vagy teljesen üregesen. Ehelyett egy olyan módszert használunk, amely **kitölti a tárgy belsejét egy tartószerkezettel.** Ez a módszer segít megszilárdítani a modellt, és **megakadályozza, hogy hézagok és lyukak keletkezzenek a tárgy felületén.** A teljes modellek \(100%-os kitöltés\) száligényesek és időigényesek. Emellett a szilárd modellek legtöbbször nem rendelkeznek jobb mechanikai tulajdonságokkal, mint a kevésbé sűrű kitöltésű modellek. Ha úgy dönt, hogy kitöltés nélkül nyomtatja ki a modellt, fennáll a veszélye, hogy a modell felülete sérül, kisebb hézagok, esetleg nagyobb lyukak is keletkezhetnek. Elég nyilvánvalónak tűnik, hogy a legjobb megoldás a kettő között van. A jó kitöltési beállításokkal **sok anyagot és időt takaríthat meg**, de érdekes mintákat is létrehozhat a felületen.
 
-A legtöbb esetben nagyon kevés értelme van a 40%-nál nagyobb töltési sűrűség beállításának. Tesztjeink azt mutatták, hogy **a legjobb sűrűség beállítása 10-20% körül van,** és ezt az értéket adtuk meg a **SuperSlicer** profiljainkban. A 10-20% az ideális egyensúlyt jelenti a robusztusság, a nyomtatási megbízhatóság, a nyomtatási idő és az anyagfelhasználás között. Természetesen egyes tárgyak esetében elegendő lehet az 5%-os \(vagy annál kisebb\) kitöltés, különösen a **PLA**-ban nyomtatott nagyméretű egyedi alkatrészek esetében. A 20%-nál nagyobb töltöttséggel nagyobb szilárdságot érhet el. Ugyanez a hatás azonban több kerület hozzáadásával is elérhető \(Nyomtatási beállítások/Kerületek és héj\). A különböző nyomtatási beállítások használatával nemcsak a belső szerkezetet és a mechanikai tulajdonságokat, hanem a nyomtatási sebességet, az anyagfelhasználást és a tárgy felületét is megváltoztathatja.
+A legtöbb esetben nagyon kevés értelme van a 40%-nál nagyobb töltési sűrűség beállításának. Tesztjeink azt mutatták, hogy **a legjobb sűrűség beállítása 10-20% körül van,** és ezt az értéket adtuk meg a **SuperSlicer** profiljainkban. A 10-20% az ideális egyensúlyt jelenti a robusztusság, a nyomtatási megbízhatóság, a nyomtatási idő és az anyagfelhasználás között. Természetesen egyes tárgyak esetében elegendő lehet az 5%-os \(vagy annál kisebb\) kitöltés, különösen a **PLA**-ban nyomtatott nagyméretű egyedi tárgyak esetében. A 20%-nál nagyobb töltöttséggel nagyobb szilárdságot érhet el. Ugyanez a hatás azonban több kerület hozzáadásával is elérhető \([Nyomtatási beállítások/Kerületek és héj\)](print_settings.md#kerueletek-es-hej). A különböző nyomtatási beállítások használatával nemcsak a belső szerkezetet és a mechanikai tulajdonságokat, hanem a nyomtatási sebességet, az anyagfelhasználást és a tárgy felületét is megváltoztathatja.
 
 Mielőtt rátérnénk a speciális beállításokra, gyorsan nézzük át egyenként a meglévő kitöltési típusokat és azok tulajdonságait.
 
@@ -1088,19 +1118,15 @@ Mielőtt rátérnénk a speciális beállításokra, gyorsan nézzük át egyenk
 
 A kitöltő minták listája egyre bővül, és nehéz lehet kiválasztani a megfelelő típust. Bár az lehet a benyomása, hogy elsősorban a külsőségek különböztetik meg őket, ennek éppen az ellenkezője igaz. Például néhány kitöltés lehetővé teszi számunkra, hogy sok anyagot és időt takarítsunk meg, néhányat folyadékkal lehet kitölteni, stb....
 
-Ez a kitöltési típus az egyetlen **a 100%-os nyomtatási kitöltéshez ajánlott**. Ha a profilban más kitöltési típus van beállítva, és a kitöltési százalékot 100%-os sűrűségre állítja, a **SuperSlicer** automatikusan egyenesre váltja a kitöltési típust.
-
-A kitöltőanyag nyomtatásának módja miatt a pályák keresztezik egymást, és ez az anyag felhalmozódását okozza ezeken a területeken. Néha hallani fog egy sajátos hangot, amikor a fúvóka eléri ezeket a területeket. Ez akár a nyomtatás meghiúsulását is okozhatja.
-
-Az adaptív köbös kitöltés egy [**octree**](https://fr.wikipedia.org/wiki/Octree) azon celláinak finomításával működik, amelyek egy háromszög objektumot tartalmaznak. Minden töltésvonalhoz rögzítőket adunk hozzá. Ezáltal a töltés robusztusabbá válik, és stabilizálja az extrudálási áramlást a töltősor elején. Alapvetően ez a kitöltés a legközelebbi faltól való távolságtól függően válik többé-kevésbé sűrűvé. Ez különösen hasznos a nagy belső térfogatú, nagyméretű nyomatok esetében. Ez rövidebb nyomtatási időt és alacsonyabb szálfogyasztást eredményez, miközben a felső réteg jó alátámasztása és ugyanazok a mechanikai tulajdonságok maradnak meg.
-
 Bizonyos modelltípusok jobban megfelelnek egy adott mintának, például az organikus és a mechanikus típusok között. Az ábra azt mutatja, hogy a méhsejtes kitöltés jobban megfelelhet ennek a mechanikus alkatrésznek, mivel minden egyes hatszög minden rétegben ugyanahhoz a mögöttes mintához kötődik, erős függőleges szerkezetet alkotva.
 
 ![Kit&#xF6;lt&#xE9;si minta &#xF6;sszehasonl&#xED;t&#xE1;sa egy &#xF6;sszetett objektumban. Balra m&#xE9;hsejt, jobbra vonal \(slic3r k&#xE9;p\)](../.gitbook/assets/print_settings_0712.png)
 
 A legtöbb modell csak alacsony sűrűségű kitöltést igényel, mivel ha mondjuk 50%-nál nagyobb sűrűségű kitöltést biztosítunk, akkor egy nagyon szorosan tömörített modellt kapunk, amely a szükségesnél több anyagot használ fel. Emiatt a minták általános tartománya 10% és 30% között van, azonban a modell követelményei határozzák meg, hogy melyik sűrűség a legjobb. Az ábra azt mutatja, hogyan változnak a minták a sűrűség növekedésével.
 
-![Kit&#xF6;lt&#xE9;si mint&#xE1;k k&#xFC;l&#xF6;nb&#xF6;z&#x151; s&#x171;r&#x171;s&#xE9;ggel. Balr&#xF3;l jobbra: 20%,40%,60%,80%. Fentr&#x151;l lefel&#xE9;: m&#xE9;hsejtes, koncentrikus, vonal, egyenes vonal, Hilbert-g&#xF6;rbe, Archim&#xE9;deszi akkordok, octagram spir&#xE1;l.](../.gitbook/assets/print_settings_0713.png)
+![Kit&#xF6;lt&#xE9;si mint&#xE1;k k&#xFC;l&#xF6;nb&#xF6;z&#x151; s&#x171;r&#x171;s&#xE9;ggel. Balr&#xF3;l jobbra: 20%,40%,60%,80%. Fentr&#x151;l lefel&#xE9;: m&#xE9;hsejtes, koncentrikus, vonal, egyenes vonal, Hilbert-g&#xF6;rbe, Archim&#xE9;deszi akkordok, octagram spir&#xE1;l \(slic3r k&#xE9;p\)](../.gitbook/assets/print_settings_0713.png)
+
+
 
 #### _A felső és alsó réteg kitöltésének típusai_
 
