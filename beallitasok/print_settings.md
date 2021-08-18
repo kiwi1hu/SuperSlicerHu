@@ -2010,7 +2010,7 @@ A sortávolság a vonalszélesség meghatározásának alternatív módja. A par
 
 ![V&#xE1;ltoz&#xF3; meghat&#xE1;roz&#xE1;sa \(Gif\)](../.gitbook/assets/print_settings_127k.gif)
 
-                                                                               [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_127.gif?raw=true)\*\*\*\*
+                                                                               [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/print_settings_127.gif?raw=true)\*\*\*\*
 
 A Távolság paraméter lehetővé teszi egy nem nulla érték beállítását a peremek közötti távolság manuális meghatározásához. Ha az érték százalékban van megadva, akkor a rétegmagassághoz viszonyítva kerül kiszámításra. A következő ábra a Szélesség és a Távolság közötti különbséget szemlélteti. Ha a kerület átfedése 100%-ra van állítva, a sárga területeket ki kell tölteni az átfedéssel. Ha az átfedés értéke 0% Szélesség = Távolság.
 
@@ -2122,7 +2122,9 @@ Ezt növelheti, hogy a felső réteget túlnyomja, ha nincs elég műanyag a jó
 
 Ezt a beállítást növelheti, hogy az első réteget túlnyomja, ha nincs elég műanyag, mert a nyomtatóágy nem vízszintes.
 
+{% hint style="warning" %}
 Megjegyzés: NEM HASZNÁLJUK EZT, ha az egyetlen probléma a nyomtatóágy kiegyenlítése. SZINTEZZE A NYOMTATÓÁGYAT! Ezt a beállítást csak végső megoldásként használja, miután minden kalibrálás sikertelen volt.
+{% endhint %}
 
 #### _Sarkok levágása_
 
@@ -2256,7 +2258,7 @@ Ezt a funkciót a **Nyomtatási beállítások - Kimeneti beállítások - Az ob
 
 ![Szekvenci&#xE1;lis nyomtat&#xE1;s](../.gitbook/assets/print_settings_147.png)
 
-Nyomja meg az **E** billentyűt az objektumok **sorrendjének** megtekintéséhez a 3D nézetben.
+Nyomja meg az **`E`** billentyűt az objektumok **sorrendjének** megtekintéséhez a 3D nézetben.
 
 A sorrendet úgy változtathatja meg, hogy **húzza és ejtse** az objektumokat az **Objektumlistába**. Az objektumlistában a legfelső objektum lesz az első, a legalsó pedig a utolsó.
 
