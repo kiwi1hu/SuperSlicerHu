@@ -43,7 +43,3 @@ Lehetővé teszi a szeletelések kimeneti formátumának kiválasztását. 2 üz
 
 ### Függőségek
 
-Következő oldal [Makrók](../macros/macros.md)
-
-[Vissza a főoldalra](../superslicer.md)
-

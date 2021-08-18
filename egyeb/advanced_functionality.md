@@ -24,11 +24,11 @@ A jobb oldali panelen egy új ablak jelenik meg **A módosítandó objektum beá
 
 A SuperSlicer lehetővé teszi, hogy egy bizonyos rétegnél ütemezze a szálcserét. Ez alapvető többszínű modellek nyomtatására használható. A nyomtató automatikusan leállítja a nyomtatást, amint a G-kódban \(M600 parancs\) a színváltozást olvassa, és felszólítja a felhasználót a szálcserére.
 
-1. A színváltoztatás a [**A szeletelés áttekintése**](../felhasznaloi-feluelet/user_interface.md#a-szeleteles-attekintese) ablakból illeszthető be.
+1. A színváltoztatás a [**szeletelés előnézet**](../felhasznaloi-feluelet/user_interface.md#szeleteles-elonezet) ablakból illeszthető be.
 2. Húzza a **réteg csúszkát** jobbra a célréteg kiválasztásához.
 3. Ön vagy 
-   1. Kattintson a bal gombbal\*\* a kék plusz ikonra a színváltoztatáshoz \(véletlenszerű előnézeti szín\).
-   2. Kattintson a jobb gombbal **a kék plusz ikonra, és válassza a** Színváltás hozzáadása lehetőséget. Megjelenik egy színválasztó ablak, amely lehetővé teszi a kívánt szín kiválasztását a pontosabb előnézethez.
+   1. Kattintson a bal gombbal a **kék plusz ikonra** a színváltoztatáshoz \(véletlenszerű előnézeti szín\).
+   2. Kattintson a jobb gombbal **a kék plusz ikonra,** és válassza a **Színváltás** hozzáadása lehetőséget. Megjelenik egy színválasztó ablak, amely lehetővé teszi a kívánt szín kiválasztását a pontosabb előnézethez.
 4. Ha megismétli, annyi színváltozást adhat hozzá, amennyit csak akar.
 
 ![K&#xE9;p: Sz&#xE1;lv&#xE1;lt&#xE1;s egy bizonyos r&#xE9;tegn&#xE9;l](../.gitbook/assets/advanced_functionality_003.jpg)
@@ -93,9 +93,7 @@ Kattintson a jobb gombbal egy modellre, és válassza a **Módosító hozzáadá
 
 Ezenkívül szakértői módban egy **egyéni alakzatot módosító hálóként** is használhat, ha a háló kiválasztásánál kiválasztja a **Betöltés...** parancsot. Ez a háló általában olyasmi, amit korábban már modellezett egy 3D-s modellező programban.
 
-![Egy t&#xE9;glalap alak&#xFA; m&#xF3;dos&#xED;t&#xE1;si h&#xE1;l&#xF3;](../.gitbook/assets/advanced_functionality_009.jpg)
-
-Egy téglalap alakú módosító háló, amely eltávolítja a felső és alsó szilárd rétegeket, és egy másik sík alakú háló, amely újra aktiválja őket, és megváltoztatja az extruder 2-es számúra \(az MMU2S-sel nyomtatva\) Prusa kép.
+![Egy t&#xE9;glalap alak&#xFA; m&#xF3;dos&#xED;t&#xF3; h&#xE1;l&#xF3;, amely elt&#xE1;vol&#xED;tja a fels&#x151; &#xE9;s als&#xF3; szil&#xE1;rd r&#xE9;tegeket, &#xE9;s egy m&#xE1;sik s&#xED;k alak&#xFA; h&#xE1;l&#xF3;, amely &#xFA;jra aktiv&#xE1;lja &#x151;ket, &#xE9;s megv&#xE1;ltoztatja az extruder 2-es sz&#xE1;m&#xFA;ra \(az MMU2S-sel nyomtatva\) \(Prusa k&#xE9;p\)](../.gitbook/assets/advanced_functionality_009.jpg)
 
 Ha kiválasztja a módosító alakzatot \(például a kockát\), az megjelenik a 3D nézetben és a jobb oldali panel objektumlistájában.
 
@@ -172,7 +170,7 @@ A 3MF formátum lényegében egy zip-archívum, amely ember által olvasható XM
 
 A szünet bizonyos magasságban történő beillesztésével mágneseket, súlyokat vagy anyákat helyezhet be a nyomatokba. Amikor folytatja a nyomtatást, ezeket a beillesztett objektumokat a következő rétegek fogják fedni.
 
-1. A szünet beilleszthető [**a szeletelés áttekintésébe**](../felhasznaloi-feluelet/user_interface.md#a-szeleteles-attekintese)
+1. A szünet beilleszthető [**a szeletelés előnézet**](../felhasznaloi-feluelet/user_interface.md#szeleteles-elonezet)
 2. * Húzza a **réteg csúszkát** jobbra a célréteg kiválasztásához.
    * Kattintson a jobb gombbal\*\* a kék plusz ikonra
 3. Válassza ki a **Nyomtatási szünet beillesztése \(M601\)** lehetőséget.
@@ -201,7 +199,7 @@ Az egyéni G-kód beillesztése hasznos lehet **haladó felhasználók** számá
 
 "A nagy hatalom nagy felelősséggel jár": ellenőrizze kétszer is, hogy a megfelelő G-kódokat illesztette-e be, és hogy érti-e, mit csinálnak. Egyes G-kódok esetében például véletlenül felülírhatja az EEPROM-ban lévő értékeket, vagy elmozdíthatja a fúvókát a nyomtatólemezen.
 
-1. Egyéni G-kódot lehet beilleszteni [**a szeletelés áttekintésébe**](../felhasznaloi-feluelet/user_interface.md#a-szeleteles-attekintese)
+1. Egyéni G-kódot lehet beilleszteni [**a szeletelés előnézet**](../felhasznaloi-feluelet/user_interface.md#szeleteles-elonezet)
 2. * Húzza a **réteg csúszkát** jobbra a célréteg kiválasztásához.
    * Kattintson a jobb gombbal\*\* a kék plusz ikonra
    * Válassza a **Egyéni G-kód hozzáadása** lehetőséget.
