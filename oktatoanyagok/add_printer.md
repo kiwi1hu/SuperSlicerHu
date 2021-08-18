@@ -28,7 +28,7 @@ Használhatja a _**Teszt**_ gombot, és a SuperSlicer megpróbál választ kapni
 
 Amint kitölti ezt a mezőt, a G-kód exportálása gomb felett minden alkalommal, amikor a modellt szeleteli, egy új G-kód küldése gomb jelenik meg.
 
-![](../.gitbook/assets/add_printer_004.png)
+![G-k&#xF3;d k&#xFC;ld&#xE9;s gomb](../.gitbook/assets/add_printer_004.png)
 
 ### 
 

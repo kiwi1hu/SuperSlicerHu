@@ -46,7 +46,7 @@ Ha 0,25 mm-es vagy 0,6 mm-es fúvókákat szeretne kipróbálni, nem kell új sz
 
 * Jobb minőségű nyomtatott szövegek
 * A legjobb felbontás XY tengelyen - tökéletes ékszerekhez, logókhoz...
-* Rendkívül könnyen eltávolítható konzolok
+* Rendkívül könnyen eltávolítható támasztékok
 
 #### Hátrány
 
@@ -58,15 +58,15 @@ Ha 0,25 mm-es vagy 0,6 mm-es fúvókákat szeretne kipróbálni, nem kell új sz
 
 Mint már említettük, a fúvóka átmérője jelentős hatással van a nyomtatási felülettel párhuzamos sík nyomtatási felbontására. Ez azt jelenti, hogy egy 0,25 mm-es fúvóka alkalmas részletes szöveg nyomtatására. Hasonlítsuk össze az alapértelmezett 0,4 mm-es fúvókával. Bár a "Vékony falak felismerése" opció engedélyezve van, a betűk egyes részei elveszhetnek a szeletelés során. A 0,25 mm-es fúvókával ez nem fog megtörténni, így használhatja egy szokatlan névjegykártya nyomtatásához, hogy elvarázsolja a tömeget 🙂 Érdemes megemlíteni, hogy a rétegmagasság megváltoztatása nem befolyásolja a szöveg olvashatóságát.
 
-![ A Slic3r el&#x151;n&#xE9;zet azt mutatja, hogy az objektum r&#xE9;szletei t&#xFA;l kicsik a kiv&#xE1;lasztott f&#xFA;v&#xF3;k&#xE1;hoz.](../.gitbook/assets/nozzles_with_a_different_diameter_005.jpeg)
+![ A Slic3r el&#x151;n&#xE9;zet azt mutatja, hogy az objektum r&#xE9;szletei t&#xFA;l kicsik a kiv&#xE1;lasztott f&#xFA;v&#xF3;k&#xE1;hoz \(prusa k&#xE9;p\)](../.gitbook/assets/nozzles_with_a_different_diameter_005.jpeg)
 
-![Balra: 0,4 mm-es f&#xFA;v&#xF3;k&#xE1;val nyomtatott n&#xE9;vjegyk&#xE1;rtya. Jobbra: Ugyanaz a modell, 0,25 mm-es f&#xFA;v&#xF3;k&#xE1;val nyomtatva.](../.gitbook/assets/nozzles_with_a_different_diameter_006.jpeg)
+![Balra: 0,4 mm-es f&#xFA;v&#xF3;k&#xE1;val nyomtatott n&#xE9;vjegyk&#xE1;rtya. Jobbra: Ugyanaz a modell, 0,25 mm-es f&#xFA;v&#xF3;k&#xE1;val nyomtatva \(Prusa k&#xE9;p\)](../.gitbook/assets/nozzles_with_a_different_diameter_006.jpeg)
 
 #### Ékszer nyomtatás
 
 Ez egy másik nagyszerű felhasználási módja egy kisebb fúvókának. A 0,4 mm-es és a 0,25 mm-es fúvóka közötti különbség nem olyan drámai, mivel még egy 0,4 mm-es fúvókával is elég jól lehet kis tárgyakat nyomtatni. A javulás leginkább a finom vonalak nyomtatásakor lesz észrevehető.
 
-![&#xC9;kszer nyomtat&#xE1;s](../.gitbook/assets/nozzles_with_a_different_diameter_007.jpeg)
+![&#xC9;kszer nyomtat&#xE1;s \(Prusa k&#xE9;p\)](../.gitbook/assets/nozzles_with_a_different_diameter_007.jpeg)
 
 #### Miniatűrök nyomása
 
