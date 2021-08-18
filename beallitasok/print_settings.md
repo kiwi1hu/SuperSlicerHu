@@ -1126,11 +1126,9 @@ A legtöbb modell csak alacsony sűrűségű kitöltést igényel, mivel ha mond
 
 ![Kit&#xF6;lt&#xE9;si mint&#xE1;k k&#xFC;l&#xF6;nb&#xF6;z&#x151; s&#x171;r&#x171;s&#xE9;ggel. Balr&#xF3;l jobbra: 20%,40%,60%,80%. Fentr&#x151;l lefel&#xE9;: m&#xE9;hsejtes, koncentrikus, vonal, egyenes vonal, Hilbert-g&#xF6;rbe, Archim&#xE9;deszi akkordok, octagram spir&#xE1;l \(slic3r k&#xE9;p\)](../.gitbook/assets/print_settings_0713.png)
 
-
-
 #### _A felső és alsó réteg kitöltésének típusai_
 
-A kitöltés szerkesztése nem csak az objektum belső részeinek kitöltési típusának kiválasztásáról szól. A felső és alsó rétegek kitöltési típusait is megváltoztathatja, hogy érdekes eredményeket érjen el. Ez a **Nyomtatási beállítások/Töltés/felső \(alsó\) kitöltési minta** lapon állítható be. A felső vagy alsó kitöltés megváltoztatása azonban **esztétikai változásokat** okoz, és nem javítja a modell mechanikai tulajdonságait.
+A kitöltés szerkesztése nem csak az objektum belső részeinek kitöltési típusának kiválasztásáról szól. A felső és alsó rétegek kitöltési típusait is megváltoztathatja, hogy érdekes eredményeket érjen el. Ez a **Nyomtatási beállítások/Kitöltés/felső \(alsó\) kitöltés** lapon állítható be. A felső vagy alsó kitöltés megváltoztatása azonban **esztétikai változásokat** okoz, és nem javítja a modell mechanikai tulajdonságait.
 
 ![A fels&#x151;/als&#xF3; r&#xE9;tegek kit&#xF6;lt&#xE9;se \(Prusa k&#xE9;p\)](../.gitbook/assets/print_settings_0714.jpeg)
 
@@ -1158,7 +1156,7 @@ Ez az érték határozza meg a rögzítő maximális hosszát, amely a kitölté
 
 ![Nyomtat&#xE1;si id&#x151; cs&#xF6;kkent&#xE9;si lehet&#x151;s&#xE9;gek](../.gitbook/assets/print_settings_073.png)
 
-A SuperSlicer két módszert kínál az idő- és anyagmegtakarításra. Az első opció lehetővé teszi, hogy **összekapcsolja a kitöltést minden X rétegben.** Az alapértelmezett érték 1, ami azt jelenti, hogy minden kerületi réteg egy kitöltési réteggel kerül nyomtatásra \(1 = 1 kitöltési réteg és 1 kerületi réteg aránya\). Ha ezt az értéket 2-re növeli \(2:1 arány\), akkor minden két kerületi réteghez egy kitöltő réteget nyomtat \(a megfelelő rétegmagassággal\). Ne feledje azonban, hogy ez az érték nem növelhető a végtelenségig. A SuperSlicer lehetővé teszi, hogy nagyon magas értéket adjon meg, de csak a fizikailag lehetséges maximális értéket írja a G-kódba. Pontosabban: Ha 0,4 mm-es fúvókát és 0,15 mm-es rétegmagasságot használ, a szeletelő nem engedi, hogy egy kerületi réteget ritkábban nyomtasson, mint két kerületi réteget. Ellenkező esetben a tölteléket üres térben nyomtatnák ki. Ha azonban 0,05 mm-es rétegmagassággal nyomtat \(0,4 mm-es fúvókával\), akkor a kitöltést 8 rétegenként kombinálhatja. A második módja az idő \(és az anyag\) megtakarításának az, hogy **csak ott nyomtatunk kitöltést, ahol szükség van rá,** Például ha egy gömböt nyomtatunk, ez a funkció csak egy kitöltő oszlopot fog generálni a közepén, hogy támogassa a túlnyúlásokat. Ennek a tulajdonságnak a fő hátránya az alacsony ütésállóság, amely a modell egyes területein a kitöltés hiányából adódik.
+A SuperSlicer két módszert kínál az idő- és anyagmegtakarításra. Az első opció lehetővé teszi, hogy **összekapcsolja a kitöltést minden X rétegben.** Az alapértelmezett érték 1, ami azt jelenti, hogy minden kerületi réteg egy kitöltési réteggel kerül nyomtatásra \(1 = 1 kitöltési réteg és 1 kerületi réteg aránya\). Ha ezt az értéket 2-re növeli \(2:1 arány\), akkor minden két kerületi réteghez egy kitöltő réteget nyomtat \(a megfelelő rétegmagassággal\). Ne feledje azonban, hogy ez az érték nem növelhető a végtelenségig. A SuperSlicer lehetővé teszi, hogy nagyon magas értéket adjon meg, de csak a fizikailag lehetséges maximális értéket írja a G-kódba. Pontosabban: Ha 0,4 mm-es fúvókát és 0,15 mm-es rétegmagasságot használ, a szeletelő nem engedi, hogy egy kerületi réteget ritkábban nyomtasson, mint két kerületi réteget. Ellenkező esetben a kitöltéseket üres térben nyomtatnák ki. Ha azonban 0,05 mm-es rétegmagassággal nyomtat \(0,4 mm-es fúvókával\), akkor a kitöltést 8 rétegenként kombinálhatja. A második módja az idő \(és az anyag\) megtakarításának az, hogy **csak ott nyomtatunk kitöltést, ahol szükség van rá,** Például ha egy gömböt nyomtatunk, ez a funkció csak egy kitöltő oszlopot fog generálni a közepén, hogy támogassa a túlnyúlásokat. Ennek a tulajdonságnak a fő hátránya az alacsony ütésállóság, amely a modell egyes területein a kitöltés hiányából adódik.
 
 #### _Kombinálja a kitöltést minden X rétegben_
 
@@ -1178,7 +1176,7 @@ Ez az opció nem veszi figyelembe a támaszok **túlnyúlási küszöb** beáll�
 
 ![G&#xF6;mb csak ott k&#xE9;sz&#xFC;lt kit&#xF6;lt&#xE9;si opci&#xF3;val, ahol sz&#xFC;ks&#xE9;ges \(Prusa k&#xE9;p\).](../.gitbook/assets/print_settings_075.jpeg)
 
-Az elvégzett néhány teszt nem mutatott nagy érdeklődést e lehetőség iránt. A túlnyúlás beállítása nélkül nehéz kezelni ezt a lehetőséget.
+Nem mutatkozott nagy érdeklődést e lehetőség iránt. A túlnyúlás beállítása nélkül nehéz kezelni ezt a lehetőséget.
 
 **Támasztó tömör réteg**
 
@@ -1186,13 +1184,13 @@ Lehetővé teszi az első belső tömör felület alatt egy támasztóréteg lé
 
 A sűrű kitöltés 50%-os töltési sűrűséget használ.
 
-Ha ez a kapcsoló be van kapcsolva, ha a kitöltés 40%-nál kisebb, akkor minden egyes tömör felület alatt támogatott területet keres, és csak egyenes vonalak vannak a kerületek között. Ha talál egyet, akkor egy speciális kitöltési folyamatot használ, amely egy kerületet \(átfedéssel, úgy, hogy az ~támogatva legyen az aktuális belső kerület által, majd egy egyenes 42%-os kitöltés belül. Ez megakadályozza a görbüléseket, amelyek tönkretehetik a felső felületet, és biztosítja, hogy minden alátámasztható legyen még 0%-os kitöltési arány mellett is.
+Ha ez a kapcsoló be van kapcsolva, ha a kitöltés 40%-nál kisebb, akkor minden egyes tömör felület alatt támogatott területet keres, és csak egyenes vonalak vannak a kerületek között. Ha talál egyet, akkor egy speciális kitöltési folyamatot használ, amely egy kerületet \(átfedéssel, úgy, hogy az támogatva legyen az aktuális belső kerület által, majd egy egyenes 42%-os kitöltés belül. Ez megakadályozza a görbüléseket, amelyek tönkretehetik a felső felületet, és biztosítja, hogy minden alátámasztható legyen még 0%-os kitöltési arány mellett is.
 
-![Balra s&#x171;r&#x171; t&#xE1;masz n&#xE9;lk&#xFC;l, jobbra s&#x171;r&#x171; t&#xE1;masszal \(Merill k&#xE9;p\)](../.gitbook/assets/print_settings_076.jpeg)
+![Balra t&#xE1;masszal, jobbra t&#xE1;masz n&#xE9;lk&#xFC;l \(Merill k&#xE9;p\)](../.gitbook/assets/print_settings_076.jpeg)
 
 #### _Algoritmus_
 
-Válassza ki a tömör réteg elrendezését. Az automatikus opció a legkisebb területet próbálta megrajzolni, csak egyenes vonalakkal a ritkás kitöltésen belül. A rögzítve" csak egy kicsit megnöveli \(az "Alapértelmezett kitöltési szélességgel"\) azokat a területeket, amelyeknek nagyobb támogatásra van szükségük.
+Válassza ki a tömör réteg elrendezését. Az automatikus opció a legkisebb területet próbálta megrajzolni, csak egyenes vonalakkal a ritkás kitöltésen belül. A "rögzítve" csak egy kicsit megnöveli \(az "Alapértelmezett kitöltési szélességgel"\) azokat a területeket, amelyeknek nagyobb támogatásra van szükségük.
 
 ### Haladó
 
@@ -1206,7 +1204,9 @@ Ezek a kitöltési beállítások valóban fejlett beállítások, és a legtöb
 
 Ez a funkció lehetővé teszi, hogy minden megadott számú réteg után egy teljes réteget írjon elő. Ez hasznos lehet a nyomtatott alkatrész szilárdságának növelésére, azonban más lehetőségek, például a kerületek számának vagy a kitöltés százalékos arányának növelése előnyösebb. A hőszigetelés növelése érdekében különálló belső cellák létrehozására is használható.
 
-> **A kikapcsoláshoz állítsa 0-ra.**
+{% hint style="info" %}
+ **A kikapcsoláshoz állítsa 0-ra.**
+{% endhint %}
 
 A tömör kitöltés nyomtatása **X rétegenként** hasznos lehet, ha a modell szilárdságát szeretné javítani \(a kerületek számának növelése azonban jobban működik\), vagy ha a kitöltést több üregre szeretné osztani, hogy egy tárgy lebegjen a vízen. Ez a funkció egyszerűen lehetővé teszi a rendszeres időközönként történő teljes kitöltés benyomását.
 
@@ -1220,7 +1220,9 @@ A kitöltési tájolás alapértelmezett szöge. Egyes kitöltési mintákra rá
 
 Teljes kitöltést ír elő a megadott küszöbértéknél kisebb területekre.
 
-> **A kikapcsoláshoz állítsa 0-ra.**
+{% hint style="info" %}
+ **A kikapcsoláshoz állítsa 0-ra.**
+{% endhint %}
 
 ![Teljes kit&#xF6;lt&#xE9;si k&#xFC;sz&#xF6;b&#xE9;rt&#xE9;k 0 \(balra\), 15 \(k&#xF6;z&#xE9;pen\), 100 \(jobbra\)](../.gitbook/assets/print_settings_078.jpeg)
 
@@ -1234,25 +1236,33 @@ A kitöltés alapszöge elforgatja a mintát a kiválasztott szögben.
 
 A hidak szögét a SuperSlicer automatikusan kiszámítja. Ha 0°-ot hagy, a SuperSlicer a legjobb értéket fogja kiválasztani. Ha szeretné, manuálisan is módosíthatja. Ha 0°-os hídszöggel szeretne nyomtatni, akkor valójában 180°-ra kell beállítania.
 
-> **Használja a 180°-ot a nulla szöghöz.**
+{% hint style="info" %}
+**Használja a 180°-ot a nulla szöghöz.**
+{% endhint %}
 
 #### _Növekményszög_
 
 A növekményszög ez a szög hozzáadódik minden egyes réteghez a kitöltés alapszögénél. Hasznos lehet esztétikai okokból, vagy azért, hogy biztosan eltalálja az objektum minden jellemzőjét, még nagyon alacsony kitöltés esetén is.
 
-> **A kikapcsoláshoz állítsa 0-ra.**
+{% hint style="info" %}
+ **A kikapcsoláshoz állítsa 0-ra.**
+{% endhint %}
 
 #### _Tömör kitöltés rögzítése X mm-rel_
 
 Ez a paraméter megnöveli a felső/alsó/teljes rétegeket a megadott értékkel, hogy rögzítse őket a térben.
 
-> **A letiltáshoz állítsa 0-ra.** Lehet a kerület szélességének %-a.
+{% hint style="info" %}
+ **A letiltáshoz állítsa 0-ra.** Lehet a kerület szélességének %-a.
+{% endhint %}
 
 **Hidak esetén**
 
 Ez a paraméter az áthidalt tömör kitöltő rétegeket a megadott mm-rel megnöveli, hogy az alkatrészbe rögzítse őket.
 
-> **A letiltáshoz állítsa 0-ra.** A külső kerület szélességének százalékába adható meg.
+{% hint style="info" %}
+**A letiltáshoz állítsa 0-ra.** A külső kerület szélességének százalékába adható meg.
+{% endhint %}
 
 #### _Visszahúzás csak a kerületek átlépésekor_
 
@@ -1260,7 +1270,7 @@ Kapcsolja ki a visszahúzást, ha az útvonal nem keresztezi a külső rétegek 
 
 Ha csak akkor használ visszahúzást, amikor a falakat keresztezi, az egy kicsit csökkentheti a nyomtatási időt és növelheti a kitöltés integritását. A visszahúzások kikapcsolása növeli a nem látható \(a modellben rejtett\) szálak áramlását. A visszahúzás továbbra is engedélyezve marad a kerületeknél.
 
-#### _Kitöltés a peremek előtt_
+#### _Kitöltés a kerületek előtt_
 
 Ez az opció megfordítja a kerületek és a kitöltés nyomtatási sorrendjét, és először a kitöltés kerül kinyomtatásra. A kitöltés nyomtatása a kerületek előtt néha hasznos lehet olyan túlnyúlások nyomtatásához, ahol a kerületeknek nincs hova csatlakozniuk. A töltés azonban negatívan befolyásolhatja a külső felület minőségét. A módszer másik felhasználási területe az MMU2, ahol a színtisztítás hatékonyabb - a színt a kitöltésben tisztítják, és a kerületeket tiszta színnel nyomtatják ki.
 
@@ -1288,7 +1298,7 @@ Az áramlásnak az a százaléka, amelyet a második vasalási menetre használn
 
 A vasalási folyamat a vízszintes síkokban **sima felületet** eredményez - a szálak útjai szinte láthatatlanok. Hogyan lehetséges ez? A forró fúvóka még **egyszer áthalad a felületen, de csökkentett száláramlási sebességgel.** A vasalás be- vagy kikapcsolása, valamint a vasalás típusának kiválasztása \(minden felület, csak a legfelső felület, minden tömör felület\) a legtöbb 3D nyomtató felhasználó számára elegendőnek kell lennie. Előfordulhat azonban, hogy módosítani kell az áramlási arányt vagy a vasalási lépések közötti távolságot. Az **áramlási arány** a normál rétegmagasság százalékában van megadva, a **vasalási átmenetek távolsága** pedig azt határozza meg, hogy a fúvóka által húzott párhuzamos vonalak milyen távolságra legyenek egymástól. Ezeknek a paramétereknek az értékei optimális értékekre vannak beállítva, de tetszés szerint módosíthatja őket, ha nem tetszik az eredmény.
 
-Ha növeli **az áramlási sebességet**, előfordulhat, hogy anyagmaradványok maradnak a felületen. Ezenkívül a fúvóka útja is láthatóvá válik. Az alacsonyabb áramlási sebesség viszont láthatóvá teszi az utolsó rétegen a hézagokat kitöltő anyag hiánya miatt. **A vasalási lépések távolsága** szintén fontos hatással van a felső réteg megjelenésére. A magyarázat megkönnyítése érdekében hasonlítsuk össze a hókotróval. Tegyük fel, hogy a hó kitolására csak a hókotró lapát egy részét használja - ez eltávolít egy bizonyos mennyiségű havat, és az út egy részét is megtisztítja. Ha a szánt egészen benyomja a lapátot, és előre tolja, akkor megtisztítja az utat, de a felesleges havat hátrahagyja.
+Ha növeli **az áramlási sebességet**, előfordulhat, hogy anyagmaradványok maradnak a felületen. Ezenkívül a fúvóka útja is láthatóvá válik. Az alacsonyabb áramlási sebesség viszont láthatóvá teszi az utolsó rétegen a hézagokat kitöltő anyag hiánya miatt. **A vasalási lépések távolsága** szintén fontos hatással van a felső réteg megjelenésére. A magyarázat megkönnyítése érdekében hasonlítsuk össze a hókotróval. Tegyük fel, hogy a hó kitolására csak a hókotró lapát egy részét használja - ez eltávolít egy bizonyos mennyiségű havat, és az út egy részét is megtisztítja. Ha az egész lapáttal tolja a havat , és előre tolja, akkor megtisztítja az utat, de a felesleges havat hátrahagyja.
 
 #### _Mi az a vasalás \(simítás\) és hogyan működik?_
 
@@ -1322,7 +1332,7 @@ A vasalás akkor is hasznos lehet, ha két darabot szeretne összeragasztani, é
 
 Egyes minták a hátoldalra is nyomtathatók. Az nyomtatólemezre nyomtatott alsó réteg általában még simább lesz, mint a vasalt felső réteg. A nyomtatásban pedig a használt nyomtatólemeztől függően textúrát is nyomtathat.
 
-A **Monoton kitöltés** egy másik funkció, amely javítja a felső rétegek minőségét. A legjobb eredmény érdekében használja a vasalással együtt. Az eredeti Prusa profilokban a monoton kitöltés már alapértelmezett felső rétegmintaként van beállítva.
+A **Monoton kitöltés** egy másik funkció, amely javítja a felső rétegek minőségét. A legjobb eredmény érdekében használja a vasalással együtt. Az eredeti SuperSclicer profilokban a monoton kitöltés már alapértelmezett felső rétegmintaként van beállítva.
 
 #### _A vasalás aktiválása minden modell esetében_
 
@@ -1338,7 +1348,7 @@ Először kapcsoljon szakértői üzemmódba, az egyes minták vasalása csak eb
 
 ![Vasal&#xE1;s hozz&#xE1;ad&#xE1;sa a kiv&#xE1;lasztott modellre \(Gif\)](../.gitbook/assets/print_settings_086k.gif)
 
-                                                                                 [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_086.gif?raw=true)\*\*\*\*
+                                                                                 [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/print_settings_086.gif?raw=true)\*\*\*\*
 
 Ha ugyanannak az objektumnak több példánya is van a nyomtatólemezen, és az egyiknél engedélyezni szeretné a vasalást, akkor először jobb egérgombbal kell kattintania a modellre, és a szövegkörnyezeti menüből a _**Egyedi objektumként való beállítás**_ parancsot kell választania. Ellenkező esetben az összes példányban engedélyezni fogja, mivel mindannyian ugyanazokat a beállításokat használják.
 
@@ -1358,7 +1368,7 @@ Mivel a vasalás csak sík felületeken működik, érdemes egy magasság módos
 
 ![Vasal&#xE1;s egy magass&#xE1;gi tartom&#xE1;ny m&#xF3;dos&#xED;t&#xF3;val \(Gif\)](../.gitbook/assets/print_settings_087k.gif)
 
-                                                                              [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_087.gif?raw=true)\*\*\*\*
+                                                                              [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/print_settings_087.gif?raw=true)\*\*\*\*
 
 **Módosító háló**
 
@@ -1371,7 +1381,7 @@ Mivel a vasalás csak sík felületeken működik, érdemes egy magasság módos
 
 ![Vasal&#xE1;s egy m&#xF3;dos&#xED;t&#xF3; h&#xE1;l&#xF3;val \(Gif\)](../.gitbook/assets/print_settings_088k.gif)
 
-                                                                               [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_088.gif?raw=true)\*\*\*\*
+                                                                               [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/print_settings_088.gif?raw=true)\*\*\*\*
 
 #### _Vasalás típusa_
 
@@ -1433,7 +1443,7 @@ _A vasalás ötletét először “Neotko” felhasználó javasolta az Ultimake
 
 A szoknya egy körvonal, amely a nyomtatólemezre nyomtatott összes modell köré van nyomtatva. Ezt a modellek előtt nyomtatják ki, és fő célja, hogy **stabilizálja a fúvókán keresztül a szál áramlását**.
 
-A szoknya hasznos az első rétegnek a nyomtatólemezhez való tapadásának **ellenőrzéséhez** is. Mivel a sablonok előtt nyomtatja, gyorsan módosíthatja a **Z-tengely beállítás** értékét, ha úgy látja, hogy az első réteg nem tapad megfelelően, vagy a fúvóka összetöri.
+A szoknya hasznos az első rétegnek a nyomtatólemezhez való tapadásának **ellenőrzéséhez** is. Mivel a sablonok előtt nyomtatja, gyorsan módosíthatja a **Z-tengely beállítás** értékét, ha úgy látja, hogy az első réteg nem tapad megfelelően, vagy a fúvóka elkeni.
 
 ![Szoknya](../.gitbook/assets/print_settings_092.jpeg)
 
@@ -1441,7 +1451,9 @@ A szoknya hasznos az első rétegnek a nyomtatólemezhez való tapadásának **e
 
 A szoknyában lévő hurkok száma. Ha a **Minimális extrudálási hossz** van beállítva, a hurkok minimális száma nagyobb lesz, mint az itt beállított.
 
-> **A szoknya teljes kikapcsolásához** állítsa 0-ra.
+{% hint style="info" %}
+ A szoknya teljes kikapcsolásához **állítsa 0-ra.**
+{% endhint %}
 
 #### _Távolság a tárgytól_
 
@@ -1453,7 +1465,9 @@ A nyomtatandó szoknyarétegek száma.
 
 Az egy réteg magas szoknyákat nehéz lehet eltávolítani a nyomtatólemezről. A Prusa profilok általában 3 rétegű magas szoknyát használnak emiatt.
 
-> **Ezt a paramétert 0-ra is beállíthatja, hogy teljesen kikapcsolja** a szoknyát.
+{% hint style="info" %}
+Ezt a paramétert 0-ra is beállíthatja, hogy teljesen kikapcsolja a szoknyát.
+{% endhint %}
 
 #### _Légáramlási védőpajzs_
 
@@ -1464,8 +1478,6 @@ A pajzs jellemzői a szoknya beállításaitól függenek, különösen a pajzso
 ![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](../.gitbook/assets/print_settings_093.jpg)
 
 ![P&#xE9;lda egy v&#xE9;d&#x151;pajzsra 3 kont&#xFA;rral](../.gitbook/assets/print_settings_094.jpg)
-
-#### \_\_
 
 #### _Minimális szál extrudálási hossza_
 
@@ -1510,7 +1522,9 @@ Lehetőség, hogy csak a modell kiemelkedő szélei köré helyezzen peremet.
 
 Maximális szög a sarokperem hozzáadásához.
 
-> **Ha 0-ra van állítva, akkor nem jön létre perem.**
+{% hint style="info" %}
+Ha 0-ra van állítva, akkor nem jön létre perem.
+{% endhint %}
 
 Ha a 178 körüli értékre van állítva, akkor a perem az egyenes szakaszok kivételével minden széle körül létrejön.
 
@@ -1518,7 +1532,9 @@ Ha a 178 körüli értékre van állítva, akkor a perem az egyenes szakaszok ki
 
 A geometriát a hegyesszögek felismerése előtt tizedelni kell. Ez a paraméter az eltérés minimális hosszát jelzi a tizedelés után.
 
-> **A funkció letiltásához állítsa 0-ra.**
+{% hint style="info" %}
+A funkció letiltásához állítsa 0-ra.
+{% endhint %}
 
 **Minta**
 
@@ -1526,7 +1542,7 @@ A sarok mintája. A koncentrikus az alapértelmezett. Az egyenes vonalúnak van 
 
 #### _Eltolt perem_
 
-Az él és az alkatrész közötti távolság. 0 értéken kell tartani, hacsak nem okoz nagy nehézséget a szétválasztásuk. Ez levonásra kerül a brim\_width és a brim\_width\_interior értékekből, tehát kisebbnek kell lennie ezeknél.
+Az él és a tárgy közötti távolság. 0 értéken kell tartani, hacsak nem okoz nagy nehézséget a szétválasztásuk. Ez levonásra kerül a brim\_width és a brim\_width\_interior értékekből, tehát kisebbnek kell lennie ezeknél.
 
 ## Támaszték
 
@@ -1549,7 +1565,9 @@ A támasztékokat a **jobb oldali panelen** vagy a **Nyomtatási beállítások 
 
 A nyomtatás befejeztével a modell geometriájától és a felhasznált anyagtól függően a tartószerkezet gyakran puszta kézzel is könnyen eltávolítható. Fogóval jobban megfoghatja az egyébként nehezen hozzáférhető helyeket. Egy szike vagy egy kés is használható a modellhez ragadtnak tűnő tartóelemek tiszta eltávolítására.
 
+{% hint style="danger" %}
 A támasztékok darabjai meglepően élesek lehetnek, és eltávolítás után néha hevesen, véletlenszerű irányban kirepülnek. Ha nehezen eltávolítható támasztékokkal találkozik, fontolja meg a védőszemüveg viselését \(ez mindaddig butaságnak tűnik, amíg először szemen nem találják\).
+{% endhint %}
 
 ### Támaszték mindenhol
 
@@ -1579,7 +1597,7 @@ A jobb oldali panelen egy új ablak jelenik meg **A módosítandó objektum beá
 
 ![A t&#xE1;maszok aktiv&#xE1;l&#xE1;sa/kikapcsol&#xE1;sa az egyes modellekn&#xE9;l](../.gitbook/assets/print_settings_104k.gif)
 
-                                                                           [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_104.gif?raw=true)\*\*\*\*
+                                                                           [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/print_settings_104.gif?raw=true)\*\*\*\*
 
 ### Támaszték kényszerítő/blokkoló
 
@@ -1638,7 +1656,7 @@ Alulról felfelé generálja a megadott számú réteg alátámasztását, függ
 
 ![T&#xE1;maszok l&#xE9;trehoz&#xE1;sa az els&#x151; 10 majd 100 r&#xE9;tegen \(Gif\)](../.gitbook/assets/print_settings_106k.gif)
 
-                                                                               [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/.gitbook/assets/print_settings_106.gif?raw=true)\*\*\*\*
+                                                                               [**Nagyobb méret**](https://github.com/sziga/SuperSlicerHu/blob/master/gif/print_settings_106.gif?raw=true)\*\*\*\*
 
 A **Támaszok generálása** opciót legalább az első X réteg előállításához aktiválni kell.
 
@@ -1714,7 +1732,9 @@ Egyetlen kerületet hoz létre a támaszok körül, ami stabilabbá teszi őket,
 
 A támaszok vonalai közötti távolság. Növelje ezt, hogy könnyebb legyen a támaszok eltávolítása. A támasz felületi rétegei áthidalják a támasz vonalakat, ha ezt az értéket túlságosan megnöveli, ezek a hidak elkezdenek megereszkedni, és nem lesz tökéletes kapcsolatuk a modellel.
 
-> A teljes támogatás eléréséhez állítsa nullára.
+{% hint style="info" %}
+A teljes támogatás eléréséhez állítsa nullára.
+{% endhint %}
 
 Legyen óvatos, ez a paraméter nem csak a vonalak közötti távolságot befolyásolja, hanem a támasz túlcsordulását is a támaszterületéhez képest.
 
@@ -1736,7 +1756,7 @@ Meghatározza a modell és a támaszok közötti rés szélességét. A nagyobb 
 
 Ha százalékban van megadva \(pl. 150%\), akkor azt a külső kerület szélességéből kell kiszámítani.
 
-![Sz&#xE1;zal&#xE9;kos kifejez&#xE9;s](../.gitbook/assets/print_settings_114.jpeg)
+![Sz&#xE1;zal&#xE9;kos kifejez&#xE9;s \(prusa k&#xE9;p\)](../.gitbook/assets/print_settings_114.jpeg)
 
 #### _Ne támogassa a hidakat_.
 
@@ -1770,7 +1790,9 @@ Ez az opció lehetővé teszi az objektum\(ok\) és a támaszok közé beilleszt
 
 A felületi minták sortávolsága.
 
-> A teljes felületi mintázathoz állítsa nullára.
+{% hint style="info" %}
+A teljes felületi mintázathoz állítsa nullára.
+{% endhint %}
 
 #### _Felületi hurkok_
 
@@ -1778,7 +1800,9 @@ Fedje le a hordozók felső érintkezőrétegét hurkokkal. Hozzon létre hurkok
 
 ![Fel&#xFC;leti hurkok](../.gitbook/assets/print_settings_116.jpeg)
 
-> Alapértelmezés szerint ki van kapcsolva.
+{% hint style="info" %}
+Alapértelmezés szerint ki van kapcsolva.
+{% endhint %}
 
 ## Sebesség
 
@@ -1830,7 +1854,9 @@ Sebesség a kerületekre \( körvonalak, függőleges falakra\). Automatikus be�
 
 A nyomtatási mozgások sebessége.
 
-> Megjegyzés: A sebesség 0-ra állítása letiltja a funkciót.
+{% hint style="info" %}
+A sebesség 0-ra állítása letiltja a funkciót.
+{% endhint %}
 
 ![Balra a furat kit&#xF6;lt&#xE9;se akt&#xED;v, jobbra a fels&#x151; t&#xF6;m&#xF6;r kit&#xF6;lt&#xE9;s v&#xE1;ltja fel \(Prusa k&#xE9;p\)](../.gitbook/assets/print_settings_119.jpeg)
 
@@ -1858,11 +1884,15 @@ Ezek a paraméterek a kis kerület fogalmának meghatározására szolgálnak.
 
 **Minimális hossz:** Ez határozza meg a kis kerület hosszának küszöbértékét. Minden olyan hurok, amelynek hossza ennél kisebb, kis kerületi sebességgel kerül kinyomtatásra.
 
-> Kifejezhető mm-ben vagy a fúvóka átmérőjének %-ában.
+{% hint style="info" %}
+Kifejezhető mm-ben vagy a fúvóka átmérőjének %-ában.
+{% endhint %}
 
 **Maximális hossz:** Ez állítja be a kis kerület hosszának küszöbértékét. Minden ennél kisebb kerületű hurok sebessége egy kicsit csökken, a normál sebességükről az adott hosszúságra a kis kerület sebességére.
 
-> Kifejezhető mm-ben vagy a fúvóka átmérőjének %-ában.
+{% hint style="info" %}
+Kifejezhető mm-ben vagy a fúvóka átmérőjének %-ában.
+{% endhint %}
 
 **Sebesség:** Ez a különálló beállítás a &lt;= 6,5 mm sugarú körvonalak \(általában lyukak\) sebességét befolyásolja. Ha ez az érték százalékban van megadva \(pl. 80%\), akkor a fenti kerületi sebességbeállításból kerül kiszámításra. Automatikus beállításhoz állítsa nullára.
 
@@ -1898,7 +1928,9 @@ Maximális térfogatsebesség = rétegmagasság x extrudálási szélesség x se
 
 A független MVS-értékek a **Nyomtatási beállítások** és a **Szál beállítások** menüpontokban állíthatók be. A nyomtatási profilban általában van egy globális alapértelmezett érték, amely a hotend-en alapul. A szálprofilokban az MVS-t szükség szerint módosíthatja a szál jellemzőinek figyelembevételével, például csökkentheti azt a FLEX szálak esetében \(így nem kell új nyomtatási profilt létrehoznia a rugalmas szálakhoz, csak egy szálprofilt\).
 
-> Állítsa az MVS-t **nulla** \(0\) értékre, a **nincs határérték**hez.
+{% hint style="info" %}
+Állítsa az MVS-t **nulla** \(0\) értékre, a **nincs határérték**hez.
+{% endhint %}
 
 Az MVS-t néha automatikus sebességnek is nevezik.
 
