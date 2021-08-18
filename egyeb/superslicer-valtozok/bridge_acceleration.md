@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Sebesség](../../konfig/print_settings.md#sebesség) - [Gyorsulásszabályozás \(haladó\)](../../konfig/print_settings.md#gyorsulásszabályozás)
+* Alcsoport : [Sebesség](../../konfig/print_settings.md#sebesseg) - [Gyorsulásszabályozás \(haladó\)](../../konfig/print_settings.md#gyorsulasszabalyozas-halado)
 * Mód : Szakértő
 
 ## Híd gyorsulás
@@ -15,7 +15,7 @@ Ez az a gyorsítás, amelyet a nyomtató a hidakhoz használ.
 >
 > Vegye figyelembe, hogy ez nem vonatkozik a túlnyúlásokra, azok továbbra is a kerület gyorsulását használják.
 
-Az [default\_acceleration](../default_acceleration) opciónak pozitív értékkel kell rendelkeznie ahhoz, hogy aktív legyen.
+Az [default\_acceleration](default_acceleration.md) opciónak pozitív értékkel kell rendelkeznie ahhoz, hogy aktív legyen.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

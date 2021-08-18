@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Kerület és héj](../../konfig/print_settings.md#kerületéshéj) - [Vízszintes héjak](../../konfig/print_settings.md#vízszinteshéjak)
+* Alcsoport : [Kerület és héj](../../konfig/print_settings.md#kerueletek-es-hej) - [Vízszintes héjak](../../konfig/print_settings.md#vizszintes-hejak)
 * Mód : Egyszerű
 * Minimális érték :  0
 * Alapértelmezett érték: 3
@@ -19,5 +19,5 @@ Az alján lévő szilárd rétegek számát változtathatja:
 * A rétegek számának növelésével töltse ki a nyomtatás alján lévő hézagokat.
 * a rétegek számának csökkentésével lerövidíti a nyomtatási időt és az anyagfelhasználást.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

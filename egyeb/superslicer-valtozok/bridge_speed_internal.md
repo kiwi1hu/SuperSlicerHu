@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Sebesség](../../konfig/print_settings.md#sebesség) - [Nyomtatási mozgások sebessége](../../konfig/print_settings.md#nyomtatásimozgásoksebessége)
+* Alcsoport : [Sebesség](../../konfig/print_settings.md#sebesseg) - [Nyomtatási mozgások sebessége](../../konfig/print_settings.md#nyomtatasi-mozgasok-sebessege)
 * Mód : Haladó
 * Mértékegység : mm/s vagy %
 * Minimális érték :  0
@@ -14,7 +14,7 @@
 
 A felső réteget tartó hidak nyomtatási sebessége.
 
-Lehet a [bridge speed](../bridge_speed) értékének %-a.
+Lehet a [bridge speed](bridge_speed.md) értékének %-a.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

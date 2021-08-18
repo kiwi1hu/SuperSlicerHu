@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Kitöltés](../../beallitasok/print_settings.md#remplissage) - [Haladó](bridged_infill_margin.md)
+* Alcsoport : [Kitöltés](../../konfig/print_settings.md#kitoeltes) - [Haladó](../../konfig/print_settings.md#halado-1)
 * Mód : Szakértő
 * Mértékegység : mm/%
 * Minimális érték :  0
@@ -22,5 +22,5 @@ A hídtöltőanyag 100%-ban rögzített rögzítése = Egy külső kerületi sz�
 
 A 400%-ban rögzített hídkitöltő anyagok rögzítése.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

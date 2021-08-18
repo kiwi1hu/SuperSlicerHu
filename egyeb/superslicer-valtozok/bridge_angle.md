@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Kitöltés](../../konfig/print_settings.md#kitöltés) -  [Haladó](../../konfig/print_settings.md#haladó)
+* Alcsoport : [Kitöltés](../../konfig/print_settings.md#kitoeltes) -  [Haladó](../../konfig/print_settings.md#halado-1)
 * Mód : Haladó
 * Mértékegység: °
 * Minimális érték: 0
@@ -16,5 +16,5 @@ Hídképzési szög felülbírálása. Ha nullán hagyja, az áthidalási szög 
 
 > Használja a 180°-ot a nulla szöghöz.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

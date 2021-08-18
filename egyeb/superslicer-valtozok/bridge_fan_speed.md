@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Szál beállítások](../../konfig/filament_settings.md)
-* Alcsoport : [Hűtés](../../konfig/filament_settings.md#hűtés) - [Ventilátor sebessége](../../konfig/filament_settings.md#ventilátorsebessége)
+* Alcsoport : [Hűtés](../../konfig/filament_settings.md#hutes) - [Ventilátor sebessége](../../konfig/filament_settings.md#a-ventilator-sebessege-a-felso-retegen)
 * Mód : Haladó
 * Mértékegység : %
 * Minimális érték :  -1
@@ -17,7 +17,7 @@ Ez a ventilátor fordulatszám minden hídra és túlnyúlásra vonatkozik. Nem 
 
 > A ventilátor kikapcsolásához állítsa 1-re. Állítsa az értéket -1-re, hogy a normál ventilátorsebességet használja a híd és a túlnyúló részeken.
 
-Csak a következővel helyettesíthető [disable\_fan\_first\_layers](../disable_fan_first_layers).
+Csak a következővel helyettesíthető [disable\_fan\_first\_layers](disable_fan_first_layers.md).
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

@@ -2,7 +2,7 @@
 
 * Technológia : FDM & SLA
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Függőségek](../../konfig/print_settings.md#függőségek) - [Profilfüggőségek](../../konfig/print_settings.md#profilfüggőségek)
+* Alcsoport : [Függőségek](../../konfig/print_settings.md#fueggosegek) - [Profilfüggőségek](../../konfig/print_settings.md#profilfueggosegek)
 * Mód : Haladó
 
 ## Kompatibilis nyomtatók
@@ -11,5 +11,5 @@
 
 A meghatározott profillal kompatibilis nyomtatók.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

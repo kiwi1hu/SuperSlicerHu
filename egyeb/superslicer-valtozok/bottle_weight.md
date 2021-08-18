@@ -1,17 +1,16 @@
 # bottle\_weight
 
 * Technológia : SLA
-* Csoport : [Réglages Matériau](../sla_printer/sla_parameters.md)
-* Alcsoport : Matériau
+* Csoport : [Anyag beállítás](../../konfig/sla_parameters.md)
+* Alcsoport : Anyag
 * Mód : Egyszerű
+* Alapértelmezett érték : 1 Kg
 
-## Poids de la bouteille
+## Palack tömege
 
 ### Leírás
 
-Poids de la bouteille en Kg.
+A palack súlya kg-ban.
 
-* Alapértelmezett érték : 1 Kg
-
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

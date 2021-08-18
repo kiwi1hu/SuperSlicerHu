@@ -5,11 +5,11 @@
 * Alcsoport : -
 * Mód : -
 
-## Centre
+## Központ
 
 ### Leírás
 
-Centrer l'impression autour d'un point donné.
+A nyomtatás központosítása egy adott pont körül.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

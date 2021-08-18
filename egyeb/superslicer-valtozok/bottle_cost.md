@@ -1,15 +1,15 @@
 # bottle\_cost
 
 * Technológia : SLA
-* Csoport : [Réglages Matériau](../sla_printer/sla_parameters.md)
-* Alcsoport : Matériau
+* Csoport : [Anyag beállítások](../../konfig/sla_parameters.md)
+* Alcsoport : Anyag
 * Mód : Egyszerű
 
-## Coût de la bouteille
+## Palackonkénti költség
 
 ### Leírás
 
-Coût d'une bouteille de résine.
+Egy üveg gyanta költsége.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

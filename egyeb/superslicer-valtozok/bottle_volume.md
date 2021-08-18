@@ -1,17 +1,16 @@
 # bottle\_volume
 
 * Technológia : SLA
-* Csoport : [Réglages Matériau](../sla_printer/sla_parameters.md)
-* Alcsoport : Matériau
+* Csoport : [Anyag beállítás](../../konfig/sla_parameters.md)
+* Alcsoport : Anyag
 * Mód : Egyszerű
+* Alapértelmezett érték : 1000 ml
 
-## Volume de la bouteille
+## Palack térfogata
 
 ### Leírás
 
-Volume de la bouteille en ml.
+A palack térfogata ml-ben.
 
-* Alapértelmezett érték : 1000 ml
-
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

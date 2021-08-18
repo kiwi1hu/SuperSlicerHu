@@ -11,5 +11,5 @@
 
 Azok a magasságok, amelyeknél a szálváltásnak meg kell történnie.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

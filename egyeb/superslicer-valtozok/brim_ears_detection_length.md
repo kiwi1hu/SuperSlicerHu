@@ -2,18 +2,18 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Jupe et Bordure](../../beallitasok/print_settings.md#jupe-et-bordure) - Bordure sur les coins
+* Alcsoport : [Szoknya és perem](../../konfig/print_settings.md#szoknya-es-perem) - [Perem](../../konfig/print_settings.md#perem)
 * Mód : Haladó
 
-## Bordure sur les coins longueur de détection
+## A sarkok érzékelési hossza
 
 ### Leírás
 
-La géométrie sera décimée avant de détecter les angles aigus. Ce paramètre indique la longueur minimale de la déviation après décimation.
+A geometriát a hegyesszögek felismerése előtt tizedelni kell. Ez a paraméter az eltérés minimális hosszát jelzi a decimálás után..
 
-> 0 pour désactiver
+> 0 a kikapcsoláshoz
 
 * Alapértelmezett érték : 1 mm
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

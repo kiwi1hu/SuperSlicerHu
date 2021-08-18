@@ -1,17 +1,17 @@
 # color\_change\_gcode
 
 * Technológia : FDM
-* Csoport : Fonction Általános
+* Csoport : Általános változó
 * Alcsoport : -
 * Mód : Szakértő
 
-## G-Code de changement de couleur
+## G-kód a színváltáshoz
 
 ### Leírás
 
-Ce G-Code sera utilisé comme code pour le changement de couleur.
+Ez a G-kód lesz a színváltás kódja.
 
 Alapértelmezett érték : `M600`
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 
