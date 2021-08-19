@@ -1,17 +1,17 @@
 # deretract\_speed
 
 * Technológia : FDM
-* Csoport : [Nyomtató beállítások](../../beallitasok/printer_settings.md)
-* Alcsoport : [Extruder](../../beallitasok/printer_settings.md#extrudeuse) - Rétraction
+* Csoport : [Nyomtató beállítások](../../konfig/printer_settings.md)
+* Alcsoport : [Extruder](../../konfig/printer_settings.md#extruder) - [Visszahúzás](../../konfig/printer_settings.md#visszahuzas)
 * Mód : Haladó
+* Mértékegység : mm/s
+* Alapértelmezett érték : 0
 
-## Vitesse de Réinsertion
+## Visszahúzási sebesség
 
 ### Leírás
 
-La vitesse de chargement d'un filament dans l'extrudeuse après une rétraction \(ne s'applique qu'au moteur de l'extrudeuse\).
+Az extruderbe visszahúzás után a szál betöltésének sebessége \(ez csak az extrudermotorra vonatkozik\). Ha nulla marad, akkor a visszahúzási sebességet használja a rendszer.
 
-> Si cette valeur reste sur zéro, la vitesse de rétraction est utilisée.
-
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

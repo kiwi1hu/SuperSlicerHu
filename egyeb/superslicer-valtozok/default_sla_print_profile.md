@@ -5,11 +5,11 @@
 * Alcsoport : -
 * Mód : -
 
-## Profil par défaut du matériau SLA
+## Alapértelmezett SLA nyomtatóprofil
 
 ### Leírás
 
-Profil d'impression par défaut associé au profil d'imprimante courant. En sélectionnant le profil d'imprimante courant, ce profil d'impression sera activé.
+Az aktuális nyomtatóprofilhoz tartozó alapértelmezett nyomtatási profil. Az aktuális nyomtatóprofil kiválasztásakor ez a nyomtatási profil aktiválódik.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

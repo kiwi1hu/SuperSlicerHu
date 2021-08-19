@@ -1,15 +1,17 @@
 # display\_height
 
 * Technológia : SLA
-* Csoport : [Nyomtató beállítások](../sla_printer/sla_parameters.md)
+* Csoport : [Nyomtató beállítások](../../konfig/printer_settings.md)
 * Alcsoport : Général - Afficher
 * Mód : Egyszerű
+* Minimális érték :  1
+* Alapértelmezett érték : 68
 
-## Hauteur de l'affichage
+## A kijelző magassága
 
-### Leírás
+## Leírás
 
-Hauteur de l'affichage
+A kijelző magassága
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

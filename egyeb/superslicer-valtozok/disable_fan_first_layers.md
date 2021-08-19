@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Szál beállítások](../../konfig/filament_settings.md)
-* Alcsoport : [Hűtés](../../konfig/filament_settings.md#hűtés) - [Ventilátor sebessége](../../konfig/filament_settings.md#ventilátorsebessége)
+* Alcsoport : [Hűtés](../../konfig/filament_settings.md#hutes) - [Ventilátor sebessége](../../konfig/filament_settings.md#a-ventilator-sebessege-hidak-eseteben)
 * Mód : Szakértő
 * Mértékegység : réteg
 * Minimális érték :  0
@@ -15,5 +15,5 @@
 
 Ezt a paramétert pozitív értékre állíthatja, hogy az első X réteg alatt teljesen kikapcsolja a ventilátort, hogy ne nehezítse a tapadást.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

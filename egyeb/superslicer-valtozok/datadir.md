@@ -1,15 +1,15 @@
 # datadir
 
 * Technológia : FDM & SLA
-* Csoport : Fonction Általános
+* Csoport : Általános változó
 * Alcsoport : -
 * Mód : -
 
-## Répertoire de données
+## Adatkönyvtár
 
 ### Leírás
 
-Charger et stocker les réglages dans le répertoire donné. Ceci est utile pour conserver différents profils ou inclure des configurations depuis un stockage réseau.
+A beállítások betöltése és tárolása a megadott könyvtárban. Ez hasznos a különböző profilok karbantartásához vagy a hálózati tárolóból származó konfigurációk felvételéhez..
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

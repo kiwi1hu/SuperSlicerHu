@@ -2,10 +2,12 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Sebesség](../../konfig/print_settings.md#sebesség) - [Gyorsulásszabályozás](../../konfig/print_settings.md#gyorsulásszabályozás)
+* Alcsoport : [Sebesség](../../konfig/print_settings.md#sebesseg) - [Gyorsulásszabályozás](../../konfig/print_settings.md#gyorsulasszabalyozas-halado)
 * Mód : Szakértő
 * Mértékegység : mm/s² vagy %
 * Minimális érték :  0
+
+## Alapértelmezett gyorsulás
 
 ## Leírás
 
@@ -15,5 +17,5 @@ A maximális X/Y gépgyorsulási határérték %-ában állítható be.
 
 > Adja meg a nullát, hogy megakadályozza a gyorsulás visszaállítását.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

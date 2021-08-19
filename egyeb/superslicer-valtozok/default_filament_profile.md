@@ -11,5 +11,5 @@
 
 Az aktuális nyomtatóprofilhoz tartozó alapértelmezett szálprofil. Az aktuális nyomtatóprofil kiválasztásával ez a szálprofil aktiválódik.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

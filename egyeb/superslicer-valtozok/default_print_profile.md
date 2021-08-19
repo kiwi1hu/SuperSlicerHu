@@ -11,5 +11,5 @@
 
 Az aktuális nyomtatóprofilhoz tartozó alapértelmezett nyomtatási profil. Az aktuális nyomtatóprofil kiválasztásával ez a nyomtatási profil aktiválódik.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 
