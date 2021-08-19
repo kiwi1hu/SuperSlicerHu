@@ -1,15 +1,17 @@
 # display\_pixels\_y
 
 * Technológia : SLA
-* Csoport : [Nyomtató beállítások](../sla_printer/sla_parameters.md)
-* Alcsoport : Général - Afficher
+* Csoport : [Nyomtató beállítások](../../konfig/sla_parameters.md)
+* Alcsoport : Általános - Kijelző
 * Mód : Egyszerű
+* Minimális érték :  100
+* Alapértelmezett érték : 1440
 
-## Nombre de pixels sur Y
+## Az Y képpontok száma
 
 ### Leírás
 
-Nombre de pixels présent sur Y
+Az Y képpontok száma
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

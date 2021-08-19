@@ -1,17 +1,16 @@
 # display\_mirror\_x
 
 * Technológia : SLA
-* Csoport : [Nyomtató beállítások](../sla_printer/sla_parameters.md)
-* Alcsoport : Général - Afficher
-* Mód : Egyszerű
+* Csoport : [Nyomtató beállítások](../../konfig/sla_parameters.md)
+* Alcsoport : Általános - Kijelző
+* Mód : Szakértő
+* Alapértelmezett érték : engedélyezve
 
-## Mirroir d'affichage horizontal
+## Vízszintes tükrözés kijelzése
 
 ### Leírás
 
-Activer la symétrie horizontale des images de sortie.
+A kimeneti képek vízszintes tükrözésének engedélyezése
 
-> Par défaut non active.
-
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

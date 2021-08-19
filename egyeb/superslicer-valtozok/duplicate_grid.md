@@ -5,11 +5,11 @@
 * Alcsoport : -
 * Mód : -
 
-## Dupliquer par grille
+## Duplikálás rács szerint
 
 ### Leírás
 
-Multiplier les copies en créant une grille.
+Sokszorozza a másolatokat egy rács létrehozásával.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

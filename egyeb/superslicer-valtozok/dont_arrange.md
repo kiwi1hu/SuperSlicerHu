@@ -1,15 +1,15 @@
 # dont\_arrange
 
 * Technológia : FDM & SLA
-* Csoport : Fonction Általános
+* Csoport : Általános változó
 * Alcsoport : -
 * Mód : -
 
-## Ne pas agencer
+## Ne rendezze
 
 ### Leírás
 
-Ne pas ré-agencer les modèles donnés avant la fusion et conserver leurs coordonnées XY originales.
+Az egyesítés előtt ne rendezze át az adott modelleket, és tartsa meg az eredeti XY-koordinátákat.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

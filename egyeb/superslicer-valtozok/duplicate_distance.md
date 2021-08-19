@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Kimeneti beállítások](../../konfig/print_settings.md#kimenetibeállítások) - [Lemez](../../konfig/print_settings.md#lemez)
+* Alcsoport : [Kimeneti beállítások](../../konfig/print_settings.md#kimeneti-beallitasok) - [Lemez](../../konfig/print_settings.md#lemez)
 * Mód : Egyszerű
 * Mértékegység : mm
 * Minimális érték :  0
@@ -14,5 +14,5 @@
 
 Távolság az objektumok közötti távolság beállítására szolgál az Automatikus elrendezés funkció használatakor.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

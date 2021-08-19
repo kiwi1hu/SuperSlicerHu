@@ -1,20 +1,20 @@
 # display\_orientation
 
 * Technológia : SLA
-* Csoport : [Nyomtató beállítások](../sla_printer/sla_parameters.md)
-* Alcsoport : Général - Afficher
+* Csoport : [Nyomtató beállítások](../../konfig/sla_parameters.md)
+* Alcsoport : Általános - Kijelző
 * Mód : Szakértő
 
-## Orientation de l'affichage
+## Kijelző tájolása
 
 ### Leírás
 
-Définit l'orientation de l'affichage LCD dans l'imprimante SLA. Le Mód portrait échangera la signification des paramètres de hauteurs et de largeur et les images de sortie seront pivotées de 90 degrés.
+Állítsa be az aktuális LCD-kijelző tájolását az SLA nyomtatóban. A portré mód megfordítja a kijelző szélességi és magassági paramétereinek jelentését, és a kimeneti képek 90 fokkal el lesznek forgatva.
 
-Mód disponible :
+Mód elérhető : 
 
-* Portrait
-* Paysage
+* Portré 
+* Tájkép
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

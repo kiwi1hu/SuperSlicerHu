@@ -1,15 +1,17 @@
 # display\_pixels\_x
 
 * Technológia : SLA
-* Csoport : [Nyomtató beállítások](../sla_printer/sla_parameters.md)
-* Alcsoport : Général - Afficher
+* Csoport : [Nyomtató beállítások](../../konfig/sla_parameters.md)
+* Alcsoport : Általános - Kijelző
 * Mód : Egyszerű
+* Minimális érték :  100
+* Alapértelmezett érték : 2560
 
-## Nombre de pixels sur X
+## Az X képpontok száma
 
 ### Leírás
 
-Nombre de pixels présent sur X
+Az X képpontok száma
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

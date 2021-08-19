@@ -2,22 +2,22 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Jupe et Bordure](../../beallitasok/print_settings.md#jupe-et-bordure) 
+* Alcsoport : [Szoknya és perem](../../konfig/print_settings.md#szoknya-es-perem) - [Szoknya](../../konfig/print_settings.md#szoknya)
 * Mód : Haladó 
 
-## Bouclier contre les flux d'air
+## Légáramlási pajzs
 
 ### Leírás
 
-Si elle est activée, la jupe sera aussi haute que l'objet imprimé le plus haut. Cela sert à protéger les impressions ABS ou ASA des phénomènes de déformation ou de décollement du plateau d'impression liés au flux d'air.
+Ha aktiválva van, a szoknya olyan magas lesz, mint a legmagasabb nyomtatott tárgy. Ez az ABS vagy ASA nyomatok védelmét szolgálja a deformálódástól vagy a nyomtatólemez leválásától a légáramlás miatt.
 
-Le bouclier a plusieurs effets majeurs sur l'impression :
+A pajzsnak több jelentős hatása van a nyomatra:
 
-* Il maintient la température de l'impression plus constante. C'est l'effet recherché du bouclier. Par conséquent, les défaut dues aux variations de température dans la pièce devraient être réduites.
-* En général, la température à l'intérieur du bouclier est plus élevée. En effet, la chaleur a plus de mal à s'échapper et il ne peut y avoir de courants de convection qui s'élèvent avec l'air chaud de l'impression. Cela a un effet sur tous les aspects de l'impression. En particulier, il y aura plus de filasse et d'affaissement.
-* Les ventilateurs de la tête d'impression seront moins efficaces. Le bouclier perturbe également la circulation de l'air à cet endroit. Pour augmenter l'efficacité des ventilateurs sur la tête d'impression, la [distance](skirt_distance.md) du bouclier peut être augmentée.
-* Le nombre de périmètre du bouclier est définie comme pour la jupe par le [nombre de boucle](skirts.md) . 
-* Le bouclier peut servir de [Tour de purge](wipe_tower.md). Comme il est imprimé avant l'objet, l'impression du bouclier est un moyen de purger le matériau avant d'entamer l'impression de la nouvelle couche. Il est a noter que vous devrez avoir autant de périmètres que vous avez d'extrudeuse en fonction pour etre certains que chaque extrudeuse pourra être purgé sur la bouclier. Dans ce cas de figure le bouclier ne sera pas imprimé complètement avant la pièce mais chaque périmètre sera imprimé au moment de purger une nouvelle extrudeuse. 
+* Ez állandóbbá teszi a nyomtatás hőmérsékletét. Ez a pajzs kívánt hatása. Ezért csökkenteni kell a helyiség hőmérséklet-változásaiból eredő hibákat.
+* Általában a pajzs belsejében magasabb a hőmérséklet. Ennek oka, hogy a hő nehezebben tud távozni, és nem alakulhatnak ki konvekciós áramlatok, amelyek a nyomtatásból származó forró levegővel együtt emelkednek fel. Ez a nyomtatás minden aspektusára hatással van. Különösen több lesz a zsinórosodás és a megereszkedés.
+* A nyomtatófej ventilátorai kevésbé hatékonyak lesznek. A pajzs ezen a ponton is akadályozza a légáramlást. A nyomtatófejen lévő ventilátorok hatékonyságának növelése érdekében a pajzs távolsága \([skirt\_distance](skirt_distance.md)\) növelhető.
+* A pajzs kerületének számát a szoknyához hasonlóan a hurkok száma \([skirts](skirts.md)\) határozza meg.
+* A pajzs tisztítótoronyként használható. Mivel a pajzsot a tárgy előtt nyomtatják ki, a pajzs nyomtatása az anyag megtisztításának egy módja, mielőtt elkezdené az új réteg nyomtatását. Meg kell jegyezni, hogy annyi peremre van szükség, ahány extruder fut, hogy minden extruder tisztítható legyen a pajzson. Ebben az esetben a pajzsot nem nyomtatják ki teljesen az alkatrész előtt, hanem minden kerületet kinyomtatnak, amikor egy új extruder kiürül.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

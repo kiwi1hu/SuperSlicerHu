@@ -1,15 +1,17 @@
 # display\_width
 
 * Technológia : SLA
-* Csoport : [Nyomtató beállítások](../sla_printer/sla_parameters.md)
-* Alcsoport : Général - Afficher
+* Csoport : [Nyomtató beállítások](../../konfig/sla_parameters.md)
+* Alcsoport : Általános - Kijelző
 * Mód : Egyszerű
+* Minimális érték :  1
+* Alapértelmezett érték : 120
 
-## Largeur de l'affichage
+## A kijelző szélessége
 
 ### Leírás
 
-Largeur de l'affichage
+A kijelző szélessége
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

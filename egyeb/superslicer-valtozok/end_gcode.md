@@ -1,8 +1,8 @@
 # end\_gcode
 
 * Technológia : FDM
-* Csoport : [Nyomtató beállítások](../../konfig/printer_settings.md)
-* Alcsoport : [Egyedi G-kód](../../konfig/printer_settings.md#egyedig-kód)
+* Csoport : [Szál beállítások](../../konfig/filament_settings.md)
+* Alcsoport : [Egyedi G-kód](../../konfig/filament_settings.md#egyedi-g-kod)
 * Mód : Szakértő
 
 ## Záró G-kód
@@ -13,5 +13,5 @@ Ez a befejező eljárás a kimeneti fájl végére kerül.
 
 Ne feledje, hogy az általános változókat használhatja az összes SuperSlicer beállításhoz.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

@@ -1,17 +1,18 @@
 # elephant\_foot\_min\_width
 
 * Technológia : SLA
-* Csoport : [Nyomtató beállítások](../sla_printer/sla_parameters.md)
-* Alcsoport : Général - Corrections
+* Csoport : [Nyomtató beállítások](../../konfig/sla_parameters.md)
+* Alcsoport : Általános - Korrekció
 * Mód : Haladó
+* Mértékegység : mm
+* Minimális érték :  0
+* Alapértelmezett érték : 0.2
 
-## Largeur minimale
+## Minimális szélesség
 
 ### Leírás
 
-Largeur minimale des caractéristiques à maintenir lors de la compensation de la première couche.
+A jellemzők minimális szélessége, amelyet az első rétegkompenzáció során meg kell tartani.
 
-* Alapértelmezett érték : 0.2 mm
-
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

@@ -2,16 +2,17 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Support](../../beallitasok/print_settings.md#support) - Options pour le réglage des supports
+* Alcsoport : [Támaszték ](../../konfig/print_settings.md#tamasztek)- [Opciók támasztékhoz és tutajhoz](../../konfig/print_settings.md#opciok-tamasztekhoz-es-tutajhoz)
 * Mód : Haladó
+* Alapértelmezett érték : bekapcsolva
 
-## Ne pas supporter les ponts
+## Ne támogassa a hidakat
 
 ### Leírás
 
-Option expérimentale pour empêcher la génération de support sous les ponts.
+Kísérleti lehetőség a híd alatti médiatermelés megakadályozására. 
 
-Active si l'option de génération des supports est actives : [support\_material](support_material.md) .
+Aktív, ha a támogatás generálása opció aktív: [support\_material](support_material.md) .
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

@@ -2,16 +2,15 @@
 
 * Technológia : SLA
 * Csoport : [Nyomtató beállítások](../sla_printer/sla_parameters.md)
-* Alcsoport : Général - Afficher
-* Mód : Egyszerű
+* Alcsoport : Általános - Kijelző
+* Mód : Szakértő
+* Alapértelmezett érték : engedélyezve
 
-## Mirroir d'affichage vertical
+## Függőleges tükrözés kijelzése
 
 ### Leírás
 
-Activer la symétrie verticale des images de sortie.
+A kimeneti képek függőleges tükrözésének engedélyezése.
 
-> Par défaut non active.
-
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 
