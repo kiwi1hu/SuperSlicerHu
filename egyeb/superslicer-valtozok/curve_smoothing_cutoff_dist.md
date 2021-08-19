@@ -2,18 +2,17 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Couche](../../beallitasok/print_settings.md#couche) - Modifications des couches
+* Alcsoport : [Szeletelés ](../../konfig/print_settings.md#szeleteles)- [Rétegmódosítás](../../konfig/print_settings.md#retegmodositas)
 * Mód : Haladó
+* Mértékegység : mm
+* Minimális érték :  0
+* Alapértelmezett érték : 2
 
-## Lissage des courbes Distance maxi
+## Görbék simítása Maximális távolság
 
 ### Leírás
 
-Distance maximale entre deux points pour permettre l'ajout de nouveaux points de lissage. Permet d'éviter de distordre les longues zones droites.
+Két pont közötti maximális távolság, amely lehetővé teszi új pontok hozzáadását. A hosszú egyenes területek torzításának elkerülése érdekében. 0 a letiltáshoz.
 
-> 0 pour désactiver.
-
-* Alapértelmezett érték : 2mm
-
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

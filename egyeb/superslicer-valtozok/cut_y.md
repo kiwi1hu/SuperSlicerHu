@@ -1,15 +1,16 @@
 # cut\_y
 
 * Technológia : FDM & SLA
-* Csoport : Fonction Általános
+* Csoport : Általános változó
 * Alcsoport : -
 * Mód : -
+* Alapértelmezett érték : 0
 
-## Couper
+## Vágás Y
 
 ### Leírás
 
-Coupez le modèle à l'Y donné.
+Vágja ki a modellt az adott Y-nél.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

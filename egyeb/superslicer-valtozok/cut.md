@@ -1,15 +1,15 @@
 # cut
 
 * Technológia : FDM & SLA
-* Csoport : Fonction Általános
+* Csoport : Általános változó
 * Alcsoport : -
 * Mód : -
 
-## Couper
+## Vágás
 
 ### Leírás
 
-Couper le modèle au Z donné.
+Vágja a modellt az adott Z-nél.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

@@ -2,16 +2,17 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Couche](../../beallitasok/print_settings.md#couche) - Modifications des couches
+* Alcsoport : [Szeletelés](../../konfig/print_settings.md#szeleteles) - [Rétegmódosítás](../../konfig/print_settings.md#retegmodositas)
 * Mód : Haladó
+* Minimális érték : 0
+* Maximális érték : 180 
+* Alapértelmezett érték : 0
 
-## Lissage des courbes Angme convexe minimum
+## Görbe simítása minimális szög \(domború\)
 
 ### Leírás
 
-Angle \(convexe\) minimum à un triangle pour activer le lissage de courbe \(essayer de créer une vrai courbe à partir de polygones\).
+Minimális \(domború\) szög egy csúcsnál, hogy lehetővé tegye a simítást \(görbét próbál létrehozni a csúcs körül\). 180 : semmi sem lesz simított, 0 : minden szöget simít.
 
-> 180°: aucun lissage, 0°: tout lisser.
-
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

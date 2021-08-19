@@ -1,15 +1,16 @@
 # cut\_x
 
 * Technológia : FDM & SLA
-* Csoport : Fonction Általános
+* Csoport : Általános változó
 * Alcsoport : -
 * Mód : -
+* Alapértelmezett érték : 0
 
-## Couper
+## Vágás X
 
 ### Leírás
 
-Coupez le modèle au X donné.
+Vágja ki a modellt az adott X-nél.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

@@ -1,15 +1,15 @@
 # cut\_grid
 
 * Technológia : FDM & SLA
-* Csoport : Fonction Általános
+* Csoport : Általános változó
 * Alcsoport : -
 * Mód : -
 
-## Couper
+## Vágás \(rács\)
 
 ### Leírás
 
-Découpe le modèle dans le plan XY en tuiles de la taille maximale spécifiée.
+A modellt az XY síkban a megadott maximális méretű lapokra vágja.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 
