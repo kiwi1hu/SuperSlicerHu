@@ -11,5 +11,5 @@
 
 Ez a paraméter szabályozza az objektumok utolsó rétegeinek magasságát, hogy az utolsó réteg a lehető legnagyobb magasságban legyen. Kísérleti.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

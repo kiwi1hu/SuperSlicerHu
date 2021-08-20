@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Kitöltés](../../beallitasok/print_settings.md#remplissage) - [Haladó](external_infill_margin.md)
+* Alcsoport : [Kitöltés](../../konfig/print_settings.md#kitoeltes) - [Haladó](../../konfig/print_settings.md#halado-1)
 * Mód : Szakértő
 * Mértékegység : mm/%
 * Minimális érték :  0
@@ -18,7 +18,5 @@ Ez a paraméter a felső/alsó/szilárd rétegeket a megadott mm-rel növeli, ho
 >
 > Lehet a [kerület extrudálási szélessége](perimeter_extrusion_width.md) %-ában.
 
-* Alapértelmezett érték : 150%
-
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

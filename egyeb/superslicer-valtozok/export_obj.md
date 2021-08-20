@@ -1,15 +1,15 @@
 # export\_obj
 
 * Technológia :  FDM & SLA
-* Csoport : Général
+* Csoport : Általános
 * Alcsoport : -
 * Mód : - 
 
-## Export OBJ
+## OBJ exportálás
 
 ### Leírás
 
-Exportez le\(s\) modèle\(s\) au format OBJ.
+Exportálja a modell\(ek\)et OBJ formátumban.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

@@ -1,15 +1,15 @@
 # export\_svg
 
 * Technológia :  FDM & SLA
-* Csoport : -
+* Csoport : Általános
 * Alcsoport : -
 * Mód : -
 
-## Export SVG
+## SVG exportálás
 
 ### Leírás
 
-Découpez le modèle et exportez les tranches solides au format SVG.
+Szeletelje a modellt, és exportálja a szilárd szeleteket SVG formátumban.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

@@ -1,25 +1,25 @@
 # export\_3mf
 
 * Technológia : FDM & SLA
-* Csoport : Général
+* Csoport : Általános
 * Alcsoport : -
 * Mód : -
 
-## Export 3mf
+### 3MF exportálás 
 
 ### Leírás
 
-Contrairement à un fichier STL, qui ne stocke que [la géométrie](http://www.fabbers.com/tech/STL_Format) d'un objet \(comme une série de triangles de surface\), un fichier 3MF est capable de stocker une variété de fichiers différents dans une seule archive, tels que :
+Az STL-fájlokkal ellentétben, amelyek csak egy objektum geometriáját tárolják \(például egy sor felületi háromszöget\), a 3MF fájl képes különböző fájlokat tárolni egyetlen archívumban, például :
 
-* Plusieurs modèles \(Incluant les modèles de supports personnalisés\)
-* **Les réglages du slicer**
-* Une vignette
-* Des couleurs
-* Des textures
+* Több modell \(beleértve az egyéni támasztékokat is\) 
+* Szeletelő beállításai 
+* Miniatűrök 
+* Színek
+*  Textúrák
 
-Vous pouvez changer l'extension ".3mf" de votre modèle 3D en ".zip" et voir le contenu comme vous le feriez avec un fichier Zip standard. La taille du fichier est également significativement plus petite par rapport au STL.
+A 3D modell ".3mf" kiterjesztését ".zip"-re módosíthatja, és a tartalmát úgy tekintheti meg, mint egy hagyományos Zip-fájl esetében. A fájl mérete is jelentősen kisebb az STL-hez képest.
 
-En savoir plus sur le format 3MF [ici](https://3mf.io/).
+[Itt ](https://3mf.io/)olvashat többet a 3MF formátumról.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

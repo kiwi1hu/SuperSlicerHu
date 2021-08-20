@@ -1,15 +1,17 @@
 # exposure\_time
 
 * Technológia : SLA
-* Csoport : [Réglages Matériau](../sla_printer/sla_parameters.md)
-* Alcsoport : Matériau - Exposition
+* Csoport : [Alapanyag beállítások](../../konfig/sla_parameters.md)
+* Alcsoport : Alapanyag - Expozició
 * Mód : Szakértő
+* Mértékegység : s
+* Minimális érték :  0
 
-## Temps d'exposition
+### Expozíciós idő
 
 ### Leírás
 
-Temps d'exposition.
+Expozíciós idő
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

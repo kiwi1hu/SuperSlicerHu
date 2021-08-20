@@ -1,15 +1,15 @@
 # export\_gcode
 
 * Technológia : FDM
-* Csoport : Général
+* Csoport : Általános
 * Alcsoport : -
 * Mód : -
 
-## Export G-Code
+### G-kód exportálás
 
 ### Leírás
 
-Découpez le modèle et exportez les parcours en code G.
+Szeletelje a modellt, és exportálja az útvonalakat G-kódban.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

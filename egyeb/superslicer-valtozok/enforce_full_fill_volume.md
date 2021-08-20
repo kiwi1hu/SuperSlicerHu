@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Kerület és héj](../../beallitasok/print_settings.md#périmètre-et-enveloppe) - [Vízszintes héjak](enforce_full_fill_volume.md)
+* Alcsoport : [Kerület és héj](../../konfig/print_settings.md#kerueletek-es-hej) - [Vízszintes héjak](../../konfig/print_settings.md#vizszintes-hejak)
 * Mód : Szakértő
 * Alapértelmezett érték : engedélyezve
 
@@ -14,5 +14,5 @@ Kísérleti opció, amely módosítja \(teljes kitöltés esetén\) a kitöltés
 
 Előnye, hogy a szűk töltési területeken kiküszöböli az átfedési paraméter által okozott túlterhelést.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

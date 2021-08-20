@@ -1,15 +1,15 @@
 # export\_sla
 
 * Technológia : SLA
-* Csoport : Général
+* Csoport : Általános
 * Alcsoport : -
 * Mód : - 
 
-## Export SLA
+## SLA exportálás
 
 ### Leírás
 
-Découpez le modèle et exportez les couches d'impression SLA au format PNG.
+Szeletelje a modellt, és exportálja az SLA nyomtatási rétegeket PNG formátumban.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

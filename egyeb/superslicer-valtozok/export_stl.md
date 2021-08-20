@@ -1,17 +1,17 @@
 # export\_stl
 
 * Technológia :  FDM & SLA
-* Csoport : Général
+* Csoport : Általános
 * Alcsoport : -
 * Mód : - 
 
-## Export STL
+## STL exportálás
 
 ### Leírás
 
-Tous les modèles sur le plateau d'impression peuvent être exportés en un seul STL via **Fichier - Exporter - Exporter le plateau en tant que STL**.
+A nyomtatólemezen lévő összes modell egyetlen STL-ként exportálható a **Fájl - Exportálás - A lemez exportálása STL-ként** menüpont segítségével.
 
-Vous pouvez également exporter des modèles individuels au format STL. Faites un **clic-droit** sur l'un des modèles de la vue 3D et sélectionnez **Exporter en tant que STL ...** Cela peut être utile si vous avez créé des modifications du modèle dans SuperSlicer, telles que la découpe du modèle.
+Az egyes modelleket STL formátumban is exportálhatja. Kattintson a **jobb gombbal** az egyik modellre a 3D nézetben, és válassza az **Exportálás STL-ként** ... Ez akkor lehet hasznos, ha a SuperSlicerben módosításokat készített a modellen, például a modell kivágása során..
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

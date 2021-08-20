@@ -1,6 +1,6 @@
 # Nyomtatási beállítások
 
-Kerületek és héj
+## Kerületek és héj
 
 ![Ker&#xFC;letek &#xE9;s h&#xE9;j](../.gitbook/assets/print_settings_001.png)
 

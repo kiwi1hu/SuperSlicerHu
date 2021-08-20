@@ -2,7 +2,7 @@
 
 * Technológia : FDM
 * Csoport : [Nyomtatási beállítások](../../konfig/print_settings.md)
-* Alcsoport : [Szélesség és áramlás](../../beallitasok/print_settings.md#largeur-et-débit) - [Áramlási sebesség](external_perimeter_cut_corners.md)
+* Alcsoport : [Szélesség és áramlás](../../konfig/print_settings.md#szelesseg-es-aramlas) - [Áramlási sebesség](../../konfig/print_settings.md#aramlasi-sebesseg)
 * Mód : Szakértő
 * Mértékegység : %
 * Alapértelmezett érték : 0
@@ -17,5 +17,5 @@ Megjegyzés: 100%-nál ez ~5%-kal változtatja meg az áramlási sebességet egy
 
 Ez nagyon kísérleti jellegű, kérjük, számoljon be a hasznosságáról. Ha nincs rá szükség, eltávolítható.
 
-[Vissza a változók listájához](/)
+[Vissza a változók listájához](./)
 

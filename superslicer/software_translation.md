@@ -28,12 +28,12 @@ nyissa meg a settings.ini fájlt minden olyan fájlhoz, amely hasznos fordítás
 
 vegye figyelembe, hogy az első adatsor elsőbbséget élvez a többivel szemben \(az első fordítást használják\).
 
-Ebben a példában a spanyol fordítást fogjuk frissíteni. A régi és a jelenlegi SuperSlicer fordítási fájlt fogjuk használni. A SuperSlicer .mo fájljának dekompilálásához használja a következő parancsot`msgunfmt SuperSlicer.mo -o SuperSlicer.po`. Tehát a **settings.ini** ezeket a sorokat tartalmazza:
+Ebben a példában a magyar fordítást fogjuk frissíteni. A régi és a jelenlegi SuperSlicer fordítási fájlt fogjuk használni. A SuperSlicer .mo fájljának dekompilálásához használja a következő parancsot`msgunfmt SuperSlicer.mo -o SuperSlicer.po`. Tehát a **settings.ini** ezeket a sorokat tartalmazza:
 
 ```text
-data = fr/Slic3r.po
+data = hu/Slic3r.po
 data = MyKnowledgeBase.po
-data = fr/SuperSlicer_fr.po
+data = hu/SuperSlicer_hu.po
 
 database_out = MyKnowledgeBase.po
 
@@ -43,12 +43,12 @@ ignore_case = false
 remove_comment = true
 percent_error_similar = 0.4
 max_similar = 3
-language = french
-language_code = fr
+language = magyar
+language_code = hu
 
 input = Slic3r.pot
-todo = fr/todo.po
-output = fr/Slic3r.po
+todo = hu/todo.po
+output = hu/Slic3r.po
 ```
 
 **Megjegyzések:**
@@ -68,7 +68,7 @@ output = fr/Slic3r.po
 * Szüksége van pythonra \(v3\). Ha nincs, letöltheti.
 * Nyisson meg egy konzolt
 * cd a honosítási könyvtárba,
-* execute 'python pom\_merger.py'
+* futtassa a `python pom_merger.py` parancsot
   * python3 használata, ha a python a python v2 exe
   * használhatja a python.exe teljes elérési útját, ha most telepítette, és nincs az elérési útvonalában. Windowson alapértelmezés szerint az appdata-ba van telepítve.
 
@@ -91,7 +91,7 @@ Fontos:
 A todo.po-t másolhatja/mentheti egy másik fájlba, ha. A todo fájl kitöltése után módosítsa a settings.ini fájlt:
 
 ```text
-data = es/todo.po
+data = hu/todo.po
 data = MyKnowledgeBase.po
 
 database_out = MyKnowledgeBase.po
@@ -102,12 +102,12 @@ ignore_case = false
 remove_comment = true
 percent_error_similar = 0.4
 max_similar = 3
-language = french
-language_code = fr
+language = magyar
+language_code = hu
 
 input = Slic3r.pot
-todo = es/todo.po
-output = es/Slic3r.po
+todo = hu/todo.po
+output = hu/Slic3r.po
 ```
 
 Ez azt fogja mondani, hogy használja a todo-t és az újonnan létrehozott/szerkesztett Slic3r.po-t, mielőtt a másik régebbi fájlt használná a meg nem talált karakterláncok befejezéséhez. A harmadik fájlból származó fordítás nem törli a másodikból származó fordítást, kivéve, ha az üres \(kevesebb, mint 3 karakter\), az új pedig nem az. Ha egy fordítás kicserélődik, az eszköz tájékoztatni fogja Önt.
