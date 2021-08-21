@@ -2,7 +2,7 @@
 description: 'Készítette: sziga'
 ---
 
-# SuperSlicer magyar használati útmutató \(Verzió 2.3.56.7\).
+# SuperSlicer magyar használati útmutató \(Verzió 2.3.56.8\).
 
 Az útmutató a francia leírás fordítása \(bővítettem, javítottam néhány hibákat,  átalakítottam,  de alapvetően az Ő struktúráját használtam\).A francia leírást **5axis** készítette a PrusaSlicer dokumentációja alapján kiegészítve a SuperSlicer funkciók leírásával. 
 
