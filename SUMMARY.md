@@ -7,7 +7,7 @@
 * [Áttekintés](alapinformaciok/overview.md)
 * [A SuperSlicer célja](alapinformaciok/about_superslicer.md)
 * [SuperSlicer telepítése](alapinformaciok/install.md)
-* [A SuperSlicer magyarítása](alapinformaciok/a-superslicer-magyaritasa.md)
+* [A SuperSlicer és a PrusaSlicer magyarítása](alapinformaciok/a-superslicer-magyaritasa.md)
 * [Első nyomtatás a SuperSlicerrel](alapinformaciok/first_print.md)
 * [Konfiguráció](alapinformaciok/configuration.md)
 

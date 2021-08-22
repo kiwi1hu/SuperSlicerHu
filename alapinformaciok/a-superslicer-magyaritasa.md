@@ -1,6 +1,6 @@
-# A SuperSlicer magyarítása
+# A SuperSlicer és a PrusaSlicer magyarítása
 
-## Magyarítás
+## SuperSlicer magyarítása
 
 A magyar nyelv még nem része a SuperSlicer-nek, de már nem sokáig. Felvettem a kapcsolatot  Supermerill-el, már néhány hibát javított is \(ékezetes karakterek néhány ablakban rosszul jelent meg, rengeteg lefordított szöveget mégis angolul írt ki\). Ha minden rendben a következő verzió már tartalmazni fogja a magyar nyelvet.
 
@@ -18,23 +18,72 @@ Az SLA nyomtatási beállítások rész még nincs elkészítve \(a francia verz
 
 ### Zip fájl
 
-Letöltető zip fájként [innen](https://github.com/sziga/SuperSlicerHu/raw/master/fajlok/SuperSlicer_2.3.56.8_win64_210808_hu.zip).
+Letöltető zip fájként [innen](https://github.com/sziga/SuperSlicerHu/raw/master/fajlok/SuperSlicer/SuperSlicer_2.3.56.8_win64_210808_hu.zip).
+
+Lépjen ki a programból.
 
 A fájl letöltött zip fájl tartalmát tömörítse ki a SuperSlicer könyvtárába \(ahol a superslicer.exe fájl található\).Minden fájl felülírását engedélyezze. És már magyar nyelvű is a program.
 
+{% hint style="info" %}
+Ha nem magyar nyelvű operációs rendszert használ a programban a **Konfiguráció**-**Nyelv** menüpontban állíthatja be magyar nyelvre
+{% endhint %}
+
 ![Zip f&#xE1;jl haszn&#xE1;lata \(gif\)](../.gitbook/assets/zip.gif)
+
+Vagy a **resources/localization** könytárba készítsen egy **hu** könyvtárat és tegye bele a zip fájba levő **.mo** fájlt.
 
 ### Exe fájként
 
-Letöltető exe fájként [innen](https://github.com/sziga/SuperSlicerHu/raw/master/fajlok/SuperSlicer_2.3.56.8_win64_210808_hu.exe).
+Letöltető exe fájként [innen](https://github.com/sziga/SuperSlicerHu/raw/master/fajlok/SuperSlicer/SuperSlicer_2.3.56.8_win64_210808_hu.exe).
+
+Lépjen ki a programból.
 
 Rakja a letöltött exe fájlt a SuperSlicer könyvtárába \(ahol a superslicer.exe fájl található\), és indítsa el a letöltött exe fájlt. Mindenre klikkeljen az igen gombra \( a felülírásokra kérdez rá\).És már magyar nyelvű is a program.
+
+{% hint style="info" %}
+Ha nem magyar nyelvű operációs rendszert használ a programban a **Konfiguráció**-**Nyelv** menüpontban állíthatja be magyar nyelvre
+{% endhint %}
 
 ![Exe f&#xE1;jl haszn&#xE1;lata \(gif\)](../.gitbook/assets/exe.gif)
 
 Mivel a calibration könyvtárba található angol nyelvű html fájlokat átírja, ha szüksége van rá mentse el a magyarítás előtt.
 
 **A fájlok semmilyen káros kódot vagy reklámot nem tartalmaznak.**
+
+## PrusaSlicer magyarítása
+
+### Zip fájl
+
+Letöltető zip fájként [innen](https://github.com/sziga/SuperSlicerHu/raw/master/fajlok/PrusaSlicer/PrusaSlicer-2.3.3%2Bwin64-202107161027_hu.zip).
+
+Lépjen ki a programból.
+
+A fájl letöltött zip fájl tartalmát tömörítse ki a PrusaSlicer könyvtárába \(ahol a prusaslicer.exe fájl található\).Minden fájl felülírását engedélyezze. És már magyar nyelvű is a program.
+
+{% hint style="info" %}
+Ha nem magyar nyelvű operációs rendszert használ a programban a **Konfiguráció**-**Nyelv** menüpontban állíthatja be magyar nyelvre
+{% endhint %}
+
+Vagy a **resources/localization** könytárba készítsen egy **hu** könyvtárat és tegye bele a zip fájba levő **.mo** fájlt.  
+
+
+### Exe fájként
+
+Letöltető exe fájként [innen](https://github.com/sziga/SuperSlicerHu/raw/master/fajlok/PrusaSlicer/PrusaSlicer-2.3.3%2Bwin64-202107161027_hu.exe).‌
+
+Lépjen ki a programból.
+
+Rakja a letöltött exe fájlt a PrusaSlicer könyvtárába \(ahol a prusaslicer.exe fájl található\), és indítsa el a letöltött exe fájlt. És már magyar nyelvű is a program.
+
+{% hint style="info" %}
+Ha nem magyar nyelvű operációs rendszert használ a programban a **Konfiguráció**-**Nyelv** menüpontban állíthatja be magyar nyelvre
+{% endhint %}
+
+**A fájlok semmilyen káros kódot vagy reklámot nem tartalmaznak.**
+
+
+
+\*\*\*\*
 
 \*\*\*\*
 
