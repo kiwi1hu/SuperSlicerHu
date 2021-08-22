@@ -8,11 +8,11 @@ A magyar nyelv még nem része a SuperSlicer-nek, de már nem sokáig. Felvettem
 
 Ez a magyarítás azért készült, mert az alap dolgokat már mindenki tudja használni angol nyelven, de szerintem a finombeállításokban sokat segíthet \( még az angol nyelvet jó beszélők között is a rengeteg szakszó miatt\).
 
-A magyar nyelv 100%-os fordítást tartalmaz \(a francián \(és természetesen az angol\) kívül más nyelven nem készült el a teljes fordítás.
+A magyar nyelv 100%-os fordítást tartalmaz \(a francián \(és természetesen az angolon\) kívül más nyelven nem készült el a teljes fordítás.
 
 Az eredeti dokumentáció francia nyelven készült, és mivel nem beszélek franciául fordítóprogrammal készült \(természetesen átnézve, átfogalmazva, javítva a fordítási hibákat\). Tudom hogy rengeteg hiba lehet a program és a dokumentáció fordításába \(tartalmi, helyesírási\) de remélem azért tudjátok használni.
 
-Az SLA nyomtatási beállítások rész még nincs elkészítve \(a francia verzióba sincs elkészítve\).
+Az SLA nyomtatási beállítások rész még nincs elkészítve \(a francia verzióba sincs\).
 
 ## Hogyan lesz magyar nyelvű a SuperSlicer?
 
