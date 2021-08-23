@@ -466,10 +466,12 @@ A hézag sugarának kétszeresénél kisebb réseket a háromszögháló szelete
 
 #### _**Görbék simítása**_
 
+_**Pontosság**_
+
 Ezek a paraméterek lehetővé teszik a szoftver számára, hogy az egyes rétegek szögeit kiegyenlítse. Az új pontosság a paraméter pontossága lesz.
 
 {% hint style="info" %}
-**Nullára** állítva letiltja az egyszerűsítést, és a bemenet teljes felbontását használja.
+**Nullára** állítva letiltja a görbék simítását.
 {% endhint %}
 
 Megjegyzés: mivel a poligon éleit használja, és csak 2D-s síkokban működik, nagyon tiszta 3D-s modellre van szüksége.
