@@ -1,6 +1,6 @@
 # Felhasználói felület
 
-előnFelhasználói felület áttekintése
+## Felhasználói felület áttekintése
 
 A SuperSlicer meglehetősen egyszerű felhasználói felülettel rendelkezik. A képernyő nagy részét a 3D nézet foglalja el, amely a 3D modellek kezelésére szolgál. A felső eszköztár \(**1**\) objektumok hozzáadására és törlésére szolgál. A bal oldali eszköztár \(**4**\) a 3D modellek módosítására szolgáló eszközöket, például az átméretezés vagy a forgatás eszközt tartalmazza. A jobb oldali panel elsősorban a nyomtatás, a szál és a nyomtatóprofil kiválasztására szolgál \(**6,7,8**\), valamint annak kiválasztására, hogy a nyomtató támasztékokat vagy peremeket kíván-e létrehozni.
 
