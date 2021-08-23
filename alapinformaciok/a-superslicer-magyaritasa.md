@@ -14,6 +14,10 @@ Az eredeti dokumentáció francia nyelven készült, és mivel nem beszélek fra
 
 Az SLA nyomtatási beállítások rész még nincs elkészítve \(a francia verzióba sincs\).
 
+{% hint style="info" %}
+Hogy mekkora munka volt, a SuperSlicer magyarítás 3158 kifejezésből áll \(1 szó vagy több mondat\) + a PrusaSlicer kb.300 eltérő kifejezése. Az útmutató 45349 szót \( 379530 karaktert\) és 488 képet \(aminek javát én készítettem\) tartalmaz.
+{% endhint %}
+
 ## Hogyan lesz magyar nyelvű a SuperSlicer?
 
 ### Zip fájl
@@ -80,6 +84,14 @@ Ha nem magyar nyelvű operációs rendszert használ a programban a **Konfigurá
 {% endhint %}
 
 **A fájlok semmilyen káros kódot vagy reklámot nem tartalmaznak.**
+
+{% hint style="success" %}
+**Remélem jól tudjátok használni a magyarítást és az útmutatót!**
+
+**Jelezzetek a** [**GitHub**](https://github.com/sziga/SuperSlicerHu/issues)**-on ha problémát találtok, de örülnék ha visszajelzést kapnék arról is hogy használjátok-e őket \(érdemes folytatnom vagy senki sem használja\).** 
+{% endhint %}
+
+
 
 
 
