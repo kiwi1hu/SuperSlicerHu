@@ -15,7 +15,7 @@ Az eredeti dokumentáció francia nyelven készült, és mivel nem beszélek fra
 Az SLA nyomtatási beállítások rész még nincs elkészítve \(a francia verzióba sincs\).
 
 {% hint style="info" %}
-Hogy mekkora munka volt, a SuperSlicer magyarítás 3158 kifejezésből áll \(1 szó vagy több mondat\) + a PrusaSlicer kb.300 eltérő kifejezése. Az útmutató 45349 szót \( 379530 karaktert\) és 488 képet \(aminek javát én készítettem\) tartalmaz.
+Hogy mekkora munka volt, SuperSlicer magyarítás 3158 kifejezésből áll \(1 szó vagy több mondat\) + a PrusaSlicer kb.300 eltérő kifejezése. Az útmutató több mint 45 ezer szót \( 380 ezer karaktert\) és 488 képet \(aminek javát én készítettem\) tartalmaz.
 {% endhint %}
 
 ## Hogyan lesz magyar nyelvű a SuperSlicer?
