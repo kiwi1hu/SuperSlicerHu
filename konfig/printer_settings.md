@@ -598,7 +598,7 @@ Ezt az értéket elsősorban a SuperSlicerben használják gépi korlátként. P
 
 Az extrudálás szélességének beállítása a legfontosabb dolog, amikor egy új fúvóka profilját hozza létre.
 
-Válassza a [**Nyomtatási beállítások - Szélesség és áramlás**](print_settings.md#szelesseg-es-aramlas) menüpontot.
+Válassza a [**Nyomtatási beállítások - Szélesség és áramlás**](print_settings/#szelesseg-es-aramlas) menüpontot.
 
 Megjelenik a különböző extrudálási szélesség beállítások listája.
 

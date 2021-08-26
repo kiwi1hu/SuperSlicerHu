@@ -21,7 +21,8 @@
 ## Beállítások <a id="konfig"></a>
 
 * [Szoftver beállítások](konfig/settings.md)
-* [Nyomtatási beállítások](konfig/print_settings.md)
+* [Nyomtatási beállítások](konfig/print_settings/README.md)
+  * [Kitöltési minták](konfig/print_settings/kitoeltesi-mintak.md)
 * [Szál beállítások](konfig/filament_settings.md)
 * [Nyomtató beállítások](konfig/printer_settings.md)
 * [SLA nyomtatási beállítások](konfig/sla_parameters.md)

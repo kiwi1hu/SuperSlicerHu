@@ -94,7 +94,7 @@ Nulla értékre állítva nincs határérték.
 
 A maximális megengedett térfogatsebesség ennél az nyomtatószálnál. A nyomtatás térfogatsebességét a nyomtatási és a szálak térfogatsebességének minimumára korlátozza. A határérték megszüntetéséhez állítsa nullára.
 
-Lásd a következő bekezdést: [Maximális térfogatsebesség](print_settings.md#maximalis-terfogatsebesseg)
+Lásd a következő bekezdést: [Maximális térfogatsebesség](print_settings/#maximalis-terfogatsebesseg)
 
 ## Hűtés
 

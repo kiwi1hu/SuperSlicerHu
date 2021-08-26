@@ -1,6 +1,6 @@
 # Többféle anyagból történő szeletelés
 
-Ezek a beállítások a [**Nyomtatási beállítások -** **Több extruder**](../konfig/print_settings.md#toebb-extruder) szakaszban vannak csoportosítva.
+Ezek a beállítások a [**Nyomtatási beállítások -** **Több extruder**](../konfig/print_settings/#toebb-extruder) szakaszban vannak csoportosítva.
 
 ![T&#xF6;bb extruder](../.gitbook/assets/multimaterial_001.png)
 
@@ -86,7 +86,7 @@ Mozgassa az előnézeti csúszkát a kívánt színváltoztatási magasságra, k
 
 ![Extruder cser&#xE9;je](../.gitbook/assets/multimaterial_007.jpg)
 
-Ha engedélyezi a [**Nyomtatási beállítások - Több extruder - Nincsenek ritkás rétegek**](../konfig/print_settings.md#nincsenek-ritkas-retegek-kiserleti) engedélyezését, akkor minden színváltoztatás csak egy réteget ad a törlőtoronyhoz.
+Ha engedélyezi a [**Nyomtatási beállítások - Több extruder - Nincsenek ritkás rétegek**](../konfig/print_settings/#nincsenek-ritkas-retegek-kiserleti) engedélyezését, akkor minden színváltoztatás csak egy réteget ad a törlőtoronyhoz.
 
 ![T&#xF6;bb extruder - nincsenek ritk&#xE1;s r&#xE9;tegek](../.gitbook/assets/multimaterial_008.jpeg)
 
@@ -209,7 +209,7 @@ Az ürítési mennyiségek beállításai a _**Tisztítási mennyiségek**_ gomb
 
 ![Tisztas&#xE1;gi mennyis&#xE9;gek](../.gitbook/assets/multimaterial_019.jpg)
 
-Ez a gomb csak akkor érhető el, ha a Tisztítótorony opció aktív \([_**Nyomtatási beállítások**_ -&gt; _**Több extruder**_ -&gt; **Tisztítótorony** -&gt; **Engedélyezés**](../konfig/print_settings.md#engedelyezes-1) \).
+Ez a gomb csak akkor érhető el, ha a Tisztítótorony opció aktív \([_**Nyomtatási beállítások**_ -&gt; _**Több extruder**_ -&gt; **Tisztítótorony** -&gt; **Engedélyezés**](../konfig/print_settings/#engedelyezes-1) \).
 
 ![P&#xE9;lda](../.gitbook/assets/multimaterial_020.jpg)
 
