@@ -23,7 +23,13 @@ A SuperSlicer lehetővé teszi a nyomtatott kitöltési struktúra mintázatána
 
 A következő modelltípusok állnak rendelkezésre:
 
-> **A rajzok** alatt zárójelben megadott számok a felhasznált anyag és az idő durva becslését jelentik egy egyszerű 20 mm-es kocka esetében. Ne feledje, hogy ez csak tájékoztató jellegű, mivel a modell összetettsége és más tényezők befolyásolják az időt és az anyagot.
+## Belső \(ritka\) kitöltési minták
+
+{% hint style="info" %}
+A rajzok alatt zárójelben megadott számok a felhasznált anyag és az idő durva becslését jelentik egy egyszerű 20 mm-es kocka esetében. Ne feledje, hogy ez csak tájékoztató jellegű, mivel a modell összetettsége és más tényezők befolyásolják az időt és az anyagot.
+{% endhint %}
+
+### Egyenes **vonalú**
 
 {% tabs %}
 {% tab title="Egyenes vonalú \(gyors 2D kitöltés\)" %}
@@ -49,6 +55,8 @@ Ez a kitöltési típus az egyetlen **a 100%-os nyomtatási kitöltéshez ajánl
 {% endtab %}
 {% endtabs %}
 
+### Monotonikus
+
 {% tabs %}
 {% tab title="Monotonikus" %}
 ![](../../.gitbook/assets/print_settings_045.jpg)
@@ -66,6 +74,8 @@ A monoton kitöltés az egyik alapvető kitöltési minta. Egyenes rácsot hoz l
 ![](../../.gitbook/assets/print_settings_045g.gif)
 {% endtab %}
 {% endtabs %}
+
+### Rács
 
 {% tabs %}
 {% tab title="Rács \(erős 2D kitöltés\)" %}
@@ -89,6 +99,8 @@ A kitöltőanyag nyomtatásának módja miatt a pályák keresztezik egymást, �
 {% endtab %}
 {% endtabs %}
 
+### Háromszögek
+
 {% tabs %}
 {% tab title="Háromszögek \(erős 2D kitöltés\)" %}
 ![](../../.gitbook/assets/print_settings_047.jpeg)
@@ -106,6 +118,8 @@ Ez a kitöltés ugyanúgy működik, mint a rácsos kitöltés - az útvonalak m
 ![](../../.gitbook/assets/print_settings_047g.gif)
 {% endtab %}
 {% endtabs %}
+
+### Csillagok
 
 {% tabs %}
 {% tab title="Csillagok \(erős 2D töltés\)" %}
@@ -125,6 +139,8 @@ A csillagkitöltés **háromszögeken alapul**, de **az útvonalakat úgy módos
 {% endtab %}
 {% endtabs %}
 
+### Kocka
+
 {% tabs %}
 {% tab title="Kocka \(erős 3D töltés\)" %}
 ![](../../.gitbook/assets/print_settings_049.jpeg)
@@ -142,6 +158,8 @@ Ez megint egy töltés, amely ugyanazon a rétegen belüli, egymást metsző út
 ![](../../.gitbook/assets/print_settings_049g.gif)
 {% endtab %}
 {% endtabs %}
+
+### Vonal
 
 {% tabs %}
 {% tab title="Vonal \(Gyors 2D kitöltés\)" %}
@@ -165,6 +183,8 @@ A vonal \(lineáris\) kitöltés egyike azoknak, amelyek **nem rendelkeznek mets
 {% endtab %}
 {% endtabs %}
 
+### Koncentrikus
+
 {% tabs %}
 {% tab title="Koncentrikus \(rugalmas 3D töltés\)" %}
 ![](../../.gitbook/assets/print_settings_051.jpeg)
@@ -186,6 +206,8 @@ A koncentrikus kitöltés **meghúzza a modell kerületi vonalait**, majd egyre 
 ![](../../.gitbook/assets/print_settings_051g.gif)
 {% endtab %}
 {% endtabs %}
+
+### Méhsejt
 
 {% tabs %}
 {% tab title="Méhsejt \(erős 2D töltés\)" %}
@@ -209,6 +231,8 @@ Ez a kitöltés egy **hatszögekből álló rácsot nyomtat.** Fő előnye a **m
 {% endtab %}
 {% endtabs %}
 
+### 3D méhsejt
+
 {% tabs %}
 {% tab title="3D méhsejt \(rugalmas 3D töltés\)" %}
 ![](../../.gitbook/assets/print_settings_053.jpg)
@@ -227,6 +251,8 @@ A 3D-s méhsejtek kis és nagy négyzeteket és nyolcszögeket nyomtatnak, hogy 
 {% endtab %}
 {% endtabs %}
 
+### Gyroid
+
 {% tabs %}
 {% tab title="Gyroid \(Megnövelt szilárdságú kitöltés a legkisebb súly mellett\)" %}
 ![](../../.gitbook/assets/print_settings_054.jpeg)
@@ -244,6 +270,8 @@ A gyroid kitöltés a kedvencünk és egyben **az egyik legjobb kitöltés.** Ez
 ![](../../.gitbook/assets/print_settings_054g.gif)
 {% endtab %}
 {% endtabs %}
+
+### Hilbert-görbe
 
 {% tabs %}
 {% tab title="Hilbert-görbe \(erős 2D kitöltés\)" %}
@@ -267,6 +295,8 @@ A Hilbert-görbe egy téglalap alakú labirintust rajzol a modellben. Ennek a t�
 {% endtab %}
 {% endtabs %}
 
+### Archimédeszi akkordok
+
 {% tabs %}
 {% tab title="Archimédeszi akkordok \(Archimédeszi spirál\) \(rugalmas 2D kitöltés\)" %}
 ![](../../.gitbook/assets/print_settings_056.jpeg)
@@ -288,6 +318,8 @@ Ez a spirális kitöltés ismét **könnyebbé teszi a folyadékkal való feltö
 ![](../../.gitbook/assets/print_settings_056g.gif)
 {% endtab %}
 {% endtabs %}
+
+### Spirális oktagram
 
 {% tabs %}
 {% tab title="Spirális oktagram \(csillag\) \(2D rugalmas kitöltés\)" %}
@@ -311,6 +343,8 @@ A nyolcágú spirálminta lehetővé teszi, hogy a tárgyat **könnyen meg lehes
 {% endtab %}
 {% endtabs %}
 
+### Elszórt egyenes vonalú
+
 {% tabs %}
 {% tab title="Elszórt egyenes vonalú" %}
 ![](../../.gitbook/assets/print_settings_058.jpg)
@@ -328,6 +362,8 @@ A elszórt egyenes vonalú véletlenszerű lineáris kitöltést hoz létre, ame
 ![](../../.gitbook/assets/print_settings_058g.gif)
 {% endtab %}
 {% endtabs %}
+
+### Alkalmazkodó kocka
 
 {% tabs %}
 {% tab title="Alkalmazkodó kocka" %}
@@ -348,6 +384,8 @@ Az alkalmazkodó kocka kitöltés egy [**octree**](https://fr.wikipedia.org/wiki
 ![](../../.gitbook/assets/print_settings_059g.gif)
 {% endtab %}
 {% endtabs %}
+
+### Kocka támogatás
 
 {% tabs %}
 {% tab title="Kocka támogatás" %}
@@ -386,6 +424,8 @@ Választhat olyan egyéni kitöltési mintát, amely csak a legfelső látható 
 #### _Alsó kitöltési minta_
 
 Választhat olyan egyéni kitöltési mintát, amely csak az alsó látható réteget érinti, a felette lévő szomszédos egyszínű rétegeket nem.
+
+## Alsó felső \(tömör\) kitöltési minták
 
 A következő modellváltozatok állnak rendelkezésre:
 
@@ -546,13 +586,13 @@ A következő modellváltozatok állnak rendelkezésre:
 
 Megjegyzés: Elméletileg az alsó és felső Lineárisan igazított kitöltési módnak lehetővé kellene tennie a kitöltést a 2 réteg közötti orientációváltás nélkül, de a tesztelt 2.3.0-s verziókon a mód nem változott a standard lineárishoz képest.
 
-### További információk a kitöltéséről
+## További információk a kitöltéséről
 
 Bizonyára már észrevette, hogy a **SuperSlicer új verziója \(2.3\)** új kitöltési mintákkal bővült. Most, hogy ennyi lehetőség van, talán még egy kicsit elveszettnek is érezheti magát a lehetőségek között. Melyik kitöltést válasszam? Van olyan univerzális minta, amely minden modellnél működik? Vagy egy adott helyzethez kell választanom egy konkrétat? Lássuk, mit lehet tenni a megfelelő típusú kitöltés kiválasztásával és beállításainak módosításával.
 
 ![SuperSlicer kit&#xF6;lt&#xE9;sek \(Prusa k&#xE9;p\)](../../.gitbook/assets/print_settings_0711.jpeg)
 
-#### _Mi a kitöltés és mire használható?_
+### _Mi a kitöltés és mire használható?_
 
 Először is, nézzük át gyorsan, mi is az a kitöltés, és miért fontos. Ha Ön már profi 3D nyomtató, akkor ezt a fejezetet valószínűleg kihagyja, de nem árt, ha leporolja az alapokat, nem igaz?
 
@@ -562,7 +602,7 @@ A legtöbb esetben nagyon kevés értelme van a 40%-nál nagyobb töltési sűr�
 
 Mielőtt rátérnénk a speciális beállításokra, gyorsan nézzük át egyenként a meglévő kitöltési típusokat és azok tulajdonságait.
 
-#### _Kitöltő minták és tulajdonságaik_
+### _Kitöltő minták és tulajdonságaik_
 
 A kitöltő minták listája egyre bővül, és nehéz lehet kiválasztani a megfelelő típust. Bár az lehet a benyomása, hogy elsősorban a külsőségek különböztetik meg őket, ennek éppen az ellenkezője igaz. Például néhány kitöltés lehetővé teszi számunkra, hogy sok anyagot és időt takarítsunk meg, néhányat folyadékkal lehet kitölteni, stb....
 
