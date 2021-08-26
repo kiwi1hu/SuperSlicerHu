@@ -2,7 +2,7 @@
 
 ## SuperSlicer magyarítása
 
-A magyar nyelv még nem része a SuperSlicer-nek, de már nem sokáig. Felvettem a kapcsolatot  Supermerill-el, már néhány hibát javított is \(ékezetes karakterek néhány ablakban rosszul jelent meg, rengeteg lefordított szöveget mégis angolul írt ki\). Ha minden rendben a következő verzió már tartalmazni fogja a magyar nyelvet.
+A magyar nyelv még nem része a SuperSlicer-nek, de már nem sokáig. Felvettem a kapcsolatot  Supermerill-el, már néhány hibát javított \(ékezetes karakterek néhány ablakban rosszul jelentek meg, rengeteg lefordított szöveget mégis angolul írt ki\). Ha minden rendben a következő verzió már tartalmazni fogja a magyar nyelvet.
 
 ![Ez a hiba m&#xE9;g nem ker&#xFC;lt jav&#xED;t&#xE1;sra.](../.gitbook/assets/hiba.png)
 
@@ -10,9 +10,9 @@ Ez a magyarítás azért készült, mert az alap dolgokat már mindenki tudja ha
 
 A magyar nyelv 100%-os fordítást tartalmaz \(a francián és természetesen az angolon\) kívül más nyelven nem készült el a teljes fordítás.
 
-Az eredeti dokumentáció francia nyelven készült, és mivel nem beszélek franciául fordítóprogrammal készült \(természetesen átnézve, átfogalmazva, javítva a fordítási hibákat\). Tudom hogy rengeteg hiba lehet a program és a dokumentáció fordításába \(tartalmi, helyesírási\) de remélem azért tudjátok használni.
+Az eredeti dokumentáció francia nyelven készült, és mivel nem beszélek franciául, fordítóprogrammal készült \(természetesen átnézve, átfogalmazva, javítva a fordítási hibákat\). Tudom hogy rengeteg hiba lehet a program és a dokumentáció fordításába \(tartalmi, helyesírási\) de remélem azért tudjátok használni.
 
-Az SLA nyomtatási beállítások rész még nincs elkészítve \(a francia verzióba sincs\).
+Az SLA nyomtatási beállítások rész még nincs elkészítve \(a francia verzióba sincs\). Ha valaki elkészítené jelezze nekem.
 
 {% hint style="info" %}
 Hogy mekkora munka volt, SuperSlicer magyarítás 3158 kifejezésből áll \(1 szó vagy több mondat\) + a PrusaSlicer kb.300 eltérő kifejezése. Az útmutató több mint 45 ezer szót \( 380 ezer karaktert\) és 488 képet \(aminek javát én készítettem\) tartalmaz.
@@ -86,9 +86,9 @@ Ha nem magyar nyelvű operációs rendszert használ a programban a **Konfigurá
 **A fájlok semmilyen káros kódot vagy reklámot nem tartalmaznak.**
 
 {% hint style="success" %}
-**Remélem jól tudjátok használni a magyarítást és az útmutatót!**
+**Remélem jól tudják hasznosítani a magyarítást és az útmutatót!**
 
-**Jelezzetek a** [**GitHub**](https://github.com/sziga/SuperSlicerHu/issues)**-on ha problémát találtok, de örülnék ha visszajelzést kapnék arról is hogy használjátok-e őket \(érdemes folytatnom vagy senki sem használja\).** 
+**Jelezze a** [**GitHub**](https://github.com/sziga/SuperSlicerHu/issues)**-on ha problémát talált, de örülnék ha visszajelzést kapnék arról is hogy használják-e őket \(érdemes folytatnom vagy senki sem használja\).** 
 {% endhint %}
 
 
