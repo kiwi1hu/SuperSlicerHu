@@ -2,7 +2,9 @@
 description: 'Készítette: sziga'
 ---
 
-# SuperSlicer magyar használati útmutató \(Verzió 2.3.56.8\).
+# SuperSlicer magyar használati útmutató \(Nem hivatalos verzió\).
+
+##                                          **Verzió 2.3.56.8**
 
 ![](.gitbook/assets/nyitokep.jpg)
 
